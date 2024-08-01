@@ -1,0 +1,314 @@
+{
+    "/home/zhang/Packages/polars/polars0.17.14/config.py": [
+        {
+            "polars.config.Config.__init__": 87
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/utils/_construction.py": [
+        {
+            "polars.utils._construction._sequence_of_series_to_pydf": 778
+        },
+        {
+            "polars.utils._construction._sequence_of_dict_to_pydf": 968
+        },
+        {
+            "polars.utils._construction._sequence_of_elements_to_pydf": 998
+        },
+        {
+            "polars.utils._construction._sequence_of_numpy_to_pydf": 1015
+        },
+        {
+            "polars.utils._construction._sequence_of_pandas_to_pydf": 1027
+        },
+        {
+            "polars.utils._construction._dataclasses_or_models_to_pydf": 1054
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/utils/_scan.py": [
+        {
+            "polars.utils._scan._deserialize_and_execute": 11
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/utils/decorators.py": [
+        {
+            "polars.utils.decorators.deprecated_alias": 22
+        },
+        {
+            "polars.utils.decorators.wrapper": 35
+        },
+        {
+            "polars.utils.decorators.wrapper": 127
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/dataframe/groupby.py": [
+        {
+            "polars.dataframe.groupby.GroupBy.__init__": 28
+        },
+        {
+            "polars.dataframe.groupby.GroupBy.agg": 132
+        },
+        {
+            "polars.dataframe.groupby.RollingGroupBy.agg": 817
+        },
+        {
+            "polars.dataframe.groupby.DynamicGroupBy.agg": 919
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/dataframe/frame.py": [
+        {
+            "polars.dataframe.frame.DataFrame._repr_html_": 1743
+        },
+        {
+            "polars.dataframe.frame.DataFrame.to_pandas": 2041
+        },
+        {
+            "polars.dataframe.frame.DataFrame.sort": 3802
+        },
+        {
+            "polars.dataframe.frame.DataFrame.pipe": 4381
+        },
+        {
+            "polars.dataframe.frame.DataFrame.groupby": 4484
+        },
+        {
+            "polars.dataframe.frame.DataFrame.drop": 5653
+        },
+        {
+            "polars.dataframe.frame.DataFrame.explode": 6079
+        },
+        {
+            "polars.dataframe.frame.DataFrame.partition_by": 6477
+        },
+        {
+            "polars.dataframe.frame.DataFrame.partition_by": 6487
+        },
+        {
+            "polars.dataframe.frame.DataFrame.partition_by": 6496
+        },
+        {
+            "polars.dataframe.frame.DataFrame.select": 6846
+        },
+        {
+            "polars.dataframe.frame.DataFrame.with_columns": 6959
+        },
+        {
+            "polars.dataframe.frame.DataFrame.unnest": 8463
+        },
+        {
+            "polars.dataframe.frame.DataFrame.corr": 8519
+        },
+        {
+            "polars.dataframe.frame.DataFrame.set_sorted": 8580
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/expr/expr.py": [
+        {
+            "polars.expr.expr.Expr.__array_ufunc__": 220
+        },
+        {
+            "polars.expr.expr.Expr.exclude": 486
+        },
+        {
+            "polars.expr.expr.Expr.pipe": 651
+        },
+        {
+            "polars.expr.expr.Expr.sort_by": 2052
+        },
+        {
+            "polars.expr.expr.Expr.over": 2921
+        },
+        {
+            "polars.expr.expr.Expr.and_": 3637
+        },
+        {
+            "polars.expr.expr.Expr.or_": 3681
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/series/utils.py": [
+        {
+            "polars.series.utils.wrapper": 95
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/series/series.py": [
+        {
+            "polars.series.series.Series.__array_ufunc__": 1036
+        },
+        {
+            "polars.series.series.Series.to_numpy": 3286
+        },
+        {
+            "polars.series.series.Series.to_pandas": 3397
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/io/_utils.py": [
+        {
+            "polars.io._utils._prepare_file_arg": 30
+        },
+        {
+            "polars.io._utils._prepare_file_arg": 37
+        },
+        {
+            "polars.io._utils._prepare_file_arg": 44
+        },
+        {
+            "polars.io._utils._prepare_file_arg": 50
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/io/parquet/anonymous_scan.py": [
+        {
+            "polars.io.parquet.anonymous_scan._scan_parquet_impl": 29
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/io/ipc/anonymous_scan.py": [
+        {
+            "polars.io.ipc.anonymous_scan._scan_ipc_impl": 29
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/io/excel/_write_utils.py": [
+        {
+            "polars.io.excel._write_utils._xl_rowcols_to_range": 298
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/testing/parametric/__init__.py": [
+        {
+            "polars.testing.parametric.__init__.__getattr__": 21
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/functions/lazy.py": [
+        {
+            "polars.functions.lazy.col": 59
+        },
+        {
+            "polars.functions.lazy.max": 466
+        },
+        {
+            "polars.functions.lazy.max": 470
+        },
+        {
+            "polars.functions.lazy.min": 564
+        },
+        {
+            "polars.functions.lazy.min": 568
+        },
+        {
+            "polars.functions.lazy.sum": 664
+        },
+        {
+            "polars.functions.lazy.sum": 669
+        },
+        {
+            "polars.functions.lazy.cumsum": 1313
+        },
+        {
+            "polars.functions.lazy.cumsum": 1318
+        },
+        {
+            "polars.functions.lazy.any": 2070
+        },
+        {
+            "polars.functions.lazy.any": 2075
+        },
+        {
+            "polars.functions.lazy.all": 2164
+        },
+        {
+            "polars.functions.lazy.all": 2171
+        },
+        {
+            "polars.functions.lazy.exclude": 2249
+        },
+        {
+            "polars.functions.lazy.arg_sort_by": 2435
+        },
+        {
+            "polars.functions.lazy.concat_str": 2713
+        },
+        {
+            "polars.functions.lazy.format": 2772
+        },
+        {
+            "polars.functions.lazy.concat_list": 2826
+        },
+        {
+            "polars.functions.lazy.select": 2942
+        },
+        {
+            "polars.functions.lazy.struct": 2987
+        },
+        {
+            "polars.functions.lazy.struct": 2998
+        },
+        {
+            "polars.functions.lazy.struct": 3009
+        },
+        {
+            "polars.functions.lazy.struct": 3019
+        },
+        {
+            "polars.functions.lazy.coalesce": 3241
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/functions/eager.py": [
+        {
+            "polars.functions.eager.align_frames": 748
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/sql/context.py": [
+        {
+            "polars.sql.context.SQLContext.__init__": 56
+        },
+        {
+            "polars.sql.context.SQLContext.__init__": 67
+        },
+        {
+            "polars.sql.context.SQLContext.__init__": 77
+        },
+        {
+            "polars.sql.context.SQLContext.register_many": 244
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/datatypes/classes.py": [
+        {
+            "polars.datatypes.classes.DataType.__new__": 67
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/datatypes/convert.py": [
+        {
+            "polars.datatypes.convert.unpack_dtypes": 157
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/lazyframe/groupby.py": [
+        {
+            "polars.lazyframe.groupby.LazyGroupBy.agg": 27
+        }
+    ],
+    "/home/zhang/Packages/polars/polars0.17.14/lazyframe/frame.py": [
+        {
+            "polars.lazyframe.frame.LazyFrame.pipe": 745
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.sort": 1119
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.select": 2028
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.groupby": 2154
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.with_columns": 3026
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.drop": 3252
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.explode": 4250
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.unnest": 4647
+        },
+        {
+            "polars.lazyframe.frame.LazyFrame.set_sorted": 4722
+        }
+    ]
+}

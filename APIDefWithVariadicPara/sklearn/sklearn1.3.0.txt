@@ -1,0 +1,914 @@
+{
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/pipeline.py": [
+        {
+            "sklearn.pipeline.Pipeline.set_params": 196
+        },
+        {
+            "sklearn.pipeline.Pipeline._check_fit_params": 330
+        },
+        {
+            "sklearn.pipeline.Pipeline._fit": 347
+        },
+        {
+            "sklearn.pipeline.Pipeline.fit": 389
+        },
+        {
+            "sklearn.pipeline.Pipeline.fit_transform": 436
+        },
+        {
+            "sklearn.pipeline.Pipeline.predict": 477
+        },
+        {
+            "sklearn.pipeline.Pipeline.fit_predict": 515
+        },
+        {
+            "sklearn.pipeline.Pipeline.predict_proba": 552
+        },
+        {
+            "sklearn.pipeline.Pipeline.predict_log_proba": 631
+        },
+        {
+            "sklearn.pipeline.make_pipeline": 884
+        },
+        {
+            "sklearn.pipeline._transform_one": 932
+        },
+        {
+            "sklearn.pipeline._fit_transform_one": 940
+        },
+        {
+            "sklearn.pipeline._fit_one": 959
+        },
+        {
+            "sklearn.pipeline.FeatureUnion.set_params": 1115
+        },
+        {
+            "sklearn.pipeline.FeatureUnion.fit": 1207
+        },
+        {
+            "sklearn.pipeline.FeatureUnion.fit_transform": 1234
+        },
+        {
+            "sklearn.pipeline.make_union": 1364
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/calibration.py": [
+        {
+            "sklearn.calibration.CalibratedClassifierCV.fit": 324
+        },
+        {
+            "sklearn.calibration.CalibrationDisplay.plot": 1155
+        },
+        {
+            "sklearn.calibration.CalibrationDisplay.from_estimator": 1212
+        },
+        {
+            "sklearn.calibration.CalibrationDisplay.from_predictions": 1336
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/base.py": [
+        {
+            "sklearn.base.BaseEstimator.set_params": 201
+        },
+        {
+            "sklearn.base.BaseEstimator._validate_data": 508
+        },
+        {
+            "sklearn.base.BaseEstimator._repr_mimebundle_": 666
+        },
+        {
+            "sklearn.base.TransformerMixin.fit_transform": 887
+        },
+        {
+            "sklearn.base.wrapper": 1135
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/multioutput.py": [
+        {
+            "sklearn.multioutput._fit_estimator": 55
+        },
+        {
+            "sklearn.multioutput._MultiOutputEstimator.partial_fit": 112
+        },
+        {
+            "sklearn.multioutput._MultiOutputEstimator.fit": 212
+        },
+        {
+            "sklearn.multioutput.MultiOutputRegressor.partial_fit": 407
+        },
+        {
+            "sklearn.multioutput.MultiOutputClassifier.fit": 512
+        },
+        {
+            "sklearn.multioutput._BaseChain.fit": 655
+        },
+        {
+            "sklearn.multioutput.ClassifierChain.fit": 898
+        },
+        {
+            "sklearn.multioutput.RegressorChain.fit": 1122
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/conftest.py": [
+        {
+            "sklearn.conftest.wrapped": 86
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/cluster/_agglomerative.py": [
+        {
+            "sklearn.cluster._agglomerative._complete_linkage": 685
+        },
+        {
+            "sklearn.cluster._agglomerative._average_linkage": 690
+        },
+        {
+            "sklearn.cluster._agglomerative._single_linkage": 695
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/cluster/_hdbscan/hdbscan.py": [
+        {
+            "sklearn.cluster._hdbscan.hdbscan._hdbscan_brute": 157
+        },
+        {
+            "sklearn.cluster._hdbscan.hdbscan._hdbscan_prims": 268
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/cluster/tests/test_hierarchical.py": [
+        {
+            "sklearn.cluster.tests.test_hierarchical.FakeAffinity.increment": 714
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/cluster/tests/test_spectral.py": [
+        {
+            "sklearn.cluster.tests.test_spectral.histogram": 154
+        },
+        {
+            "sklearn.cluster.tests.test_spectral.new_svd": 320
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/deprecation.py": [
+        {
+            "sklearn.utils.deprecation.deprecated.wrapped": 64
+        },
+        {
+            "sklearn.utils.deprecation.deprecated.wrapped": 85
+        },
+        {
+            "sklearn.utils.deprecation.deprecated.wrapped": 100
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_param_validation.py": [
+        {
+            "sklearn.utils._param_validation.wrapper": 181
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/fixes.py": [
+        {
+            "sklearn.utils.fixes._percentile": 43
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/validation.py": [
+        {
+            "sklearn.utils.validation.inner_f": 64
+        },
+        {
+            "sklearn.utils.validation.check_consistent_length": 395
+        },
+        {
+            "sklearn.utils.validation.indexable": 435
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/multiclass.py": [
+        {
+            "sklearn.utils.multiclass.unique_labels": 41
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_testing.py": [
+        {
+            "sklearn.utils._testing.assert_no_warnings": 84
+        },
+        {
+            "sklearn.utils._testing._IgnoreWarnings.wrapper": 177
+        },
+        {
+            "sklearn.utils._testing._IgnoreWarnings.__exit__": 202
+        },
+        {
+            "sklearn.utils._testing.assert_raise_message": 210
+        },
+        {
+            "sklearn.utils._testing.MinimalClassifier.set_params": 955
+        },
+        {
+            "sklearn.utils._testing.MinimalRegressor.set_params": 1004
+        },
+        {
+            "sklearn.utils._testing.MinimalTransformer.set_params": 1043
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_bunch.py": [
+        {
+            "sklearn.utils._bunch.Bunch.__init__": 27
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/parallel.py": [
+        {
+            "sklearn.utils.parallel.delayed_function": 96
+        },
+        {
+            "sklearn.utils.parallel._FuncWrapper.__call__": 113
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_available_if.py": [
+        {
+            "sklearn.utils._available_if._AvailableIfDescriptor.out": 39
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_set_output.py": [
+        {
+            "sklearn.utils._set_output.wrapped": 139
+        },
+        {
+            "sklearn.utils._set_output._SetOutputMixin.__init_subclass__": 181
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/optimize.py": [
+        {
+            "sklearn.utils.optimize._line_search_wolfe12": 28
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/estimator_checks.py": [
+        {
+            "sklearn.utils.estimator_checks.wrapped": 477
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_metadata_requests.py": [
+        {
+            "sklearn.utils._metadata_requests.MetadataRouter.add": 665
+        },
+        {
+            "sklearn.utils._metadata_requests.RequestMethod.func": 1033
+        },
+        {
+            "sklearn.utils._metadata_requests._MetadataRequester.__init_subclass__": 1103
+        },
+        {
+            "sklearn.utils._metadata_requests.process_routing": 1264
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/graph.py": [
+        {
+            "sklearn.utils.graph._fix_connected_components": 77
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_mocking.py": [
+        {
+            "sklearn.utils._mocking.CheckingClassifier.fit": 179
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/__init__.py": [
+        {
+            "sklearn.utils.__init__.resample": 475
+        },
+        {
+            "sklearn.utils.__init__.shuffle": 625
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/_array_api.py": [
+        {
+            "sklearn.utils._array_api.wrapped_func": 177
+        },
+        {
+            "sklearn.utils._array_api.get_namespace": 289
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/metaestimators.py": [
+        {
+            "sklearn.utils.metaestimators._BaseComposition._set_params": 50
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/extmath.py": [
+        {
+            "sklearn.utils.extmath.density": 125
+        },
+        {
+            "sklearn.utils.extmath._safe_accumulator_op": 941
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/tests/test_set_output.py": [
+        {
+            "sklearn.utils.tests.test_set_output.AnotherMixin.__init_subclass__": 210
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/tests/test_estimator_checks.py": [
+        {
+            "sklearn.utils.tests.test_estimator_checks.RaisesErrorInSetParams.set_params": 132
+        },
+        {
+            "sklearn.utils.tests.test_estimator_checks.ModifiesValueInsteadOfRaisingError.set_params": 170
+        },
+        {
+            "sklearn.utils.tests.test_estimator_checks.ModifiesAnotherValue.set_params": 188
+        },
+        {
+            "sklearn.utils.tests.test_estimator_checks.Estimator.fit": 1143
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/tests/test_deprecation.py": [
+        {
+            "sklearn.utils.tests.test_deprecation.MockClass6.__new__": 50
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/tests/test_validation.py": [
+        {
+            "sklearn.utils.tests.test_validation.Estimator.fit": 799
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/tests/test_param_validation.py": [
+        {
+            "sklearn.utils.tests.test_param_validation._func": 43
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/utils/tests/test_pprint.py": [
+        {
+            "sklearn.utils.tests.test_pprint.WithKWargs.__init__": 622
+        },
+        {
+            "sklearn.utils.tests.test_pprint.WithKWargs.set_params": 633
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/linear_model/_coordinate_descent.py": [
+        {
+            "sklearn.linear_model._coordinate_descent.lasso_path": 173
+        },
+        {
+            "sklearn.linear_model._coordinate_descent.enet_path": 347
+        },
+        {
+            "sklearn.linear_model._coordinate_descent.LinearModelCV.path": 1473
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/linear_model/tests/test_logistic.py": [
+        {
+            "sklearn.linear_model.tests.test_logistic.fit": 1784
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/linear_model/tests/test_sgd.py": [
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDClassifier.fit": 43
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDClassifier.partial_fit": 47
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDRegressor.fit": 61
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDRegressor.partial_fit": 65
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDRegressor.decision_function": 69
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDOneClassSVM.fit": 76
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDOneClassSVM.partial_fit": 80
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd._SparseSGDOneClassSVM.decision_function": 84
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd.SGDClassifier": 89
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd.SGDRegressor": 94
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd.SGDOneClassSVM": 99
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd.SparseSGDClassifier": 104
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd.SparseSGDRegressor": 109
+        },
+        {
+            "sklearn.linear_model.tests.test_sgd.SparseSGDOneClassSVM": 114
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/linear_model/tests/test_huber.py": [
+        {
+            "sklearn.linear_model.tests.test_huber.loss_func": 55
+        },
+        {
+            "sklearn.linear_model.tests.test_huber.grad_func": 58
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tests/test_metadata_routing.py": [
+        {
+            "sklearn.tests.test_metadata_routing.record_metadata": 90
+        },
+        {
+            "sklearn.tests.test_metadata_routing.check_recorded_metadata": 109
+        },
+        {
+            "sklearn.tests.test_metadata_routing.MetaRegressor.fit": 123
+        },
+        {
+            "sklearn.tests.test_metadata_routing.WeightedMetaRegressor.fit": 151
+        },
+        {
+            "sklearn.tests.test_metadata_routing.WeightedMetaRegressor.predict": 157
+        },
+        {
+            "sklearn.tests.test_metadata_routing.SimpleMetaClassifier.fit": 197
+        },
+        {
+            "sklearn.tests.test_metadata_routing.MetaTransformer.fit": 230
+        },
+        {
+            "sklearn.tests.test_metadata_routing.MetaTransformer.transform": 235
+        },
+        {
+            "sklearn.tests.test_metadata_routing.SimplePipeline.fit": 251
+        },
+        {
+            "sklearn.tests.test_metadata_routing.SimplePipeline.predict": 269
+        },
+        {
+            "sklearn.tests.test_metadata_routing.ExplicitRequest.fit": 625
+        },
+        {
+            "sklearn.tests.test_metadata_routing.ExplicitRequestOverwrite.fit": 635
+        },
+        {
+            "sklearn.tests.test_metadata_routing.ImplicitRequest.fit": 642
+        },
+        {
+            "sklearn.tests.test_metadata_routing.ImplicitRequestRemoval.fit": 652
+        },
+        {
+            "sklearn.tests.test_metadata_routing.InvalidRequestRemoval.fit": 671
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tests/test_calibration.py": [
+        {
+            "sklearn.tests.test_calibration.ClfWithoutSampleWeight.fit": 911
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tests/test_base.py": [
+        {
+            "sklearn.tests.test_base.VargEstimator.__init__": 107
+        },
+        {
+            "sklearn.tests.test_base.TestDecisionTree.set_params": 279
+        },
+        {
+            "sklearn.tests.test_base.FrozenEstimator.fit": 379
+        },
+        {
+            "sklearn.tests.test_base.FrozenEstimator.fit_transform": 382
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tests/test_multioutput.py": [
+        {
+            "sklearn.tests.test_multioutput.DummyRegressorWithFitParams.fit": 629
+        },
+        {
+            "sklearn.tests.test_multioutput.DummyClassifierWithFitParams.fit": 635
+        },
+        {
+            "sklearn.tests.test_multioutput.MySGD.fit": 669
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tests/test_pipeline.py": [
+        {
+            "sklearn.tests.test_pipeline.NoTrans.set_params": 69
+        },
+        {
+            "sklearn.tests.test_pipeline.TransfFitParams.fit": 88
+        },
+        {
+            "sklearn.tests.test_pipeline.Dummy.fit": 1451
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tests/test_metaestimators.py": [
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.fit": 94
+        },
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.inverse_transform": 103
+        },
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.transform": 108
+        },
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.predict": 113
+        },
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.predict_proba": 118
+        },
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.predict_log_proba": 123
+        },
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.decision_function": 128
+        },
+        {
+            "sklearn.tests.test_metaestimators.SubEstimator.score": 133
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tests/test_config.py": [
+        {
+            "sklearn.tests.test_config.mocked_import": 164
+        },
+        {
+            "sklearn.tests.test_config.mocked_import": 184
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/compose/_column_transformer.py": [
+        {
+            "sklearn.compose._column_transformer.ColumnTransformer.set_params": 332
+        },
+        {
+            "sklearn.compose._column_transformer.make_column_transformer": 956
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/compose/_target.py": [
+        {
+            "sklearn.compose._target.TransformedTargetRegressor.fit": 204
+        },
+        {
+            "sklearn.compose._target.TransformedTargetRegressor.predict": 274
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/ensemble/_stacking.py": [
+        {
+            "sklearn.ensemble._stacking._BaseStacking.predict": 347
+        },
+        {
+            "sklearn.ensemble._stacking.StackingClassifier.predict": 661
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/ensemble/_gb_losses.py": [
+        {
+            "sklearn.ensemble._gb_losses.LossFunction.negative_gradient": 57
+        },
+        {
+            "sklearn.ensemble._gb_losses.LeastSquaresError.negative_gradient": 232
+        },
+        {
+            "sklearn.ensemble._gb_losses.LeastAbsoluteError.negative_gradient": 337
+        },
+        {
+            "sklearn.ensemble._gb_losses.HuberLossFunction.negative_gradient": 441
+        },
+        {
+            "sklearn.ensemble._gb_losses.QuantileLossFunction.negative_gradient": 544
+        },
+        {
+            "sklearn.ensemble._gb_losses.BinomialDeviance.negative_gradient": 690
+        },
+        {
+            "sklearn.ensemble._gb_losses.MultinomialDeviance.negative_gradient": 806
+        },
+        {
+            "sklearn.ensemble._gb_losses.ExponentialLoss.negative_gradient": 925
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/ensemble/_voting.py": [
+        {
+            "sklearn.ensemble._voting._BaseVoting.fit_transform": 107
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/ensemble/_base.py": [
+        {
+            "sklearn.ensemble._base._BaseHeterogeneousEnsemble.set_params": 290
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/ensemble/tests/test_base.py": [
+        {
+            "sklearn.ensemble.tests.test_base.AlphaParamPipeline.get_params": 92
+        },
+        {
+            "sklearn.ensemble.tests.test_base.RevParamPipeline.get_params": 97
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/ensemble/tests/test_voting.py": [
+        {
+            "sklearn.ensemble.tests.test_voting.MockClassifier.fit": 354
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/ensemble/tests/test_forest.py": [
+        {
+            "sklearn.ensemble.tests.test_forest.MyBackend.__init__": 1572
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/preprocessing/tests/test_function_transformer.py": [
+        {
+            "sklearn.preprocessing.tests.test_function_transformer._func": 18
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/neighbors/_base.py": [
+        {
+            "sklearn.neighbors._base._tree_query_parallel_helper": 677
+        },
+        {
+            "sklearn.neighbors._base._tree_query_radius_parallel_helper": 1007
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/neighbors/tests/test_ball_tree.py": [
+        {
+            "sklearn.neighbors.tests.test_ball_tree.brute_force_neighbors": 30
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/neighbors/tests/test_neighbors_tree.py": [
+        {
+            "sklearn.neighbors.tests.test_neighbors_tree.brute_force_neighbors": 81
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/_scorer.py": [
+        {
+            "sklearn.metrics._scorer._cached_call": 81
+        },
+        {
+            "sklearn.metrics._scorer._MultimetricScorer.__call__": 119
+        },
+        {
+            "sklearn.metrics._scorer._BaseScorer.__call__": 224
+        },
+        {
+            "sklearn.metrics._scorer._BaseScorer.set_score_request": 285
+        },
+        {
+            "sklearn.metrics._scorer._PredictScorer._score": 315
+        },
+        {
+            "sklearn.metrics._scorer._ProbaScorer._score": 359
+        },
+        {
+            "sklearn.metrics._scorer._ThresholdScorer._score": 408
+        },
+        {
+            "sklearn.metrics._scorer._PassthroughScorer.__call__": 525
+        },
+        {
+            "sklearn.metrics._scorer.make_scorer": 644
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/pairwise.py": [
+        {
+            "sklearn.metrics.pairwise.paired_distances": 1232
+        },
+        {
+            "sklearn.metrics.pairwise._dist_wrapper": 1751
+        },
+        {
+            "sklearn.metrics.pairwise._parallel_pairwise": 1756
+        },
+        {
+            "sklearn.metrics.pairwise._pairwise_callable": 1783
+        },
+        {
+            "sklearn.metrics.pairwise._precompute_metric_params": 1835
+        },
+        {
+            "sklearn.metrics.pairwise.pairwise_distances_chunked": 1858
+        },
+        {
+            "sklearn.metrics.pairwise.pairwise_distances": 2031
+        },
+        {
+            "sklearn.metrics.pairwise.pairwise_kernels": 2276
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/cluster/_unsupervised.py": [
+        {
+            "sklearn.metrics.cluster._unsupervised.silhouette_score": 53
+        },
+        {
+            "sklearn.metrics.cluster._unsupervised.silhouette_samples": 196
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/tests/test_pairwise.py": [
+        {
+            "sklearn.metrics.tests.test_pairwise.callable_rbf_kernel": 305
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/tests/test_common.py": [
+        {
+            "sklearn.metrics.tests.test_common.precision_recall_curve_padded_thresholds": 174
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/_pairwise_distances_reduction/_dispatcher.py": [
+        {
+            "sklearn.metrics._pairwise_distances_reduction._dispatcher.BaseDistancesReductionDispatcher.compute": 126
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/_plot/roc_curve.py": [
+        {
+            "sklearn.metrics._plot.roc_curve.RocCurveDisplay.plot": 85
+        },
+        {
+            "sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_estimator": 170
+        },
+        {
+            "sklearn.metrics._plot.roc_curve.RocCurveDisplay.from_predictions": 292
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/_plot/det_curve.py": [
+        {
+            "sklearn.metrics._plot.det_curve.DetCurveDisplay.from_estimator": 79
+        },
+        {
+            "sklearn.metrics._plot.det_curve.DetCurveDisplay.from_predictions": 183
+        },
+        {
+            "sklearn.metrics._plot.det_curve.DetCurveDisplay.plot": 277
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/metrics/_plot/precision_recall_curve.py": [
+        {
+            "sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.plot": 121
+        },
+        {
+            "sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.from_estimator": 230
+        },
+        {
+            "sklearn.metrics._plot.precision_recall_curve.PrecisionRecallDisplay.from_predictions": 365
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/tree/_reingold_tilford.py": [
+        {
+            "sklearn.tree._reingold_tilford.Tree.__init__": 182
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/datasets/_openml.py": [
+        {
+            "sklearn.datasets._openml.wrapper": 55
+        },
+        {
+            "sklearn.datasets._openml.wrapper": 91
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/datasets/_svmlight_format_io.py": [
+        {
+            "sklearn.datasets._svmlight_format_io._load_svmlight_file": 36
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/datasets/_base.py": [
+        {
+            "sklearn.datasets._base.load_gzip_compressed_csv_data": 364
+        },
+        {
+            "sklearn.datasets._base._pkl_filepath": 1335
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/datasets/tests/test_openml.py": [
+        {
+            "sklearn.datasets.tests.test_openml._mock_urlopen": 168
+        },
+        {
+            "sklearn.datasets.tests.test_openml._mock_urlopen": 1409
+        },
+        {
+            "sklearn.datasets.tests.test_openml._mock_urlopen_raise": 1464
+        },
+        {
+            "sklearn.datasets.tests.test_openml.swap_file_mock": 1535
+        },
+        {
+            "sklearn.datasets.tests.test_openml._mock_urlopen_network_error": 1556
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/datasets/tests/conftest.py": [
+        {
+            "sklearn.datasets.tests.conftest.mocked_import": 13
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/datasets/tests/test_svmlight_format.py": [
+        {
+            "sklearn.datasets.tests.test_svmlight_format._load_svmlight_local_test_file": 31
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/gaussian_process/kernels.py": [
+        {
+            "sklearn.gaussian_process.kernels.Kernel.set_params": 197
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/feature_selection/_from_model.py": [
+        {
+            "sklearn.feature_selection._from_model.SelectFromModel.fit": 325
+        },
+        {
+            "sklearn.feature_selection._from_model.SelectFromModel.partial_fit": 383
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/feature_selection/_univariate_selection.py": [
+        {
+            "sklearn.feature_selection._univariate_selection.f_oneway": 43
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/feature_selection/_rfe.py": [
+        {
+            "sklearn.feature_selection._rfe.RFE.fit": 229
+        },
+        {
+            "sklearn.feature_selection._rfe.RFE._fit": 251
+        },
+        {
+            "sklearn.feature_selection._rfe.RFE.score": 353
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/feature_selection/tests/test_rfe.py": [
+        {
+            "sklearn.feature_selection.tests.test_rfe.MockClassifier.set_params": 54
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/decomposition/_kernel_pca.py": [
+        {
+            "sklearn.decomposition._kernel_pca.KernelPCA.fit_transform": 448
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/decomposition/_nmf.py": [
+        {
+            "sklearn.decomposition._nmf._BaseNMF.fit": 1232
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/decomposition/tests/test_kernel_pca.py": [
+        {
+            "sklearn.decomposition.tests.test_kernel_pca.histogram": 34
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/impute/tests/test_impute.py": [
+        {
+            "sklearn.impute.tests.test_impute.safe_median": 147
+        },
+        {
+            "sklearn.impute.tests.test_impute.safe_mean": 153
+        },
+        {
+            "sklearn.impute.tests.test_impute.ZeroEstimator.fit": 1060
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/model_selection/_search.py": [
+        {
+            "sklearn.model_selection._search.BaseSearchCV.fit": 761
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/model_selection/_search_successive_halving.py": [
+        {
+            "sklearn.model_selection._search_successive_halving.BaseSuccessiveHalving.fit": 218
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/model_selection/_split.py": [
+        {
+            "sklearn.model_selection._split._RepeatedSplits.__init__": 1463
+        },
+        {
+            "sklearn.model_selection._split.train_test_split": 2518
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/model_selection/tests/test_successive_halving.py": [
+        {
+            "sklearn.model_selection.tests.test_successive_halving.FastClassifier.__init__": 44
+        },
+        {
+            "sklearn.model_selection.tests.test_successive_halving.FastClassifierBookKeeping.set_params": 673
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/model_selection/tests/test_validation.py": [
+        {
+            "sklearn.model_selection.tests.test_validation.MockIncrementalImprovingEstimator.partial_fit": 125
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/model_selection/tests/test_search.py": [
+        {
+            "sklearn.model_selection.tests.test_search.MockClassifier.set_params": 107
+        },
+        {
+            "sklearn.model_selection.tests.test_search.CustomSearchCV.__init__": 1876
+        },
+        {
+            "sklearn.model_selection.tests.test_search.NoRunSearchSearchCV.__init__": 1916
+        },
+        {
+            "sklearn.model_selection.tests.test_search.NoRunSearchSearchCV.fit": 1919
+        },
+        {
+            "sklearn.model_selection.tests.test_search.BadSearchCV.__init__": 1926
+        },
+        {
+            "sklearn.model_selection.tests.test_search.BrokenKFold.get_n_splits": 1963
+        }
+    ],
+    "/home/zhang/Packages/sklearn/sklearn1.3.0/inspection/_plot/decision_boundary.py": [
+        {
+            "sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.plot": 144
+        },
+        {
+            "sklearn.inspection._plot.decision_boundary.DecisionBoundaryDisplay.from_estimator": 200
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "/home/zhang/Packages/jax/jax0.2.25/_src/profiler.py": [
+        {
+            "jax._src.profiler.trace_function": 208,
+            "annotate_function": [
+                212,
+                "[172]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.25/_src/lax/control_flow.py": [
+        {
+            "jax._src.lax.control_flow.cond": 767,
+            "_cond": [
+                776,
+                "[682]"
+            ]
+        },
+        {
+            "jax._src.lax.control_flow.scan_bind": 1928,
+            "_scan_typecheck": [
+                1931,
+                "[1884]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.25/experimental/maps.py": [
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1291,
+            "_xmap_translation_rule_spmd": [
+                1293,
+                "[1422]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1291,
+            "_xmap_translation_rule_replica": [
+                1295,
+                "[1298]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.25/experimental/host_callback.py": [
+        {
+            "jax.experimental.host_callback._outside_call_impl": 907,
+            "_outside_call_run_callback": [
+                911,
+                "[1072]"
+            ]
+        },
+        {
+            "jax.experimental.host_callback._outside_call_translation_rule": 927,
+            "_outside_call_run_callback": [
+                1028,
+                "[1072]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.25/experimental/sparse/ops.py": [
+        {
+            "jax.experimental.sparse.ops._coo_matmat_jvp_rule": 547,
+            "coo_matmat": [
+                553,
+                "[498]"
+            ]
+        }
+    ]
+}

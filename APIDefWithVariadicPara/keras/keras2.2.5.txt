@@ -1,0 +1,695 @@
+{
+    "/home/zhang/Packages/keras/keras2.2.5/optimizers.py": [
+        {
+            "keras.optimizers.Optimizer.__init__": 74
+        },
+        {
+            "keras.optimizers.SGD.__init__": 171
+        },
+        {
+            "keras.optimizers.RMSprop.__init__": 238
+        },
+        {
+            "keras.optimizers.Adagrad.__init__": 306
+        },
+        {
+            "keras.optimizers.Adadelta.__init__": 377
+        },
+        {
+            "keras.optimizers.Adam.__init__": 455
+        },
+        {
+            "keras.optimizers.Adamax.__init__": 542
+        },
+        {
+            "keras.optimizers.Nadam.__init__": 626
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/callbacks.py": [
+        {
+            "keras.callbacks.ReduceLROnPlateau.__init__": 1324
+        },
+        {
+            "keras.callbacks.LambdaCallback.__init__": 1548
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/utils/io_utils.py": [
+        {
+            "keras.utils.io_utils.H5Dict.h5wrapper": 334
+        },
+        {
+            "keras.utils.io_utils.H5Dict.update": 350
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/utils/generic_utils.py": [
+        {
+            "keras.utils.generic_utils.CustomObjectScope.__init__": 41
+        },
+        {
+            "keras.utils.generic_utils.CustomObjectScope.__exit__": 51
+        },
+        {
+            "keras.utils.generic_utils.custom_object_scope": 56
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/engine/base_layer.py": [
+        {
+            "keras.engine.base_layer.Layer.__init__": 94
+        },
+        {
+            "keras.engine.base_layer.Layer.call": 364
+        },
+        {
+            "keras.engine.base_layer.Layer.__call__": 376
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/engine/network.py": [
+        {
+            "keras.engine.network.Network.__init__": 88
+        },
+        {
+            "keras.engine.network.Network._init_graph_network": 145
+        },
+        {
+            "keras.engine.network.Network._init_subclassed_network": 299
+        },
+        {
+            "keras.engine.network.Network.to_json": 1240
+        },
+        {
+            "keras.engine.network.Network.to_yaml": 1270
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/engine/training.py": [
+        {
+            "keras.engine.training.Model.compile": 40
+        },
+        {
+            "keras.engine.training.Model.fit": 890
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/engine/saving.py": [
+        {
+            "keras.engine.saving.save_wrapper": 405
+        },
+        {
+            "keras.engine.saving.load_wrapper": 445
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/preprocessing/image.py": [
+        {
+            "keras.preprocessing.image.save_img": 50
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/backend/cntk_backend.py": [
+        {
+            "keras.backend.cntk_backend.Function.__init__": 2035
+        },
+        {
+            "keras.backend.cntk_backend.function": 2212
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/backend/numpy_backend.py": [
+        {
+            "keras.backend.numpy_backend.wrapper": 15
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/backend/theano_backend.py": [
+        {
+            "keras.backend.theano_backend.Function.__init__": 1388
+        },
+        {
+            "keras.backend.theano_backend.function": 1411
+        },
+        {
+            "keras.backend.theano_backend._step": 1567
+        },
+        {
+            "keras.backend.theano_backend._step": 1617
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/backend/tensorflow_backend.py": [
+        {
+            "keras.backend.tensorflow_backend.Function.__init__": 2792
+        },
+        {
+            "keras.backend.tensorflow_backend.function": 2988
+        },
+        {
+            "keras.backend.tensorflow_backend._step": 3216
+        },
+        {
+            "keras.backend.tensorflow_backend._step": 3254
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/mobilenet_v2.py": [
+        {
+            "keras.applications.mobilenet_v2.MobileNetV2": 10
+        },
+        {
+            "keras.applications.mobilenet_v2.decode_predictions": 15
+        },
+        {
+            "keras.applications.mobilenet_v2.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/vgg19.py": [
+        {
+            "keras.applications.vgg19.VGG19": 10
+        },
+        {
+            "keras.applications.vgg19.decode_predictions": 15
+        },
+        {
+            "keras.applications.vgg19.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/resnet.py": [
+        {
+            "keras.applications.resnet.ResNet50": 13
+        },
+        {
+            "keras.applications.resnet.ResNet101": 18
+        },
+        {
+            "keras.applications.resnet.ResNet152": 23
+        },
+        {
+            "keras.applications.resnet.decode_predictions": 28
+        },
+        {
+            "keras.applications.resnet.preprocess_input": 33
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/imagenet_utils.py": [
+        {
+            "keras.applications.imagenet_utils.decode_predictions": 12
+        },
+        {
+            "keras.applications.imagenet_utils.preprocess_input": 18
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/nasnet.py": [
+        {
+            "keras.applications.nasnet.NASNetMobile": 10
+        },
+        {
+            "keras.applications.nasnet.NASNetLarge": 15
+        },
+        {
+            "keras.applications.nasnet.decode_predictions": 20
+        },
+        {
+            "keras.applications.nasnet.preprocess_input": 25
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/inception_v3.py": [
+        {
+            "keras.applications.inception_v3.InceptionV3": 10
+        },
+        {
+            "keras.applications.inception_v3.decode_predictions": 15
+        },
+        {
+            "keras.applications.inception_v3.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/mobilenet.py": [
+        {
+            "keras.applications.mobilenet.MobileNet": 10
+        },
+        {
+            "keras.applications.mobilenet.decode_predictions": 15
+        },
+        {
+            "keras.applications.mobilenet.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/densenet.py": [
+        {
+            "keras.applications.densenet.DenseNet121": 10
+        },
+        {
+            "keras.applications.densenet.DenseNet169": 15
+        },
+        {
+            "keras.applications.densenet.DenseNet201": 20
+        },
+        {
+            "keras.applications.densenet.decode_predictions": 25
+        },
+        {
+            "keras.applications.densenet.preprocess_input": 30
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/resnet50.py": [
+        {
+            "keras.applications.resnet50.ResNet50": 10
+        },
+        {
+            "keras.applications.resnet50.decode_predictions": 15
+        },
+        {
+            "keras.applications.resnet50.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/inception_resnet_v2.py": [
+        {
+            "keras.applications.inception_resnet_v2.InceptionResNetV2": 10
+        },
+        {
+            "keras.applications.inception_resnet_v2.decode_predictions": 15
+        },
+        {
+            "keras.applications.inception_resnet_v2.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/vgg16.py": [
+        {
+            "keras.applications.vgg16.VGG16": 10
+        },
+        {
+            "keras.applications.vgg16.decode_predictions": 15
+        },
+        {
+            "keras.applications.vgg16.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/__init__.py": [
+        {
+            "keras.applications.__init__.wrapper": 15
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/resnet_v2.py": [
+        {
+            "keras.applications.resnet_v2.ResNet50V2": 13
+        },
+        {
+            "keras.applications.resnet_v2.ResNet101V2": 18
+        },
+        {
+            "keras.applications.resnet_v2.ResNet152V2": 23
+        },
+        {
+            "keras.applications.resnet_v2.decode_predictions": 28
+        },
+        {
+            "keras.applications.resnet_v2.preprocess_input": 33
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/applications/xception.py": [
+        {
+            "keras.applications.xception.Xception": 10
+        },
+        {
+            "keras.applications.xception.decode_predictions": 15
+        },
+        {
+            "keras.applications.xception.preprocess_input": 20
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/datasets/imdb.py": [
+        {
+            "keras.datasets.imdb.load_data": 14
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/datasets/reuters.py": [
+        {
+            "keras.datasets.reuters.load_data": 15
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/wrappers/scikit_learn.py": [
+        {
+            "keras.wrappers.scikit_learn.BaseWrapper.__init__": 59
+        },
+        {
+            "keras.wrappers.scikit_learn.BaseWrapper.get_params": 92
+        },
+        {
+            "keras.wrappers.scikit_learn.BaseWrapper.set_params": 105
+        },
+        {
+            "keras.wrappers.scikit_learn.BaseWrapper.fit": 118
+        },
+        {
+            "keras.wrappers.scikit_learn.KerasClassifier.fit": 180
+        },
+        {
+            "keras.wrappers.scikit_learn.KerasClassifier.predict": 212
+        },
+        {
+            "keras.wrappers.scikit_learn.KerasClassifier.predict_proba": 236
+        },
+        {
+            "keras.wrappers.scikit_learn.KerasClassifier.score": 264
+        },
+        {
+            "keras.wrappers.scikit_learn.KerasRegressor.predict": 308
+        },
+        {
+            "keras.wrappers.scikit_learn.KerasRegressor.score": 328
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/local.py": [
+        {
+            "keras.layers.local.LocallyConnected1D.__init__": 82
+        },
+        {
+            "keras.layers.local.LocallyConnected2D.__init__": 266
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/advanced_activations.py": [
+        {
+            "keras.layers.advanced_activations.LeakyReLU.__init__": 42
+        },
+        {
+            "keras.layers.advanced_activations.PReLU.__init__": 94
+        },
+        {
+            "keras.layers.advanced_activations.ELU.__init__": 176
+        },
+        {
+            "keras.layers.advanced_activations.ThresholdedReLU.__init__": 216
+        },
+        {
+            "keras.layers.advanced_activations.Softmax.__init__": 248
+        },
+        {
+            "keras.layers.advanced_activations.ReLU.__init__": 289
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/cudnn_recurrent.py": [
+        {
+            "keras.layers.cudnn_recurrent._CuDNNRNN.__init__": 30
+        },
+        {
+            "keras.layers.cudnn_recurrent.CuDNNGRU.__init__": 179
+        },
+        {
+            "keras.layers.cudnn_recurrent.CuDNNLSTM.__init__": 376
+        },
+        {
+            "keras.layers.cudnn_recurrent.CuDNNLSTM.bias_initializer": 445
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/convolutional.py": [
+        {
+            "keras.layers.convolutional._Conv.__init__": 88
+        },
+        {
+            "keras.layers.convolutional.Conv1D.__init__": 315
+        },
+        {
+            "keras.layers.convolutional.Conv2D.__init__": 451
+        },
+        {
+            "keras.layers.convolutional.Conv3D.__init__": 580
+        },
+        {
+            "keras.layers.convolutional.Conv2DTranspose.__init__": 731
+        },
+        {
+            "keras.layers.convolutional.Conv3DTranspose.__init__": 1005
+        },
+        {
+            "keras.layers.convolutional._SeparableConv.__init__": 1277
+        },
+        {
+            "keras.layers.convolutional.SeparableConv1D.__init__": 1502
+        },
+        {
+            "keras.layers.convolutional.SeparableConv2D.__init__": 1643
+        },
+        {
+            "keras.layers.convolutional.DepthwiseConv2D.__init__": 1770
+        },
+        {
+            "keras.layers.convolutional._UpSampling.__init__": 1915
+        },
+        {
+            "keras.layers.convolutional.UpSampling1D.__init__": 1961
+        },
+        {
+            "keras.layers.convolutional.UpSampling2D.__init__": 2014
+        },
+        {
+            "keras.layers.convolutional.UpSampling3D.__init__": 2069
+        },
+        {
+            "keras.layers.convolutional._ZeroPadding.__init__": 2095
+        },
+        {
+            "keras.layers.convolutional.ZeroPadding1D.__init__": 2144
+        },
+        {
+            "keras.layers.convolutional.ZeroPadding2D.__init__": 2204
+        },
+        {
+            "keras.layers.convolutional.ZeroPadding3D.__init__": 2283
+        },
+        {
+            "keras.layers.convolutional._Cropping.__init__": 2333
+        },
+        {
+            "keras.layers.convolutional.Cropping1D.__init__": 2396
+        },
+        {
+            "keras.layers.convolutional.Cropping2D.__init__": 2465
+        },
+        {
+            "keras.layers.convolutional.Cropping3D.__init__": 2539
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/convolutional_recurrent.py": [
+        {
+            "keras.layers.convolutional_recurrent.ConvRNN2D.__init__": 131
+        },
+        {
+            "keras.layers.convolutional_recurrent.ConvRNN2D.__call__": 274
+        },
+        {
+            "keras.layers.convolutional_recurrent.ConvLSTM2DCell.__init__": 536
+        },
+        {
+            "keras.layers.convolutional_recurrent.ConvLSTM2DCell.bias_initializer": 624
+        },
+        {
+            "keras.layers.convolutional_recurrent.ConvLSTM2D.__init__": 906
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/core.py": [
+        {
+            "keras.layers.core.Masking.__init__": 58
+        },
+        {
+            "keras.layers.core.Dropout.__init__": 103
+        },
+        {
+            "keras.layers.core.SpatialDropout1D.__init__": 168
+        },
+        {
+            "keras.layers.core.SpatialDropout2D.__init__": 214
+        },
+        {
+            "keras.layers.core.SpatialDropout3D.__init__": 263
+        },
+        {
+            "keras.layers.core.Activation.__init__": 294
+        },
+        {
+            "keras.layers.core.Reshape.__init__": 346
+        },
+        {
+            "keras.layers.core.Permute.__init__": 440
+        },
+        {
+            "keras.layers.core.Flatten.__init__": 492
+        },
+        {
+            "keras.layers.core.RepeatVector.__init__": 549
+        },
+        {
+            "keras.layers.core.Lambda.__init__": 647
+        },
+        {
+            "keras.layers.core.Dense.__init__": 860
+        },
+        {
+            "keras.layers.core.ActivityRegularization.__init__": 956
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/recurrent.py": [
+        {
+            "keras.layers.recurrent.StackedRNNCells.__init__": 48
+        },
+        {
+            "keras.layers.recurrent.StackedRNNCells.call": 96
+        },
+        {
+            "keras.layers.recurrent.RNN.__init__": 392
+        },
+        {
+            "keras.layers.recurrent.RNN.__call__": 528
+        },
+        {
+            "keras.layers.recurrent.SimpleRNNCell.__init__": 848
+        },
+        {
+            "keras.layers.recurrent.SimpleRNN.__init__": 1033
+        },
+        {
+            "keras.layers.recurrent.GRUCell.__init__": 1247
+        },
+        {
+            "keras.layers.recurrent.GRU.__init__": 1614
+        },
+        {
+            "keras.layers.recurrent.LSTMCell.__init__": 1851
+        },
+        {
+            "keras.layers.recurrent.LSTMCell.bias_initializer": 1921
+        },
+        {
+            "keras.layers.recurrent.LSTM.__init__": 2169
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/embeddings.py": [
+        {
+            "keras.layers.embeddings.Embedding.__init__": 80
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/noise.py": [
+        {
+            "keras.layers.noise.GaussianNoise.__init__": 37
+        },
+        {
+            "keras.layers.noise.GaussianDropout.__init__": 82
+        },
+        {
+            "keras.layers.noise.AlphaDropout.__init__": 134
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/merge.py": [
+        {
+            "keras.layers.merge._Merge.__init__": 20
+        },
+        {
+            "keras.layers.merge.Concatenate.__init__": 340
+        },
+        {
+            "keras.layers.merge.Dot.__init__": 434
+        },
+        {
+            "keras.layers.merge.add": 530
+        },
+        {
+            "keras.layers.merge.subtract": 558
+        },
+        {
+            "keras.layers.merge.multiply": 586
+        },
+        {
+            "keras.layers.merge.average": 599
+        },
+        {
+            "keras.layers.merge.maximum": 612
+        },
+        {
+            "keras.layers.merge.minimum": 625
+        },
+        {
+            "keras.layers.merge.concatenate": 638
+        },
+        {
+            "keras.layers.merge.dot": 652
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/wrappers.py": [
+        {
+            "keras.layers.wrappers.Wrapper.__init__": 29
+        },
+        {
+            "keras.layers.wrappers.TimeDistributed.__init__": 159
+        },
+        {
+            "keras.layers.wrappers.Bidirectional.__init__": 361
+        },
+        {
+            "keras.layers.wrappers.Bidirectional.__call__": 423
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/pooling.py": [
+        {
+            "keras.layers.pooling._Pooling1D.__init__": 19
+        },
+        {
+            "keras.layers.pooling.MaxPooling1D.__init__": 104
+        },
+        {
+            "keras.layers.pooling.AveragePooling1D.__init__": 152
+        },
+        {
+            "keras.layers.pooling._Pooling2D.__init__": 169
+        },
+        {
+            "keras.layers.pooling.MaxPooling2D.__init__": 259
+        },
+        {
+            "keras.layers.pooling.AveragePooling2D.__init__": 314
+        },
+        {
+            "keras.layers.pooling._Pooling3D.__init__": 330
+        },
+        {
+            "keras.layers.pooling.MaxPooling3D.__init__": 424
+        },
+        {
+            "keras.layers.pooling.AveragePooling3D.__init__": 474
+        },
+        {
+            "keras.layers.pooling._GlobalPooling1D.__init__": 491
+        },
+        {
+            "keras.layers.pooling.GlobalAveragePooling1D.__init__": 536
+        },
+        {
+            "keras.layers.pooling._GlobalPooling2D.__init__": 592
+        },
+        {
+            "keras.layers.pooling._GlobalPooling3D.__init__": 687
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/layers/normalization.py": [
+        {
+            "keras.layers.normalization.BatchNormalization.__init__": 61
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/legacy/layers.py": [
+        {
+            "keras.legacy.layers.MaxoutDense.__init__": 62
+        },
+        {
+            "keras.legacy.layers.Highway.__init__": 188
+        },
+        {
+            "keras.legacy.layers.AtrousConvolution1D": 283
+        },
+        {
+            "keras.legacy.layers.AtrousConvolution2D": 297
+        },
+        {
+            "keras.legacy.layers.Recurrent.__init__": 433
+        },
+        {
+            "keras.legacy.layers.Recurrent.__call__": 498
+        },
+        {
+            "keras.legacy.layers.ConvRecurrent2D.__init__": 734
+        }
+    ],
+    "/home/zhang/Packages/keras/keras2.2.5/legacy/interfaces.py": [
+        {
+            "keras.legacy.interfaces.wrapper": 28
+        }
+    ]
+}

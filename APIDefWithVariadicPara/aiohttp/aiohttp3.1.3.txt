@@ -1,0 +1,296 @@
+{
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/web_server.py": [
+        {
+            "aiohttp.web_server.Server.__init__": 13
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/worker.py": [
+        {
+            "aiohttp.worker.GunicornWebWorker.__init__": 34
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/web_fileresponse.py": [
+        {
+            "aiohttp.web_fileresponse.SendfileStreamWriter.__init__": 23
+        },
+        {
+            "aiohttp.web_fileresponse.FileResponse.__init__": 87
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/payload_streamer.py": [
+        {
+            "aiohttp.payload_streamer.streamer.__call__": 52
+        },
+        {
+            "aiohttp.payload_streamer.StreamPayload.__init__": 66
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/multipart.py": [
+        {
+            "aiohttp.multipart.BodyPartReaderPayload.__init__": 440
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/formdata.py": [
+        {
+            "aiohttp.formdata.FormData.add_fields": 69
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/payload.py": [
+        {
+            "aiohttp.payload.get_payload": 38
+        },
+        {
+            "aiohttp.payload.PayloadRegistry.get": 68
+        },
+        {
+            "aiohttp.payload.Payload.__init__": 94
+        },
+        {
+            "aiohttp.payload.Payload.set_content_disposition": 140
+        },
+        {
+            "aiohttp.payload.BytesPayload.__init__": 158
+        },
+        {
+            "aiohttp.payload.StringPayload.__init__": 186
+        },
+        {
+            "aiohttp.payload.StringIOPayload.__init__": 207
+        },
+        {
+            "aiohttp.payload.IOBasePayload.__init__": 213
+        },
+        {
+            "aiohttp.payload.TextIOPayload.__init__": 234
+        },
+        {
+            "aiohttp.payload.JsonPayload.__init__": 293
+        },
+        {
+            "aiohttp.payload.AsyncIterablePayload.__init__": 304
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/test_utils.py": [
+        {
+            "aiohttp.test_utils.BaseTestServer.__init__": 35
+        },
+        {
+            "aiohttp.test_utils.TestServer.__init__": 130
+        },
+        {
+            "aiohttp.test_utils.RawTestServer.__init__": 141
+        },
+        {
+            "aiohttp.test_utils.TestClient.__init__": 160
+        },
+        {
+            "aiohttp.test_utils.TestClient.get": 219
+        },
+        {
+            "aiohttp.test_utils.TestClient.post": 225
+        },
+        {
+            "aiohttp.test_utils.TestClient.options": 231
+        },
+        {
+            "aiohttp.test_utils.TestClient.head": 237
+        },
+        {
+            "aiohttp.test_utils.TestClient.put": 243
+        },
+        {
+            "aiohttp.test_utils.TestClient.patch": 249
+        },
+        {
+            "aiohttp.test_utils.TestClient.delete": 255
+        },
+        {
+            "aiohttp.test_utils.TestClient.ws_connect": 261
+        },
+        {
+            "aiohttp.test_utils.unittest_run_loop": 378
+        },
+        {
+            "aiohttp.test_utils.new_func": 387
+        },
+        {
+            "aiohttp.test_utils.mock_coro": 538
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/web_runner.py": [
+        {
+            "aiohttp.web_runner.BaseRunner.__init__": 147
+        },
+        {
+            "aiohttp.web_runner.ServerRunner.__init__": 232
+        },
+        {
+            "aiohttp.web_runner.AppRunner.__init__": 251
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/web_app.py": [
+        {
+            "aiohttp.web_app.Application.make_handler": 233
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/connector.py": [
+        {
+            "aiohttp.connector.BaseConnector.__exit__": 227
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/pytest_plugin.py": [
+        {
+            "aiohttp.pytest_plugin.wrapper": 60
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/resolver.py": [
+        {
+            "aiohttp.resolver.AsyncResolver.__init__": 49
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/web_urldispatcher.py": [
+        {
+            "aiohttp.web_urldispatcher.AbstractResource.url_for": 99
+        },
+        {
+            "aiohttp.web_urldispatcher.AbstractRoute.url_for": 193
+        },
+        {
+            "aiohttp.web_urldispatcher.DynamicResource.url_for": 446
+        },
+        {
+            "aiohttp.web_urldispatcher.PrefixedSubAppResource.url_for": 673
+        },
+        {
+            "aiohttp.web_urldispatcher.ResourceRoute.url_for": 720
+        },
+        {
+            "aiohttp.web_urldispatcher.SystemRoute.url_for": 734
+        },
+        {
+            "aiohttp.web_urldispatcher.UrlDispatcher.add_head": 930
+        },
+        {
+            "aiohttp.web_urldispatcher.UrlDispatcher.add_get": 936
+        },
+        {
+            "aiohttp.web_urldispatcher.UrlDispatcher.add_post": 946
+        },
+        {
+            "aiohttp.web_urldispatcher.UrlDispatcher.add_put": 952
+        },
+        {
+            "aiohttp.web_urldispatcher.UrlDispatcher.add_patch": 958
+        },
+        {
+            "aiohttp.web_urldispatcher.UrlDispatcher.add_delete": 964
+        },
+        {
+            "aiohttp.web_urldispatcher.UrlDispatcher.add_view": 970
+        },
+        {
+            "aiohttp.web_urldispatcher.route": 990
+        },
+        {
+            "aiohttp.web_urldispatcher.head": 994
+        },
+        {
+            "aiohttp.web_urldispatcher.get": 998
+        },
+        {
+            "aiohttp.web_urldispatcher.post": 1003
+        },
+        {
+            "aiohttp.web_urldispatcher.put": 1007
+        },
+        {
+            "aiohttp.web_urldispatcher.patch": 1011
+        },
+        {
+            "aiohttp.web_urldispatcher.delete": 1015
+        },
+        {
+            "aiohttp.web_urldispatcher.view": 1019
+        },
+        {
+            "aiohttp.web_urldispatcher.static": 1023
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.route": 1047
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.head": 1053
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.get": 1056
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.post": 1059
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.put": 1062
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.patch": 1065
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.delete": 1068
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.view": 1071
+        },
+        {
+            "aiohttp.web_urldispatcher.RouteTableDef.static": 1074
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/helpers.py": [
+        {
+            "aiohttp.helpers.noop": 68
+        },
+        {
+            "aiohttp.helpers.content_disposition_header": 267
+        },
+        {
+            "aiohttp.helpers.TimeoutHandle.register": 607
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/client.py": [
+        {
+            "aiohttp.client.ClientSession.request": 176
+        },
+        {
+            "aiohttp.client.ClientSession.get": 652
+        },
+        {
+            "aiohttp.client.ClientSession.options": 659
+        },
+        {
+            "aiohttp.client.ClientSession.head": 666
+        },
+        {
+            "aiohttp.client.ClientSession.post": 673
+        },
+        {
+            "aiohttp.client.ClientSession.put": 680
+        },
+        {
+            "aiohttp.client.ClientSession.patch": 687
+        },
+        {
+            "aiohttp.client.ClientSession.delete": 694
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/web_request.py": [
+        {
+            "aiohttp.web_request.Request.__init__": 628
+        }
+    ],
+    "/home/zhang/Packages/aiohttp/aiohttp3.1.3/web_protocol.py": [
+        {
+            "aiohttp.web_protocol.RequestHandler.log_debug": 305
+        },
+        {
+            "aiohttp.web_protocol.RequestHandler.log_exception": 309
+        }
+    ]
+}

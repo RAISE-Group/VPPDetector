@@ -1,0 +1,490 @@
+{
+    "/home/zhang/Packages/tornado/tornado4.2.1/util.py": [
+        {
+            "tornado.util.Configurable.__new__": 201
+        },
+        {
+            "tornado.util.Configurable.configure": 242
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/httputil.py": [
+        {
+            "tornado.httputil.HTTPHeaders.__init__": 129
+        },
+        {
+            "tornado.httputil.HTTPHeaders.update": 228
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/locale.py": [
+        {
+            "tornado.locale.get": 61
+        },
+        {
+            "tornado.locale.Locale.get_closest": 210
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/gen.py": [
+        {
+            "tornado.gen.wrapper": 145
+        },
+        {
+            "tornado.gen.wrapper": 206
+        },
+        {
+            "tornado.gen.WaitIterator.__init__": 323
+        },
+        {
+            "tornado.gen.Task": 480
+        },
+        {
+            "tornado.gen.wrapper": 995
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/process.py": [
+        {
+            "tornado.process.Subprocess.__init__": 208
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/testing.py": [
+        {
+            "tornado.testing._TestMethodWrapper.__call__": 119
+        },
+        {
+            "tornado.testing.AsyncTestCase.__init__": 199
+        },
+        {
+            "tornado.testing.AsyncTestCase.stop": 267
+        },
+        {
+            "tornado.testing.AsyncHTTPTestCase.fetch": 372
+        },
+        {
+            "tornado.testing.pre_coroutine": 486
+        },
+        {
+            "tornado.testing.post_coroutine": 497
+        },
+        {
+            "tornado.testing.main": 616
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/template.py": [
+        {
+            "tornado.template.Template.generate": 253
+        },
+        {
+            "tornado.template.Loader.__init__": 353
+        },
+        {
+            "tornado.template.DictLoader.__init__": 377
+        },
+        {
+            "tornado.template._CodeWriter.Indenter.__exit__": 605
+        },
+        {
+            "tornado.template._CodeWriter.IncludeTemplate.__exit__": 619
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/concurrent.py": [
+        {
+            "tornado.concurrent.DummyExecutor.submit": 334
+        },
+        {
+            "tornado.concurrent.run_on_executor": 348
+        },
+        {
+            "tornado.concurrent.wrapper": 369
+        },
+        {
+            "tornado.concurrent.wrapper": 431
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/httpclient.py": [
+        {
+            "tornado.httpclient.HTTPClient.__init__": 74
+        },
+        {
+            "tornado.httpclient.HTTPClient.fetch": 91
+        },
+        {
+            "tornado.httpclient.AsyncHTTPClient.__new__": 159
+        },
+        {
+            "tornado.httpclient.AsyncHTTPClient.fetch": 206
+        },
+        {
+            "tornado.httpclient.AsyncHTTPClient.configure": 262
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/ioloop.py": [
+        {
+            "tornado.ioloop.IOLoop.add_timeout": 462
+        },
+        {
+            "tornado.ioloop.IOLoop.call_later": 496
+        },
+        {
+            "tornado.ioloop.IOLoop.call_at": 509
+        },
+        {
+            "tornado.ioloop.IOLoop.add_callback": 534
+        },
+        {
+            "tornado.ioloop.IOLoop.add_callback_from_signal": 549
+        },
+        {
+            "tornado.ioloop.IOLoop.spawn_callback": 561
+        },
+        {
+            "tornado.ioloop.PollIOLoop.initialize": 663
+        },
+        {
+            "tornado.ioloop.PollIOLoop.call_at": 894
+        },
+        {
+            "tornado.ioloop.PollIOLoop.add_callback": 911
+        },
+        {
+            "tornado.ioloop.PollIOLoop.add_callback_from_signal": 927
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/stack_context.py": [
+        {
+            "tornado.stack_context.null_wrapper": 271
+        },
+        {
+            "tornado.stack_context.wrapped": 281
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/websocket.py": [
+        {
+            "tornado.websocket.WebSocketHandler.__init__": 131
+        },
+        {
+            "tornado.websocket.WebSocketHandler.get": 141
+        },
+        {
+            "tornado.websocket.WebSocketHandler.open": 244
+        },
+        {
+            "tornado.websocket.WebSocketHandler.send_error": 369
+        },
+        {
+            "tornado.websocket._disallow_for_websocket": 387
+        },
+        {
+            "tornado.websocket.WebSocketProtocol._run_callback": 409
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/httpserver.py": [
+        {
+            "tornado.httpserver.HTTPServer.__init__": 128
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/netutil.py": [
+        {
+            "tornado.netutil.OverrideResolver.resolve": 444
+        },
+        {
+            "tornado.netutil.ssl_wrap_socket": 492
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/web.py": [
+        {
+            "tornado.web.RequestHandler.__init__": 161
+        },
+        {
+            "tornado.web.RequestHandler.head": 213
+        },
+        {
+            "tornado.web.RequestHandler.get": 216
+        },
+        {
+            "tornado.web.RequestHandler.post": 219
+        },
+        {
+            "tornado.web.RequestHandler.delete": 222
+        },
+        {
+            "tornado.web.RequestHandler.patch": 225
+        },
+        {
+            "tornado.web.RequestHandler.put": 228
+        },
+        {
+            "tornado.web.RequestHandler.options": 231
+        },
+        {
+            "tornado.web.RequestHandler.set_cookie": 510
+        },
+        {
+            "tornado.web.RequestHandler.set_secure_cookie": 576
+        },
+        {
+            "tornado.web.RequestHandler.render": 702
+        },
+        {
+            "tornado.web.RequestHandler.render_string": 788
+        },
+        {
+            "tornado.web.RequestHandler.send_error": 943
+        },
+        {
+            "tornado.web.RequestHandler.write_error": 982
+        },
+        {
+            "tornado.web.RequestHandler.static_url": 1255
+        },
+        {
+            "tornado.web.RequestHandler.reverse_url": 1296
+        },
+        {
+            "tornado.web.RequestHandler._execute": 1375
+        },
+        {
+            "tornado.web.RequestHandler.render": 1499
+        },
+        {
+            "tornado.web.wrapper": 1568
+        },
+        {
+            "tornado.web.wrapper": 1637
+        },
+        {
+            "tornado.web.wrapper": 1660
+        },
+        {
+            "tornado.web.Application.__init__": 1724
+        },
+        {
+            "tornado.web.Application.listen": 1770
+        },
+        {
+            "tornado.web.Application.reverse_url": 1876
+        },
+        {
+            "tornado.web.HTTPError.__init__": 2046
+        },
+        {
+            "tornado.web.wrapper": 2707
+        },
+        {
+            "tornado.web.UIModule.render": 2744
+        },
+        {
+            "tornado.web.UIModule.render_string": 2786
+        },
+        {
+            "tornado.web._linkify.render": 2792
+        },
+        {
+            "tornado.web.TemplateModule.render": 2822
+        },
+        {
+            "tornado.web.TemplateModule.set_resources": 2823
+        },
+        {
+            "tornado.web.URLSpec.reverse": 2952
+        },
+        {
+            "tornado.web._create_signature_v1": 3178
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/iostream.py": [
+        {
+            "tornado.iostream.BaseIOStream._run_callback": 547
+        },
+        {
+            "tornado.iostream.IOStream.__init__": 986
+        },
+        {
+            "tornado.iostream.SSLIOStream.__init__": 1208
+        },
+        {
+            "tornado.iostream.PipeIOStream.__init__": 1451
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/auth.py": [
+        {
+            "tornado.auth.wrapper": 126
+        },
+        {
+            "tornado.auth.TwitterMixin.twitter_request": 684
+        },
+        {
+            "tornado.auth.FacebookGraphMixin.facebook_request": 944
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/netutil_test.py": [
+        {
+            "tornado.test.netutil_test._failing_getaddrinfo": 71
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/iostream_test.py": [
+        {
+            "tornado.test.iostream_test.TestIOStreamMixin._make_server_iostream": 163
+        },
+        {
+            "tornado.test.iostream_test.TestIOStreamMixin._make_client_iostream": 166
+        },
+        {
+            "tornado.test.iostream_test.TestIOStreamMixin.make_iostream_pair": 169
+        },
+        {
+            "tornado.test.iostream_test.TestIOStream._make_server_iostream": 790
+        },
+        {
+            "tornado.test.iostream_test.TestIOStream._make_client_iostream": 793
+        },
+        {
+            "tornado.test.iostream_test.TestIOStreamSSL._make_server_iostream": 798
+        },
+        {
+            "tornado.test.iostream_test.TestIOStreamSSL._make_client_iostream": 805
+        },
+        {
+            "tornado.test.iostream_test.TestIOStreamSSLContext._make_server_iostream": 816
+        },
+        {
+            "tornado.test.iostream_test.TestIOStreamSSLContext._make_client_iostream": 826
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/ioloop_test.py": [
+        {
+            "tornado.test.ioloop_test.TestIOLoopAddCallback.add_callback": 431
+        },
+        {
+            "tornado.test.ioloop_test.TestIOLoopAddCallbackFromSignal.add_callback": 478
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/simple_httpclient_test.py": [
+        {
+            "tornado.test.simple_httpclient_test.SimpleHTTPClientTestCase.create_client": 424
+        },
+        {
+            "tornado.test.simple_httpclient_test.SimpleHTTPSClientTestCase.create_client": 434
+        },
+        {
+            "tornado.test.simple_httpclient_test.ResolveTimeoutTestCase.BadResolver.resolve": 591
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/stack_context_test.py": [
+        {
+            "tornado.test.stack_context_test.TestRequestHandler.write_error": 38
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/concurrent_test.py": [
+        {
+            "tornado.test.concurrent_test.ReturnFutureTest.f": 131
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/testing_test.py": [
+        {
+            "tornado.test.testing_test.GenTest.test_with_args": 215
+        },
+        {
+            "tornado.test.testing_test.GenTest.test_with_kwargs": 224
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/web_test.py": [
+        {
+            "tornado.test.web_test.EchoHandler.get": 390
+        },
+        {
+            "tornado.test.web_test.WSGISafeWebTest.fetch_json": 662
+        },
+        {
+            "tornado.test.web_test.ErrorResponseTest.WriteErrorHandler.write_error": 885
+        },
+        {
+            "tornado.test.web_test.ErrorResponseTest.FailedWriteErrorHandler.write_error": 896
+        },
+        {
+            "tornado.test.web_test.StaticFileTest.get_and_head": 1013
+        },
+        {
+            "tornado.test.web_test.ExceptionHandlerTest.Handler.write_error": 1570
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/twisted_test.py": [
+        {
+            "tornado.test.twisted_test.ReactorCallInThread._fnCalledInThread": 210
+        },
+        {
+            "tornado.test.twisted_test.LayeredTwistedIOLoop.initialize": 670
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/httpserver_test.py": [
+        {
+            "tornado.test.httpserver_test.HandlerBaseTestCase.fetch_json": 53
+        },
+        {
+            "tornado.test.httpserver_test.StreamingChunkSizeTest.fetch_chunk_sizes": 827
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/tcpclient_test.py": [
+        {
+            "tornado.test.tcpclient_test.ConnectorTest.assert_pending": 176
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/test/runtests.py": [
+        {
+            "tornado.test.runtests.LogCounter.__init__": 77
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/platform/epoll.py": [
+        {
+            "tornado.platform.epoll.EPollIOLoop.initialize": 25
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/platform/kqueue.py": [
+        {
+            "tornado.platform.kqueue.KQueueIOLoop.initialize": 90
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/platform/twisted.py": [
+        {
+            "tornado.platform.twisted.TornadoDelayedCall.__init__": 103
+        },
+        {
+            "tornado.platform.twisted.TornadoReactor.callLater": 180
+        },
+        {
+            "tornado.platform.twisted.TornadoReactor.callFromThread": 193
+        },
+        {
+            "tornado.platform.twisted.TwistedIOLoop.initialize": 419
+        },
+        {
+            "tornado.platform.twisted.TwistedIOLoop.add_timeout": 486
+        },
+        {
+            "tornado.platform.twisted.TwistedIOLoop.add_callback": 504
+        },
+        {
+            "tornado.platform.twisted.TwistedIOLoop.add_callback_from_signal": 509
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/platform/asyncio.py": [
+        {
+            "tornado.platform.asyncio.BaseAsyncIOLoop.initialize": 34
+        },
+        {
+            "tornado.platform.asyncio.BaseAsyncIOLoop.call_at": 114
+        },
+        {
+            "tornado.platform.asyncio.BaseAsyncIOLoop.add_callback": 125
+        },
+        {
+            "tornado.platform.asyncio.AsyncIOMainLoop.initialize": 136
+        },
+        {
+            "tornado.platform.asyncio.AsyncIOLoop.initialize": 142
+        }
+    ],
+    "/home/zhang/Packages/tornado/tornado4.2.1/platform/select.py": [
+        {
+            "tornado.platform.select.SelectIOLoop.initialize": 75
+        }
+    ]
+}

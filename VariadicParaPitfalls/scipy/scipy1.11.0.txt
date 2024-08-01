@@ -1,0 +1,202 @@
+{
+    "/home/zhang/Packages/scipy/scipy1.11.0/integrate/_ode.py": [
+        {
+            "scipy.integrate._ode.vode.step": 1019,
+            "run": [
+                1022,
+                "[992]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.vode.run_relax": 1026,
+            "run": [
+                1029,
+                "[992]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.step": 1356,
+            "run": [
+                1359,
+                "[1336]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.run_relax": 1363,
+            "run": [
+                1366,
+                "[1336]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/ndimage/_filters.py": [
+        {
+            "scipy.ndimage._filters.gaussian_laplace": 550,
+            "gaussian_filter": [
+                589,
+                "[281]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.derivative2": 586,
+            "gaussian_filter": [
+                589,
+                "[281]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.gaussian_gradient_magnitude": 645,
+            "gaussian_filter": [
+                685,
+                "[281]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.derivative": 682,
+            "gaussian_filter": [
+                685,
+                "[281]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/_lib/_uarray/_backend.py": [
+        {
+            "scipy._lib._uarray._backend.create_multimethod": 152,
+            "generate_multimethod": [
+                168,
+                "[173]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/stats/_fit.py": [
+        {
+            "scipy.stats._fit.FitResult._qq_plot": 264,
+            "_qp_plot": [
+                265,
+                "[206]"
+            ]
+        },
+        {
+            "scipy.stats._fit.FitResult._pp_plot": 267,
+            "_qp_plot": [
+                268,
+                "[206]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/stats/_distn_infrastructure.py": [
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._munp": 861,
+            "generic_moment": [
+                864,
+                "[3967]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._logcdf": 996,
+            "_cdf": [
+                998,
+                "[3943]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._sf": 1000,
+            "_cdf": [
+                1001,
+                "[3943]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.median": 1308,
+            "ppf": [
+                1332,
+                "[482]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.interval": 1407,
+            "ppf": [
+                1449,
+                "[482]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.log_psf": 1544,
+            "_cdf": [
+                1546,
+                "[3943]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_continuous.fit_loc_scale": 2728,
+            "stats": [
+                2748,
+                "[499]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/sparse/_base.py": [
+        {
+            "scipy.sparse._base._spbase.__mul__": 583,
+            "multiply": [
+                584,
+                "[382]"
+            ]
+        },
+        {
+            "scipy.sparse._base._spbase.__rmul__": 613,
+            "multiply": [
+                614,
+                "[382]"
+            ]
+        },
+        {
+            "scipy.sparse._base._spbase.__pow__": 713,
+            "power": [
+                714,
+                "[413]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/optimize/_minpack_py.py": [
+        {
+            "scipy.optimize._minpack_py.curve_fit": 571,
+            "leastsq": [
+                963,
+                "[281]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/optimize/tests/test_linesearch.py": [
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_wolfe": 37,
+            "assert_wolfe": [
+                38,
+                "[12]"
+            ]
+        },
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_armijo": 42,
+            "assert_armijo": [
+                43,
+                "[27]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.11.0/optimize/tests/test_minpack.py": [
+        {
+            "scipy.optimize.tests.test_minpack.TestLeastSq.func": 374,
+            "residuals": [
+                376,
+                "[272]"
+            ]
+        },
+        {
+            "scipy.optimize.tests.test_minpack.TestLeastSq.deriv_func": 386,
+            "residuals_jacobian": [
+                388,
+                "[277]"
+            ]
+        }
+    ]
+}

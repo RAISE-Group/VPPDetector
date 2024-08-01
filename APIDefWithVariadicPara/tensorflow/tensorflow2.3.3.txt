@@ -1,0 +1,3164 @@
+{
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/tools/docs/parser.py": [
+        {
+            "tensorflow.tools.docs.parser.ReferenceResolver.from_visitor": 205
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/tpu/feature_column_v2.py": [
+        {
+            "tensorflow.python.tpu.feature_column_v2._TPUDeviceSpecificEmbeddingColumnV2.__new__": 887
+        },
+        {
+            "tensorflow.python.tpu.feature_column_v2._TPUDeviceSpecificEmbeddingColumnV2.__init__": 897
+        },
+        {
+            "tensorflow.python.tpu.feature_column_v2._TPUSharedDeviceSpecificEmbeddingColumnV2.__new__": 1014
+        },
+        {
+            "tensorflow.python.tpu.feature_column_v2._TPUSharedDeviceSpecificEmbeddingColumnV2.__init__": 1025
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/tpu/tpu.py": [
+        {
+            "tensorflow.python.tpu.tpu.outside_compilation": 684
+        },
+        {
+            "tensorflow.python.tpu.tpu.custom_getter": 1363
+        },
+        {
+            "tensorflow.python.tpu.tpu.guarantee_const_getter": 2036
+        },
+        {
+            "tensorflow.python.tpu.tpu.wrapped_computation": 2041
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/tpu/tpu_embedding_v2.py": [
+        {
+            "tensorflow.python.tpu.tpu_embedding_v2.sharded_variable_creator": 1365
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/tpu/training_loop.py": [
+        {
+            "tensorflow.python.tpu.training_loop.condition_wrapper": 95
+        },
+        {
+            "tensorflow.python.tpu.training_loop.body_wrapper": 101
+        },
+        {
+            "tensorflow.python.tpu.training_loop.cond": 207
+        },
+        {
+            "tensorflow.python.tpu.training_loop.body_wrapper": 211
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/tpu/bfloat16.py": [
+        {
+            "tensorflow.python.tpu.bfloat16.inner_custom_getter": 49
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/tpu/tensor_tracer.py": [
+        {
+            "tensorflow.python.tpu.tensor_tracer.TensorTracer._write_cache": 1646
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/tpu/tpu_optimizer.py": [
+        {
+            "tensorflow.python.tpu.tpu_optimizer.CrossShardOptimizer.compute_gradients": 111
+        },
+        {
+            "tensorflow.python.tpu.tpu_optimizer.CrossShardOptimizer.get_slot": 194
+        },
+        {
+            "tensorflow.python.tpu.tpu_optimizer.CrossShardOptimizer.get_slot_names": 208
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/eager/monitoring.py": [
+        {
+            "tensorflow.python.eager.monitoring.Metric.__init__": 107
+        },
+        {
+            "tensorflow.python.eager.monitoring.Metric.get_cell": 136
+        },
+        {
+            "tensorflow.python.eager.monitoring.Counter.__init__": 177
+        },
+        {
+            "tensorflow.python.eager.monitoring.Counter.get_cell": 188
+        },
+        {
+            "tensorflow.python.eager.monitoring.IntGauge.__init__": 225
+        },
+        {
+            "tensorflow.python.eager.monitoring.IntGauge.get_cell": 236
+        },
+        {
+            "tensorflow.python.eager.monitoring.StringGauge.__init__": 276
+        },
+        {
+            "tensorflow.python.eager.monitoring.StringGauge.get_cell": 287
+        },
+        {
+            "tensorflow.python.eager.monitoring.BoolGauge.__init__": 324
+        },
+        {
+            "tensorflow.python.eager.monitoring.BoolGauge.get_cell": 335
+        },
+        {
+            "tensorflow.python.eager.monitoring.Sampler.__init__": 418
+        },
+        {
+            "tensorflow.python.eager.monitoring.Sampler.get_cell": 430
+        },
+        {
+            "tensorflow.python.eager.monitoring.wrapper": 469
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/eager/def_function.py": [
+        {
+            "tensorflow.python.eager.def_function.UnliftedInitializerVariable.__init__": 136
+        },
+        {
+            "tensorflow.python.eager.def_function.Function.wrapped_fn": 583
+        },
+        {
+            "tensorflow.python.eager.def_function.Function.variable_capturing_scope": 681
+        },
+        {
+            "tensorflow.python.eager.def_function.Function.invalid_creator_scope": 699
+        },
+        {
+            "tensorflow.python.eager.def_function.Function.__call__": 757
+        },
+        {
+            "tensorflow.python.eager.def_function.Function._call": 798
+        },
+        {
+            "tensorflow.python.eager.def_function.Function.fn_with_cond": 848
+        },
+        {
+            "tensorflow.python.eager.def_function.Function.get_initialization_function": 967
+        },
+        {
+            "tensorflow.python.eager.def_function.Function._get_concrete_function_garbage_collected": 1052
+        },
+        {
+            "tensorflow.python.eager.def_function.Function.get_concrete_function": 1091
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/eager/backprop.py": [
+        {
+            "tensorflow.python.eager.backprop.grad_fn": 231
+        },
+        {
+            "tensorflow.python.eager.backprop.grad_fn": 304
+        },
+        {
+            "tensorflow.python.eager.backprop.decorated": 404
+        },
+        {
+            "tensorflow.python.eager.backprop.decorated": 501
+        },
+        {
+            "tensorflow.python.eager.backprop.decorated": 549
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/eager/function.py": [
+        {
+            "tensorflow.python.eager.function._DelayedRewriteGradientFunctions._backprop_function": 653
+        },
+        {
+            "tensorflow.python.eager.function._DelayedRewriteGradientFunctions._rewrite_forward_and_call_backward": 710
+        },
+        {
+            "tensorflow.python.eager.function._DelayedRewriteGradientFunctions._backward_function": 795
+        },
+        {
+            "tensorflow.python.eager.function._TapeGradientFunctions._backward_function_wrapper": 1234
+        },
+        {
+            "tensorflow.python.eager.function.ConcreteFunction.__call__": 1605
+        },
+        {
+            "tensorflow.python.eager.function.ConcreteFunction.cancellable_call": 1953
+        },
+        {
+            "tensorflow.python.eager.function.FunctionSpec.canonicalize_function_inputs": 2513
+        },
+        {
+            "tensorflow.python.eager.function.Function.__call__": 2825
+        },
+        {
+            "tensorflow.python.eager.function.Function._get_concrete_function_internal_garbage_collected": 2850
+        },
+        {
+            "tensorflow.python.eager.function.Function._get_concrete_function_internal": 2859
+        },
+        {
+            "tensorflow.python.eager.function.Function._get_concrete_function_garbage_collected": 2870
+        },
+        {
+            "tensorflow.python.eager.function.Function.get_concrete_function": 2931
+        },
+        {
+            "tensorflow.python.eager.function.register": 3218
+        },
+        {
+            "tensorflow.python.eager.function.bound_method_wrapper": 3718
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/eager/wrap_function.py": [
+        {
+            "tensorflow.python.eager.wrap_function.VariableHolder.variable_creator_scope": 59
+        },
+        {
+            "tensorflow.python.eager.wrap_function.VariableHolder.__call__": 86
+        },
+        {
+            "tensorflow.python.eager.wrap_function.VariableHolder.wrapped": 91
+        },
+        {
+            "tensorflow.python.eager.wrap_function.wrap_and_filter_returned_ops": 396
+        },
+        {
+            "tensorflow.python.eager.wrap_function.WrappedGraph.__init__": 449
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/eager/context.py": [
+        {
+            "tensorflow.python.eager.context._EagerDeviceContext.__exit__": 1772
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/losses.py": [
+        {
+            "tensorflow.python.keras.losses.LossFunctionWrapper.__init__": 213
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/regularizers.py": [
+        {
+            "tensorflow.python.keras.regularizers.L1.__init__": 268
+        },
+        {
+            "tensorflow.python.keras.regularizers.L2.__init__": 301
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/backend.py": [
+        {
+            "tensorflow.python.keras.backend.GraphExecutionFunction.__init__": 3664
+        },
+        {
+            "tensorflow.python.keras.backend.function": 3911
+        },
+        {
+            "tensorflow.python.keras.backend._step": 4283
+        },
+        {
+            "tensorflow.python.keras.backend._step": 4331
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/metrics.py": [
+        {
+            "tensorflow.python.keras.metrics.Metric.__init__": 153
+        },
+        {
+            "tensorflow.python.keras.metrics.Metric.__new__": 162
+        },
+        {
+            "tensorflow.python.keras.metrics.Metric.update_state_fn": 173
+        },
+        {
+            "tensorflow.python.keras.metrics.Metric.result_fn": 188
+        },
+        {
+            "tensorflow.python.keras.metrics.Metric.__call__": 197
+        },
+        {
+            "tensorflow.python.keras.metrics.Metric.replica_local_fn": 209
+        },
+        {
+            "tensorflow.python.keras.metrics.Metric.update_state": 250
+        },
+        {
+            "tensorflow.python.keras.metrics.MeanMetricWrapper.__init__": 577
+        },
+        {
+            "tensorflow.python.keras.metrics.SumOverBatchSizeMetricWrapper.__init__": 3171
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/testing_utils.py": [
+        {
+            "tensorflow.python.keras.testing_utils.SmallSubclassMLP.call": 456
+        },
+        {
+            "tensorflow.python.keras.testing_utils._SmallSubclassMLPCustomBuild.call": 480
+        },
+        {
+            "tensorflow.python.keras.testing_utils._SubclassModel.__init__": 510
+        },
+        {
+            "tensorflow.python.keras.testing_utils._SubclassModel.call": 535
+        },
+        {
+            "tensorflow.python.keras.testing_utils._SubclassModelCustomBuild.__init__": 546
+        },
+        {
+            "tensorflow.python.keras.testing_utils._SubclassModelCustomBuild.call": 557
+        },
+        {
+            "tensorflow.python.keras.testing_utils._MultiIOSubclassModel.call": 649
+        },
+        {
+            "tensorflow.python.keras.testing_utils._MultiIOSubclassModelCustomBuild.call": 700
+        },
+        {
+            "tensorflow.python.keras.testing_utils.get_v2_optimizer": 864
+        },
+        {
+            "tensorflow.python.keras.testing_utils.wrapper": 911
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizers.py": [
+        {
+            "tensorflow.python.keras.optimizers.Optimizer.__init__": 61
+        },
+        {
+            "tensorflow.python.keras.optimizers.SGD.__init__": 188
+        },
+        {
+            "tensorflow.python.keras.optimizers.RMSprop.__init__": 257
+        },
+        {
+            "tensorflow.python.keras.optimizers.Adagrad.__init__": 331
+        },
+        {
+            "tensorflow.python.keras.optimizers.Adadelta.__init__": 410
+        },
+        {
+            "tensorflow.python.keras.optimizers.Adam.__init__": 487
+        },
+        {
+            "tensorflow.python.keras.optimizers.Adamax.__init__": 583
+        },
+        {
+            "tensorflow.python.keras.optimizers.Nadam.__init__": 674
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/keras_parameterized.py": [
+        {
+            "tensorflow.python.keras.keras_parameterized.decorated": 147
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._test_h5_saved_model_format": 160
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._test_tf_saved_model_format": 165
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized.decorated": 273
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._test_functional_model_type": 288
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._test_subclass_model_type": 293
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._test_sequential_model_type": 298
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized.run_all_keras_modes": 303
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized.decorated": 395
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._v1_session_test": 413
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._v2_eager_test": 420
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._v2_function_test": 426
+        },
+        {
+            "tensorflow.python.keras.keras_parameterized._v2_function_and_kerastensors_test": 432
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/callbacks.py": [
+        {
+            "tensorflow.python.keras.callbacks.CallbackList.__init__": 202
+        },
+        {
+            "tensorflow.python.keras.callbacks.ModelCheckpoint.__init__": 1133
+        },
+        {
+            "tensorflow.python.keras.callbacks.TensorBoard.__init__": 1907
+        },
+        {
+            "tensorflow.python.keras.callbacks.ReduceLROnPlateau.__init__": 2306
+        },
+        {
+            "tensorflow.python.keras.callbacks.LambdaCallback.__init__": 2539
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/legacy_tf_layers/convolutional.py": [
+        {
+            "tensorflow.python.keras.legacy_tf_layers.convolutional.Conv1D.__init__": 80
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.convolutional.Conv2D.__init__": 279
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.convolutional.Conv3D.__init__": 486
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.convolutional.SeparableConv1D.__init__": 695
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.convolutional.SeparableConv2D.__init__": 807
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.convolutional.Conv2DTranspose.__init__": 1147
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.convolutional.Conv3DTranspose.__init__": 1326
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/legacy_tf_layers/core.py": [
+        {
+            "tensorflow.python.keras.legacy_tf_layers.core.Dense.__init__": 85
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.core.Dropout.__init__": 214
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/legacy_tf_layers/base.py": [
+        {
+            "tensorflow.python.keras.legacy_tf_layers.base.Layer.__init__": 191
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.base.Layer.add_weight": 316
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.base.Layer.__call__": 483
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/legacy_tf_layers/pooling.py": [
+        {
+            "tensorflow.python.keras.legacy_tf_layers.pooling.AveragePooling1D.__init__": 47
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.pooling.MaxPooling1D.__init__": 117
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.pooling.AveragePooling2D.__init__": 191
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.pooling.MaxPooling2D.__init__": 264
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.pooling.AveragePooling3D.__init__": 339
+        },
+        {
+            "tensorflow.python.keras.legacy_tf_layers.pooling.MaxPooling3D.__init__": 416
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/legacy_tf_layers/normalization.py": [
+        {
+            "tensorflow.python.keras.legacy_tf_layers.normalization.BatchNormalization.__init__": 124
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/utils/metrics_utils.py": [
+        {
+            "tensorflow.python.keras.utils.metrics_utils.decorated": 73
+        },
+        {
+            "tensorflow.python.keras.utils.metrics_utils.decorated": 117
+        },
+        {
+            "tensorflow.python.keras.utils.metrics_utils.merge_fn_wrapper": 130
+        },
+        {
+            "tensorflow.python.keras.utils.metrics_utils.inner": 162
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/utils/data_utils.py": [
+        {
+            "tensorflow.python.keras.utils.data_utils.g": 405
+        },
+        {
+            "tensorflow.python.keras.utils.data_utils.wrapped": 522
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/utils/version_utils.py": [
+        {
+            "tensorflow.python.keras.utils.version_utils.ModelVersionSelector.__new__": 54
+        },
+        {
+            "tensorflow.python.keras.utils.version_utils.LayerVersionSelector.__new__": 63
+        },
+        {
+            "tensorflow.python.keras.utils.version_utils.TensorBoardVersionSelector.__new__": 72
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/utils/generic_utils.py": [
+        {
+            "tensorflow.python.keras.utils.generic_utils.CustomObjectScope.__init__": 77
+        },
+        {
+            "tensorflow.python.keras.utils.generic_utils.CustomObjectScope.__exit__": 87
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/utils/tf_utils.py": [
+        {
+            "tensorflow.python.keras.utils.tf_utils.graph_context_for_symbolic_tensors": 465
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/base_layer_utils.py": [
+        {
+            "tensorflow.python.keras.engine.base_layer_utils.CallContextManager.__exit__": 524
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/training_generator.py": [
+        {
+            "tensorflow.python.keras.engine.training_generator.model_iteration": 41
+        },
+        {
+            "tensorflow.python.keras.engine.training_generator.EagerDatasetOrIteratorTrainingLoop.fit": 641
+        },
+        {
+            "tensorflow.python.keras.engine.training_generator.EagerDatasetOrIteratorTrainingLoop.evaluate": 682
+        },
+        {
+            "tensorflow.python.keras.engine.training_generator.EagerDatasetOrIteratorTrainingLoop.predict": 698
+        },
+        {
+            "tensorflow.python.keras.engine.training_generator.GeneratorLikeTrainingLoop.fit": 720
+        },
+        {
+            "tensorflow.python.keras.engine.training_generator.GeneratorLikeTrainingLoop.evaluate": 781
+        },
+        {
+            "tensorflow.python.keras.engine.training_generator.GeneratorLikeTrainingLoop.predict": 808
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/base_preprocessing_layer.py": [
+        {
+            "tensorflow.python.keras.engine.base_preprocessing_layer.CombinerPreprocessingLayer.__init__": 75
+        },
+        {
+            "tensorflow.python.keras.engine.base_preprocessing_layer.CombinerPreprocessingLayer._add_state_variable": 81
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/training_utils.py": [
+        {
+            "tensorflow.python.keras.engine.training_utils.TrainingLoop.fit": 2101
+        },
+        {
+            "tensorflow.python.keras.engine.training_utils.TrainingLoop.evaluate": 2122
+        },
+        {
+            "tensorflow.python.keras.engine.training_utils.TrainingLoop.predict": 2135
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/input_layer.py": [
+        {
+            "tensorflow.python.keras.engine.input_layer.InputLayer.__init__": 91
+        },
+        {
+            "tensorflow.python.keras.engine.input_layer.Input": 211
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/data_adapter.py": [
+        {
+            "tensorflow.python.keras.engine.data_adapter.DataAdapter.__init__": 118
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.TensorLikeDataAdapter.__init__": 254
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.TensorLikeDataAdapter.shuffle_batch": 367
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.GenericArrayLikeDataAdapter.__init__": 469
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.CompositeTensorDataAdapter.__init__": 553
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.ListsOfScalarsDataAdapter.__init__": 633
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.DatasetAdapter.__init__": 686
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.GeneratorDataAdapter.__init__": 762
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter.KerasSequenceAdapter.__init__": 888
+        },
+        {
+            "tensorflow.python.keras.engine.data_adapter._class_weights_map_fn": 1306
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/training_distributed.py": [
+        {
+            "tensorflow.python.keras.engine.training_distributed.DistributionSingleWorkerTrainingLoop.fit": 580
+        },
+        {
+            "tensorflow.python.keras.engine.training_distributed.DistributionSingleWorkerTrainingLoop.evaluate": 687
+        },
+        {
+            "tensorflow.python.keras.engine.training_distributed.DistributionSingleWorkerTrainingLoop.predict": 728
+        },
+        {
+            "tensorflow.python.keras.engine.training_distributed.wrapper": 766
+        },
+        {
+            "tensorflow.python.keras.engine.training_distributed.DistributionMultiWorkerTrainingLoop.fit": 788
+        },
+        {
+            "tensorflow.python.keras.engine.training_distributed.DistributionMultiWorkerTrainingLoop.evaluate": 792
+        },
+        {
+            "tensorflow.python.keras.engine.training_distributed.DistributionMultiWorkerTrainingLoop.predict": 796
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/base_layer.py": [
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.__init__": 298
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.call": 440
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.add_weight": 478
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.getter": 586
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.__call__": 875
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.add_loss": 1438
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.add_metric": 1592
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.apply": 2213
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.Layer.add_variable": 2231
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.AddLoss.__init__": 3165
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer.AddMetric.__init__": 3190
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/training_v1.py": [
+        {
+            "tensorflow.python.keras.engine.training_v1.Model.__init__": 144
+        },
+        {
+            "tensorflow.python.keras.engine.training_v1.Model.compile": 241
+        },
+        {
+            "tensorflow.python.keras.engine.training_v1.Model.fit": 611
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/base_layer_v1.py": [
+        {
+            "tensorflow.python.keras.engine.base_layer_v1.Layer.__init__": 154
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer_v1.Layer.call": 279
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer_v1.Layer.add_weight": 312
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer_v1.Layer.getter": 420
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer_v1.Layer.__call__": 632
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer_v1.Layer.apply": 1688
+        },
+        {
+            "tensorflow.python.keras.engine.base_layer_v1.Layer.add_variable": 1706
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/training_arrays.py": [
+        {
+            "tensorflow.python.keras.engine.training_arrays.model_iteration": 46
+        },
+        {
+            "tensorflow.python.keras.engine.training_arrays.ArrayLikeTrainingLoop.fit": 603
+        },
+        {
+            "tensorflow.python.keras.engine.training_arrays.ArrayLikeTrainingLoop.evaluate": 668
+        },
+        {
+            "tensorflow.python.keras.engine.training_arrays.ArrayLikeTrainingLoop.predict": 697
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/training.py": [
+        {
+            "tensorflow.python.keras.engine.training._method_wrapper": 106
+        },
+        {
+            "tensorflow.python.keras.engine.training._method_wrapper": 126
+        },
+        {
+            "tensorflow.python.keras.engine.training.Model.__new__": 237
+        },
+        {
+            "tensorflow.python.keras.engine.training.Model.__init__": 247
+        },
+        {
+            "tensorflow.python.keras.engine.training.Model.compile": 462
+        },
+        {
+            "tensorflow.python.keras.engine.training.Model.to_json": 2241
+        },
+        {
+            "tensorflow.python.keras.engine.training.Model.to_yaml": 2258
+        },
+        {
+            "tensorflow.python.keras.engine.training.Model._validate_compile": 2472
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/engine/partial_batch_padding_handler.py": [
+        {
+            "tensorflow.python.keras.engine.partial_batch_padding_handler.PartialBatchPaddingHandler.pad_batch": 64
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/tests/model_architectures.py": [
+        {
+            "tensorflow.python.keras.tests.model_architectures.MySubclassModel.call": 167
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/preprocessing/image.py": [
+        {
+            "tensorflow.python.keras.preprocessing.image.save_img": 237
+        },
+        {
+            "tensorflow.python.keras.preprocessing.image.ImageDataGenerator.flow_from_dataframe": 961
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/saving/saving_utils.py": [
+        {
+            "tensorflow.python.keras.saving.saving_utils._wrapped_model": 126
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/saving/saved_model/load.py": [
+        {
+            "tensorflow.python.keras.saving.saved_model.load.KerasObjectLoader.__init__": 176
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.load._unable_to_call_layer_due_to_serialization_issue": 721
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/saving/saved_model/utils.py": [
+        {
+            "tensorflow.python.keras.saving.saved_model.utils.return_outputs_and_add_losses": 66
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.utils.wrap_with_training_arg": 153
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/saving/saved_model/save_impl.py": [
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.LayerCallCollection.add_trace": 401
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.LayerCallCollection.wrap_with_training_arg": 479
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.wrapper": 511
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.LayerCall.__init__": 535
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.LayerCall.__call__": 541
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.LayerCall.get_concrete_function": 546
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.call_and_return_conditional_losses": 567
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.call": 585
+        },
+        {
+            "tensorflow.python.keras.saving.saved_model.save_impl.fn": 593
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/feature_column/sequence_feature_column.py": [
+        {
+            "tensorflow.python.keras.feature_column.sequence_feature_column.SequenceFeatures.__init__": 76
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/feature_column/dense_features_v2.py": [
+        {
+            "tensorflow.python.keras.feature_column.dense_features_v2.DenseFeatures.__init__": 61
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/feature_column/base_feature_layer.py": [
+        {
+            "tensorflow.python.keras.feature_column.base_feature_layer._BaseFeaturesLayer.__init__": 51
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/feature_column/dense_features.py": [
+        {
+            "tensorflow.python.keras.feature_column.dense_features.DenseFeatures.__init__": 70
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/applications/mobilenet_v2.py": [
+        {
+            "tensorflow.python.keras.applications.mobilenet_v2.MobileNetV2": 97
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/applications/resnet.py": [
+        {
+            "tensorflow.python.keras.applications.resnet.ResNet": 60
+        },
+        {
+            "tensorflow.python.keras.applications.resnet.ResNet50": 459
+        },
+        {
+            "tensorflow.python.keras.applications.resnet.ResNet101": 480
+        },
+        {
+            "tensorflow.python.keras.applications.resnet.ResNet152": 501
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/applications/mobilenet.py": [
+        {
+            "tensorflow.python.keras.applications.mobilenet.MobileNet": 84
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/applications/efficientnet.py": [
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB0": 519
+        },
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB1": 545
+        },
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB2": 571
+        },
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB3": 597
+        },
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB4": 623
+        },
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB5": 649
+        },
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB6": 675
+        },
+        {
+            "tensorflow.python.keras.applications.efficientnet.EfficientNetB7": 701
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/applications/inception_resnet_v2.py": [
+        {
+            "tensorflow.python.keras.applications.inception_resnet_v2.InceptionResNetV2": 45
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/datasets/imdb.py": [
+        {
+            "tensorflow.python.keras.datasets.imdb.load_data": 32
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/datasets/reuters.py": [
+        {
+            "tensorflow.python.keras.datasets.reuters.load_data": 32
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/premade/linear.py": [
+        {
+            "tensorflow.python.keras.premade.linear.LinearModel.__init__": 63
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/premade/wide_deep.py": [
+        {
+            "tensorflow.python.keras.premade.wide_deep.WideDeepModel.__init__": 74
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/distribute/keras_utils_test.py": [
+        {
+            "tensorflow.python.keras.distribute.keras_utils_test.Counter._call_and_count": 65
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/distribute/distribute_strategy_test.py": [
+        {
+            "tensorflow.python.keras.distribute.distribute_strategy_test.TestDistributionStrategyWithKerasModels.ToRagged.__init__": 2169
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/distribute/distributed_training_utils.py": [
+        {
+            "tensorflow.python.keras.distribute.distributed_training_utils.call_replica_local_fn": 1105
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/distribute/keras_correctness_test_base.py": [
+        {
+            "tensorflow.python.keras.distribute.keras_correctness_test_base.TestDistributionStrategyCorrectnessBase.get_input_for_correctness_test": 406
+        },
+        {
+            "tensorflow.python.keras.distribute.keras_correctness_test_base.TestDistributionStrategyCorrectnessBase.get_input_for_dynamic_lr_test": 513
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/mixed_precision/experimental/test_util.py": [
+        {
+            "tensorflow.python.keras.mixed_precision.experimental.test_util.AssertTypeLayer.__init__": 113
+        },
+        {
+            "tensorflow.python.keras.mixed_precision.experimental.test_util.MultiplyLayer.__init__": 131
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/mixed_precision/experimental/loss_scale_optimizer.py": [
+        {
+            "tensorflow.python.keras.mixed_precision.experimental.loss_scale_optimizer._DelegatingTrackableMixin._add_variable_with_custom_getter": 132
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/wrappers/scikit_learn.py": [
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.BaseWrapper.__init__": 74
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.BaseWrapper.get_params": 108
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.BaseWrapper.set_params": 121
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.BaseWrapper.fit": 134
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.KerasClassifier.fit": 195
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.KerasClassifier.predict": 225
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.KerasClassifier.predict_proba": 244
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.KerasClassifier.score": 272
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.KerasRegressor.predict": 318
+        },
+        {
+            "tensorflow.python.keras.wrappers.scikit_learn.KerasRegressor.score": 335
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/adadelta.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.adadelta.Adadelta.__init__": 81
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/adamax.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.adamax.Adamax.__init__": 92
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/rmsprop.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.rmsprop.RMSprop.__init__": 98
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/optimizer_v2.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.optimizer_v2.OptimizerV2.__init__": 276
+        },
+        {
+            "tensorflow.python.keras.optimizer_v2.optimizer_v2.OptimizerV2._resource_apply_sparse_duplicate_indices": 1100
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/nadam.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.nadam.Nadam.__init__": 60
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/adagrad.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.adagrad.Adagrad.__init__": 62
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/gradient_descent.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.gradient_descent.SGD.__init__": 103
+        },
+        {
+            "tensorflow.python.keras.optimizer_v2.gradient_descent.SGD._resource_apply_sparse_duplicate_indices": 151
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/ftrl.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.ftrl.Ftrl.__init__": 67
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/optimizer_v2/adam.py": [
+        {
+            "tensorflow.python.keras.optimizer_v2.adam.Adam.__init__": 107
+        },
+        {
+            "tensorflow.python.keras.optimizer_v2.adam.NonFusedAdam.__init__": 330
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/local.py": [
+        {
+            "tensorflow.python.keras.layers.local.LocallyConnected1D.__init__": 134
+        },
+        {
+            "tensorflow.python.keras.layers.local.LocallyConnected2D.__init__": 448
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/advanced_activations.py": [
+        {
+            "tensorflow.python.keras.layers.advanced_activations.LeakyReLU.__init__": 67
+        },
+        {
+            "tensorflow.python.keras.layers.advanced_activations.PReLU.__init__": 120
+        },
+        {
+            "tensorflow.python.keras.layers.advanced_activations.ELU.__init__": 202
+        },
+        {
+            "tensorflow.python.keras.layers.advanced_activations.ThresholdedReLU.__init__": 243
+        },
+        {
+            "tensorflow.python.keras.layers.advanced_activations.Softmax.__init__": 278
+        },
+        {
+            "tensorflow.python.keras.layers.advanced_activations.ReLU.__init__": 344
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/cudnn_recurrent.py": [
+        {
+            "tensorflow.python.keras.layers.cudnn_recurrent._CuDNNRNN.__init__": 56
+        },
+        {
+            "tensorflow.python.keras.layers.cudnn_recurrent.CuDNNGRU.__init__": 199
+        },
+        {
+            "tensorflow.python.keras.layers.cudnn_recurrent.CuDNNLSTM.__init__": 383
+        },
+        {
+            "tensorflow.python.keras.layers.cudnn_recurrent.CuDNNLSTM.bias_initializer": 451
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/convolutional.py": [
+        {
+            "tensorflow.python.keras.layers.convolutional.Conv.__init__": 111
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Conv1D.__init__": 472
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Conv2D.__init__": 628
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Conv3D.__init__": 772
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Conv1DTranspose.__init__": 896
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Conv2DTranspose.__init__": 1164
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Conv3DTranspose.__init__": 1469
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.SeparableConv.__init__": 1727
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.SeparableConv1D.__init__": 1956
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.SeparableConv2D.__init__": 2141
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.DepthwiseConv2D.__init__": 2294
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.UpSampling1D.__init__": 2462
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.UpSampling2D.__init__": 2540
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.UpSampling3D.__init__": 2630
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.ZeroPadding1D.__init__": 2712
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.ZeroPadding2D.__init__": 2800
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.ZeroPadding3D.__init__": 2912
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Cropping1D.__init__": 3020
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Cropping2D.__init__": 3096
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional.Cropping3D.__init__": 3224
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/convolutional_recurrent.py": [
+        {
+            "tensorflow.python.keras.layers.convolutional_recurrent.ConvRNN2D.__init__": 157
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional_recurrent.ConvLSTM2DCell.__init__": 488
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional_recurrent.ConvLSTM2DCell.bias_initializer": 569
+        },
+        {
+            "tensorflow.python.keras.layers.convolutional_recurrent.ConvLSTM2D.__init__": 822
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/rnn_cell_wrapper_v2.py": [
+        {
+            "tensorflow.python.keras.layers.rnn_cell_wrapper_v2._RNNCellWrapperV2.__init__": 42
+        },
+        {
+            "tensorflow.python.keras.layers.rnn_cell_wrapper_v2._RNNCellWrapperV2.call": 50
+        },
+        {
+            "tensorflow.python.keras.layers.rnn_cell_wrapper_v2.DropoutWrapper.__init__": 102
+        },
+        {
+            "tensorflow.python.keras.layers.rnn_cell_wrapper_v2.ResidualWrapper.__init__": 117
+        },
+        {
+            "tensorflow.python.keras.layers.rnn_cell_wrapper_v2.DeviceWrapper.__init__": 128
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/normalization_v2.py": [
+        {
+            "tensorflow.python.keras.layers.normalization_v2.SyncBatchNormalization.__init__": 113
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/core.py": [
+        {
+            "tensorflow.python.keras.layers.core.Masking.__init__": 107
+        },
+        {
+            "tensorflow.python.keras.layers.core.Dropout.__init__": 185
+        },
+        {
+            "tensorflow.python.keras.layers.core.SpatialDropout1D.__init__": 266
+        },
+        {
+            "tensorflow.python.keras.layers.core.SpatialDropout2D.__init__": 317
+        },
+        {
+            "tensorflow.python.keras.layers.core.SpatialDropout3D.__init__": 375
+        },
+        {
+            "tensorflow.python.keras.layers.core.Activation.__init__": 421
+        },
+        {
+            "tensorflow.python.keras.layers.core.Reshape.__init__": 471
+        },
+        {
+            "tensorflow.python.keras.layers.core.Permute.__init__": 584
+        },
+        {
+            "tensorflow.python.keras.layers.core.Flatten.__init__": 642
+        },
+        {
+            "tensorflow.python.keras.layers.core.RepeatVector.__init__": 725
+        },
+        {
+            "tensorflow.python.keras.layers.core.Lambda.__init__": 839
+        },
+        {
+            "tensorflow.python.keras.layers.core.Lambda._variable_creator": 896
+        },
+        {
+            "tensorflow.python.keras.layers.core.Dense.__init__": 1131
+        },
+        {
+            "tensorflow.python.keras.layers.core.ActivityRegularization.__init__": 1253
+        },
+        {
+            "tensorflow.python.keras.layers.core.TFOpLambda.__init__": 1286
+        },
+        {
+            "tensorflow.python.keras.layers.core.TFOpLambda._call_wrapper": 1297
+        },
+        {
+            "tensorflow.python.keras.layers.core.TFOpLambda._call_wrapper": 1309
+        },
+        {
+            "tensorflow.python.keras.layers.core.TFOpLambda._variable_creator": 1311
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/recurrent.py": [
+        {
+            "tensorflow.python.keras.layers.recurrent.StackedRNNCells.__init__": 83
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.StackedRNNCells.call": 132
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.RNN.__init__": 393
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.RNN.__call__": 652
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.DropoutRNNCellMixin.__init__": 1097
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.SimpleRNNCell.__init__": 1286
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.SimpleRNN.__init__": 1505
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.GRUCell.__init__": 1727
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.GRU.__init__": 2046
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.LSTMCell.__init__": 2294
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.LSTMCell.bias_initializer": 2375
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent.LSTM.__init__": 2691
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/einsum_dense.py": [
+        {
+            "tensorflow.python.keras.layers.einsum_dense.EinsumDense.__init__": 112
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/embeddings.py": [
+        {
+            "tensorflow.python.keras.layers.embeddings.Embedding.__init__": 89
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/noise.py": [
+        {
+            "tensorflow.python.keras.layers.noise.GaussianNoise.__init__": 59
+        },
+        {
+            "tensorflow.python.keras.layers.noise.GaussianDropout.__init__": 110
+        },
+        {
+            "tensorflow.python.keras.layers.noise.AlphaDropout.__init__": 169
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/merge.py": [
+        {
+            "tensorflow.python.keras.layers.merge._Merge.__init__": 39
+        },
+        {
+            "tensorflow.python.keras.layers.merge.Concatenate.__init__": 458
+        },
+        {
+            "tensorflow.python.keras.layers.merge.Dot.__init__": 612
+        },
+        {
+            "tensorflow.python.keras.layers.merge.add": 741
+        },
+        {
+            "tensorflow.python.keras.layers.merge.subtract": 775
+        },
+        {
+            "tensorflow.python.keras.layers.merge.multiply": 804
+        },
+        {
+            "tensorflow.python.keras.layers.merge.average": 818
+        },
+        {
+            "tensorflow.python.keras.layers.merge.maximum": 854
+        },
+        {
+            "tensorflow.python.keras.layers.merge.minimum": 886
+        },
+        {
+            "tensorflow.python.keras.layers.merge.concatenate": 900
+        },
+        {
+            "tensorflow.python.keras.layers.merge.dot": 935
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/wrappers.py": [
+        {
+            "tensorflow.python.keras.layers.wrappers.Wrapper.__init__": 51
+        },
+        {
+            "tensorflow.python.keras.layers.wrappers.TimeDistributed.__init__": 120
+        },
+        {
+            "tensorflow.python.keras.layers.wrappers.Bidirectional.__init__": 393
+        },
+        {
+            "tensorflow.python.keras.layers.wrappers.Bidirectional.__call__": 519
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/recurrent_v2.py": [
+        {
+            "tensorflow.python.keras.layers.recurrent_v2.GRUCell.__init__": 146
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent_v2.GRU.__init__": 318
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent_v2.LSTMCell.__init__": 871
+        },
+        {
+            "tensorflow.python.keras.layers.recurrent_v2.LSTM.__init__": 1027
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/pooling.py": [
+        {
+            "tensorflow.python.keras.layers.pooling.Pooling1D.__init__": 57
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.MaxPooling1D.__init__": 190
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.AveragePooling1D.__init__": 233
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.Pooling2D.__init__": 269
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.MaxPooling2D.__init__": 452
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.AveragePooling2D.__init__": 502
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.Pooling3D.__init__": 541
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.MaxPooling3D.__init__": 648
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.AveragePooling3D.__init__": 698
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.GlobalPooling1D.__init__": 713
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.GlobalAveragePooling1D.__init__": 773
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.GlobalPooling2D.__init__": 847
+        },
+        {
+            "tensorflow.python.keras.layers.pooling.GlobalPooling3D.__init__": 954
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/kernelized.py": [
+        {
+            "tensorflow.python.keras.layers.kernelized.RandomFourierFeatures.__init__": 150
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/dense_attention.py": [
+        {
+            "tensorflow.python.keras.layers.dense_attention.BaseDenseAttention.__init__": 76
+        },
+        {
+            "tensorflow.python.keras.layers.dense_attention.Attention.__init__": 306
+        },
+        {
+            "tensorflow.python.keras.layers.dense_attention.AdditiveAttention.__init__": 442
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/normalization.py": [
+        {
+            "tensorflow.python.keras.layers.normalization.BatchNormalizationBase.__init__": 151
+        },
+        {
+            "tensorflow.python.keras.layers.normalization.BatchNormalizationBase.moving_stddev_initializer": 429
+        },
+        {
+            "tensorflow.python.keras.layers.normalization.LayerNormalization.__init__": 1085
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/legacy_rnn/rnn_cell_impl.py": [
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.RNNCell.__init__": 205
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.RNNCell._rnn_get_variable": 246
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.LayerRNNCell.__call__": 362
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.BasicRNNCell.__init__": 413
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.GRUCell.__init__": 517
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.BasicLSTMCell.__init__": 665
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.LSTMCell.__init__": 841
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl._RNNCellWrapperV1.__init__": 1099
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl._RNNCellWrapperV1._call_wrapped_cell": 1106
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.DropoutWrapper.__init__": 1178
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.ResidualWrapper.__init__": 1189
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl.DeviceWrapper.__init__": 1199
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/legacy_rnn/rnn_cell_wrapper_impl.py": [
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl.DropoutWrapperBase.__init__": 41
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl.DropoutWrapperBase._call_wrapped_cell": 254
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl.ResidualWrapperBase.__init__": 326
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl.ResidualWrapperBase._call_wrapped_cell": 352
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl.DeviceWrapperBase.__init__": 414
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl.DeviceWrapperBase._call_wrapped_cell": 440
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl._enumerated_map_structure_up_to": 507
+        },
+        {
+            "tensorflow.python.keras.layers.legacy_rnn.rnn_cell_wrapper_impl.enumerated_fn": 510
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/string_lookup.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.string_lookup.StringLookup.__init__": 164
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/text_vectorization.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.text_vectorization.TextVectorization.__init__": 202
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/category_encoding.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.category_encoding.CategoryEncoding.__init__": 112
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/category_crossing.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.category_crossing.CategoryCrossing.__init__": 116
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/hashing.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.hashing.Hashing.__init__": 136
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/index_lookup.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.index_lookup.IndexLookup.__init__": 83
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/reduction.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.reduction.Reduction.__init__": 72
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/discretization.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.discretization.Discretization.__init__": 62
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/image_preprocessing.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.Resizing.__init__": 85
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.CenterCrop.__init__": 141
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomCrop.__init__": 213
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.Rescaling.__init__": 320
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomFlip.__init__": 373
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomTranslation.__init__": 477
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomRotation.__init__": 777
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomZoom.__init__": 898
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomContrast.__init__": 1062
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomHeight.__init__": 1132
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing.RandomWidth.__init__": 1231
+        },
+        {
+            "tensorflow.python.keras.layers.preprocessing.image_preprocessing._RandomGenerator._create_variable": 1321
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/integer_lookup.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.integer_lookup.IntegerLookup.__init__": 165
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/keras/layers/preprocessing/normalization.py": [
+        {
+            "tensorflow.python.keras.layers.preprocessing.normalization.Normalization.__init__": 79
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/utils/ag_logging.py": [
+        {
+            "tensorflow.python.autograph.utils.ag_logging.trace": 92
+        },
+        {
+            "tensorflow.python.autograph.utils.ag_logging._output_to_stdout": 125
+        },
+        {
+            "tensorflow.python.autograph.utils.ag_logging.error": 131
+        },
+        {
+            "tensorflow.python.autograph.utils.ag_logging.log": 138
+        },
+        {
+            "tensorflow.python.autograph.utils.ag_logging.warn": 145
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/utils/py_func.py": [
+        {
+            "tensorflow.python.autograph.utils.py_func.f_wrapper": 120
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/utils/misc.py": [
+        {
+            "tensorflow.python.autograph.utils.misc.alias_tensors": 27
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/core/converter_testing.py": [
+        {
+            "tensorflow.python.autograph.core.converter_testing.TestCase.make_fake_mod": 151
+        },
+        {
+            "tensorflow.python.autograph.core.converter_testing.TestCase.attach_namespace": 163
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/pyct/cfg.py": [
+        {
+            "tensorflow.python.autograph.pyct.cfg.AstToCfg._process_continue_statement": 705
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/pyct/templates.py": [
+        {
+            "tensorflow.python.autograph.pyct.templates.replace": 234
+        },
+        {
+            "tensorflow.python.autograph.pyct.templates.replace_as_expression": 279
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/pyct/testing/decorators.py": [
+        {
+            "tensorflow.python.autograph.pyct.testing.decorators.wrapper": 27
+        },
+        {
+            "tensorflow.python.autograph.pyct.testing.decorators.standalone_wrapper": 35
+        },
+        {
+            "tensorflow.python.autograph.pyct.testing.decorators.functional_wrapper": 45
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/impl/api.py": [
+        {
+            "tensorflow.python.autograph.impl.api.wrapper": 247
+        },
+        {
+            "tensorflow.python.autograph.impl.api.wrapper": 273
+        },
+        {
+            "tensorflow.python.autograph.impl.api.wrapper": 300
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/operators/control_flow_deprecated_py2.py": [
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2._disallow_undefs_into_loop": 104
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_body": 402
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_cond": 413
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_body": 466
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_cond": 477
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_body": 523
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_cond": 532
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_body_actual": 578
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_body": 591
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.while_cond": 614
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.aug_test": 894
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow_deprecated_py2.aug_body": 899
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/operators/control_flow.py": [
+        {
+            "tensorflow.python.autograph.operators.control_flow.aug_test": 878
+        },
+        {
+            "tensorflow.python.autograph.operators.control_flow.aug_body": 882
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/autograph/operators/py_builtins.py": [
+        {
+            "tensorflow.python.autograph.operators.py_builtins.print_": 308
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins._py_print": 324
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins.print_wrapper": 336
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins.zip_": 399
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins._tf_dataset_zip": 405
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins._py_zip": 409
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins.map_": 413
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins._tf_dataset_map": 419
+        },
+        {
+            "tensorflow.python.autograph.operators.py_builtins._py_map": 423
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/module/module.py": [
+        {
+            "tensorflow.python.module.module.Module.method_with_name_scope": 287
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/tf_should_use.py": [
+        {
+            "tensorflow.python.util.tf_should_use._new_mark_used": 119
+        },
+        {
+            "tensorflow.python.util.tf_should_use.wrapped": 246
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/deprecation.py": [
+        {
+            "tensorflow.python.util.deprecation._NewClass.__init__": 201
+        },
+        {
+            "tensorflow.python.util.deprecation.new_func": 227
+        },
+        {
+            "tensorflow.python.util.deprecation.deprecated_endpoints": 245
+        },
+        {
+            "tensorflow.python.util.deprecation.new_func": 312
+        },
+        {
+            "tensorflow.python.util.deprecation.deprecated_args": 336
+        },
+        {
+            "tensorflow.python.util.deprecation.new_func": 474
+        },
+        {
+            "tensorflow.python.util.deprecation.deprecated_arg_values": 516
+        },
+        {
+            "tensorflow.python.util.deprecation.new_func": 559
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/tf_inspect.py": [
+        {
+            "tensorflow.python.util.tf_inspect.getcallargs": 260
+        },
+        {
+            "tensorflow.python.util.tf_inspect.getframeinfo": 297
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/tf_decorator.py": [
+        {
+            "tensorflow.python.util.tf_decorator.TFDecorator.__call__": 259
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/object_identity.py": [
+        {
+            "tensorflow.python.util.object_identity.ObjectIdentitySet.__init__": 174
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/nest.py": [
+        {
+            "tensorflow.python.util.nest.map_structure": 574
+        },
+        {
+            "tensorflow.python.util.nest.map_structure_with_paths": 639
+        },
+        {
+            "tensorflow.python.util.nest.wrapper_func": 671
+        },
+        {
+            "tensorflow.python.util.nest.map_structure_with_tuple_paths": 681
+        },
+        {
+            "tensorflow.python.util.nest.map_structure_up_to": 1061
+        },
+        {
+            "tensorflow.python.util.nest.map_structure_with_tuple_paths_up_to": 1142
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/keyword_args.py": [
+        {
+            "tensorflow.python.util.keyword_args.new_func": 46
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/tf_export.py": [
+        {
+            "tensorflow.python.util.tf_export.api_export.__init__": 261
+        },
+        {
+            "tensorflow.python.util.tf_export.wrapper": 398
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/dispatch.py": [
+        {
+            "tensorflow.python.util.dispatch.dispatch_for_types": 156
+        },
+        {
+            "tensorflow.python.util.dispatch.wrapper": 198
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/util/protobuf/compare.py": [
+        {
+            "tensorflow.python.util.protobuf.compare.ProtoAssertions.assertProtoEqual": 273
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/debug/cli/curses_ui.py": [
+        {
+            "tensorflow.python.debug.cli.curses_ui.CursesUI._addstr": 523
+        },
+        {
+            "tensorflow.python.debug.cli.curses_ui.CursesUI._refresh_pad": 529
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/debug/cli/base_ui.py": [
+        {
+            "tensorflow.python.debug.cli.base_ui.BaseUI.register_tab_comp_context": 109
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/debug/wrappers/framework.py": [
+        {
+            "tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession.list_devices": 657
+        },
+        {
+            "tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession.reset": 660
+        },
+        {
+            "tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession.wrapped_runner": 669
+        },
+        {
+            "tensorflow.python.debug.wrappers.framework.BaseDebugWrapperSession.wrapped_runner": 679
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/feature_column/feature_column.py": [
+        {
+            "tensorflow.python.feature_column.feature_column._FCLinearWrapper.__init__": 534
+        },
+        {
+            "tensorflow.python.feature_column.feature_column._BiasLayer.__init__": 583
+        },
+        {
+            "tensorflow.python.feature_column.feature_column._LinearModel.__init__": 624
+        },
+        {
+            "tensorflow.python.feature_column.feature_column._EmbeddingColumnLayer.__init__": 1702
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/saved_model/load.py": [
+        {
+            "tensorflow.python.saved_model.load.Loader.uninitialized_variable_creator": 438
+        },
+        {
+            "tensorflow.python.saved_model.load._call_attribute": 508
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/saved_model/loader_impl.py": [
+        {
+            "tensorflow.python.saved_model.loader_impl.load": 275
+        },
+        {
+            "tensorflow.python.saved_model.loader_impl.SavedModelLoader.load_graph": 360
+        },
+        {
+            "tensorflow.python.saved_model.loader_impl.SavedModelLoader.load": 435
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/saved_model/function_deserialization.py": [
+        {
+            "tensorflow.python.saved_model.function_deserialization.restored_function_body": 224
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/saved_model/function_serialization.py": [
+        {
+            "tensorflow.python.saved_model.function_serialization.wrap_function": 150
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/saved_model/signature_serialization.py": [
+        {
+            "tensorflow.python.saved_model.signature_serialization.signature_wrapper": 123
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/saved_model/model_utils/mode_keys.py": [
+        {
+            "tensorflow.python.saved_model.model_utils.mode_keys.ModeKeyMap.__init__": 80
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/saver.py": [
+        {
+            "tensorflow.python.training.saver.import_meta_graph": 1351
+        },
+        {
+            "tensorflow.python.training.saver._import_meta_graph_with_return_elements": 1465
+        },
+        {
+            "tensorflow.python.training.saver.export_meta_graph": 1518
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/monitored_session.py": [
+        {
+            "tensorflow.python.training.monitored_session._MonitoredSession.StepContext.run_with_hooks": 859
+        },
+        {
+            "tensorflow.python.training.monitored_session._WrappedSession.run": 1199
+        },
+        {
+            "tensorflow.python.training.monitored_session._CoordinatedSession.run": 1367
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/sync_replicas_optimizer.py": [
+        {
+            "tensorflow.python.training.sync_replicas_optimizer.SyncReplicasOptimizer.compute_gradients": 207
+        },
+        {
+            "tensorflow.python.training.sync_replicas_optimizer.SyncReplicasOptimizer.get_slot": 380
+        },
+        {
+            "tensorflow.python.training.sync_replicas_optimizer.SyncReplicasOptimizer.get_slot_names": 405
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/optimizer.py": [
+        {
+            "tensorflow.python.training.optimizer.filtered_grad_fn": 58
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/checkpoint_management.py": [
+        {
+            "tensorflow.python.training.checkpoint_management.CheckpointManager._initializing_creator": 790
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/tensorboard_logging.py": [
+        {
+            "tensorflow.python.training.tensorboard_logging.log": 119
+        },
+        {
+            "tensorflow.python.training.tensorboard_logging.debug": 152
+        },
+        {
+            "tensorflow.python.training.tensorboard_logging.info": 156
+        },
+        {
+            "tensorflow.python.training.tensorboard_logging.warn": 160
+        },
+        {
+            "tensorflow.python.training.tensorboard_logging.error": 164
+        },
+        {
+            "tensorflow.python.training.tensorboard_logging.fatal": 168
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/tracking/util.py": [
+        {
+            "tensorflow.python.training.tracking.util._default_getter": 393
+        },
+        {
+            "tensorflow.python.training.tracking.util._trackable_custom_creator": 547
+        },
+        {
+            "tensorflow.python.training.tracking.util._call_next_creator_renaming_initializer": 584
+        },
+        {
+            "tensorflow.python.training.tracking.util._SessionWithFeedDictAdditions.run": 1047
+        },
+        {
+            "tensorflow.python.training.tracking.util.CheckpointV1.__init__": 1474
+        },
+        {
+            "tensorflow.python.training.tracking.util.Checkpoint.__init__": 1816
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/tracking/base.py": [
+        {
+            "tensorflow.python.training.tracking.base._method_wrapper": 453
+        },
+        {
+            "tensorflow.python.training.tracking.base.Trackable._add_variable_with_custom_getter": 691
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/tracking/data_structures.py": [
+        {
+            "tensorflow.python.training.tracking.data_structures.List.__init__": 309
+        },
+        {
+            "tensorflow.python.training.tracking.data_structures.List._make_storage": 326
+        },
+        {
+            "tensorflow.python.training.tracking.data_structures.Mapping.__init__": 665
+        },
+        {
+            "tensorflow.python.training.tracking.data_structures.Mapping._make_storage": 680
+        },
+        {
+            "tensorflow.python.training.tracking.data_structures.Mapping.update": 709
+        },
+        {
+            "tensorflow.python.training.tracking.data_structures._DictWrapper.update": 898
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/training/saving/saveable_object_util.py": [
+        {
+            "tensorflow.python.training.saving.saveable_object_util.restore_fn": 432
+        },
+        {
+            "tensorflow.python.training.saving.saveable_object_util.restore_fn": 498
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/client/session.py": [
+        {
+            "tensorflow.python.client.session.BaseSession._generic_run": 1229
+        },
+        {
+            "tensorflow.python.client.session.BaseSession._do_call": 1363
+        },
+        {
+            "tensorflow.python.client.session.BaseSession._Callable.__call__": 1464
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/platform/flags.py": [
+        {
+            "tensorflow.python.platform.flags.wrapper": 47
+        },
+        {
+            "tensorflow.python.platform.flags._FlagValuesWrapper.__call__": 112
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/platform/tf_logging.py": [
+        {
+            "tensorflow.python.platform.tf_logging.log": 147
+        },
+        {
+            "tensorflow.python.platform.tf_logging.debug": 152
+        },
+        {
+            "tensorflow.python.platform.tf_logging.error": 157
+        },
+        {
+            "tensorflow.python.platform.tf_logging.fatal": 162
+        },
+        {
+            "tensorflow.python.platform.tf_logging.info": 167
+        },
+        {
+            "tensorflow.python.platform.tf_logging.warn": 172
+        },
+        {
+            "tensorflow.python.platform.tf_logging.warning": 177
+        },
+        {
+            "tensorflow.python.platform.tf_logging.vlog": 211
+        },
+        {
+            "tensorflow.python.platform.tf_logging.log_every_n": 231
+        },
+        {
+            "tensorflow.python.platform.tf_logging.log_first_n": 248
+        },
+        {
+            "tensorflow.python.platform.tf_logging.log_if": 264
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/packed_distributed_variable.py": [
+        {
+            "tensorflow.python.distribute.packed_distributed_variable.PackedDistributedVariable.__init__": 37
+        },
+        {
+            "tensorflow.python.distribute.packed_distributed_variable.PackedDistributedVariable._update": 141
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/mirrored_strategy.py": [
+        {
+            "tensorflow.python.distribute.mirrored_strategy.MirroredExtended._get_variable_creator_initial_value": 388
+        },
+        {
+            "tensorflow.python.distribute.mirrored_strategy.MirroredExtended._create_variable": 412
+        },
+        {
+            "tensorflow.python.distribute.mirrored_strategy.MirroredExtended._real_mirrored_creator": 423
+        },
+        {
+            "tensorflow.python.distribute.mirrored_strategy.MirroredExtended.body": 521
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/distribute_utils.py": [
+        {
+            "tensorflow.python.distribute.distribute_utils.create_mirrored_variable": 247
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/one_device_strategy.py": [
+        {
+            "tensorflow.python.distribute.one_device_strategy.OneDeviceExtended._create_variable": 262
+        },
+        {
+            "tensorflow.python.distribute.one_device_strategy.OneDeviceExtended.body": 328
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/tpu_values.py": [
+        {
+            "tensorflow.python.distribute.tpu_values.TPUVariableMixin.__init__": 80
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUMirroredVariable.scatter_sub": 262
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUMirroredVariable.scatter_add": 265
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUMirroredVariable.scatter_max": 268
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUMirroredVariable.scatter_min": 271
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUMirroredVariable.scatter_mul": 274
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUMirroredVariable.scatter_div": 277
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUMirroredVariable.scatter_update": 280
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUSyncOnReadVariable.assign_sub": 290
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUSyncOnReadVariable.assign_add": 298
+        },
+        {
+            "tensorflow.python.distribute.tpu_values.TPUSyncOnReadVariable.assign": 306
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/multi_process_lib.py": [
+        {
+            "tensorflow.python.distribute.multi_process_lib.Process.__init__": 38
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/combinations.py": [
+        {
+            "tensorflow.python.distribute.combinations.concat": 250
+        },
+        {
+            "tensorflow.python.distribute.combinations.decorator": 363
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/multi_worker_test_base.py": [
+        {
+            "tensorflow.python.distribute.multi_worker_test_base.MultiWorkerTestBase._run_client": 328
+        },
+        {
+            "tensorflow.python.distribute.multi_worker_test_base.MultiWorkerTestBase._run_between_graph_clients": 342
+        },
+        {
+            "tensorflow.python.distribute.multi_worker_test_base.MockOsEnv.__init__": 399
+        },
+        {
+            "tensorflow.python.distribute.multi_worker_test_base.IndependentWorkerTestBase._mock_run_std_server": 447
+        },
+        {
+            "tensorflow.python.distribute.multi_worker_test_base.IndependentWorkerTestBase._task_thread": 476
+        },
+        {
+            "tensorflow.python.distribute.multi_worker_test_base.IndependentWorkerTestBase._run_task_in_thread": 489
+        },
+        {
+            "tensorflow.python.distribute.multi_worker_test_base.IndependentWorkerTestBase.run_multiple_tasks_in_threads": 531
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/shared_variable_creator.py": [
+        {
+            "tensorflow.python.distribute.shared_variable_creator.create_new_variable": 66
+        },
+        {
+            "tensorflow.python.distribute.shared_variable_creator.reuse_variable": 76
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/multi_process_runner.py": [
+        {
+            "tensorflow.python.distribute.multi_process_runner._Process.__init__": 548
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/distribute_lib.py": [
+        {
+            "tensorflow.python.distribute.distribute_lib.StrategyExtendedV2.creator_with_resource_vars": 2008
+        },
+        {
+            "tensorflow.python.distribute.distribute_lib.StrategyExtendedV2.distributed_getter": 2035
+        },
+        {
+            "tensorflow.python.distribute.distribute_lib.StrategyExtendedV2._create_variable": 2053
+        },
+        {
+            "tensorflow.python.distribute.distribute_lib.StrategyExtendedV2.create_colocated_variable": 2120
+        },
+        {
+            "tensorflow.python.distribute.distribute_lib.ReplicaContext.batch_all_reduce": 2789
+        },
+        {
+            "tensorflow.python.distribute.distribute_lib.ReplicaContext.grad_wrapper": 2797
+        },
+        {
+            "tensorflow.python.distribute.distribute_lib._DefaultDistributionContext.creator": 2855
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/values.py": [
+        {
+            "tensorflow.python.distribute.values._on_write_update_replica": 45
+        },
+        {
+            "tensorflow.python.distribute.values.merge_fn": 50
+        },
+        {
+            "tensorflow.python.distribute.values.PerReplicaSpec.__init__": 382
+        },
+        {
+            "tensorflow.python.distribute.values.DistributedVariable._update_cross_replica": 767
+        },
+        {
+            "tensorflow.python.distribute.values.DistributedVariable._update_replica": 782
+        },
+        {
+            "tensorflow.python.distribute.values.DistributedVariable._update": 798
+        },
+        {
+            "tensorflow.python.distribute.values.MirroredVariable._update_replica": 896
+        },
+        {
+            "tensorflow.python.distribute.values.MirroredVariable.scatter_min": 899
+        },
+        {
+            "tensorflow.python.distribute.values.MirroredVariable.scatter_max": 906
+        },
+        {
+            "tensorflow.python.distribute.values.MirroredVariable.scatter_update": 913
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable._update_replica": 997
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable.scatter_sub": 1034
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable.scatter_add": 1037
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable.scatter_mul": 1040
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable.scatter_div": 1043
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable.scatter_min": 1046
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable.scatter_max": 1049
+        },
+        {
+            "tensorflow.python.distribute.values.SyncOnReadVariable.scatter_update": 1052
+        },
+        {
+            "tensorflow.python.distribute.values.VariablePolicy._update_replica": 1170
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy._update_replica": 1211
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy.scatter_sub": 1252
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy.scatter_add": 1256
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy.scatter_mul": 1260
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy.scatter_div": 1264
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy.scatter_min": 1268
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy.scatter_max": 1272
+        },
+        {
+            "tensorflow.python.distribute.values.OnReadPolicy.scatter_update": 1276
+        },
+        {
+            "tensorflow.python.distribute.values.AutoPolicy._update_replica": 1334
+        },
+        {
+            "tensorflow.python.distribute.values.OnWritePolicy._update_replica": 1417
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/ps_values.py": [
+        {
+            "tensorflow.python.distribute.ps_values.AggregatingVariable._assign_func": 56
+        },
+        {
+            "tensorflow.python.distribute.ps_values.AggregatingVariable.assign_sub": 100
+        },
+        {
+            "tensorflow.python.distribute.ps_values.AggregatingVariable.assign_add": 104
+        },
+        {
+            "tensorflow.python.distribute.ps_values.AggregatingVariable.assign": 108
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/tpu_strategy.py": [
+        {
+            "tensorflow.python.distribute.tpu_strategy.TPUExtended.rewrite_fn": 673
+        },
+        {
+            "tensorflow.python.distribute.tpu_strategy.TPUExtended._create_variable": 824
+        },
+        {
+            "tensorflow.python.distribute.tpu_strategy.TPUExtended._real_mirrored_creator": 838
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/collective_all_reduce_strategy.py": [
+        {
+            "tensorflow.python.distribute.collective_all_reduce_strategy.CollectiveAllReduceExtended._get_variable_creator_initial_value": 382
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/parameter_server_strategy.py": [
+        {
+            "tensorflow.python.distribute.parameter_server_strategy.ParameterServerStrategyExtended._create_variable": 425
+        },
+        {
+            "tensorflow.python.distribute.parameter_server_strategy.ParameterServerStrategyExtended.var_creator": 437
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/strategy_combinations.py": [
+        {
+            "tensorflow.python.distribute.strategy_combinations._get_tpu_strategy_creator": 56
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/numpy_dataset.py": [
+        {
+            "tensorflow.python.distribute.numpy_dataset.create_colocated_variable": 79
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/model_collection/simple_models.py": [
+        {
+            "tensorflow.python.distribute.model_collection.simple_models.SimpleFunctionalModel.get_model": 47
+        },
+        {
+            "tensorflow.python.distribute.model_collection.simple_models.SimpleSequentialModel.get_model": 72
+        },
+        {
+            "tensorflow.python.distribute.model_collection.simple_models.SimpleSubclassModel.get_model": 107
+        },
+        {
+            "tensorflow.python.distribute.model_collection.simple_models.SimpleTFModuleModel.get_model": 138
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/distribute/cluster_resolver/cluster_resolver.py": [
+        {
+            "tensorflow.python.distribute.cluster_resolver.cluster_resolver.UnionClusterResolver.__init__": 466
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/test_combinations.py": [
+        {
+            "tensorflow.python.framework.test_combinations.decorated": 247
+        },
+        {
+            "tensorflow.python.framework.test_combinations.combine": 319
+        },
+        {
+            "tensorflow.python.framework.test_combinations.times": 356
+        },
+        {
+            "tensorflow.python.framework.test_combinations.NamedObject.__call__": 400
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/auto_control_deps.py": [
+        {
+            "tensorflow.python.framework.auto_control_deps.wrapper": 558
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/test_util.py": [
+        {
+            "tensorflow.python.framework.test_util.wrapper": 450
+        },
+        {
+            "tensorflow.python.framework.test_util.wrapper": 521
+        },
+        {
+            "tensorflow.python.framework.test_util.wrapper": 616
+        },
+        {
+            "tensorflow.python.framework.test_util.decorator": 648
+        },
+        {
+            "tensorflow.python.framework.test_util.decorator": 731
+        },
+        {
+            "tensorflow.python.framework.test_util.decorator": 891
+        },
+        {
+            "tensorflow.python.framework.test_util._combine_named_parameters": 952
+        },
+        {
+            "tensorflow.python.framework.test_util.generate_combinations_with_testcase_name": 977
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1050
+        },
+        {
+            "tensorflow.python.framework.test_util.decorator": 1082
+        },
+        {
+            "tensorflow.python.framework.test_util.decorator": 1097
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1174
+        },
+        {
+            "tensorflow.python.framework.test_util.run_eagerly": 1182
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1216
+        },
+        {
+            "tensorflow.python.framework.test_util.inner_f": 1227
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1258
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1307
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1377
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1414
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1447
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1480
+        },
+        {
+            "tensorflow.python.framework.test_util.with_forward_compatibility_horizons": 1494
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1516
+        },
+        {
+            "tensorflow.python.framework.test_util.FakeEagerSession.run": 1652
+        },
+        {
+            "tensorflow.python.framework.test_util.ErrorLoggingSession.run": 1685
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1712
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1763
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1787
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1829
+        },
+        {
+            "tensorflow.python.framework.test_util.for_all_test_methods": 1845
+        },
+        {
+            "tensorflow.python.framework.test_util.decorated": 1887
+        },
+        {
+            "tensorflow.python.framework.test_util.TensorFlowTestCase.assertNotAllClose": 2658
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/ops.py": [
+        {
+            "tensorflow.python.framework.ops.NullContextmanager.__init__": 167
+        },
+        {
+            "tensorflow.python.framework.ops.internal_name_scope_v1.__exit__": 6498
+        },
+        {
+            "tensorflow.python.framework.ops.name_scope_v1.__exit__": 6552
+        },
+        {
+            "tensorflow.python.framework.ops.name_scope_v2._restore_name_scope": 6625
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/func_graph.py": [
+        {
+            "tensorflow.python.framework.func_graph.wrapper": 958
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/device_spec.py": [
+        {
+            "tensorflow.python.framework.device_spec.DeviceSpecV2.replace": 236
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/function.py": [
+        {
+            "tensorflow.python.framework.function.Defun.__init__": 93
+        },
+        {
+            "tensorflow.python.framework.function._DefinedFunction.__init__": 227
+        },
+        {
+            "tensorflow.python.framework.function._DefinedFunction.__call__": 562
+        },
+        {
+            "tensorflow.python.framework.function._OverloadedFunction.__init__": 590
+        },
+        {
+            "tensorflow.python.framework.function._OverloadedFunction.__call__": 669
+        },
+        {
+            "tensorflow.python.framework.function._FuncGraph.__init__": 693
+        },
+        {
+            "tensorflow.python.framework.function._FuncGraph.getvar": 765
+        },
+        {
+            "tensorflow.python.framework.function._call": 1046
+        },
+        {
+            "tensorflow.python.framework.function._parse_kwargs_as_attrs": 1224
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/meta_graph.py": [
+        {
+            "tensorflow.python.framework.meta_graph.export_scoped_meta_graph": 903
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/tensor_shape.py": [
+        {
+            "tensorflow.python.framework.tensor_shape.unknown_shape": 1238
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/framework/op_def_library.py": [
+        {
+            "tensorflow.python.framework.op_def_library.apply_op": 255
+        },
+        {
+            "tensorflow.python.framework.op_def_library._apply_op_helper": 299
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/while_v2.py": [
+        {
+            "tensorflow.python.ops.while_v2.wrapped_cond": 123
+        },
+        {
+            "tensorflow.python.ops.while_v2.wrapped_body": 153
+        },
+        {
+            "tensorflow.python.ops.while_v2._WhileGrad": 309
+        },
+        {
+            "tensorflow.python.ops.while_v2.grad_cond": 390
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/script_ops.py": [
+        {
+            "tensorflow.python.ops.script_ops._EagerPyFuncGrad": 355
+        },
+        {
+            "tensorflow.python.ops.script_ops.eagerly_executed_grad": 360
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/control_flow_grad.py": [
+        {
+            "tensorflow.python.ops.control_flow_grad._SwitchGrad": 35
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/rnn_grad.py": [
+        {
+            "tensorflow.python.ops.rnn_grad._block_lstm_grad": 24
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/gradient_checker_v2.py": [
+        {
+            "tensorflow.python.ops.gradient_checker_v2.decorated_eager": 111
+        },
+        {
+            "tensorflow.python.ops.gradient_checker_v2.decorated_graph": 122
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/custom_gradient.py": [
+        {
+            "tensorflow.python.ops.custom_gradient.Bind.__call__": 263
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.tape_grad_fn": 368
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.internal_grad_fn": 387
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.actual_grad_fn": 438
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.inner": 485
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.grad_wrapper": 491
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.inner_recompute_grad": 495
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.transpose": 516
+        },
+        {
+            "tensorflow.python.ops.custom_gradient._grad_pass_through_op": 575
+        },
+        {
+            "tensorflow.python.ops.custom_gradient.grad": 576
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/cond_v2.py": [
+        {
+            "tensorflow.python.ops.cond_v2._IfGrad": 107
+        },
+        {
+            "tensorflow.python.ops.cond_v2._get_output_shapes": 805
+        },
+        {
+            "tensorflow.python.ops.cond_v2._CaseGrad": 988
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/partitioned_variables.py": [
+        {
+            "tensorflow.python.ops.partitioned_variables._partitioner": 233
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/special_math_ops.py": [
+        {
+            "tensorflow.python.ops.special_math_ops.einsum": 608
+        },
+        {
+            "tensorflow.python.ops.special_math_ops._einsum_v1": 687
+        },
+        {
+            "tensorflow.python.ops.special_math_ops._exponential_space_einsum_v1": 1009
+        },
+        {
+            "tensorflow.python.ops.special_math_ops._einsum_v2": 1085
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/template.py": [
+        {
+            "tensorflow.python.ops.template.make_template": 40
+        },
+        {
+            "tensorflow.python.ops.template.make_template_internal": 164
+        },
+        {
+            "tensorflow.python.ops.template.Template.__call__": 380
+        },
+        {
+            "tensorflow.python.ops.template.EagerTemplate.__call__": 657
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/cudnn_rnn_grad.py": [
+        {
+            "tensorflow.python.ops.cudnn_rnn_grad._cudnn_rnn_backward": 25
+        },
+        {
+            "tensorflow.python.ops.cudnn_rnn_grad._cudnn_rnn_backward_v2": 51
+        },
+        {
+            "tensorflow.python.ops.cudnn_rnn_grad._cudnn_rnn_backwardv3": 77
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/variable_scope.py": [
+        {
+            "tensorflow.python.ops.variable_scope.method": 1037
+        },
+        {
+            "tensorflow.python.ops.variable_scope.method": 1047
+        },
+        {
+            "tensorflow.python.ops.variable_scope.wrapped_custom_getter": 2020
+        },
+        {
+            "tensorflow.python.ops.variable_scope.default_variable_creator": 2557
+        },
+        {
+            "tensorflow.python.ops.variable_scope.default_variable_creator_v2": 2616
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/nn_grad.py": [
+        {
+            "tensorflow.python.ops.nn_grad._BaseFusedBatchNormGrad": 842
+        },
+        {
+            "tensorflow.python.ops.nn_grad._FusedBatchNormGrad": 918
+        },
+        {
+            "tensorflow.python.ops.nn_grad._FusedBatchNormV2Grad": 923
+        },
+        {
+            "tensorflow.python.ops.nn_grad._FusedBatchNormV3Grad": 928
+        },
+        {
+            "tensorflow.python.ops.nn_grad._FusedBatchNormGradGrad": 1012
+        },
+        {
+            "tensorflow.python.ops.nn_grad._FusedBatchNormGradGradV2": 1050
+        },
+        {
+            "tensorflow.python.ops.nn_grad._FusedBatchNormGradGradV3": 1055
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/sparse_grad.py": [
+        {
+            "tensorflow.python.ops.sparse_grad._SparseAddGrad": 66
+        },
+        {
+            "tensorflow.python.ops.sparse_grad._SparseSliceGrad": 120
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/functional_ops.py": [
+        {
+            "tensorflow.python.ops.functional_ops.Wrapper": 892
+        },
+        {
+            "tensorflow.python.ops.functional_ops.CondWrapper": 955
+        },
+        {
+            "tensorflow.python.ops.functional_ops.WhileCond": 1020
+        },
+        {
+            "tensorflow.python.ops.functional_ops.WhileBody": 1027
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/summary_ops_v2.py": [
+        {
+            "tensorflow.python.ops.summary_ops_v2.create_summary_file_writer": 980
+        },
+        {
+            "tensorflow.python.ops.summary_ops_v2._check_create_file_writer_args": 1002
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/logging_ops.py": [
+        {
+            "tensorflow.python.ops.logging_ops.print_v2": 142
+        },
+        {
+            "tensorflow.python.ops.logging_ops._PrintGrad": 385
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/metrics_impl.py": [
+        {
+            "tensorflow.python.ops.metrics_impl._aggregate_across_replicas": 280
+        },
+        {
+            "tensorflow.python.ops.metrics_impl.fn": 282
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/op_selector.py": [
+        {
+            "tensorflow.python.ops.op_selector.check_graphs": 118
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/batch_ops.py": [
+        {
+            "tensorflow.python.ops.batch_ops.decorated": 81
+        },
+        {
+            "tensorflow.python.ops.batch_ops.computation": 84
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/control_flow_ops.py": [
+        {
+            "tensorflow.python.ops.control_flow_ops.group": 2872
+        },
+        {
+            "tensorflow.python.ops.control_flow_ops._case_helper": 3174
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/control_flow_v2_func_graphs.py": [
+        {
+            "tensorflow.python.ops.control_flow_v2_func_graphs.CondBranchFuncGraph.__init__": 31
+        },
+        {
+            "tensorflow.python.ops.control_flow_v2_func_graphs.WhileCondFuncGraph.__init__": 44
+        },
+        {
+            "tensorflow.python.ops.control_flow_v2_func_graphs.WhileBodyFuncGraph.__init__": 57
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/variables.py": [
+        {
+            "tensorflow.python.ops.variables.default_variable_creator": 53
+        },
+        {
+            "tensorflow.python.ops.variables.default_variable_creator_v2": 58
+        },
+        {
+            "tensorflow.python.ops.variables.getter": 66
+        },
+        {
+            "tensorflow.python.ops.variables.VariableMetaclass.__call__": 258
+        },
+        {
+            "tensorflow.python.ops.variables.Variable._run_op": 1072
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/array_ops.py": [
+        {
+            "tensorflow.python.ops.array_ops.wrapped": 2746
+        },
+        {
+            "tensorflow.python.ops.array_ops.meshgrid": 3399
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/ctc_ops.py": [
+        {
+            "tensorflow.python.ops.ctc_ops.compute_ctc_loss": 1040
+        },
+        {
+            "tensorflow.python.ops.ctc_ops.cond": 1369
+        },
+        {
+            "tensorflow.python.ops.ctc_ops.body": 1375
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/array_grad.py": [
+        {
+            "tensorflow.python.ops.array_grad._UnpackGrad": 48
+        },
+        {
+            "tensorflow.python.ops.array_grad._SplitGrad": 318
+        },
+        {
+            "tensorflow.python.ops.array_grad._SplitVGrad": 323
+        },
+        {
+            "tensorflow.python.ops.array_grad._IdNGrad": 747
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/optional_grad.py": [
+        {
+            "tensorflow.python.ops.optional_grad._OptionalGetValueGrad": 32
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/data_flow_grad.py": [
+        {
+            "tensorflow.python.ops.data_flow_grad._DynamicPartitionGrads": 31
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/rnn.py": [
+        {
+            "tensorflow.python.ops.rnn.condition": 1162
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/stateful_random_ops.py": [
+        {
+            "tensorflow.python.ops.stateful_random_ops.Generator._create_variable": 366
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/resource_variable_ops.py": [
+        {
+            "tensorflow.python.ops.resource_variable_ops.BaseResourceVariable.__init__": 341
+        },
+        {
+            "tensorflow.python.ops.resource_variable_ops.UninitializedVariable.__init__": 1821
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/numpy_ops/np_math_ops.py": [
+        {
+            "tensorflow.python.ops.numpy_ops.np_math_ops.meshgrid": 1323
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_math_ops.einsum": 1345
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/numpy_ops/np_random.py": [
+        {
+            "tensorflow.python.ops.numpy_ops.np_random.randn": 54
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_random.rand": 90
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/numpy_ops/np_array_ops.py": [
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops._promote_dtype": 361
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops._reshape_method_wrapper": 750
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops._atleast_nd": 1066
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops.atleast_1d": 1096
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops.atleast_2d": 1101
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops.atleast_3d": 1106
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops.ix_": 1316
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops.broadcast_arrays": 1348
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_array_ops.sign": 1361
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/numpy_ops/np_utils.py": [
+        {
+            "tensorflow.python.ops.numpy_ops.np_utils.result_type": 116
+        },
+        {
+            "tensorflow.python.ops.numpy_ops.np_utils.tf_broadcast": 363
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/numpy_ops/np_dtypes.py": [
+        {
+            "tensorflow.python.ops.numpy_ops.np_dtypes._result_type": 81
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/parallel_for/pfor.py": [
+        {
+            "tensorflow.python.ops.parallel_for.pfor.WhileOp.cond": 644
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor.WhileOp.body": 647
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor.RegisterPForWithArgs.__init__": 936
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor.while_body": 1000
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor.PForConfig.reduce": 1044
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor._convert_grads": 2924
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor._convert_random": 2984
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor.f": 3933
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor.WhileV2.cond": 4268
+        },
+        {
+            "tensorflow.python.ops.parallel_for.pfor.WhileV2.body": 4271
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/parallel_for/control_flow_ops.py": [
+        {
+            "tensorflow.python.ops.parallel_for.control_flow_ops.while_body": 67
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/distributions/util.py": [
+        {
+            "tensorflow.python.ops.distributions.util._add": 1021
+        },
+        {
+            "tensorflow.python.ops.distributions.util.AppendDocstring._fn": 1442
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/distributions/transformed_distribution.py": [
+        {
+            "tensorflow.python.ops.distributions.transformed_distribution._logical_and": 50
+        },
+        {
+            "tensorflow.python.ops.distributions.transformed_distribution._concat_vectors": 79
+        },
+        {
+            "tensorflow.python.ops.distributions.transformed_distribution.TransformedDistribution._call_sample_n": 395
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/distributions/bijector_impl.py": [
+        {
+            "tensorflow.python.ops.distributions.bijector_impl.Bijector._call_forward": 740
+        },
+        {
+            "tensorflow.python.ops.distributions.bijector_impl.Bijector._call_inverse": 774
+        },
+        {
+            "tensorflow.python.ops.distributions.bijector_impl.Bijector._call_inverse_log_det_jacobian": 822
+        },
+        {
+            "tensorflow.python.ops.distributions.bijector_impl.Bijector._call_forward_log_det_jacobian": 921
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/distributions/distribution.py": [
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution.copy": 615
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_sample_n": 739
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_log_prob": 772
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_prob": 801
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_log_cdf": 830
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_cdf": 869
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_log_survival_function": 905
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_survival_function": 945
+        },
+        {
+            "tensorflow.python.ops.distributions.distribution.Distribution._call_quantile": 1000
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/linalg/linear_operator_test_util.py": [
+        {
+            "tensorflow.python.ops.linalg.linear_operator_test_util.OperatorShapesInfo.__init__": 52
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/ragged/ragged_functional_ops.py": [
+        {
+            "tensorflow.python.ops.ragged.ragged_functional_ops.map_flat_values": 33
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/ragged/ragged_gather_ops.py": [
+        {
+            "tensorflow.python.ops.ragged.ragged_gather_ops._ragged_gather_grad": 473
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/ops/ragged/ragged_tensor.py": [
+        {
+            "tensorflow.python.ops.ragged.ragged_tensor.RaggedTensor.stub": 1990
+        },
+        {
+            "tensorflow.python.ops.ragged.ragged_tensor.match_row_splits_dtypes": 2066
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/profiler/traceme.py": [
+        {
+            "tensorflow.python.profiler.traceme.wrapper": 29
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/profiler/trace.py": [
+        {
+            "tensorflow.python.profiler.trace.Trace.__init__": 52
+        },
+        {
+            "tensorflow.python.profiler.trace.Trace.set_metadata": 89
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/data/experimental/ops/grouping.py": [
+        {
+            "tensorflow.python.data.experimental.ops.grouping.element_to_bucket_id": 184
+        },
+        {
+            "tensorflow.python.data.experimental.ops.grouping._GroupByWindowDataset.key_func_wrapper": 407
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/data/experimental/ops/resampling.py": [
+        {
+            "tensorflow.python.data.experimental.ops.resampling.add_class_value": 90
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/data/experimental/ops/readers.py": [
+        {
+            "tensorflow.python.data.experimental.ops.readers.map_fn": 513
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/data/util/options.py": [
+        {
+            "tensorflow.python.data.util.options.merge_options": 89
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/data/util/nest.py": [
+        {
+            "tensorflow.python.data.util.nest.map_structure": 195
+        },
+        {
+            "tensorflow.python.data.util.nest.map_structure_up_to": 400
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/python/data/ops/dataset_ops.py": [
+        {
+            "tensorflow.python.data.ops.dataset_ops.DatasetV2._GeneratorState.get_next_id": 699
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.DatasetV2.range": 921
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.DatasetV1.range": 2444
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.StructuredFunctionWrapper._wrapper_helper": 3292
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.StructuredFunctionWrapper.wrapper_fn": 3330
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.StructuredFunctionWrapper.wrapper_fn": 3363
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.RangeDataset.__init__": 3570
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.RangeDataset._parse_args": 3581
+        },
+        {
+            "tensorflow.python.data.ops.dataset_ops.normalize": 4473
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/lite/experimental/examples/lstm/rnn_cell.py": [
+        {
+            "tensorflow.lite.experimental.examples.lstm.rnn_cell.TfLiteRNNCell.__init__": 46
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/lite/python/tflite_convert.py": [
+        {
+            "tensorflow.lite.python.tflite_convert._ParseExperimentalNewConverter.__init__": 538
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/lite/python/interpreter.py": [
+        {
+            "tensorflow.lite.python.interpreter._tf_export": 36
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/lite/python/convert.py": [
+        {
+            "tensorflow.lite.python.convert.toco_convert_graph_def": 485
+        },
+        {
+            "tensorflow.lite.python.convert.toco_convert_impl": 541
+        },
+        {
+            "tensorflow.lite.python.convert.toco_convert": 580
+        }
+    ],
+    "/home/zhang/Packages/tensorflow/tensorflow2.3.3/lite/python/op_hint.py": [
+        {
+            "tensorflow.lite.python.op_hint.OpHint.__init__": 312
+        },
+        {
+            "tensorflow.lite.python.op_hint.OpHint.add_input": 388
+        },
+        {
+            "tensorflow.lite.python.op_hint.OpHint.add_output": 410
+        },
+        {
+            "tensorflow.lite.python.op_hint.OpHint.add_inputs": 432
+        },
+        {
+            "tensorflow.lite.python.op_hint.OpHint.add_outputs": 451
+        }
+    ]
+}

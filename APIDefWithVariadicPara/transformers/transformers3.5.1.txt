@@ -1,0 +1,4668 @@
+{
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_fsmt.py": [
+        {
+            "transformers.modeling_fsmt.FSMTDecoder.forward": 609
+        },
+        {
+            "transformers.modeling_fsmt.FSMTModel.forward": 924
+        },
+        {
+            "transformers.modeling_fsmt.FSMTForConditionalGeneration.forward": 1061
+        },
+        {
+            "transformers.modeling_fsmt.FSMTForConditionalGeneration.prepare_inputs_for_generation": 1126
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/integrations.py": [
+        {
+            "transformers.integrations.run_hp_search_optuna": 133
+        },
+        {
+            "transformers.integrations.run_hp_search_ray": 156
+        },
+        {
+            "transformers.integrations.TensorBoardCallback.on_train_begin": 265
+        },
+        {
+            "transformers.integrations.TensorBoardCallback.on_log": 289
+        },
+        {
+            "transformers.integrations.TensorBoardCallback.on_train_end": 311
+        },
+        {
+            "transformers.integrations.WandbCallback.setup": 325
+        },
+        {
+            "transformers.integrations.WandbCallback.on_train_begin": 371
+        },
+        {
+            "transformers.integrations.WandbCallback.on_log": 377
+        },
+        {
+            "transformers.integrations.CometCallback.on_train_begin": 427
+        },
+        {
+            "transformers.integrations.CometCallback.on_log": 431
+        },
+        {
+            "transformers.integrations.AzureMLCallback.on_init_end": 450
+        },
+        {
+            "transformers.integrations.AzureMLCallback.on_log": 454
+        },
+        {
+            "transformers.integrations.MLflowCallback.on_train_begin": 500
+        },
+        {
+            "transformers.integrations.MLflowCallback.on_log": 504
+        },
+        {
+            "transformers.integrations.MLflowCallback.on_train_end": 522
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_xlnet.py": [
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetRelativeAttention.__init__": 66
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetFeedForward.__init__": 329
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetLayer.__init__": 356
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetLMHead.__init__": 400
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetMainLayer.__init__": 421
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetModel.__init__": 1129
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetModel.call": 1140
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetLMHeadModel.__init__": 1152
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetLMHeadModel.prepare_inputs_for_generation": 1160
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetForSequenceClassification.__init__": 1305
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetForMultipleChoice.__init__": 1399
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetForTokenClassification.__init__": 1546
+        },
+        {
+            "transformers.modeling_tf_xlnet.TFXLNetForQuestionAnsweringSimple.__init__": 1635
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_flax_auto.py": [
+        {
+            "transformers.modeling_flax_auto.FlaxAutoModel.from_pretrained": 92
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_utils_base.py": [
+        {
+            "transformers.tokenization_utils_base.SpecialTokensMixin.__init__": 688
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.__init__": 1391
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.from_pretrained": 1489
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase._from_pretrained": 1657
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.tokenize": 1906
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.encode": 1944
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase._get_padding_truncation_strategies": 1988
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.__call__": 2117
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.encode_plus": 2239
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase._encode_plus": 2308
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.batch_encode_plus": 2332
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase._batch_encode_plus": 2402
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.prepare_for_model": 2621
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.batch_decode": 2936
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase.decode": 2969
+        },
+        {
+            "transformers.tokenization_utils_base.PreTrainedTokenizerBase._decode": 3005
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_encoder_decoder.py": [
+        {
+            "transformers.configuration_encoder_decoder.EncoderDecoderConfig.__init__": 74
+        },
+        {
+            "transformers.configuration_encoder_decoder.EncoderDecoderConfig.from_encoder_decoder_configs": 91
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/optimization_tf.py": [
+        {
+            "transformers.optimization_tf.AdamWeightDecay.__init__": 191
+        },
+        {
+            "transformers.optimization_tf.AdamWeightDecay.apply_gradients": 230
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_utils.py": [
+        {
+            "transformers.tokenization_utils.PreTrainedTokenizer.__init__": 119
+        },
+        {
+            "transformers.tokenization_utils.PreTrainedTokenizer.tokenize": 230
+        },
+        {
+            "transformers.tokenization_utils.PreTrainedTokenizer._tokenize": 355
+        },
+        {
+            "transformers.tokenization_utils.PreTrainedTokenizer._encode_plus": 397
+        },
+        {
+            "transformers.tokenization_utils.PreTrainedTokenizer._batch_encode_plus": 480
+        },
+        {
+            "transformers.tokenization_utils.PreTrainedTokenizer.prepare_for_tokenization": 637
+        },
+        {
+            "transformers.tokenization_utils.PreTrainedTokenizer.prepare_seq2seq_batch": 763
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_ctrl.py": [
+        {
+            "transformers.configuration_ctrl.CTRLConfig.__init__": 81
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_gpt2.py": [
+        {
+            "transformers.configuration_gpt2.GPT2Config.__init__": 124
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/generation_tf_utils.py": [
+        {
+            "transformers.generation_tf_utils.TFGenerationMixin.prepare_inputs_for_generation": 32
+        },
+        {
+            "transformers.generation_tf_utils.TFGenerationMixin.adjust_logits_during_generation": 897
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_flax_roberta.py": [
+        {
+            "transformers.modeling_flax_roberta.FlaxRobertaModel.__init__": 406
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_albert.py": [
+        {
+            "transformers.configuration_albert.AlbertConfig.__init__": 104
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_phobert.py": [
+        {
+            "transformers.tokenization_phobert.PhobertTokenizer.__init__": 115
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_dpr.py": [
+        {
+            "transformers.tokenization_dpr.CustomDPRReaderTokenizerMixin.__call__": 202
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modelcard.py": [
+        {
+            "transformers.modelcard.ModelCard.__init__": 51
+        },
+        {
+            "transformers.modelcard.ModelCard.from_pretrained": 83
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_herbert_fast.py": [
+        {
+            "transformers.tokenization_herbert_fast.HerbertTokenizerFast.__init__": 61
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_roberta.py": [
+        {
+            "transformers.modeling_roberta.RobertaEncoder.custom_forward": 407
+        },
+        {
+            "transformers.modeling_roberta.RobertaForCausalLM.prepare_inputs_for_generation": 821
+        },
+        {
+            "transformers.modeling_roberta.RobertaForMaskedLM.forward": 861
+        },
+        {
+            "transformers.modeling_roberta.RobertaLMHead.forward": 941
+        },
+        {
+            "transformers.modeling_roberta.RobertaClassificationHead.forward": 1227
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_albert.py": [
+        {
+            "transformers.modeling_tf_albert.TFAlbertEmbeddings.__init__": 79
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertSelfOutput.__init__": 197
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertAttention.__init__": 215
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertLayer.__init__": 304
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertLayerGroup.__init__": 342
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertTransformer.__init__": 377
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertMLMHead.__init__": 447
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertMainLayer.__init__": 484
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertModel.__init__": 753
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertModel.call": 764
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertForPreTraining.__init__": 777
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertForPreTraining.call": 790
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertSOPHead.__init__": 827
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertForMaskedLM.__init__": 848
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertForSequenceClassification.__init__": 930
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertForTokenClassification.__init__": 1018
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertForQuestionAnswering.__init__": 1105
+        },
+        {
+            "transformers.modeling_tf_albert.TFAlbertForMultipleChoice.__init__": 1203
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_xlm_roberta.py": [
+        {
+            "transformers.tokenization_xlm_roberta.XLMRobertaTokenizer.__init__": 107
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_lxmert.py": [
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertVisualFeatureEncoder.__init__": 145
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertEmbeddings.__init__": 184
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertAttention.__init__": 290
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertIntermediate.__init__": 364
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertOutput.__init__": 383
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertAttentionOutput.__init__": 402
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertSelfAttentionLayer.__init__": 420
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertCrossAttentionLayer.__init__": 435
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertLayer.__init__": 457
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertXLayer.__init__": 473
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertEncoder.__init__": 578
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertMainLayer.__init__": 690
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertModel.__init__": 969
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertModel.call": 980
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertPooler.__init__": 986
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertPredictionHeadTransform.__init__": 1004
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertLMPredictionHead.__init__": 1025
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertMLMHead.__init__": 1046
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertPreTrainingHeads.__init__": 1057
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertVisualAnswerHead.__init__": 1074
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertVisualObjHead.__init__": 1100
+        },
+        {
+            "transformers.modeling_tf_lxmert.TFLxmertForPreTraining.__init__": 1135
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_blenderbot.py": [
+        {
+            "transformers.tokenization_blenderbot.BlenderbotSmallTokenizer.__init__": 130
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_blenderbot.py": [
+        {
+            "transformers.configuration_blenderbot.BlenderbotConfig.__init__": 108
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_bert_fast.py": [
+        {
+            "transformers.tokenization_bert_fast.BertTokenizerFast.__init__": 163
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_electra.py": [
+        {
+            "transformers.configuration_electra.ElectraConfig.__init__": 116
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_marian.py": [
+        {
+            "transformers.tokenization_marian.MarianTokenizer.__init__": 85
+        },
+        {
+            "transformers.tokenization_marian.MarianTokenizer.prepare_seq2seq_batch": 172
+        },
+        {
+            "transformers.tokenization_marian.MarianTokenizer.num_special_tokens_to_add": 243
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_flaubert.py": [
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertModel.__init__": 221
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertModel.call": 232
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertMultiHeadAttention.__init__": 241
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertTransformerFFN.__init__": 333
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertMainLayer.__init__": 354
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertPredLayer.__init__": 641
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertWithLMHeadModel.__init__": 707
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertWithLMHeadModel.prepare_inputs_for_generation": 715
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertWithLMHeadModel.call": 736
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertForSequenceClassification.__init__": 762
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertForQuestionAnsweringSimple.__init__": 777
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertForTokenClassification.__init__": 790
+        },
+        {
+            "transformers.modeling_tf_flaubert.TFFlaubertForMultipleChoice.__init__": 803
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_ctrl.py": [
+        {
+            "transformers.modeling_ctrl.CTRLModel.forward": 359
+        },
+        {
+            "transformers.modeling_ctrl.CTRLLMHeadModel.prepare_inputs_for_generation": 517
+        },
+        {
+            "transformers.modeling_ctrl.CTRLLMHeadModel.forward": 531
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_bert.py": [
+        {
+            "transformers.tokenization_bert.BertTokenizer.__init__": 164
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_longformer.py": [
+        {
+            "transformers.modeling_tf_longformer.TFLongformerLMHead.__init__": 233
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerEmbeddings.__init__": 269
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerIntermediate.__init__": 425
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerOutput.__init__": 446
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerPooler.__init__": 465
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerSelfOutput.__init__": 486
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerSelfAttention.__init__": 504
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerAttention.__init__": 1244
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerLayer.__init__": 1273
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerEncoder.__init__": 1302
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerMainLayer.__init__": 1376
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerModel.__init__": 1753
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerModel.call": 1759
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerForMaskedLM.__init__": 1773
+        },
+        {
+            "transformers.modeling_tf_longformer.TFLongformerForQuestionAnswering.__init__": 1859
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_retribert.py": [
+        {
+            "transformers.modeling_retribert.RetriBertModel.partial_encode": 121
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_t5.py": [
+        {
+            "transformers.modeling_t5.T5Model.forward": 964
+        },
+        {
+            "transformers.modeling_t5.T5ForConditionalGeneration.forward": 1108
+        },
+        {
+            "transformers.modeling_t5.T5ForConditionalGeneration.prepare_inputs_for_generation": 1253
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_xlm.py": [
+        {
+            "transformers.configuration_xlm.XLMConfig.__init__": 150
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_bert.py": [
+        {
+            "transformers.configuration_bert.BertConfig.__init__": 110
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_gpt2.py": [
+        {
+            "transformers.tokenization_gpt2.GPT2Tokenizer.__init__": 154
+        },
+        {
+            "transformers.tokenization_gpt2.GPT2Tokenizer.prepare_for_tokenization": 295
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_mobilebert.py": [
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertIntermediate.__init__": 71
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFLayerNorm.__init__": 89
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFNoNorm.__init__": 94
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertEmbeddings.__init__": 112
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertSelfAttention.__init__": 255
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertSelfOutput.__init__": 331
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertAttention.__init__": 352
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFOutputBottleneck.__init__": 381
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertOutput.__init__": 397
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFBottleneckLayer.__init__": 423
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFBottleneck.__init__": 437
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFFFNOutput.__init__": 473
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFFFNLayer.__init__": 487
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertLayer.__init__": 499
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertEncoder.__init__": 561
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertPooler.__init__": 604
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertPredictionHeadTransform.__init__": 627
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertLMPredictionHead.__init__": 646
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertMLMHead.__init__": 676
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertMainLayer.__init__": 689
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertModel.__init__": 959
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertModel.call": 970
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForPreTraining.__init__": 983
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForPreTraining.call": 994
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForMaskedLM.__init__": 1034
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertOnlyNSPHead.__init__": 1109
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForNextSentencePrediction.__init__": 1123
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForNextSentencePrediction.call": 1131
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForSequenceClassification.__init__": 1174
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForQuestionAnswering.__init__": 1262
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForMultipleChoice.__init__": 1360
+        },
+        {
+            "transformers.modeling_tf_mobilebert.TFMobileBertForTokenClassification.__init__": 1494
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_bart.py": [
+        {
+            "transformers.modeling_tf_bart.TFEncoderLayer.__init__": 222
+        },
+        {
+            "transformers.modeling_tf_bart.TFBartEncoder.__init__": 285
+        },
+        {
+            "transformers.modeling_tf_bart.TFDecoderLayer.__init__": 393
+        },
+        {
+            "transformers.modeling_tf_bart.TFBartDecoder.__init__": 501
+        },
+        {
+            "transformers.modeling_tf_bart.TFAttention.__init__": 644
+        },
+        {
+            "transformers.modeling_tf_bart.TFLearnedPositionalEmbedding.__init__": 780
+        },
+        {
+            "transformers.modeling_tf_bart.TFSinusoidalPositionalEmbedding.__init__": 803
+        },
+        {
+            "transformers.modeling_tf_bart.TFBartModel.__init__": 859
+        },
+        {
+            "transformers.modeling_tf_bart.TFBartModel.call": 899
+        },
+        {
+            "transformers.modeling_tf_bart.TFBartForConditionalGeneration.__init__": 1026
+        },
+        {
+            "transformers.modeling_tf_bart.TFBartForConditionalGeneration.call": 1037
+        },
+        {
+            "transformers.modeling_tf_bart.TFBartForConditionalGeneration.prepare_inputs_for_generation": 1152
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_openai.py": [
+        {
+            "transformers.modeling_openai.OpenAIGPTDoubleHeadsModel.forward": 634
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_bart.py": [
+        {
+            "transformers.configuration_bart.BartConfig.__init__": 114
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_funnel.py": [
+        {
+            "transformers.modeling_tf_funnel.TFFunnelEmbeddings.__init__": 80
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelRelMultiheadAttention.__init__": 422
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelPositionwiseFFN.__init__": 585
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelLayer.__init__": 605
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelEncoder.__init__": 619
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelDecoder.__init__": 706
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelBaseLayer.__init__": 766
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelMainLayer.__init__": 857
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelDiscriminatorPredictions.__init__": 974
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelMaskedLMHead.__init__": 989
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelClassificationHead.__init__": 1005
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelBaseModel.__init__": 1147
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelBaseModel.call": 1158
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelModel.__init__": 1167
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelModel.call": 1178
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelForPreTraining.__init__": 1189
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelForPreTraining.call": 1197
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelForMaskedLM.__init__": 1256
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelForSequenceClassification.__init__": 1331
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelForMultipleChoice.__init__": 1408
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelForTokenClassification.__init__": 1527
+        },
+        {
+            "transformers.modeling_tf_funnel.TFFunnelForQuestionAnswering.__init__": 1607
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_flax_bert.py": [
+        {
+            "transformers.modeling_flax_bert.FlaxBertModel.__init__": 395
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_t5.py": [
+        {
+            "transformers.configuration_t5.T5Config.__init__": 75
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_utils.py": [
+        {
+            "transformers.modeling_utils.Identity.__init__": 56
+        },
+        {
+            "transformers.modeling_utils.ModuleUtilsMixin._hook_rss_memory_pre_forward": 95
+        },
+        {
+            "transformers.modeling_utils.ModuleUtilsMixin._hook_rss_memory_post_forward": 107
+        },
+        {
+            "transformers.modeling_utils.PreTrainedModel.__init__": 426
+        },
+        {
+            "transformers.modeling_utils.PreTrainedModel.from_pretrained": 743
+        },
+        {
+            "transformers.modeling_utils.apply_chunking_to_forward": 1634
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_t5.py": [
+        {
+            "transformers.tokenization_t5.T5Tokenizer.__init__": 104
+        },
+        {
+            "transformers.tokenization_t5.T5Tokenizer.prepare_seq2seq_batch": 269
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/trainer_callback.py": [
+        {
+            "transformers.trainer_callback.TrainerCallback.on_init_end": 204
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_train_begin": 210
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_train_end": 216
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_epoch_begin": 222
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_epoch_end": 228
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_step_begin": 234
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_step_end": 241
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_evaluate": 248
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_save": 254
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_log": 260
+        },
+        {
+            "transformers.trainer_callback.TrainerCallback.on_prediction_step": 266
+        },
+        {
+            "transformers.trainer_callback.CallbackHandler.call_event": 371
+        },
+        {
+            "transformers.trainer_callback.DefaultFlowCallback.on_step_end": 396
+        },
+        {
+            "transformers.trainer_callback.DefaultFlowCallback.on_epoch_end": 419
+        },
+        {
+            "transformers.trainer_callback.ProgressCallback.on_train_begin": 436
+        },
+        {
+            "transformers.trainer_callback.ProgressCallback.on_step_end": 441
+        },
+        {
+            "transformers.trainer_callback.ProgressCallback.on_prediction_step": 446
+        },
+        {
+            "transformers.trainer_callback.ProgressCallback.on_evaluate": 452
+        },
+        {
+            "transformers.trainer_callback.ProgressCallback.on_log": 458
+        },
+        {
+            "transformers.trainer_callback.ProgressCallback.on_train_end": 463
+        },
+        {
+            "transformers.trainer_callback.PrinterCallback.on_log": 474
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_xlm.py": [
+        {
+            "transformers.modeling_tf_xlm.TFXLMMultiHeadAttention.__init__": 120
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMTransformerFFN.__init__": 211
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMMainLayer.__init__": 232
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMModel.__init__": 695
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMModel.call": 706
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMPredLayer.__init__": 716
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMWithLMHeadModel.__init__": 756
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMWithLMHeadModel.prepare_inputs_for_generation": 764
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMWithLMHeadModel.call": 785
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMForSequenceClassification.__init__": 809
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMForMultipleChoice.__init__": 895
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMForTokenClassification.__init__": 1049
+        },
+        {
+            "transformers.modeling_tf_xlm.TFXLMForQuestionAnsweringSimple.__init__": 1139
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_longformer.py": [
+        {
+            "transformers.configuration_longformer.LongformerConfig.__init__": 69
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_transfo_xl.py": [
+        {
+            "transformers.configuration_transfo_xl.TransfoXLConfig.__init__": 112
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_gpt2_fast.py": [
+        {
+            "transformers.tokenization_gpt2_fast.GPT2TokenizerFast.__init__": 123
+        },
+        {
+            "transformers.tokenization_gpt2_fast.GPT2TokenizerFast._batch_encode_plus": 153
+        },
+        {
+            "transformers.tokenization_gpt2_fast.GPT2TokenizerFast._encode_plus": 169
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/convert_dpr_original_checkpoint_to_pytorch.py": [
+        {
+            "transformers.convert_dpr_original_checkpoint_to_pytorch.DPRState.from_type": 30
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/trainer.py": [
+        {
+            "transformers.trainer.Trainer.__init__": 220
+        },
+        {
+            "transformers.trainer.Trainer.hyperparameter_search": 961
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_funnel_fast.py": [
+        {
+            "transformers.tokenization_funnel_fast.FunnelTokenizerFast.__init__": 89
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_albert.py": [
+        {
+            "transformers.modeling_albert.AlbertForPreTraining.forward": 732
+        },
+        {
+            "transformers.modeling_albert.AlbertForMaskedLM.forward": 889
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_transfo_xl.py": [
+        {
+            "transformers.modeling_tf_transfo_xl.TFPositionalEmbedding.__init__": 50
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFPositionwiseFF.__init__": 66
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFRelPartialLearnableMultiHeadAttn.__init__": 109
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFRelPartialLearnableDecoderLayer.__init__": 259
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFAdaptiveEmbedding.__init__": 311
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFTransfoXLMainLayer.__init__": 386
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFTransfoXLModel.__init__": 807
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFTransfoXLModel.call": 818
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFTransfoXLMHead.__init__": 824
+        },
+        {
+            "transformers.modeling_tf_transfo_xl.TFTransfoXLLMHeadModel.prepare_inputs_for_generation": 955
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_funnel.py": [
+        {
+            "transformers.configuration_funnel.FunnelConfig.__init__": 106
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_openai_fast.py": [
+        {
+            "transformers.tokenization_openai_fast.OpenAIGPTTokenizerFast.__init__": 67
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_roberta_fast.py": [
+        {
+            "transformers.tokenization_roberta_fast.RobertaTokenizerFast.__init__": 143
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_xlnet_fast.py": [
+        {
+            "transformers.tokenization_xlnet_fast.XLNetTokenizerFast.__init__": 124
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_openai.py": [
+        {
+            "transformers.tokenization_openai.OpenAIGPTTokenizer.__init__": 99
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/hf_argparser.py": [
+        {
+            "transformers.hf_argparser.HfArgumentParser.__init__": 25
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_transfo_xl_utilities.py": [
+        {
+            "transformers.modeling_tf_transfo_xl_utilities.TFAdaptiveSoftmaxMask.__init__": 27
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_xlm.py": [
+        {
+            "transformers.tokenization_xlm.XLMTokenizer.__init__": 588
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_xlnet.py": [
+        {
+            "transformers.configuration_xlnet.XLNetConfig.__init__": 132
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_openai.py": [
+        {
+            "transformers.configuration_openai.OpenAIGPTConfig.__init__": 116
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_xlm_prophetnet.py": [
+        {
+            "transformers.tokenization_xlm_prophetnet.XLMProphetNetTokenizer.__init__": 109
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_fsmt.py": [
+        {
+            "transformers.configuration_fsmt.FSMTConfig.__init__": 124
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_squeezebert.py": [
+        {
+            "transformers.configuration_squeezebert.SqueezeBertConfig.__init__": 105
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_deberta.py": [
+        {
+            "transformers.configuration_deberta.DebertaConfig.__init__": 88
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_albert.py": [
+        {
+            "transformers.tokenization_albert.AlbertTokenizer.__init__": 114
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_mbart_fast.py": [
+        {
+            "transformers.tokenization_mbart_fast.MBartTokenizerFast.__init__": 104
+        },
+        {
+            "transformers.tokenization_mbart_fast.MBartTokenizerFast.prepare_seq2seq_batch": 174
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_flaubert.py": [
+        {
+            "transformers.configuration_flaubert.FlaubertConfig.__init__": 137
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_roberta.py": [
+        {
+            "transformers.modeling_tf_roberta.TFRobertaEmbeddings.__init__": 72
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaPooler.__init__": 228
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaSelfAttention.__init__": 249
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaSelfOutput.__init__": 321
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaAttention.__init__": 340
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaIntermediate.__init__": 361
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaOutput.__init__": 382
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaLayer.__init__": 401
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaEncoder.__init__": 422
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaMainLayer.__init__": 468
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaModel.__init__": 716
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaModel.call": 727
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaLMHead.__init__": 735
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaForMaskedLM.__init__": 770
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaClassificationHead.__init__": 849
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaForSequenceClassification.__init__": 882
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaForMultipleChoice.__init__": 962
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaForTokenClassification.__init__": 1089
+        },
+        {
+            "transformers.modeling_tf_roberta.TFRobertaForQuestionAnswering.__init__": 1176
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_mbart.py": [
+        {
+            "transformers.tokenization_mbart.MBartTokenizer.__init__": 96
+        },
+        {
+            "transformers.tokenization_mbart.MBartTokenizer.prepare_seq2seq_batch": 176
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_xlm_roberta_fast.py": [
+        {
+            "transformers.tokenization_xlm_roberta_fast.XLMRobertaTokenizerFast.__init__": 120
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_auto.py": [
+        {
+            "transformers.modeling_auto.AutoModel.from_pretrained": 614
+        },
+        {
+            "transformers.modeling_auto.AutoModelForPreTraining.from_pretrained": 709
+        },
+        {
+            "transformers.modeling_auto.AutoModelWithLMHead.from_pretrained": 815
+        },
+        {
+            "transformers.modeling_auto.AutoModelForCausalLM.from_pretrained": 915
+        },
+        {
+            "transformers.modeling_auto.AutoModelForMaskedLM.from_pretrained": 1009
+        },
+        {
+            "transformers.modeling_auto.AutoModelForSeq2SeqLM.from_pretrained": 1105
+        },
+        {
+            "transformers.modeling_auto.AutoModelForSequenceClassification.from_pretrained": 1203
+        },
+        {
+            "transformers.modeling_auto.AutoModelForQuestionAnswering.from_pretrained": 1301
+        },
+        {
+            "transformers.modeling_auto.AutoModelForTokenClassification.from_pretrained": 1400
+        },
+        {
+            "transformers.modeling_auto.AutoModelForMultipleChoice.from_pretrained": 1500
+        },
+        {
+            "transformers.modeling_auto.AutoModelForNextSentencePrediction.from_pretrained": 1600
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_rag.py": [
+        {
+            "transformers.tokenization_rag.RagTokenizer.from_pretrained": 43
+        },
+        {
+            "transformers.tokenization_rag.RagTokenizer.__call__": 58
+        },
+        {
+            "transformers.tokenization_rag.RagTokenizer.batch_decode": 61
+        },
+        {
+            "transformers.tokenization_rag.RagTokenizer.prepare_seq2seq_batch": 65
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_bert_japanese.py": [
+        {
+            "transformers.tokenization_bert_japanese.BertJapaneseTokenizer.__init__": 80
+        },
+        {
+            "transformers.tokenization_bert_japanese.MecabTokenizer.tokenize": 286
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_openai.py": [
+        {
+            "transformers.modeling_tf_openai.TFAttention.__init__": 60
+        },
+        {
+            "transformers.modeling_tf_openai.TFMLP.__init__": 154
+        },
+        {
+            "transformers.modeling_tf_openai.TFBlock.__init__": 170
+        },
+        {
+            "transformers.modeling_tf_openai.TFOpenAIGPTMainLayer.__init__": 194
+        },
+        {
+            "transformers.modeling_tf_openai.TFOpenAIGPTModel.__init__": 494
+        },
+        {
+            "transformers.modeling_tf_openai.TFOpenAIGPTModel.call": 505
+        },
+        {
+            "transformers.modeling_tf_openai.TFOpenAIGPTLMHeadModel.__init__": 518
+        },
+        {
+            "transformers.modeling_tf_openai.TFOpenAIGPTDoubleHeadsModel.__init__": 604
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/testing_utils.py": [
+        {
+            "transformers.testing_utils.CaptureStd.__exit__": 418
+        },
+        {
+            "transformers.testing_utils.CaptureLogger.__exit__": 489
+        },
+        {
+            "transformers.testing_utils.mockenv": 710
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_t5_fast.py": [
+        {
+            "transformers.tokenization_t5_fast.T5TokenizerFast.__init__": 118
+        },
+        {
+            "transformers.tokenization_t5_fast.T5TokenizerFast.prepare_seq2seq_batch": 195
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_lxmert.py": [
+        {
+            "transformers.modeling_lxmert.LxmertForPreTraining.forward": 1149
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_retribert.py": [
+        {
+            "transformers.configuration_retribert.RetriBertConfig.__init__": 73
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_bert_generation.py": [
+        {
+            "transformers.tokenization_bert_generation.BertGenerationTokenizer.__init__": 62
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_distilbert.py": [
+        {
+            "transformers.modeling_distilbert.DistilBertForMaskedLM.forward": 519
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_bart.py": [
+        {
+            "transformers.tokenization_bart.BartTokenizer.prepare_seq2seq_batch": 57
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_dpr.py": [
+        {
+            "transformers.configuration_dpr.DPRConfig.__init__": 80
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_reformer_fast.py": [
+        {
+            "transformers.tokenization_reformer_fast.ReformerTokenizerFast.__init__": 99
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_prophetnet.py": [
+        {
+            "transformers.configuration_prophetnet.ProphetNetConfig.__init__": 96
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_camembert_fast.py": [
+        {
+            "transformers.tokenization_camembert_fast.CamembertTokenizerFast.__init__": 116
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_utils.py": [
+        {
+            "transformers.configuration_utils.PretrainedConfig.__init__": 164
+        },
+        {
+            "transformers.configuration_utils.PretrainedConfig.from_pretrained": 285
+        },
+        {
+            "transformers.configuration_utils.PretrainedConfig.get_config_dict": 351
+        },
+        {
+            "transformers.configuration_utils.PretrainedConfig.from_dict": 418
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_herbert.py": [
+        {
+            "transformers.tokenization_herbert.HerbertTokenizer.__init__": 57
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/pipelines.py": [
+        {
+            "transformers.pipelines.ArgumentHandler.__call__": 184
+        },
+        {
+            "transformers.pipelines.Pipeline.ensure_tensor_on_device": 591
+        },
+        {
+            "transformers.pipelines.Pipeline._parse_and_tokenize": 620
+        },
+        {
+            "transformers.pipelines.Pipeline.__call__": 634
+        },
+        {
+            "transformers.pipelines.FeatureExtractionPipeline.__call__": 724
+        },
+        {
+            "transformers.pipelines.TextGenerationPipeline.__init__": 779
+        },
+        {
+            "transformers.pipelines.TextGenerationPipeline._parse_and_tokenize": 786
+        },
+        {
+            "transformers.pipelines.TextGenerationPipeline.__call__": 805
+        },
+        {
+            "transformers.pipelines.TextClassificationPipeline.__init__": 948
+        },
+        {
+            "transformers.pipelines.TextClassificationPipeline.__call__": 959
+        },
+        {
+            "transformers.pipelines.ZeroShotClassificationPipeline.__init__": 1043
+        },
+        {
+            "transformers.pipelines.ZeroShotClassificationPipeline._parse_and_tokenize": 1059
+        },
+        {
+            "transformers.pipelines.FillMaskPipeline.__init__": 1175
+        },
+        {
+            "transformers.pipelines.FillMaskPipeline.__call__": 1224
+        },
+        {
+            "transformers.pipelines.TokenClassificationArgumentHandler.__call__": 1333
+        },
+        {
+            "transformers.pipelines.TokenClassificationPipeline.__call__": 1417
+        },
+        {
+            "transformers.pipelines.QuestionAnsweringArgumentHandler.__call__": 1620
+        },
+        {
+            "transformers.pipelines.QuestionAnsweringPipeline.__init__": 1671
+        },
+        {
+            "transformers.pipelines.QuestionAnsweringPipeline.__call__": 1719
+        },
+        {
+            "transformers.pipelines.SummarizationPipeline.__init__": 1964
+        },
+        {
+            "transformers.pipelines.SummarizationPipeline.__call__": 1972
+        },
+        {
+            "transformers.pipelines.TranslationPipeline.__init__": 2085
+        },
+        {
+            "transformers.pipelines.TranslationPipeline.__call__": 2092
+        },
+        {
+            "transformers.pipelines.Text2TextGenerationPipeline.__init__": 2194
+        },
+        {
+            "transformers.pipelines.Text2TextGenerationPipeline.__call__": 2203
+        },
+        {
+            "transformers.pipelines.ConversationalPipeline.__init__": 2419
+        },
+        {
+            "transformers.pipelines.ConversationalPipeline.__call__": 2429
+        },
+        {
+            "transformers.pipelines.ConversationalPipeline._parse_and_tokenize": 2529
+        },
+        {
+            "transformers.pipelines.pipeline": 2731
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_gpt2.py": [
+        {
+            "transformers.modeling_tf_gpt2.TFAttention.__init__": 64
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFMLP.__init__": 166
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFBlock.__init__": 182
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFGPT2MainLayer.__init__": 211
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFGPT2Model.__init__": 556
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFGPT2Model.call": 567
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFGPT2LMHeadModel.__init__": 580
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFGPT2LMHeadModel.prepare_inputs_for_generation": 587
+        },
+        {
+            "transformers.modeling_tf_gpt2.TFGPT2DoubleHeadsModel.__init__": 679
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_longformer.py": [
+        {
+            "transformers.modeling_longformer.LongformerEncoder.custom_forward": 1071
+        },
+        {
+            "transformers.modeling_longformer.LongformerLMHead.forward": 1148
+        },
+        {
+            "transformers.modeling_longformer.LongformerForMaskedLM.forward": 1500
+        },
+        {
+            "transformers.modeling_longformer.LongformerClassificationHead.forward": 1681
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_prophetnet.py": [
+        {
+            "transformers.modeling_prophetnet.ProphetNetForConditionalGeneration.prepare_inputs_for_generation": 1819
+        },
+        {
+            "transformers.modeling_prophetnet.ProphetNetForCausalLM.prepare_inputs_for_generation": 2036
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/hf_api.py": [
+        {
+            "transformers.hf_api.RepoObj.__init__": 35
+        },
+        {
+            "transformers.hf_api.S3Obj.__init__": 47
+        },
+        {
+            "transformers.hf_api.PresignedUrl.__init__": 55
+        },
+        {
+            "transformers.hf_api.ModelSibling.__init__": 66
+        },
+        {
+            "transformers.hf_api.ModelInfo.__init__": 77
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/retrieval_rag.py": [
+        {
+            "transformers.retrieval_rag.RagRetriever.from_pretrained": 414
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_auto.py": [
+        {
+            "transformers.configuration_auto.AutoConfig.for_model": 245
+        },
+        {
+            "transformers.configuration_auto.AutoConfig.from_pretrained": 257
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_albert_fast.py": [
+        {
+            "transformers.tokenization_albert_fast.AlbertTokenizerFast.__init__": 120
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_reformer.py": [
+        {
+            "transformers.tokenization_reformer.ReformerTokenizer.__init__": 89
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_fsmt.py": [
+        {
+            "transformers.tokenization_fsmt.FSMTTokenizer.__init__": 183
+        },
+        {
+            "transformers.tokenization_fsmt.FSMTTokenizer.prepare_seq2seq_batch": 488
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_ctrl.py": [
+        {
+            "transformers.tokenization_ctrl.CTRLTokenizer.__init__": 141
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_roberta.py": [
+        {
+            "transformers.tokenization_roberta.RobertaTokenizer.__init__": 135
+        },
+        {
+            "transformers.tokenization_roberta.RobertaTokenizer.prepare_for_tokenization": 253
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_bart_fast.py": [
+        {
+            "transformers.tokenization_bart_fast.BartTokenizerFast.prepare_seq2seq_batch": 52
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_electra.py": [
+        {
+            "transformers.modeling_tf_electra.TFElectraSelfAttention.__init__": 59
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraSelfOutput.__init__": 131
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraAttention.__init__": 150
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraIntermediate.__init__": 171
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraOutput.__init__": 192
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraLayer.__init__": 211
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraEncoder.__init__": 232
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraPooler.__init__": 276
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraEmbeddings.__init__": 298
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraDiscriminatorPredictions.__init__": 418
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraGeneratorPredictions.__init__": 434
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraMainLayer.__init__": 462
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraModel.__init__": 717
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraModel.call": 729
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForPreTraining.__init__": 746
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForPreTraining.call": 754
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraMaskedLMHead.__init__": 816
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForMaskedLM.__init__": 844
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForMaskedLM.call": 868
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraClassificationHead.__init__": 938
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraClassificationHead.call": 949
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForSequenceClassification.__init__": 968
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForSequenceClassification.call": 981
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForMultipleChoice.__init__": 1054
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForTokenClassification.__init__": 1186
+        },
+        {
+            "transformers.modeling_tf_electra.TFElectraForQuestionAnswering.__init__": 1269
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_t5.py": [
+        {
+            "transformers.modeling_tf_t5.TFT5LayerNorm.__init__": 72
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5DenseReluDense.__init__": 91
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5LayerFF.__init__": 107
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5Attention.__init__": 123
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5LayerSelfAttention.__init__": 320
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5LayerCrossAttention.__init__": 360
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5Block.__init__": 404
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5MainLayer.__init__": 515
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5MainLayer.call": 553
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5Model.__init__": 942
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5Model.call": 985
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5ForConditionalGeneration.__init__": 1138
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5ForConditionalGeneration.call": 1182
+        },
+        {
+            "transformers.modeling_tf_t5.TFT5ForConditionalGeneration.prepare_inputs_for_generation": 1367
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_xlm.py": [
+        {
+            "transformers.modeling_xlm.XLMPreTrainedModel.__init__": 241
+        },
+        {
+            "transformers.modeling_xlm.XLMWithLMHeadModel.prepare_inputs_for_generation": 693
+        },
+        {
+            "transformers.modeling_xlm.XLMForMultipleChoice.__init__": 1178
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_flaubert.py": [
+        {
+            "transformers.tokenization_flaubert.FlaubertTokenizer.__init__": 98
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_bart.py": [
+        {
+            "transformers.modeling_bart.BartDecoder.forward": 520
+        },
+        {
+            "transformers.modeling_bart.BartModel.forward": 864
+        },
+        {
+            "transformers.modeling_bart.BartForConditionalGeneration.forward": 996
+        },
+        {
+            "transformers.modeling_bart.BartForConditionalGeneration.prepare_inputs_for_generation": 1098
+        },
+        {
+            "transformers.modeling_bart.BartForSequenceClassification.__init__": 1148
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_camembert.py": [
+        {
+            "transformers.tokenization_camembert.CamembertTokenizer.__init__": 105
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_bert.py": [
+        {
+            "transformers.modeling_bert.BertEncoder.custom_forward": 463
+        },
+        {
+            "transformers.modeling_bert.BertForPreTraining.forward": 886
+        },
+        {
+            "transformers.modeling_bert.BertLMHeadModel.prepare_inputs_for_generation": 1085
+        },
+        {
+            "transformers.modeling_bert.BertForMaskedLM.forward": 1125
+        },
+        {
+            "transformers.modeling_bert.BertForMaskedLM.prepare_inputs_for_generation": 1193
+        },
+        {
+            "transformers.modeling_bert.BertForNextSentencePrediction.forward": 1223
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_electra.py": [
+        {
+            "transformers.modeling_electra.ElectraEncoder.custom_forward": 459
+        },
+        {
+            "transformers.modeling_electra.ElectraClassificationHead.forward": 778
+        },
+        {
+            "transformers.modeling_electra.ElectraForMaskedLM.forward": 991
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_roberta.py": [
+        {
+            "transformers.configuration_roberta.RobertaConfig.__init__": 62
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_layoutlm.py": [
+        {
+            "transformers.configuration_layoutlm.LayoutLMConfig.__init__": 91
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_layoutlm.py": [
+        {
+            "transformers.modeling_layoutlm.LayoutLMEncoder.custom_forward": 393
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/generation_beam_search.py": [
+        {
+            "transformers.generation_beam_search.BeamScorer.process": 95
+        },
+        {
+            "transformers.generation_beam_search.BeamScorer.finalize": 107
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_distilbert.py": [
+        {
+            "transformers.configuration_distilbert.DistilBertConfig.__init__": 94
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/generation_utils.py": [
+        {
+            "transformers.generation_utils.GenerationMixin.prepare_inputs_for_generation": 46
+        },
+        {
+            "transformers.generation_utils.GenerationMixin.adjust_logits_during_generation": 53
+        },
+        {
+            "transformers.generation_utils.GenerationMixin._prepare_decoder_input_ids_for_generation": 87
+        },
+        {
+            "transformers.generation_utils.GenerationMixin._expand_inputs_for_generation": 134
+        },
+        {
+            "transformers.generation_utils.GenerationMixin.generate": 282
+        },
+        {
+            "transformers.generation_utils.GenerationMixin.greedy_search": 599
+        },
+        {
+            "transformers.generation_utils.GenerationMixin.sample": 716
+        },
+        {
+            "transformers.generation_utils.GenerationMixin.beam_search": 847
+        },
+        {
+            "transformers.generation_utils.GenerationMixin.beam_sample": 1011
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_utils_fast.py": [
+        {
+            "transformers.tokenization_utils_fast.PreTrainedTokenizerFast.__init__": 81
+        },
+        {
+            "transformers.tokenization_utils_fast.PreTrainedTokenizerFast.tokenize": 289
+        },
+        {
+            "transformers.tokenization_utils_fast.PreTrainedTokenizerFast._batch_encode_plus": 339
+        },
+        {
+            "transformers.tokenization_utils_fast.PreTrainedTokenizerFast._encode_plus": 426
+        },
+        {
+            "transformers.tokenization_utils_fast.PreTrainedTokenizerFast._decode": 491
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/convert_slow_tokenizer.py": [
+        {
+            "transformers.convert_slow_tokenizer.SpmConverter.__init__": 294
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_xlnet.py": [
+        {
+            "transformers.tokenization_xlnet.XLNetTokenizer.__init__": 113
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_reformer.py": [
+        {
+            "transformers.configuration_reformer.ReformerConfig.__init__": 157
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_deberta.py": [
+        {
+            "transformers.tokenization_deberta.DebertaTokenizer.__init__": 521
+        },
+        {
+            "transformers.tokenization_deberta.DebertaTokenizer.prepare_for_tokenization": 667
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_encoder_decoder.py": [
+        {
+            "transformers.modeling_encoder_decoder.EncoderDecoderModel.from_encoder_decoder_pretrained": 198
+        },
+        {
+            "transformers.modeling_encoder_decoder.EncoderDecoderModel.forward": 340
+        },
+        {
+            "transformers.modeling_encoder_decoder.EncoderDecoderModel.prepare_inputs_for_generation": 435
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_bert.py": [
+        {
+            "transformers.modeling_tf_bert.TFBertEmbeddings.__init__": 94
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertSelfAttention.__init__": 212
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertSelfOutput.__init__": 283
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertAttention.__init__": 301
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertIntermediate.__init__": 321
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertOutput.__init__": 341
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertLayer.__init__": 359
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertEncoder.__init__": 379
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertPooler.__init__": 422
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertPredictionHeadTransform.__init__": 442
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertLMPredictionHead.__init__": 465
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertMLMHead.__init__": 489
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertNSPHead.__init__": 501
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertMainLayer.__init__": 518
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertModel.__init__": 791
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertModel.call": 803
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForPreTraining.__init__": 817
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForPreTraining.call": 829
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForMaskedLM.__init__": 869
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertLMHeadModel.__init__": 954
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForNextSentencePrediction.__init__": 1040
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForNextSentencePrediction.call": 1048
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForSequenceClassification.__init__": 1091
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForMultipleChoice.__init__": 1175
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForTokenClassification.__init__": 1308
+        },
+        {
+            "transformers.modeling_tf_bert.TFBertForQuestionAnswering.__init__": 1394
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_funnel.py": [
+        {
+            "transformers.tokenization_funnel.FunnelTokenizer.__init__": 75
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_transfo_xl.py": [
+        {
+            "transformers.modeling_transfo_xl.RelPartialLearnableDecoderLayer.__init__": 377
+        },
+        {
+            "transformers.modeling_transfo_xl.TransfoXLLMHeadModel.prepare_inputs_for_generation": 1094
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_prophetnet.py": [
+        {
+            "transformers.tokenization_prophetnet.ProphetNetTokenizer.__init__": 106
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_dpr_fast.py": [
+        {
+            "transformers.tokenization_dpr_fast.CustomDPRReaderTokenizerMixin.__call__": 203
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_mobilebert.py": [
+        {
+            "transformers.modeling_mobilebert.MobileBertForMaskedLM.forward": 1098
+        },
+        {
+            "transformers.modeling_mobilebert.MobileBertForNextSentencePrediction.forward": 1189
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_gpt2.py": [
+        {
+            "transformers.modeling_gpt2.GPT2PreTrainedModel.__init__": 338
+        },
+        {
+            "transformers.modeling_gpt2.GPT2Model.forward": 516
+        },
+        {
+            "transformers.modeling_gpt2.GPT2Model.custom_forward": 635
+        },
+        {
+            "transformers.modeling_gpt2.GPT2LMHeadModel.prepare_inputs_for_generation": 710
+        },
+        {
+            "transformers.modeling_gpt2.GPT2LMHeadModel.forward": 741
+        },
+        {
+            "transformers.modeling_gpt2.GPT2DoubleHeadsModel.prepare_inputs_for_generation": 838
+        },
+        {
+            "transformers.modeling_gpt2.GPT2DoubleHeadsModel.forward": 851
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_bert_generation.py": [
+        {
+            "transformers.modeling_bert_generation.BertGenerationDecoder.prepare_inputs_for_generation": 511
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_bert_generation.py": [
+        {
+            "transformers.configuration_bert_generation.BertGenerationConfig.__init__": 73
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/trainer_tf.py": [
+        {
+            "transformers.trainer_tf.TFTrainer.__init__": 73
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_mobilebert.py": [
+        {
+            "transformers.configuration_mobilebert.MobileBertConfig.__init__": 105
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_flax_utils.py": [
+        {
+            "transformers.modeling_flax_utils.FlaxPreTrainedModel.from_pretrained": 97
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_pegasus_fast.py": [
+        {
+            "transformers.tokenization_pegasus_fast.PegasusTokenizerFast.prepare_seq2seq_batch": 92
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_bertweet.py": [
+        {
+            "transformers.tokenization_bertweet.BertweetTokenizer.__init__": 117
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_rag.py": [
+        {
+            "transformers.configuration_rag.RagConfig.__init__": 83
+        },
+        {
+            "transformers.configuration_rag.RagConfig.from_question_encoder_generator_configs": 160
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_distilbert.py": [
+        {
+            "transformers.modeling_tf_distilbert.TFEmbeddings.__init__": 71
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFMultiHeadSelfAttention.__init__": 174
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFFFN.__init__": 260
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFTransformerBlock.__init__": 283
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFTransformer.__init__": 332
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertMainLayer.__init__": 390
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertModel.__init__": 578
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertModel.call": 589
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertLMHead.__init__": 595
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertForMaskedLM.__init__": 618
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertForSequenceClassification.__init__": 705
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertForTokenClassification.__init__": 793
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertForMultipleChoice.__init__": 873
+        },
+        {
+            "transformers.modeling_tf_distilbert.TFDistilBertForQuestionAnswering.__init__": 1002
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_transfo_xl.py": [
+        {
+            "transformers.tokenization_transfo_xl.TransfoXLTokenizer.__init__": 156
+        },
+        {
+            "transformers.tokenization_transfo_xl.TransfoXLCorpus.from_pretrained": 664
+        },
+        {
+            "transformers.tokenization_transfo_xl.TransfoXLCorpus.__init__": 707
+        },
+        {
+            "transformers.tokenization_transfo_xl.TransfoXLCorpus.get_iterator": 748
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_reformer.py": [
+        {
+            "transformers.modeling_reformer.LSHSelfAttention.forward": 358
+        },
+        {
+            "transformers.modeling_reformer.LocalSelfAttention.forward": 1043
+        },
+        {
+            "transformers.modeling_reformer.ReformerModelWithLMHead.prepare_inputs_for_generation": 2268
+        },
+        {
+            "transformers.modeling_reformer.ReformerClassificationHead.forward": 2466
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_auto.py": [
+        {
+            "transformers.modeling_tf_auto.TFAutoModel.from_pretrained": 497
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForPreTraining.from_pretrained": 592
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelWithLMHead.from_pretrained": 698
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForCausalLM.from_pretrained": 799
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForMaskedLM.from_pretrained": 893
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForSeq2SeqLM.from_pretrained": 989
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForSequenceClassification.from_pretrained": 1087
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForQuestionAnswering.from_pretrained": 1184
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForTokenClassification.from_pretrained": 1281
+        },
+        {
+            "transformers.modeling_tf_auto.TFAutoModelForMultipleChoice.from_pretrained": 1379
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_ctrl.py": [
+        {
+            "transformers.modeling_tf_ctrl.TFMultiHeadAttention.__init__": 90
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFPointWiseFeedForwardLayer.__init__": 143
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFEncoderLayer.__init__": 157
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFCTRLMainLayer.__init__": 206
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFCTRLModel.__init__": 546
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFCTRLModel.call": 557
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFCTRLLMHead.__init__": 563
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFCTRLLMHeadModel.__init__": 589
+        },
+        {
+            "transformers.modeling_tf_ctrl.TFCTRLLMHeadModel.prepare_inputs_for_generation": 598
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_rag.py": [
+        {
+            "transformers.modeling_rag.RagPreTrainedModel.from_pretrained_question_encoder_generator": 222
+        },
+        {
+            "transformers.modeling_rag.RagModel.__init__": 465
+        },
+        {
+            "transformers.modeling_rag.RagSequenceForGeneration.__init__": 669
+        },
+        {
+            "transformers.modeling_rag.RagSequenceForGeneration.forward": 693
+        },
+        {
+            "transformers.modeling_rag.RagSequenceForGeneration.generate": 820
+        },
+        {
+            "transformers.modeling_rag.RagTokenForGeneration.__init__": 993
+        },
+        {
+            "transformers.modeling_rag.RagTokenForGeneration.prepare_inputs_for_generation": 1019
+        },
+        {
+            "transformers.modeling_rag.RagTokenForGeneration.forward": 1092
+        },
+        {
+            "transformers.modeling_rag.RagTokenForGeneration.generate": 1215
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_auto.py": [
+        {
+            "transformers.tokenization_auto.AutoTokenizer.from_pretrained": 239
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/configuration_lxmert.py": [
+        {
+            "transformers.configuration_lxmert.LxmertConfig.__init__": 117
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/tokenization_pegasus.py": [
+        {
+            "transformers.tokenization_pegasus.PegasusTokenizer.__init__": 50
+        },
+        {
+            "transformers.tokenization_pegasus.PegasusTokenizer.prepare_seq2seq_batch": 131
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_xlnet.py": [
+        {
+            "transformers.modeling_xlnet.XLNetLMHeadModel.prepare_inputs_for_generation": 1302
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/modeling_tf_utils.py": [
+        {
+            "transformers.modeling_tf_utils.wrapped_init": 88
+        },
+        {
+            "transformers.modeling_tf_utils.TFPreTrainedModel.__init__": 339
+        },
+        {
+            "transformers.modeling_tf_utils.TFPreTrainedModel.from_pretrained": 511
+        },
+        {
+            "transformers.modeling_tf_utils.TFConv1D.__init__": 779
+        },
+        {
+            "transformers.modeling_tf_utils.TFSharedEmbeddings.__init__": 821
+        },
+        {
+            "transformers.modeling_tf_utils.TFSequenceSummary.__init__": 932
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/utils/dummy_sentencepiece_objects.py": [
+        {
+            "transformers.utils.dummy_sentencepiece_objects.AlbertTokenizer.__init__": 6
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.AlbertTokenizer.from_pretrained": 10
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.BertGenerationTokenizer.__init__": 15
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.BertGenerationTokenizer.from_pretrained": 19
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.CamembertTokenizer.__init__": 24
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.CamembertTokenizer.from_pretrained": 28
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.MarianTokenizer.__init__": 33
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.MarianTokenizer.from_pretrained": 37
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.MBartTokenizer.__init__": 42
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.MBartTokenizer.from_pretrained": 46
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.PegasusTokenizer.__init__": 51
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.PegasusTokenizer.from_pretrained": 55
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.ReformerTokenizer.__init__": 60
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.ReformerTokenizer.from_pretrained": 64
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.T5Tokenizer.__init__": 69
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.T5Tokenizer.from_pretrained": 73
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.XLMProphetNetTokenizer.__init__": 78
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.XLMProphetNetTokenizer.from_pretrained": 82
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.XLMRobertaTokenizer.__init__": 87
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.XLMRobertaTokenizer.from_pretrained": 91
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.XLNetTokenizer.__init__": 96
+        },
+        {
+            "transformers.utils.dummy_sentencepiece_objects.XLNetTokenizer.from_pretrained": 100
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/utils/notebook.py": [
+        {
+            "transformers.utils.notebook.NotebookProgressCallback.on_train_begin": 279
+        },
+        {
+            "transformers.utils.notebook.NotebookProgressCallback.on_step_end": 288
+        },
+        {
+            "transformers.utils.notebook.NotebookProgressCallback.on_prediction_step": 297
+        },
+        {
+            "transformers.utils.notebook.NotebookProgressCallback.on_log": 307
+        },
+        {
+            "transformers.utils.notebook.NotebookProgressCallback.on_evaluate": 315
+        },
+        {
+            "transformers.utils.notebook.NotebookProgressCallback.on_train_end": 343
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/utils/dummy_flax_objects.py": [
+        {
+            "transformers.utils.dummy_flax_objects.FlaxBertModel.__init__": 6
+        },
+        {
+            "transformers.utils.dummy_flax_objects.FlaxBertModel.from_pretrained": 10
+        },
+        {
+            "transformers.utils.dummy_flax_objects.FlaxRobertaModel.__init__": 15
+        },
+        {
+            "transformers.utils.dummy_flax_objects.FlaxRobertaModel.from_pretrained": 19
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/utils/dummy_pt_objects.py": [
+        {
+            "transformers.utils.dummy_pt_objects.PyTorchBenchmark.__init__": 6
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PyTorchBenchmarkArguments.__init__": 11
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollator.__init__": 16
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForLanguageModeling.__init__": 21
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForLanguageModeling.from_pretrained": 25
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForPermutationLanguageModeling.__init__": 30
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForPermutationLanguageModeling.from_pretrained": 34
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForSOP.__init__": 39
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForTokenClassification.__init__": 44
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForTokenClassification.from_pretrained": 48
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorForWholeWordMask.__init__": 53
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DataCollatorWithPadding.__init__": 58
+        },
+        {
+            "transformers.utils.dummy_pt_objects.default_data_collator": 62
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GlueDataset.__init__": 67
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GlueDataTrainingArguments.__init__": 72
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LineByLineTextDataset.__init__": 77
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LineByLineWithRefDataset.__init__": 82
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LineByLineWithSOPTextDataset.__init__": 87
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SquadDataset.__init__": 92
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SquadDataTrainingArguments.__init__": 97
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TextDataset.__init__": 102
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TextDatasetForNextSentencePrediction.__init__": 107
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BeamScorer.__init__": 112
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BeamSearchScorer.__init__": 117
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LogitsProcessor.__init__": 122
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LogitsProcessorList.__init__": 127
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LogitsWarper.__init__": 132
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MinLengthLogitsProcessor.__init__": 137
+        },
+        {
+            "transformers.utils.dummy_pt_objects.NoBadWordsLogitsProcessor.__init__": 142
+        },
+        {
+            "transformers.utils.dummy_pt_objects.NoRepeatNGramLogitsProcessor.__init__": 147
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RepetitionPenaltyLogitsProcessor.__init__": 152
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TemperatureLogitsWarper.__init__": 157
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TopKLogitsWarper.__init__": 162
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TopPLogitsWarper.__init__": 167
+        },
+        {
+            "transformers.utils.dummy_pt_objects.top_k_top_p_filtering": 171
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForMaskedLM.__init__": 179
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForMaskedLM.from_pretrained": 183
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForMultipleChoice.__init__": 188
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForMultipleChoice.from_pretrained": 192
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForPreTraining.__init__": 197
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForQuestionAnswering.__init__": 202
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForQuestionAnswering.from_pretrained": 206
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForSequenceClassification.__init__": 211
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForSequenceClassification.from_pretrained": 215
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForTokenClassification.__init__": 220
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertForTokenClassification.from_pretrained": 224
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertModel.__init__": 229
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertModel.from_pretrained": 233
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertPreTrainedModel.__init__": 238
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AlbertPreTrainedModel.from_pretrained": 242
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_albert": 246
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModel.__init__": 284
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModel.from_pretrained": 288
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForCausalLM.__init__": 293
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForCausalLM.from_pretrained": 297
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForMaskedLM.__init__": 302
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForMaskedLM.from_pretrained": 306
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForMultipleChoice.__init__": 311
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForMultipleChoice.from_pretrained": 315
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForNextSentencePrediction.__init__": 320
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForNextSentencePrediction.from_pretrained": 324
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForPreTraining.__init__": 329
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForPreTraining.from_pretrained": 333
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForQuestionAnswering.__init__": 338
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForQuestionAnswering.from_pretrained": 342
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForSeq2SeqLM.__init__": 347
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForSeq2SeqLM.from_pretrained": 351
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForSequenceClassification.__init__": 356
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForSequenceClassification.from_pretrained": 360
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForTokenClassification.__init__": 365
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelForTokenClassification.from_pretrained": 369
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelWithLMHead.__init__": 374
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AutoModelWithLMHead.from_pretrained": 378
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartForConditionalGeneration.__init__": 386
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartForConditionalGeneration.from_pretrained": 390
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartForQuestionAnswering.__init__": 395
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartForQuestionAnswering.from_pretrained": 399
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartForSequenceClassification.__init__": 404
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartForSequenceClassification.from_pretrained": 408
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartModel.__init__": 413
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BartModel.from_pretrained": 417
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PretrainedBartModel.__init__": 422
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PretrainedBartModel.from_pretrained": 426
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForMaskedLM.__init__": 434
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForMaskedLM.from_pretrained": 438
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForMultipleChoice.__init__": 443
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForMultipleChoice.from_pretrained": 447
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForNextSentencePrediction.__init__": 452
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForPreTraining.__init__": 457
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForQuestionAnswering.__init__": 462
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForQuestionAnswering.from_pretrained": 466
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForSequenceClassification.__init__": 471
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForSequenceClassification.from_pretrained": 475
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForTokenClassification.__init__": 480
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertForTokenClassification.from_pretrained": 484
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertLayer.__init__": 489
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertLMHeadModel.__init__": 494
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertLMHeadModel.from_pretrained": 498
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertModel.__init__": 503
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertModel.from_pretrained": 507
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertPreTrainedModel.__init__": 512
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertPreTrainedModel.from_pretrained": 516
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_bert": 520
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertGenerationDecoder.__init__": 525
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BertGenerationEncoder.__init__": 530
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_bert_generation": 534
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BlenderbotForConditionalGeneration.__init__": 542
+        },
+        {
+            "transformers.utils.dummy_pt_objects.BlenderbotForConditionalGeneration.from_pretrained": 546
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForCausalLM.__init__": 554
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForMaskedLM.__init__": 559
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForMaskedLM.from_pretrained": 563
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForMultipleChoice.__init__": 568
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForMultipleChoice.from_pretrained": 572
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForQuestionAnswering.__init__": 577
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForQuestionAnswering.from_pretrained": 581
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForSequenceClassification.__init__": 586
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForSequenceClassification.from_pretrained": 590
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForTokenClassification.__init__": 595
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertForTokenClassification.from_pretrained": 599
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertModel.__init__": 604
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CamembertModel.from_pretrained": 608
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CTRLLMHeadModel.__init__": 616
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CTRLLMHeadModel.from_pretrained": 620
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CTRLModel.__init__": 625
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CTRLModel.from_pretrained": 629
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CTRLPreTrainedModel.__init__": 634
+        },
+        {
+            "transformers.utils.dummy_pt_objects.CTRLPreTrainedModel.from_pretrained": 638
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DebertaForSequenceClassification.__init__": 646
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DebertaForSequenceClassification.from_pretrained": 650
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DebertaModel.__init__": 655
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DebertaModel.from_pretrained": 659
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DebertaPreTrainedModel.__init__": 664
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DebertaPreTrainedModel.from_pretrained": 668
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForMaskedLM.__init__": 676
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForMaskedLM.from_pretrained": 680
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForMultipleChoice.__init__": 685
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForMultipleChoice.from_pretrained": 689
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForQuestionAnswering.__init__": 694
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForQuestionAnswering.from_pretrained": 698
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForSequenceClassification.__init__": 703
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForSequenceClassification.from_pretrained": 707
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForTokenClassification.__init__": 712
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertForTokenClassification.from_pretrained": 716
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertModel.__init__": 721
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertModel.from_pretrained": 725
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertPreTrainedModel.__init__": 730
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DistilBertPreTrainedModel.from_pretrained": 734
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DPRContextEncoder.__init__": 739
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DPRPretrainedContextEncoder.__init__": 744
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DPRPretrainedQuestionEncoder.__init__": 749
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DPRPretrainedReader.__init__": 754
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DPRQuestionEncoder.__init__": 759
+        },
+        {
+            "transformers.utils.dummy_pt_objects.DPRReader.__init__": 764
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForMaskedLM.__init__": 772
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForMaskedLM.from_pretrained": 776
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForMultipleChoice.__init__": 781
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForMultipleChoice.from_pretrained": 785
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForPreTraining.__init__": 790
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForQuestionAnswering.__init__": 795
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForQuestionAnswering.from_pretrained": 799
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForSequenceClassification.__init__": 804
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForSequenceClassification.from_pretrained": 808
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForTokenClassification.__init__": 813
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraForTokenClassification.from_pretrained": 817
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraModel.__init__": 822
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraModel.from_pretrained": 826
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraPreTrainedModel.__init__": 831
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ElectraPreTrainedModel.from_pretrained": 835
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_electra": 839
+        },
+        {
+            "transformers.utils.dummy_pt_objects.EncoderDecoderModel.__init__": 844
+        },
+        {
+            "transformers.utils.dummy_pt_objects.EncoderDecoderModel.from_pretrained": 848
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForMultipleChoice.__init__": 856
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForMultipleChoice.from_pretrained": 860
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForQuestionAnswering.__init__": 865
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForQuestionAnswering.from_pretrained": 869
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForQuestionAnsweringSimple.__init__": 874
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForQuestionAnsweringSimple.from_pretrained": 878
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForSequenceClassification.__init__": 883
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForSequenceClassification.from_pretrained": 887
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForTokenClassification.__init__": 892
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertForTokenClassification.from_pretrained": 896
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertModel.__init__": 901
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertModel.from_pretrained": 905
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertWithLMHeadModel.__init__": 910
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FlaubertWithLMHeadModel.from_pretrained": 914
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FSMTForConditionalGeneration.__init__": 919
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FSMTForConditionalGeneration.from_pretrained": 923
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FSMTModel.__init__": 928
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FSMTModel.from_pretrained": 932
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PretrainedFSMTModel.__init__": 937
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PretrainedFSMTModel.from_pretrained": 941
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelBaseModel.__init__": 949
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelBaseModel.from_pretrained": 953
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForMaskedLM.__init__": 958
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForMaskedLM.from_pretrained": 962
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForMultipleChoice.__init__": 967
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForMultipleChoice.from_pretrained": 971
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForPreTraining.__init__": 976
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForQuestionAnswering.__init__": 981
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForQuestionAnswering.from_pretrained": 985
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForSequenceClassification.__init__": 990
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForSequenceClassification.from_pretrained": 994
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForTokenClassification.__init__": 999
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelForTokenClassification.from_pretrained": 1003
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelModel.__init__": 1008
+        },
+        {
+            "transformers.utils.dummy_pt_objects.FunnelModel.from_pretrained": 1012
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_funnel": 1016
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2DoubleHeadsModel.__init__": 1024
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2DoubleHeadsModel.from_pretrained": 1028
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2ForSequenceClassification.__init__": 1033
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2ForSequenceClassification.from_pretrained": 1037
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2LMHeadModel.__init__": 1042
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2LMHeadModel.from_pretrained": 1046
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2Model.__init__": 1051
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2Model.from_pretrained": 1055
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2PreTrainedModel.__init__": 1060
+        },
+        {
+            "transformers.utils.dummy_pt_objects.GPT2PreTrainedModel.from_pretrained": 1064
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_gpt2": 1068
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LayoutLMForMaskedLM.__init__": 1076
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LayoutLMForMaskedLM.from_pretrained": 1080
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LayoutLMForTokenClassification.__init__": 1085
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LayoutLMForTokenClassification.from_pretrained": 1089
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LayoutLMModel.__init__": 1094
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LayoutLMModel.from_pretrained": 1098
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForMaskedLM.__init__": 1106
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForMaskedLM.from_pretrained": 1110
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForMultipleChoice.__init__": 1115
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForMultipleChoice.from_pretrained": 1119
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForQuestionAnswering.__init__": 1124
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForQuestionAnswering.from_pretrained": 1128
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForSequenceClassification.__init__": 1133
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForSequenceClassification.from_pretrained": 1137
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForTokenClassification.__init__": 1142
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerForTokenClassification.from_pretrained": 1146
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerModel.__init__": 1151
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerModel.from_pretrained": 1155
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LongformerSelfAttention.__init__": 1160
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertEncoder.__init__": 1165
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertForPreTraining.__init__": 1170
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertForQuestionAnswering.__init__": 1175
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertForQuestionAnswering.from_pretrained": 1179
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertModel.__init__": 1184
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertModel.from_pretrained": 1188
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertPreTrainedModel.__init__": 1193
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertPreTrainedModel.from_pretrained": 1197
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertVisualFeatureEncoder.__init__": 1202
+        },
+        {
+            "transformers.utils.dummy_pt_objects.LxmertXLayer.__init__": 1207
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MarianMTModel.__init__": 1212
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MarianMTModel.from_pretrained": 1216
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MBartForConditionalGeneration.__init__": 1221
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MBartForConditionalGeneration.from_pretrained": 1225
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MMBTForClassification.__init__": 1230
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MMBTModel.__init__": 1235
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MMBTModel.from_pretrained": 1239
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ModalEmbeddings.__init__": 1244
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForMaskedLM.__init__": 1252
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForMaskedLM.from_pretrained": 1256
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForMultipleChoice.__init__": 1261
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForMultipleChoice.from_pretrained": 1265
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForNextSentencePrediction.__init__": 1270
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForPreTraining.__init__": 1275
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForQuestionAnswering.__init__": 1280
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForQuestionAnswering.from_pretrained": 1284
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForSequenceClassification.__init__": 1289
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForSequenceClassification.from_pretrained": 1293
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForTokenClassification.__init__": 1298
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertForTokenClassification.from_pretrained": 1302
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertLayer.__init__": 1307
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertModel.__init__": 1312
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertModel.from_pretrained": 1316
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertPreTrainedModel.__init__": 1321
+        },
+        {
+            "transformers.utils.dummy_pt_objects.MobileBertPreTrainedModel.from_pretrained": 1325
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_mobilebert": 1329
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTDoubleHeadsModel.__init__": 1337
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTDoubleHeadsModel.from_pretrained": 1341
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTForSequenceClassification.__init__": 1346
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTForSequenceClassification.from_pretrained": 1350
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTLMHeadModel.__init__": 1355
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTLMHeadModel.from_pretrained": 1359
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTModel.__init__": 1364
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTModel.from_pretrained": 1368
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTPreTrainedModel.__init__": 1373
+        },
+        {
+            "transformers.utils.dummy_pt_objects.OpenAIGPTPreTrainedModel.from_pretrained": 1377
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_openai_gpt": 1381
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PegasusForConditionalGeneration.__init__": 1386
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PegasusForConditionalGeneration.from_pretrained": 1390
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetDecoder.__init__": 1398
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetEncoder.__init__": 1403
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetForCausalLM.__init__": 1408
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetForConditionalGeneration.__init__": 1413
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetForConditionalGeneration.from_pretrained": 1417
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetModel.__init__": 1422
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetModel.from_pretrained": 1426
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetPreTrainedModel.__init__": 1431
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ProphetNetPreTrainedModel.from_pretrained": 1435
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RagModel.__init__": 1440
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RagModel.from_pretrained": 1444
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RagSequenceForGeneration.__init__": 1449
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RagTokenForGeneration.__init__": 1454
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerAttention.__init__": 1462
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerForMaskedLM.__init__": 1467
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerForMaskedLM.from_pretrained": 1471
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerForQuestionAnswering.__init__": 1476
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerForQuestionAnswering.from_pretrained": 1480
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerForSequenceClassification.__init__": 1485
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerForSequenceClassification.from_pretrained": 1489
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerLayer.__init__": 1494
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerModel.__init__": 1499
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerModel.from_pretrained": 1503
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerModelWithLMHead.__init__": 1508
+        },
+        {
+            "transformers.utils.dummy_pt_objects.ReformerModelWithLMHead.from_pretrained": 1512
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RetriBertModel.__init__": 1520
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RetriBertModel.from_pretrained": 1524
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RetriBertPreTrainedModel.__init__": 1529
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RetriBertPreTrainedModel.from_pretrained": 1533
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForCausalLM.__init__": 1541
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForMaskedLM.__init__": 1546
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForMaskedLM.from_pretrained": 1550
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForMultipleChoice.__init__": 1555
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForMultipleChoice.from_pretrained": 1559
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForQuestionAnswering.__init__": 1564
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForQuestionAnswering.from_pretrained": 1568
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForSequenceClassification.__init__": 1573
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForSequenceClassification.from_pretrained": 1577
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForTokenClassification.__init__": 1582
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaForTokenClassification.from_pretrained": 1586
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaModel.__init__": 1591
+        },
+        {
+            "transformers.utils.dummy_pt_objects.RobertaModel.from_pretrained": 1595
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForMaskedLM.__init__": 1603
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForMaskedLM.from_pretrained": 1607
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForMultipleChoice.__init__": 1612
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForMultipleChoice.from_pretrained": 1616
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForQuestionAnswering.__init__": 1621
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForQuestionAnswering.from_pretrained": 1625
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForSequenceClassification.__init__": 1630
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForSequenceClassification.from_pretrained": 1634
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForTokenClassification.__init__": 1639
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertForTokenClassification.from_pretrained": 1643
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertModel.__init__": 1648
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertModel.from_pretrained": 1652
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertModule.__init__": 1657
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertPreTrainedModel.__init__": 1662
+        },
+        {
+            "transformers.utils.dummy_pt_objects.SqueezeBertPreTrainedModel.from_pretrained": 1666
+        },
+        {
+            "transformers.utils.dummy_pt_objects.T5ForConditionalGeneration.__init__": 1674
+        },
+        {
+            "transformers.utils.dummy_pt_objects.T5ForConditionalGeneration.from_pretrained": 1678
+        },
+        {
+            "transformers.utils.dummy_pt_objects.T5Model.__init__": 1683
+        },
+        {
+            "transformers.utils.dummy_pt_objects.T5Model.from_pretrained": 1687
+        },
+        {
+            "transformers.utils.dummy_pt_objects.T5PreTrainedModel.__init__": 1692
+        },
+        {
+            "transformers.utils.dummy_pt_objects.T5PreTrainedModel.from_pretrained": 1696
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_t5": 1700
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AdaptiveEmbedding.__init__": 1708
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TransfoXLLMHeadModel.__init__": 1713
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TransfoXLLMHeadModel.from_pretrained": 1717
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TransfoXLModel.__init__": 1722
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TransfoXLModel.from_pretrained": 1726
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TransfoXLPreTrainedModel.__init__": 1731
+        },
+        {
+            "transformers.utils.dummy_pt_objects.TransfoXLPreTrainedModel.from_pretrained": 1735
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_transfo_xl": 1739
+        },
+        {
+            "transformers.utils.dummy_pt_objects.Conv1D.__init__": 1744
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PreTrainedModel.__init__": 1749
+        },
+        {
+            "transformers.utils.dummy_pt_objects.PreTrainedModel.from_pretrained": 1753
+        },
+        {
+            "transformers.utils.dummy_pt_objects.apply_chunking_to_forward": 1757
+        },
+        {
+            "transformers.utils.dummy_pt_objects.prune_layer": 1761
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForMultipleChoice.__init__": 1769
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForMultipleChoice.from_pretrained": 1773
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForQuestionAnswering.__init__": 1778
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForQuestionAnswering.from_pretrained": 1782
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForQuestionAnsweringSimple.__init__": 1787
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForQuestionAnsweringSimple.from_pretrained": 1791
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForSequenceClassification.__init__": 1796
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForSequenceClassification.from_pretrained": 1800
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForTokenClassification.__init__": 1805
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMForTokenClassification.from_pretrained": 1809
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMModel.__init__": 1814
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMModel.from_pretrained": 1818
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMPreTrainedModel.__init__": 1823
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMPreTrainedModel.from_pretrained": 1827
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMWithLMHeadModel.__init__": 1832
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMWithLMHeadModel.from_pretrained": 1836
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMProphetNetDecoder.__init__": 1844
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMProphetNetEncoder.__init__": 1849
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMProphetNetForCausalLM.__init__": 1854
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMProphetNetForConditionalGeneration.__init__": 1859
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMProphetNetForConditionalGeneration.from_pretrained": 1863
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMProphetNetModel.__init__": 1868
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMProphetNetModel.from_pretrained": 1872
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForCausalLM.__init__": 1880
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForMaskedLM.__init__": 1885
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForMaskedLM.from_pretrained": 1889
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForMultipleChoice.__init__": 1894
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForMultipleChoice.from_pretrained": 1898
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForQuestionAnswering.__init__": 1903
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForQuestionAnswering.from_pretrained": 1907
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForSequenceClassification.__init__": 1912
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForSequenceClassification.from_pretrained": 1916
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForTokenClassification.__init__": 1921
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaForTokenClassification.from_pretrained": 1925
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaModel.__init__": 1930
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLMRobertaModel.from_pretrained": 1934
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForMultipleChoice.__init__": 1942
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForMultipleChoice.from_pretrained": 1946
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForQuestionAnswering.__init__": 1951
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForQuestionAnswering.from_pretrained": 1955
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForQuestionAnsweringSimple.__init__": 1960
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForQuestionAnsweringSimple.from_pretrained": 1964
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForSequenceClassification.__init__": 1969
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForSequenceClassification.from_pretrained": 1973
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForTokenClassification.__init__": 1978
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetForTokenClassification.from_pretrained": 1982
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetLMHeadModel.__init__": 1987
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetLMHeadModel.from_pretrained": 1991
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetModel.__init__": 1996
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetModel.from_pretrained": 2000
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetPreTrainedModel.__init__": 2005
+        },
+        {
+            "transformers.utils.dummy_pt_objects.XLNetPreTrainedModel.from_pretrained": 2009
+        },
+        {
+            "transformers.utils.dummy_pt_objects.load_tf_weights_in_xlnet": 2013
+        },
+        {
+            "transformers.utils.dummy_pt_objects.Adafactor.__init__": 2018
+        },
+        {
+            "transformers.utils.dummy_pt_objects.AdamW.__init__": 2023
+        },
+        {
+            "transformers.utils.dummy_pt_objects.get_constant_schedule": 2027
+        },
+        {
+            "transformers.utils.dummy_pt_objects.get_constant_schedule_with_warmup": 2031
+        },
+        {
+            "transformers.utils.dummy_pt_objects.get_cosine_schedule_with_warmup": 2035
+        },
+        {
+            "transformers.utils.dummy_pt_objects.get_cosine_with_hard_restarts_schedule_with_warmup": 2039
+        },
+        {
+            "transformers.utils.dummy_pt_objects.get_linear_schedule_with_warmup": 2043
+        },
+        {
+            "transformers.utils.dummy_pt_objects.get_polynomial_decay_schedule_with_warmup": 2047
+        },
+        {
+            "transformers.utils.dummy_pt_objects.Trainer.__init__": 2052
+        },
+        {
+            "transformers.utils.dummy_pt_objects.torch_distributed_zero_first": 2056
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/utils/dummy_tf_objects.py": [
+        {
+            "transformers.utils.dummy_tf_objects.TensorFlowBenchmarkArguments.__init__": 6
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TensorFlowBenchmark.__init__": 11
+        },
+        {
+            "transformers.utils.dummy_tf_objects.tf_top_k_top_p_filtering": 15
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForMaskedLM.__init__": 23
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForMaskedLM.from_pretrained": 27
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForMultipleChoice.__init__": 32
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForMultipleChoice.from_pretrained": 36
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForPreTraining.__init__": 41
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForQuestionAnswering.__init__": 46
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForQuestionAnswering.from_pretrained": 50
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForSequenceClassification.__init__": 55
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForSequenceClassification.from_pretrained": 59
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForTokenClassification.__init__": 64
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertForTokenClassification.from_pretrained": 68
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertMainLayer.__init__": 73
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertModel.__init__": 78
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertModel.from_pretrained": 82
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertPreTrainedModel.__init__": 87
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAlbertPreTrainedModel.from_pretrained": 91
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModel.__init__": 126
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModel.from_pretrained": 130
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForCausalLM.__init__": 135
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForCausalLM.from_pretrained": 139
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForMaskedLM.__init__": 144
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForMaskedLM.from_pretrained": 148
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForMultipleChoice.__init__": 153
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForMultipleChoice.from_pretrained": 157
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForPreTraining.__init__": 162
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForPreTraining.from_pretrained": 166
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForQuestionAnswering.__init__": 171
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForQuestionAnswering.from_pretrained": 175
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForSeq2SeqLM.__init__": 180
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForSeq2SeqLM.from_pretrained": 184
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForSequenceClassification.__init__": 189
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForSequenceClassification.from_pretrained": 193
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForTokenClassification.__init__": 198
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelForTokenClassification.from_pretrained": 202
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelWithLMHead.__init__": 207
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAutoModelWithLMHead.from_pretrained": 211
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBartForConditionalGeneration.__init__": 216
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBartForConditionalGeneration.from_pretrained": 220
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBartModel.__init__": 225
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBartModel.from_pretrained": 229
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertEmbeddings.__init__": 237
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForMaskedLM.__init__": 242
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForMaskedLM.from_pretrained": 246
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForMultipleChoice.__init__": 251
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForMultipleChoice.from_pretrained": 255
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForNextSentencePrediction.__init__": 260
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForPreTraining.__init__": 265
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForQuestionAnswering.__init__": 270
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForQuestionAnswering.from_pretrained": 274
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForSequenceClassification.__init__": 279
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForSequenceClassification.from_pretrained": 283
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForTokenClassification.__init__": 288
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertForTokenClassification.from_pretrained": 292
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertLMHeadModel.__init__": 297
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertLMHeadModel.from_pretrained": 301
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertMainLayer.__init__": 306
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertModel.__init__": 311
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertModel.from_pretrained": 315
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertPreTrainedModel.__init__": 320
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBertPreTrainedModel.from_pretrained": 324
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBlenderbotForConditionalGeneration.__init__": 329
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFBlenderbotForConditionalGeneration.from_pretrained": 333
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForMaskedLM.__init__": 341
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForMaskedLM.from_pretrained": 345
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForMultipleChoice.__init__": 350
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForMultipleChoice.from_pretrained": 354
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForQuestionAnswering.__init__": 359
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForQuestionAnswering.from_pretrained": 363
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForSequenceClassification.__init__": 368
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForSequenceClassification.from_pretrained": 372
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForTokenClassification.__init__": 377
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertForTokenClassification.from_pretrained": 381
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertModel.__init__": 386
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCamembertModel.from_pretrained": 390
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCTRLLMHeadModel.__init__": 398
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCTRLLMHeadModel.from_pretrained": 402
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCTRLModel.__init__": 407
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCTRLModel.from_pretrained": 411
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCTRLPreTrainedModel.__init__": 416
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFCTRLPreTrainedModel.from_pretrained": 420
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForMaskedLM.__init__": 428
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForMaskedLM.from_pretrained": 432
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForMultipleChoice.__init__": 437
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForMultipleChoice.from_pretrained": 441
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForQuestionAnswering.__init__": 446
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForQuestionAnswering.from_pretrained": 450
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForSequenceClassification.__init__": 455
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForSequenceClassification.from_pretrained": 459
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForTokenClassification.__init__": 464
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertForTokenClassification.from_pretrained": 468
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertMainLayer.__init__": 473
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertModel.__init__": 478
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertModel.from_pretrained": 482
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertPreTrainedModel.__init__": 487
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFDistilBertPreTrainedModel.from_pretrained": 491
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForMaskedLM.__init__": 499
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForMaskedLM.from_pretrained": 503
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForMultipleChoice.__init__": 508
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForMultipleChoice.from_pretrained": 512
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForPreTraining.__init__": 517
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForQuestionAnswering.__init__": 522
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForQuestionAnswering.from_pretrained": 526
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForSequenceClassification.__init__": 531
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForSequenceClassification.from_pretrained": 535
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForTokenClassification.__init__": 540
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraForTokenClassification.from_pretrained": 544
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraModel.__init__": 549
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraModel.from_pretrained": 553
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraPreTrainedModel.__init__": 558
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFElectraPreTrainedModel.from_pretrained": 562
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForMultipleChoice.__init__": 570
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForMultipleChoice.from_pretrained": 574
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForQuestionAnsweringSimple.__init__": 579
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForQuestionAnsweringSimple.from_pretrained": 583
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForSequenceClassification.__init__": 588
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForSequenceClassification.from_pretrained": 592
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForTokenClassification.__init__": 597
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertForTokenClassification.from_pretrained": 601
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertModel.__init__": 606
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertModel.from_pretrained": 610
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertWithLMHeadModel.__init__": 615
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFlaubertWithLMHeadModel.from_pretrained": 619
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelBaseModel.__init__": 627
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelBaseModel.from_pretrained": 631
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForMaskedLM.__init__": 636
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForMaskedLM.from_pretrained": 640
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForMultipleChoice.__init__": 645
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForMultipleChoice.from_pretrained": 649
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForPreTraining.__init__": 654
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForQuestionAnswering.__init__": 659
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForQuestionAnswering.from_pretrained": 663
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForSequenceClassification.__init__": 668
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForSequenceClassification.from_pretrained": 672
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForTokenClassification.__init__": 677
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelForTokenClassification.from_pretrained": 681
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelModel.__init__": 686
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFFunnelModel.from_pretrained": 690
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2DoubleHeadsModel.__init__": 698
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2DoubleHeadsModel.from_pretrained": 702
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2LMHeadModel.__init__": 707
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2LMHeadModel.from_pretrained": 711
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2MainLayer.__init__": 716
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2Model.__init__": 721
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2Model.from_pretrained": 725
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2PreTrainedModel.__init__": 730
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFGPT2PreTrainedModel.from_pretrained": 734
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLongformerForMaskedLM.__init__": 742
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLongformerForMaskedLM.from_pretrained": 746
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLongformerForQuestionAnswering.__init__": 751
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLongformerForQuestionAnswering.from_pretrained": 755
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLongformerModel.__init__": 760
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLongformerModel.from_pretrained": 764
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLongformerSelfAttention.__init__": 769
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLxmertForPreTraining.__init__": 777
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLxmertMainLayer.__init__": 782
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLxmertModel.__init__": 787
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLxmertModel.from_pretrained": 791
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLxmertPreTrainedModel.__init__": 796
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLxmertPreTrainedModel.from_pretrained": 800
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFLxmertVisualFeatureEncoder.__init__": 805
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMarianMTModel.__init__": 810
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMarianMTModel.from_pretrained": 814
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMBartForConditionalGeneration.__init__": 819
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMBartForConditionalGeneration.from_pretrained": 823
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForMaskedLM.__init__": 831
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForMaskedLM.from_pretrained": 835
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForMultipleChoice.__init__": 840
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForMultipleChoice.from_pretrained": 844
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForNextSentencePrediction.__init__": 849
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForPreTraining.__init__": 854
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForQuestionAnswering.__init__": 859
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForQuestionAnswering.from_pretrained": 863
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForSequenceClassification.__init__": 868
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForSequenceClassification.from_pretrained": 872
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForTokenClassification.__init__": 877
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertForTokenClassification.from_pretrained": 881
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertMainLayer.__init__": 886
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertModel.__init__": 891
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertModel.from_pretrained": 895
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertPreTrainedModel.__init__": 900
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFMobileBertPreTrainedModel.from_pretrained": 904
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTDoubleHeadsModel.__init__": 912
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTDoubleHeadsModel.from_pretrained": 916
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTLMHeadModel.__init__": 921
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTLMHeadModel.from_pretrained": 925
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTMainLayer.__init__": 930
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTModel.__init__": 935
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTModel.from_pretrained": 939
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTPreTrainedModel.__init__": 944
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFOpenAIGPTPreTrainedModel.from_pretrained": 948
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFPegasusForConditionalGeneration.__init__": 953
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFPegasusForConditionalGeneration.from_pretrained": 957
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForMaskedLM.__init__": 965
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForMaskedLM.from_pretrained": 969
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForMultipleChoice.__init__": 974
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForMultipleChoice.from_pretrained": 978
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForQuestionAnswering.__init__": 983
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForQuestionAnswering.from_pretrained": 987
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForSequenceClassification.__init__": 992
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForSequenceClassification.from_pretrained": 996
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForTokenClassification.__init__": 1001
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaForTokenClassification.from_pretrained": 1005
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaMainLayer.__init__": 1010
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaModel.__init__": 1015
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaModel.from_pretrained": 1019
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaPreTrainedModel.__init__": 1024
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFRobertaPreTrainedModel.from_pretrained": 1028
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFT5ForConditionalGeneration.__init__": 1036
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFT5ForConditionalGeneration.from_pretrained": 1040
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFT5Model.__init__": 1045
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFT5Model.from_pretrained": 1049
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFT5PreTrainedModel.__init__": 1054
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFT5PreTrainedModel.from_pretrained": 1058
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFAdaptiveEmbedding.__init__": 1066
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTransfoXLLMHeadModel.__init__": 1071
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTransfoXLLMHeadModel.from_pretrained": 1075
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTransfoXLMainLayer.__init__": 1080
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTransfoXLModel.__init__": 1085
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTransfoXLModel.from_pretrained": 1089
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTransfoXLPreTrainedModel.__init__": 1094
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTransfoXLPreTrainedModel.from_pretrained": 1098
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFPreTrainedModel.__init__": 1103
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFPreTrainedModel.from_pretrained": 1107
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFSequenceSummary.__init__": 1112
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFSharedEmbeddings.__init__": 1117
+        },
+        {
+            "transformers.utils.dummy_tf_objects.shape_list": 1121
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForMultipleChoice.__init__": 1129
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForMultipleChoice.from_pretrained": 1133
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForQuestionAnsweringSimple.__init__": 1138
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForQuestionAnsweringSimple.from_pretrained": 1142
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForSequenceClassification.__init__": 1147
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForSequenceClassification.from_pretrained": 1151
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForTokenClassification.__init__": 1156
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMForTokenClassification.from_pretrained": 1160
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMMainLayer.__init__": 1165
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMModel.__init__": 1170
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMModel.from_pretrained": 1174
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMPreTrainedModel.__init__": 1179
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMPreTrainedModel.from_pretrained": 1183
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMWithLMHeadModel.__init__": 1188
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMWithLMHeadModel.from_pretrained": 1192
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForMaskedLM.__init__": 1200
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForMaskedLM.from_pretrained": 1204
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForMultipleChoice.__init__": 1209
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForMultipleChoice.from_pretrained": 1213
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForQuestionAnswering.__init__": 1218
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForQuestionAnswering.from_pretrained": 1222
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForSequenceClassification.__init__": 1227
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForSequenceClassification.from_pretrained": 1231
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForTokenClassification.__init__": 1236
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaForTokenClassification.from_pretrained": 1240
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaModel.__init__": 1245
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLMRobertaModel.from_pretrained": 1249
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForMultipleChoice.__init__": 1257
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForMultipleChoice.from_pretrained": 1261
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForQuestionAnsweringSimple.__init__": 1266
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForQuestionAnsweringSimple.from_pretrained": 1270
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForSequenceClassification.__init__": 1275
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForSequenceClassification.from_pretrained": 1279
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForTokenClassification.__init__": 1284
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetForTokenClassification.from_pretrained": 1288
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetLMHeadModel.__init__": 1293
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetLMHeadModel.from_pretrained": 1297
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetMainLayer.__init__": 1302
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetModel.__init__": 1307
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetModel.from_pretrained": 1311
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetPreTrainedModel.__init__": 1316
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFXLNetPreTrainedModel.from_pretrained": 1320
+        },
+        {
+            "transformers.utils.dummy_tf_objects.AdamWeightDecay.__init__": 1325
+        },
+        {
+            "transformers.utils.dummy_tf_objects.GradientAccumulator.__init__": 1330
+        },
+        {
+            "transformers.utils.dummy_tf_objects.WarmUp.__init__": 1335
+        },
+        {
+            "transformers.utils.dummy_tf_objects.create_optimizer": 1339
+        },
+        {
+            "transformers.utils.dummy_tf_objects.TFTrainer.__init__": 1344
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/utils/dummy_tokenizers_objects.py": [
+        {
+            "transformers.utils.dummy_tokenizers_objects.AlbertTokenizerFast.__init__": 6
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.AlbertTokenizerFast.from_pretrained": 10
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.BartTokenizerFast.__init__": 15
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.BartTokenizerFast.from_pretrained": 19
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.BertTokenizerFast.__init__": 24
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.BertTokenizerFast.from_pretrained": 28
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.CamembertTokenizerFast.__init__": 33
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.CamembertTokenizerFast.from_pretrained": 37
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DistilBertTokenizerFast.__init__": 42
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DistilBertTokenizerFast.from_pretrained": 46
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DPRContextEncoderTokenizerFast.__init__": 51
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DPRContextEncoderTokenizerFast.from_pretrained": 55
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DPRQuestionEncoderTokenizerFast.__init__": 60
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DPRQuestionEncoderTokenizerFast.from_pretrained": 64
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DPRReaderTokenizerFast.__init__": 69
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.DPRReaderTokenizerFast.from_pretrained": 73
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.ElectraTokenizerFast.__init__": 78
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.ElectraTokenizerFast.from_pretrained": 82
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.FunnelTokenizerFast.__init__": 87
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.FunnelTokenizerFast.from_pretrained": 91
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.GPT2TokenizerFast.__init__": 96
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.GPT2TokenizerFast.from_pretrained": 100
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.HerbertTokenizerFast.__init__": 105
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.HerbertTokenizerFast.from_pretrained": 109
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.LayoutLMTokenizerFast.__init__": 114
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.LayoutLMTokenizerFast.from_pretrained": 118
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.LongformerTokenizerFast.__init__": 123
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.LongformerTokenizerFast.from_pretrained": 127
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.LxmertTokenizerFast.__init__": 132
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.LxmertTokenizerFast.from_pretrained": 136
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.MBartTokenizerFast.__init__": 141
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.MBartTokenizerFast.from_pretrained": 145
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.MobileBertTokenizerFast.__init__": 150
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.MobileBertTokenizerFast.from_pretrained": 154
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.OpenAIGPTTokenizerFast.__init__": 159
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.OpenAIGPTTokenizerFast.from_pretrained": 163
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.PegasusTokenizerFast.__init__": 168
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.PegasusTokenizerFast.from_pretrained": 172
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.ReformerTokenizerFast.__init__": 177
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.ReformerTokenizerFast.from_pretrained": 181
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.RetriBertTokenizerFast.__init__": 186
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.RetriBertTokenizerFast.from_pretrained": 190
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.RobertaTokenizerFast.__init__": 195
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.RobertaTokenizerFast.from_pretrained": 199
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.SqueezeBertTokenizerFast.__init__": 204
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.SqueezeBertTokenizerFast.from_pretrained": 208
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.T5TokenizerFast.__init__": 213
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.T5TokenizerFast.from_pretrained": 217
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.PreTrainedTokenizerFast.__init__": 222
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.PreTrainedTokenizerFast.from_pretrained": 226
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.XLMRobertaTokenizerFast.__init__": 231
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.XLMRobertaTokenizerFast.from_pretrained": 235
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.XLNetTokenizerFast.__init__": 240
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.XLNetTokenizerFast.from_pretrained": 244
+        },
+        {
+            "transformers.utils.dummy_tokenizers_objects.convert_slow_tokenizer": 251
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/commands/serving.py": [
+        {
+            "transformers.commands.serving.Body": 22
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/commands/convert.py": [
+        {
+            "transformers.commands.convert.ConvertCommand.__init__": 55
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/benchmark/benchmark_tf.py": [
+        {
+            "transformers.benchmark.benchmark_tf.run_in_eager_mode": 55
+        },
+        {
+            "transformers.benchmark.benchmark_tf.run_in_graph_mode": 60
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/benchmark/benchmark_args.py": [
+        {
+            "transformers.benchmark.benchmark_args.PyTorchBenchmarkArguments.__init__": 48
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/benchmark/benchmark_args_tf.py": [
+        {
+            "transformers.benchmark.benchmark_args_tf.TensorFlowBenchmarkArguments.__init__": 45
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/data/data_collator.py": [
+        {
+            "transformers.data.data_collator.DataCollatorForSOP.__init__": 432
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/data/processors/glue.py": [
+        {
+            "transformers.data.processors.glue.MrpcProcessor.__init__": 173
+        },
+        {
+            "transformers.data.processors.glue.MnliProcessor.__init__": 220
+        },
+        {
+            "transformers.data.processors.glue.MnliMismatchedProcessor.__init__": 266
+        },
+        {
+            "transformers.data.processors.glue.ColaProcessor.__init__": 282
+        },
+        {
+            "transformers.data.processors.glue.Sst2Processor.__init__": 329
+        },
+        {
+            "transformers.data.processors.glue.StsbProcessor.__init__": 375
+        },
+        {
+            "transformers.data.processors.glue.QqpProcessor.__init__": 421
+        },
+        {
+            "transformers.data.processors.glue.QnliProcessor.__init__": 473
+        },
+        {
+            "transformers.data.processors.glue.RteProcessor.__init__": 519
+        },
+        {
+            "transformers.data.processors.glue.WnliProcessor.__init__": 565
+        }
+    ],
+    "/home/zhang/Packages/transformers/transformers3.5.1/data/processors/utils.py": [
+        {
+            "transformers.data.processors.utils.SingleSentenceClassificationProcessor.create_from_csv": 144
+        },
+        {
+            "transformers.data.processors.utils.SingleSentenceClassificationProcessor.create_from_examples": 161
+        }
+    ]
+}

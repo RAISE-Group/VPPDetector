@@ -1,0 +1,216 @@
+{
+    "/home/zhang/Packages/gensim/gensim3.0.0/utils.py": [
+        {
+            "gensim.utils.make_closing": 56
+        },
+        {
+            "gensim.utils._synchronizer": 108
+        },
+        {
+            "gensim.utils.call_on_class_only": 250
+        },
+        {
+            "gensim.utils.check_output": 1154
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/interfaces.py": [
+        {
+            "gensim.interfaces.CorpusABC.save": 57
+        },
+        {
+            "gensim.interfaces.TransformedCorpus.__init__": 105
+        },
+        {
+            "gensim.interfaces.TransformationABC._apply": 156
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/corpora/textcorpus.py": [
+        {
+            "gensim.corpora.textcorpus.TextDirectoryCorpus.__init__": 314
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/corpora/hashdictionary.py": [
+        {
+            "gensim.corpora.hashdictionary.HashDictionary.from_documents": 107
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/corpora/sharded_corpus.py": [
+        {
+            "gensim.corpora.sharded_corpus.ShardedCorpus.save": 741
+        },
+        {
+            "gensim.corpora.sharded_corpus.ShardedCorpus.save_corpus": 767
+        },
+        {
+            "gensim.corpora.sharded_corpus.ShardedCorpus.serialize": 789
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/test/test_corpora.py": [
+        {
+            "gensim.test.test_corpora.TestTextDirectoryCorpus.write_one_level": 412
+        },
+        {
+            "gensim.test.test_corpora.TestTextDirectoryCorpus.write_docs_to_directory": 419
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/test/test_doc2vec.py": [
+        {
+            "gensim.test.test_doc2vec.ConcatenatedDoc2Vec.train": 450
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/similarities/docsim.py": [
+        {
+            "gensim.similarities.docsim.Similarity.save": 438
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/summarization/graph.py": [
+        {
+            "gensim.summarization.graph.Graph.set_edge_properties": 231
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/ldamodel.py": [
+        {
+            "gensim.models.ldamodel.LdaModel.save": 1107
+        },
+        {
+            "gensim.models.ldamodel.LdaModel.load": 1170
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/keyedvectors.py": [
+        {
+            "gensim.models.keyedvectors.Vocab.__init__": 98
+        },
+        {
+            "gensim.models.keyedvectors.KeyedVectors.save": 127
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/translation_matrix.py": [
+        {
+            "gensim.models.translation_matrix.TranslationMatrix.save": 169
+        },
+        {
+            "gensim.models.translation_matrix.TranslationMatrix.load": 178
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/lsimodel.py": [
+        {
+            "gensim.models.lsimodel.LsiModel.save": 563
+        },
+        {
+            "gensim.models.lsimodel.LsiModel.load": 577
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/ldaseqmodel.py": [
+        {
+            "gensim.models.ldaseqmodel.f_obs": 1046
+        },
+        {
+            "gensim.models.ldaseqmodel.df_obs": 1098
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/lda_worker.py": [
+        {
+            "gensim.models.lda_worker.Worker.initialize": 47
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/lsi_dispatcher.py": [
+        {
+            "gensim.models.lsi_dispatcher.Dispatcher.initialize": 64
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/lsi_worker.py": [
+        {
+            "gensim.models.lsi_worker.Worker.initialize": 44
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/doc2vec.py": [
+        {
+            "gensim.models.doc2vec.LabeledSentence.__init__": 263
+        },
+        {
+            "gensim.models.doc2vec.DocvecsArray.save": 366
+        },
+        {
+            "gensim.models.doc2vec.Doc2Vec.__init__": 557
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/coherencemodel.py": [
+        {
+            "gensim.models.coherencemodel.CoherenceModel.for_models": 221
+        },
+        {
+            "gensim.models.coherencemodel.CoherenceModel.for_topics": 246
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/callbacks.py": [
+        {
+            "gensim.models.callbacks.Metric.set_parameters": 33
+        },
+        {
+            "gensim.models.callbacks.CoherenceMetric.get_value": 97
+        },
+        {
+            "gensim.models.callbacks.PerplexityMetric.get_value": 138
+        },
+        {
+            "gensim.models.callbacks.DiffMetric.get_value": 182
+        },
+        {
+            "gensim.models.callbacks.ConvergenceMetric.get_value": 229
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/word2vec.py": [
+        {
+            "gensim.models.word2vec.Word2Vec.save": 1473
+        },
+        {
+            "gensim.models.word2vec.Word2Vec.load": 1482
+        },
+        {
+            "gensim.models.word2vec.Word2Vec._load_specials": 1506
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/lda_dispatcher.py": [
+        {
+            "gensim.models.lda_dispatcher.Dispatcher.initialize": 69
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/fasttext.py": [
+        {
+            "gensim.models.fasttext.FastText.load_fasttext_format": 226
+        },
+        {
+            "gensim.models.fasttext.FastText.save": 229
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/wrappers/ldavowpalwabbit.py": [
+        {
+            "gensim.models.wrappers.ldavowpalwabbit.LdaVowpalWabbit.save": 280
+        },
+        {
+            "gensim.models.wrappers.ldavowpalwabbit.LdaVowpalWabbit.load": 301
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/models/wrappers/fasttext.py": [
+        {
+            "gensim.models.wrappers.fasttext.FastTextKeyedVectors.save": 72
+        },
+        {
+            "gensim.models.wrappers.fasttext.FastText.save": 228
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.0.0/topic_coherence/text_analysis.py": [
+        {
+            "gensim.topic_coherence.text_analysis.InvertedIndexBased.__init__": 133
+        },
+        {
+            "gensim.topic_coherence.text_analysis.WordOccurrenceAccumulator.__init__": 217
+        },
+        {
+            "gensim.topic_coherence.text_analysis.ParallelWordOccurrenceAccumulator.__init__": 301
+        },
+        {
+            "gensim.topic_coherence.text_analysis.WordVectorsAccumulator.__init__": 474
+        }
+    ]
+}

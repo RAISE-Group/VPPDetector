@@ -1,0 +1,102 @@
+{
+    "/home/zhang/Packages/jax/jax0.3.14/_src/profiler.py": [
+        {
+            "jax._src.profiler.trace_function": 318,
+            "annotate_function": [
+                322,
+                "[281]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.14/_src/tree_util.py": [
+        {
+            "jax._src.tree_util.tree_multimap": 198,
+            "tree_map": [
+                202,
+                "[160]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.14/_src/lax/lax.py": [
+        {
+            "jax._src.lax.lax._dot_general_padding_rule": 2536,
+            "dot_general": [
+                2543,
+                "[663]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.14/_src/lax/control_flow/conditionals.py": [
+        {
+            "jax._src.lax.control_flow.conditionals.cond": 242,
+            "_cond": [
+                254,
+                "[147]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.14/_src/lax/control_flow/loops.py": [
+        {
+            "jax._src.lax.control_flow.loops.scan_bind": 982,
+            "_scan_typecheck": [
+                986,
+                "[934]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.14/experimental/maps.py": [
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1290,
+            "_xmap_lowering_rule_spmd_manual": [
+                1293,
+                "[1451]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1290,
+            "_xmap_lowering_rule_spmd": [
+                1295,
+                "[1390]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1290,
+            "_xmap_lowering_rule_replica": [
+                1297,
+                "[1302]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.14/experimental/host_callback.py": [
+        {
+            "jax.experimental.host_callback._outside_call_impl": 970,
+            "_outside_call_run_callback": [
+                974,
+                "[1204]"
+            ]
+        },
+        {
+            "jax.experimental.host_callback._outside_call_translation_rule": 990,
+            "_outside_call_run_callback": [
+                1095,
+                "[1204]"
+            ]
+        },
+        {
+            "jax.experimental.host_callback._outside_call_lowering": 1138,
+            "_outside_call_run_callback": [
+                1173,
+                "[1204]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.14/experimental/sparse/bcoo.py": [
+        {
+            "jax.experimental.sparse.bcoo._bcoo_spdot_general_jvp": 1205,
+            "_bcoo_spdot_general": [
+                1208,
+                "[1028]"
+            ]
+        }
+    ]
+}

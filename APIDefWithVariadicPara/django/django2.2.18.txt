@@ -1,0 +1,3153 @@
+{
+    "/home/zhang/Packages/django/django2.2.18/shortcuts.py": [
+        {
+            "django.shortcuts.redirect": 40
+        },
+        {
+            "django.shortcuts.get_object_or_404": 74
+        },
+        {
+            "django.shortcuts.get_list_or_404": 98
+        },
+        {
+            "django.shortcuts.resolve_url": 119
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/middleware/cache.py": [
+        {
+            "django.middleware.cache.CacheMiddleware.__init__": 163
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/utils.py": [
+        {
+            "django.db.utils.DatabaseErrorWrapper.inner": 94
+        },
+        {
+            "django.db.utils.ConnectionRouter._route_db": 248
+        },
+        {
+            "django.db.utils.ConnectionRouter.allow_relation": 269
+        },
+        {
+            "django.db.utils.ConnectionRouter.allow_migrate": 282
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/__init__.py": [
+        {
+            "django.db.__init__.reset_queries": 45
+        },
+        {
+            "django.db.__init__.close_old_connections": 55
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/utils.py": [
+        {
+            "django.db.backends.utils.CursorWrapper._execute": 78
+        },
+        {
+            "django.db.backends.utils.CursorWrapper._executemany": 86
+        },
+        {
+            "django.db.backends.utils.names_digest": 216
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/ddl_references.py": [
+        {
+            "django.db.backends.ddl_references.Statement.__init__": 167
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/oracle/functions.py": [
+        {
+            "django.db.backends.oracle.functions.IntervalToSeconds.__init__": 13
+        },
+        {
+            "django.db.backends.oracle.functions.SecondsToInterval.__init__": 21
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/oracle/base.py": [
+        {
+            "django.db.backends.oracle.base.DatabaseWrapper.__init__": 202
+        },
+        {
+            "django.db.backends.oracle.base.FormatStylePlaceholderCursor.var": 533
+        },
+        {
+            "django.db.backends.oracle.base.FormatStylePlaceholderCursor.arrayvar": 536
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/mysql/validation.py": [
+        {
+            "django.db.backends.mysql.validation.DatabaseValidation.check": 7
+        },
+        {
+            "django.db.backends.mysql.validation.DatabaseValidation._check_sql_mode": 12
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/mysql/schema.py": [
+        {
+            "django.db.backends.mysql.schema.DatabaseSchemaEditor._delete_composed_index": 70
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/mysql/operations.py": [
+        {
+            "django.db.backends.mysql.operations.DatabaseOperations.explain_query_prefix": 282
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/dummy/base.py": [
+        {
+            "django.db.backends.dummy.base.complain": 19
+        },
+        {
+            "django.db.backends.dummy.base.ignore": 25
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/sqlite3/base.py": [
+        {
+            "django.db.backends.sqlite3.base.wrapper": 48
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/base/validation.py": [
+        {
+            "django.db.backends.base.validation.BaseDatabaseValidation.check": 6
+        },
+        {
+            "django.db.backends.base.validation.BaseDatabaseValidation.check_field": 9
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/base/base.py": [
+        {
+            "django.db.backends.base.base.BaseDatabaseWrapper.schema_editor": 610
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/base/schema.py": [
+        {
+            "django.db.backends.base.schema.BaseDatabaseSchemaEditor.create_index_name": 928
+        },
+        {
+            "django.db.backends.base.schema.BaseDatabaseSchemaEditor.create_fk_name": 1002
+        },
+        {
+            "django.db.backends.base.schema.BaseDatabaseSchemaEditor.create_unique_name": 1048
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/base/operations.py": [
+        {
+            "django.db.backends.base.operations.BaseDatabaseOperations.explain_query_prefix": 654
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/backends/postgresql/operations.py": [
+        {
+            "django.db.backends.postgresql.operations.DatabaseOperations.explain_query_prefix": 269
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/migrations/operations/base.py": [
+        {
+            "django.db.migrations.operations.base.Operation.__new__": 37
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/aggregates.py": [
+        {
+            "django.db.models.aggregates.Aggregate.__init__": 24
+        },
+        {
+            "django.db.models.aggregates.Aggregate.as_sql": 70
+        },
+        {
+            "django.db.models.aggregates.Count.__init__": 110
+        },
+        {
+            "django.db.models.aggregates.StdDev.__init__": 134
+        },
+        {
+            "django.db.models.aggregates.Variance.__init__": 150
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/query.py": [
+        {
+            "django.db.models.query.NamedValuesListIterable.create_namedtuple_class": 155
+        },
+        {
+            "django.db.models.query.QuerySet.aggregate": 353
+        },
+        {
+            "django.db.models.query.QuerySet.get": 394
+        },
+        {
+            "django.db.models.query.QuerySet.create": 415
+        },
+        {
+            "django.db.models.query.QuerySet.get_or_create": 528
+        },
+        {
+            "django.db.models.query.QuerySet.update_or_create": 543
+        },
+        {
+            "django.db.models.query.QuerySet._extract_model_params": 585
+        },
+        {
+            "django.db.models.query.QuerySet._earliest": 610
+        },
+        {
+            "django.db.models.query.QuerySet.earliest": 645
+        },
+        {
+            "django.db.models.query.QuerySet.latest": 648
+        },
+        {
+            "django.db.models.query.QuerySet.update": 728
+        },
+        {
+            "django.db.models.query.QuerySet.explain": 774
+        },
+        {
+            "django.db.models.query.QuerySet._values": 788
+        },
+        {
+            "django.db.models.query.QuerySet.values": 796
+        },
+        {
+            "django.db.models.query.QuerySet.values_list": 802
+        },
+        {
+            "django.db.models.query.QuerySet.filter": 887
+        },
+        {
+            "django.db.models.query.QuerySet.exclude": 894
+        },
+        {
+            "django.db.models.query.QuerySet._filter_or_exclude": 901
+        },
+        {
+            "django.db.models.query.QuerySet._combinator_query": 930
+        },
+        {
+            "django.db.models.query.QuerySet.union": 941
+        },
+        {
+            "django.db.models.query.QuerySet.intersection": 948
+        },
+        {
+            "django.db.models.query.QuerySet.difference": 957
+        },
+        {
+            "django.db.models.query.QuerySet.select_related": 978
+        },
+        {
+            "django.db.models.query.QuerySet.prefetch_related": 1000
+        },
+        {
+            "django.db.models.query.QuerySet.annotate": 1022
+        },
+        {
+            "django.db.models.query.QuerySet.order_by": 1068
+        },
+        {
+            "django.db.models.query.QuerySet.distinct": 1077
+        },
+        {
+            "django.db.models.query.QuerySet.defer": 1104
+        },
+        {
+            "django.db.models.query.QuerySet.only": 1120
+        },
+        {
+            "django.db.models.query.QuerySet._chain": 1214
+        },
+        {
+            "django.db.models.query.QuerySet.resolve_expression": 1278
+        },
+        {
+            "django.db.models.query.QuerySet._add_hints": 1288
+        },
+        {
+            "django.db.models.query.EmptyQuerySet.__init__": 1326
+        },
+        {
+            "django.db.models.query.RawQuerySet.prefetch_related": 1358
+        },
+        {
+            "django.db.models.query.prefetch_related_objects": 1541
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/signals.py": [
+        {
+            "django.db.models.signals.ModelSignal._lazy_method": 14
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/expressions.py": [
+        {
+            "django.db.models.expressions.SQLiteNumericMixin.as_sqlite": 20
+        },
+        {
+            "django.db.models.expressions.BaseExpression._parse_expressions": 176
+        },
+        {
+            "django.db.models.expressions.BaseExpression.asc": 346
+        },
+        {
+            "django.db.models.expressions.BaseExpression.desc": 349
+        },
+        {
+            "django.db.models.expressions.F.asc": 516
+        },
+        {
+            "django.db.models.expressions.F.desc": 519
+        },
+        {
+            "django.db.models.expressions.ResolvedOuterRef.as_sql": 536
+        },
+        {
+            "django.db.models.expressions.Func.__init__": 567
+        },
+        {
+            "django.db.models.expressions.Func.as_sql": 606
+        },
+        {
+            "django.db.models.expressions.ExpressionList.__init__": 827
+        },
+        {
+            "django.db.models.expressions.When.__init__": 862
+        },
+        {
+            "django.db.models.expressions.When.as_sql": 897
+        },
+        {
+            "django.db.models.expressions.Case.__init__": 933
+        },
+        {
+            "django.db.models.expressions.Case.as_sql": 966
+        },
+        {
+            "django.db.models.expressions.Subquery.__init__": 1002
+        },
+        {
+            "django.db.models.expressions.Subquery.as_sql": 1067
+        },
+        {
+            "django.db.models.expressions.Exists.__init__": 1092
+        },
+        {
+            "django.db.models.expressions.Exists.resolve_expression": 1099
+        },
+        {
+            "django.db.models.expressions.Exists.as_sql": 1105
+        },
+        {
+            "django.db.models.expressions.Exists.as_oracle": 1111
+        },
+        {
+            "django.db.models.expressions.OrderBy.as_sql": 1143
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/base.py": [
+        {
+            "django.db.models.base.ModelBase.__new__": 69
+        },
+        {
+            "django.db.models.base.Model.__init__": 401
+        },
+        {
+            "django.db.models.base.Model._get_next_or_previous_by_FIELD": 931
+        },
+        {
+            "django.db.models.base.Model.check": 1234
+        },
+        {
+            "django.db.models.base.Model._check_managers": 1305
+        },
+        {
+            "django.db.models.base.Model._check_fields": 1313
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/manager.py": [
+        {
+            "django.db.models.manager.BaseManager.__new__": 20
+        },
+        {
+            "django.db.models.manager.BaseManager.check": 75
+        },
+        {
+            "django.db.models.manager.BaseManager.manager_method": 81
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/query_utils.py": [
+        {
+            "django.db.models.query_utils.Q.__init__": 58
+        },
+        {
+            "django.db.models.query_utils.FilteredRelation.resolve_expression": 325
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/fields/proxy.py": [
+        {
+            "django.db.models.fields.proxy.OrderWrt.__init__": 15
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/fields/files.py": [
+        {
+            "django.db.models.fields.files.FileField.__init__": 223
+        },
+        {
+            "django.db.models.fields.files.FileField.check": 232
+        },
+        {
+            "django.db.models.fields.files.FileField.contribute_to_class": 291
+        },
+        {
+            "django.db.models.fields.files.FileField.formfield": 319
+        },
+        {
+            "django.db.models.fields.files.ImageField.__init__": 362
+        },
+        {
+            "django.db.models.fields.files.ImageField.check": 366
+        },
+        {
+            "django.db.models.fields.files.ImageField.contribute_to_class": 396
+        },
+        {
+            "django.db.models.fields.files.ImageField.update_dimension_fields": 405
+        },
+        {
+            "django.db.models.fields.files.ImageField.formfield": 462
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/fields/related.py": [
+        {
+            "django.db.models.fields.related.lazy_related_operation": 62
+        },
+        {
+            "django.db.models.fields.related.RelatedField.check": 98
+        },
+        {
+            "django.db.models.fields.related.RelatedField.contribute_to_class": 289
+        },
+        {
+            "django.db.models.fields.related.RelatedField.formfield": 401
+        },
+        {
+            "django.db.models.fields.related.ForeignObject.__init__": 460
+        },
+        {
+            "django.db.models.fields.related.ForeignObject.check": 480
+        },
+        {
+            "django.db.models.fields.related.ForeignObject.contribute_to_class": 734
+        },
+        {
+            "django.db.models.fields.related.ForeignKey.__init__": 782
+        },
+        {
+            "django.db.models.fields.related.ForeignKey.check": 815
+        },
+        {
+            "django.db.models.fields.related.ForeignKey._check_unique": 845
+        },
+        {
+            "django.db.models.fields.related.ForeignKey.formfield": 947
+        },
+        {
+            "django.db.models.fields.related.OneToOneField.__init__": 1009
+        },
+        {
+            "django.db.models.fields.related.OneToOneField.formfield": 1019
+        },
+        {
+            "django.db.models.fields.related.OneToOneField._check_unique": 1030
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField.__init__": 1102
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField.check": 1140
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField._check_unique": 1149
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField._check_ignored_options": 1160
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField._check_relationship_model": 1193
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField._check_table_uniqueness": 1392
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField.contribute_to_class": 1559
+        },
+        {
+            "django.db.models.fields.related.ManyToManyField.formfield": 1623
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/fields/__init__.py": [
+        {
+            "django.db.models.fields.__init__.Field.check": 199
+        },
+        {
+            "django.db.models.fields.__init__.Field._check_backend_specific_checks": 322
+        },
+        {
+            "django.db.models.fields.__init__.Field.formfield": 861
+        },
+        {
+            "django.db.models.fields.__init__.AutoField.__init__": 912
+        },
+        {
+            "django.db.models.fields.__init__.AutoField.check": 916
+        },
+        {
+            "django.db.models.fields.__init__.AutoField.contribute_to_class": 974
+        },
+        {
+            "django.db.models.fields.__init__.AutoField.formfield": 979
+        },
+        {
+            "django.db.models.fields.__init__.BooleanField.formfield": 1026
+        },
+        {
+            "django.db.models.fields.__init__.CharField.__init__": 1042
+        },
+        {
+            "django.db.models.fields.__init__.CharField.check": 1046
+        },
+        {
+            "django.db.models.fields.__init__.CharField._check_max_length_attribute": 1052
+        },
+        {
+            "django.db.models.fields.__init__.CharField.formfield": 1090
+        },
+        {
+            "django.db.models.fields.__init__.DateTimeCheckMixin.check": 1120
+        },
+        {
+            "django.db.models.fields.__init__.DateField.__init__": 1160
+        },
+        {
+            "django.db.models.fields.__init__.DateField.contribute_to_class": 1260
+        },
+        {
+            "django.db.models.fields.__init__.DateField.formfield": 1286
+        },
+        {
+            "django.db.models.fields.__init__.DateTimeField.formfield": 1442
+        },
+        {
+            "django.db.models.fields.__init__.DecimalField.__init__": 1456
+        },
+        {
+            "django.db.models.fields.__init__.DecimalField.check": 1461
+        },
+        {
+            "django.db.models.fields.__init__.DecimalField._check_decimal_places_and_max_digits": 1522
+        },
+        {
+            "django.db.models.fields.__init__.DecimalField.formfield": 1575
+        },
+        {
+            "django.db.models.fields.__init__.DurationField.formfield": 1637
+        },
+        {
+            "django.db.models.fields.__init__.EmailField.__init__": 1648
+        },
+        {
+            "django.db.models.fields.__init__.EmailField.formfield": 1659
+        },
+        {
+            "django.db.models.fields.__init__.FilePathField.__init__": 1671
+        },
+        {
+            "django.db.models.fields.__init__.FilePathField.check": 1678
+        },
+        {
+            "django.db.models.fields.__init__.FilePathField._check_allowing_files_or_folders": 1684
+        },
+        {
+            "django.db.models.fields.__init__.FilePathField.formfield": 1717
+        },
+        {
+            "django.db.models.fields.__init__.FloatField.formfield": 1760
+        },
+        {
+            "django.db.models.fields.__init__.IntegerField.check": 1774
+        },
+        {
+            "django.db.models.fields.__init__.IntegerField.formfield": 1842
+        },
+        {
+            "django.db.models.fields.__init__.BigIntegerField.formfield": 1856
+        },
+        {
+            "django.db.models.fields.__init__.IPAddressField.__init__": 1876
+        },
+        {
+            "django.db.models.fields.__init__.GenericIPAddressField.__init__": 1900
+        },
+        {
+            "django.db.models.fields.__init__.GenericIPAddressField.check": 1910
+        },
+        {
+            "django.db.models.fields.__init__.GenericIPAddressField._check_blank_and_null_values": 1916
+        },
+        {
+            "django.db.models.fields.__init__.GenericIPAddressField.formfield": 1967
+        },
+        {
+            "django.db.models.fields.__init__.NullBooleanField.__init__": 1982
+        },
+        {
+            "django.db.models.fields.__init__.PositiveIntegerField.formfield": 2020
+        },
+        {
+            "django.db.models.fields.__init__.PositiveSmallIntegerField.formfield": 2033
+        },
+        {
+            "django.db.models.fields.__init__.SlugField.__init__": 2044
+        },
+        {
+            "django.db.models.fields.__init__.SlugField.formfield": 2065
+        },
+        {
+            "django.db.models.fields.__init__.TextField.formfield": 2095
+        },
+        {
+            "django.db.models.fields.__init__.TimeField.__init__": 2116
+        },
+        {
+            "django.db.models.fields.__init__.TimeField.formfield": 2231
+        },
+        {
+            "django.db.models.fields.__init__.URLField.__init__": 2242
+        },
+        {
+            "django.db.models.fields.__init__.URLField.formfield": 2252
+        },
+        {
+            "django.db.models.fields.__init__.BinaryField.__init__": 2265
+        },
+        {
+            "django.db.models.fields.__init__.UUIDField.__init__": 2317
+        },
+        {
+            "django.db.models.fields.__init__.UUIDField.formfield": 2352
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/fields/related_descriptors.py": [
+        {
+            "django.db.models.fields.related_descriptors.ForwardManyToOneDescriptor.get_queryset": 108
+        },
+        {
+            "django.db.models.fields.related_descriptors.ReverseOneToOneDescriptor.get_queryset": 353
+        },
+        {
+            "django.db.models.fields.related_descriptors.RelatedManager.add": 633
+        },
+        {
+            "django.db.models.fields.related_descriptors.RelatedManager.create": 665
+        },
+        {
+            "django.db.models.fields.related_descriptors.RelatedManager.get_or_create": 671
+        },
+        {
+            "django.db.models.fields.related_descriptors.RelatedManager.update_or_create": 677
+        },
+        {
+            "django.db.models.fields.related_descriptors.RelatedManager.remove": 685
+        },
+        {
+            "django.db.models.fields.related_descriptors.ManyRelatedManager.add": 932
+        },
+        {
+            "django.db.models.fields.related_descriptors.ManyRelatedManager.remove": 948
+        },
+        {
+            "django.db.models.fields.related_descriptors.ManyRelatedManager.create": 1000
+        },
+        {
+            "django.db.models.fields.related_descriptors.ManyRelatedManager.get_or_create": 1007
+        },
+        {
+            "django.db.models.fields.related_descriptors.ManyRelatedManager.update_or_create": 1017
+        },
+        {
+            "django.db.models.fields.related_descriptors.ManyRelatedManager._add_items": 1027
+        },
+        {
+            "django.db.models.fields.related_descriptors.ManyRelatedManager._remove_items": 1097
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/functions/text.py": [
+        {
+            "django.db.models.functions.text.Chr.as_mysql": 27
+        },
+        {
+            "django.db.models.functions.text.Chr.as_oracle": 34
+        },
+        {
+            "django.db.models.functions.text.Chr.as_sqlite": 41
+        },
+        {
+            "django.db.models.functions.text.ConcatPair.as_sqlite": 52
+        },
+        {
+            "django.db.models.functions.text.ConcatPair.as_mysql": 59
+        },
+        {
+            "django.db.models.functions.text.Concat.__init__": 85
+        },
+        {
+            "django.db.models.functions.text.Left.__init__": 104
+        },
+        {
+            "django.db.models.functions.text.Left.as_oracle": 117
+        },
+        {
+            "django.db.models.functions.text.Left.as_sqlite": 120
+        },
+        {
+            "django.db.models.functions.text.Length.as_mysql": 130
+        },
+        {
+            "django.db.models.functions.text.LPad.__init__": 142
+        },
+        {
+            "django.db.models.functions.text.Ord.as_mysql": 158
+        },
+        {
+            "django.db.models.functions.text.Ord.as_sqlite": 161
+        },
+        {
+            "django.db.models.functions.text.Repeat.__init__": 168
+        },
+        {
+            "django.db.models.functions.text.Repeat.as_oracle": 173
+        },
+        {
+            "django.db.models.functions.text.Replace.__init__": 183
+        },
+        {
+            "django.db.models.functions.text.Reverse.as_oracle": 191
+        },
+        {
+            "django.db.models.functions.text.StrIndex.as_postgresql": 232
+        },
+        {
+            "django.db.models.functions.text.Substr.__init__": 239
+        },
+        {
+            "django.db.models.functions.text.Substr.as_sqlite": 253
+        },
+        {
+            "django.db.models.functions.text.Substr.as_oracle": 256
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/functions/mixins.py": [
+        {
+            "django.db.models.functions.mixins.FixDecimalInputMixin.as_postgresql": 9
+        },
+        {
+            "django.db.models.functions.mixins.FixDurationInputMixin.as_mysql": 25
+        },
+        {
+            "django.db.models.functions.mixins.FixDurationInputMixin.as_oracle": 31
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/functions/window.py": [
+        {
+            "django.db.models.functions.window.LagLeadFunction.__init__": 31
+        },
+        {
+            "django.db.models.functions.window.NthValue.__init__": 70
+        },
+        {
+            "django.db.models.functions.window.Ntile.__init__": 87
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/functions/math.py": [
+        {
+            "django.db.models.functions.math.ATan2.as_sqlite": 36
+        },
+        {
+            "django.db.models.functions.math.Ceil.as_oracle": 58
+        },
+        {
+            "django.db.models.functions.math.Cot.as_oracle": 71
+        },
+        {
+            "django.db.models.functions.math.Degrees.as_oracle": 79
+        },
+        {
+            "django.db.models.functions.math.Log.as_sqlite": 106
+        },
+        {
+            "django.db.models.functions.math.Pi.as_oracle": 125
+        },
+        {
+            "django.db.models.functions.math.Radians.as_oracle": 138
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/functions/datetime.py": [
+        {
+            "django.db.models.functions.datetime.Extract.__init__": 35
+        },
+        {
+            "django.db.models.functions.datetime.Now.as_postgresql": 162
+        },
+        {
+            "django.db.models.functions.datetime.TruncBase.__init__": 173
+        },
+        {
+            "django.db.models.functions.datetime.Trunc.__init__": 243
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/functions/comparison.py": [
+        {
+            "django.db.models.functions.comparison.Cast.as_sql": 13
+        },
+        {
+            "django.db.models.functions.comparison.Cast.as_sqlite": 17
+        },
+        {
+            "django.db.models.functions.comparison.Cast.as_mysql": 31
+        },
+        {
+            "django.db.models.functions.comparison.Cast.as_postgresql": 36
+        },
+        {
+            "django.db.models.functions.comparison.Coalesce.__init__": 47
+        },
+        {
+            "django.db.models.functions.comparison.Coalesce.as_oracle": 52
+        },
+        {
+            "django.db.models.functions.comparison.Greatest.__init__": 74
+        },
+        {
+            "django.db.models.functions.comparison.Greatest.as_sqlite": 79
+        },
+        {
+            "django.db.models.functions.comparison.Least.__init__": 94
+        },
+        {
+            "django.db.models.functions.comparison.Least.as_sqlite": 99
+        },
+        {
+            "django.db.models.functions.comparison.NullIf.as_oracle": 108
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/sql/subqueries.py": [
+        {
+            "django.db.models.sql.subqueries.UpdateQuery.__init__": 84
+        },
+        {
+            "django.db.models.sql.subqueries.InsertQuery.__init__": 172
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/sql/where.py": [
+        {
+            "django.db.models.sql.where.WhereNode.resolve_expression": 186
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/db/models/sql/query.py": [
+        {
+            "django.db.models.sql.query.Query.explain": 524
+        },
+        {
+            "django.db.models.sql.query.Query.resolve_expression": 1004
+        },
+        {
+            "django.db.models.sql.query.Query.add_distinct_fields": 1748
+        },
+        {
+            "django.db.models.sql.query.Query.add_ordering": 1793
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/http/request.py": [
+        {
+            "django.http.request.HttpRequest.read": 341
+        },
+        {
+            "django.http.request.HttpRequest.readline": 348
+        },
+        {
+            "django.http.request.QueryDict.pop": 497
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/http/response.py": [
+        {
+            "django.http.response.HttpResponseBase.set_signed_cookie": 209
+        },
+        {
+            "django.http.response.HttpResponse.__init__": 288
+        },
+        {
+            "django.http.response.StreamingHttpResponse.__init__": 356
+        },
+        {
+            "django.http.response.FileResponse.__init__": 396
+        },
+        {
+            "django.http.response.HttpResponseRedirectBase.__init__": 454
+        },
+        {
+            "django.http.response.HttpResponseNotModified.__init__": 483
+        },
+        {
+            "django.http.response.HttpResponseNotAllowed.__init__": 509
+        },
+        {
+            "django.http.response.JsonResponse.__init__": 548
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/safestring.py": [
+        {
+            "django.utils.safestring.wrapped": 66
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/deprecation.py": [
+        {
+            "django.utils.deprecation.warn_about_renamed_method.wrapped": 24
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/module_loading.py": [
+        {
+            "django.utils.module_loading.autodiscover_modules": 27
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/archive.py": [
+        {
+            "django.utils.archive.TarArchive.list": 157
+        },
+        {
+            "django.utils.archive.ZipArchive.list": 199
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/cache.py": [
+        {
+            "django.utils.cache.patch_cache_control": 37
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/text.py": [
+        {
+            "django.utils.text._format_lazy": 408
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/log.py": [
+        {
+            "django.utils.log.AdminEmailHandler.send_mail": 124
+        },
+        {
+            "django.utils.log.ServerFormatter.__init__": 163
+        },
+        {
+            "django.utils.log.log_response": 199
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/encoding.py": [
+        {
+            "django.utils.encoding.DjangoUnicodeDecodeError.__init__": 12
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/feedgenerator.py": [
+        {
+            "django.utils.feedgenerator.SyndicationFeed.__init__": 61
+        },
+        {
+            "django.utils.feedgenerator.SyndicationFeed.add_item": 85
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/functional.py": [
+        {
+            "django.utils.functional.curry": 12
+        },
+        {
+            "django.utils.functional._curried": 13
+        },
+        {
+            "django.utils.functional.lazy": 92
+        },
+        {
+            "django.utils.functional.__proxy__.__wrapper__": 148
+        },
+        {
+            "django.utils.functional.__wrapper__": 203
+        },
+        {
+            "django.utils.functional._lazy_proxy_unpickle": 210
+        },
+        {
+            "django.utils.functional.keep_lazy": 221
+        },
+        {
+            "django.utils.functional.wrapper": 235
+        },
+        {
+            "django.utils.functional.inner": 254
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/six.py": [
+        {
+            "django.utils.six._SixMetaPathImporter._add_module": 175
+        },
+        {
+            "django.utils.six.iterkeys": 572
+        },
+        {
+            "django.utils.six.itervalues": 575
+        },
+        {
+            "django.utils.six.iteritems": 578
+        },
+        {
+            "django.utils.six.iterlists": 581
+        },
+        {
+            "django.utils.six.iterkeys": 590
+        },
+        {
+            "django.utils.six.itervalues": 593
+        },
+        {
+            "django.utils.six.iteritems": 596
+        },
+        {
+            "django.utils.six.iterlists": 599
+        },
+        {
+            "django.utils.six.assertCountEqual": 664
+        },
+        {
+            "django.utils.six.assertRaisesRegex": 668
+        },
+        {
+            "django.utils.six.assertRegex": 672
+        },
+        {
+            "django.utils.six.print_": 721
+        },
+        {
+            "django.utils.six.print_": 777
+        },
+        {
+            "django.utils.six.with_metaclass": 798
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/autoreload.py": [
+        {
+            "django.utils.autoreload.wrapper": 51
+        },
+        {
+            "django.utils.autoreload.WatchmanReloader.request_processed": 514
+        },
+        {
+            "django.utils.autoreload.start_django": 573
+        },
+        {
+            "django.utils.autoreload.run_with_reloader": 592
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/termcolors.py": [
+        {
+            "django.utils.termcolors.colorize": 13
+        },
+        {
+            "django.utils.termcolors.make_style": 58
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/datastructures.py": [
+        {
+            "django.utils.datastructures.MultiValueDict.update": 194
+        },
+        {
+            "django.utils.datastructures.ImmutableList.__new__": 230
+        },
+        {
+            "django.utils.datastructures.ImmutableList.complain": 235
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/html.py": [
+        {
+            "django.utils.html.format_html": 110
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/deconstruct.py": [
+        {
+            "django.utils.deconstruct.deconstructible": 6
+        },
+        {
+            "django.utils.deconstruct.__new__": 14
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/_os.py": [
+        {
+            "django.utils._os.safe_join": 24
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/decorators.py": [
+        {
+            "django.utils.decorators.dummy": 19
+        },
+        {
+            "django.utils.decorators._wrapper": 37
+        },
+        {
+            "django.utils.decorators._make_decorator": 127
+        },
+        {
+            "django.utils.decorators._wrapped_view": 132
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/translation/trans_real.py": [
+        {
+            "django.utils.translation.trans_real.reset_cache": 49
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/translation/__init__.py": [
+        {
+            "django.utils.translation.__init__.lazy_number": 106
+        },
+        {
+            "django.utils.translation.__init__.NumberAwareString.format": 131
+        },
+        {
+            "django.utils.translation.__init__.templatize": 247
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/utils/translation/reloader.py": [
+        {
+            "django.utils.translation.reloader.watch_for_translation_changes": 7
+        },
+        {
+            "django.utils.translation.reloader.translation_file_changed": 19
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/dispatch/dispatcher.py": [
+        {
+            "django.dispatch.dispatcher.Signal.send": 152
+        },
+        {
+            "django.dispatch.dispatcher.Signal.send_robust": 178
+        },
+        {
+            "django.dispatch.dispatcher.receiver": 272
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/i18n.py": [
+        {
+            "django.views.i18n.JavaScriptCatalog.get": 193
+        },
+        {
+            "django.views.i18n.JavaScriptCatalog.get_context_data": 270
+        },
+        {
+            "django.views.i18n.JavaScriptCatalog.render_to_response": 277
+        },
+        {
+            "django.views.i18n.JSONCatalog.render_to_response": 307
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/decorators/cache.py": [
+        {
+            "django.views.decorators.cache.cache_control": 27
+        },
+        {
+            "django.views.decorators.cache._cache_controlled": 30
+        },
+        {
+            "django.views.decorators.cache._wrapped_view_func": 43
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/decorators/csrf.py": [
+        {
+            "django.views.decorators.csrf.wrapped_view": 53
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/decorators/debug.py": [
+        {
+            "django.views.decorators.debug.sensitive_variables": 6
+        },
+        {
+            "django.views.decorators.debug.sensitive_variables_wrapper": 31
+        },
+        {
+            "django.views.decorators.debug.sensitive_post_parameters": 41
+        },
+        {
+            "django.views.decorators.debug.sensitive_post_parameters_wrapper": 66
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/decorators/http.py": [
+        {
+            "django.views.decorators.http.inner": 31
+        },
+        {
+            "django.views.decorators.http.inner": 79
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/decorators/clickjacking.py": [
+        {
+            "django.views.decorators.clickjacking.wrapped_view": 14
+        },
+        {
+            "django.views.decorators.clickjacking.wrapped_view": 32
+        },
+        {
+            "django.views.decorators.clickjacking.wrapped_view": 49
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/decorators/vary.py": [
+        {
+            "django.views.decorators.vary.vary_on_headers": 6
+        },
+        {
+            "django.views.decorators.vary.inner_func": 19
+        },
+        {
+            "django.views.decorators.vary.inner_func": 37
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/generic/edit.py": [
+        {
+            "django.views.generic.edit.FormMixin.get_context_data": 63
+        },
+        {
+            "django.views.generic.edit.ProcessFormView.get": 131
+        },
+        {
+            "django.views.generic.edit.ProcessFormView.post": 135
+        },
+        {
+            "django.views.generic.edit.ProcessFormView.put": 148
+        },
+        {
+            "django.views.generic.edit.BaseCreateView.get": 166
+        },
+        {
+            "django.views.generic.edit.BaseCreateView.post": 170
+        },
+        {
+            "django.views.generic.edit.BaseUpdateView.get": 188
+        },
+        {
+            "django.views.generic.edit.BaseUpdateView.post": 192
+        },
+        {
+            "django.views.generic.edit.DeletionMixin.delete": 206
+        },
+        {
+            "django.views.generic.edit.DeletionMixin.post": 217
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/generic/detail.py": [
+        {
+            "django.views.generic.detail.SingleObjectMixin.get_context_data": 91
+        },
+        {
+            "django.views.generic.detail.BaseDetailView.get": 105
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/generic/base.py": [
+        {
+            "django.views.generic.base.ContextMixin.get_context_data": 23
+        },
+        {
+            "django.views.generic.base.View.__init__": 38
+        },
+        {
+            "django.views.generic.base.View.as_view": 49
+        },
+        {
+            "django.views.generic.base.View.view": 61
+        },
+        {
+            "django.views.generic.base.View.setup": 83
+        },
+        {
+            "django.views.generic.base.View.dispatch": 89
+        },
+        {
+            "django.views.generic.base.View.http_method_not_allowed": 99
+        },
+        {
+            "django.views.generic.base.View.options": 106
+        },
+        {
+            "django.views.generic.base.TemplateResponseMixin.render_to_response": 124
+        },
+        {
+            "django.views.generic.base.TemplateView.get": 157
+        },
+        {
+            "django.views.generic.base.RedirectView.get_redirect_url": 169
+        },
+        {
+            "django.views.generic.base.RedirectView.get": 187
+        },
+        {
+            "django.views.generic.base.RedirectView.head": 201
+        },
+        {
+            "django.views.generic.base.RedirectView.post": 204
+        },
+        {
+            "django.views.generic.base.RedirectView.options": 207
+        },
+        {
+            "django.views.generic.base.RedirectView.delete": 210
+        },
+        {
+            "django.views.generic.base.RedirectView.put": 213
+        },
+        {
+            "django.views.generic.base.RedirectView.patch": 216
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/generic/list.py": [
+        {
+            "django.views.generic.list.MultipleObjectMixin.get_paginator": 83
+        },
+        {
+            "django.views.generic.list.MultipleObjectMixin.get_context_data": 113
+        },
+        {
+            "django.views.generic.list.BaseListView.get": 141
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/views/generic/dates.py": [
+        {
+            "django.views.generic.dates.BaseDateListView.get": 298
+        },
+        {
+            "django.views.generic.dates.BaseDateListView.get_dated_queryset": 318
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/test/utils.py": [
+        {
+            "django.test.utils.setup_databases": 155
+        },
+        {
+            "django.test.utils.TestContextDecorator.inner": 369
+        },
+        {
+            "django.test.utils.override_settings.__init__": 393
+        },
+        {
+            "django.test.utils.modify_settings.__init__": 467
+        },
+        {
+            "django.test.utils.ignore_warnings.__init__": 645
+        },
+        {
+            "django.test.utils.replacement": 673
+        },
+        {
+            "django.test.utils.extend_sys_path": 698
+        },
+        {
+            "django.test.utils.isolate_apps.__init__": 845
+        },
+        {
+            "django.test.utils.tag": 859
+        },
+        {
+            "django.test.utils.register_lookup": 871
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/test/signals.py": [
+        {
+            "django.test.signals.clear_cache_handlers": 26
+        },
+        {
+            "django.test.signals.update_installed_apps": 33
+        },
+        {
+            "django.test.signals.update_connections_time_zone": 50
+        },
+        {
+            "django.test.signals.clear_routers_cache": 78
+        },
+        {
+            "django.test.signals.reset_template_engines": 84
+        },
+        {
+            "django.test.signals.clear_serializers_cache": 105
+        },
+        {
+            "django.test.signals.language_changed": 112
+        },
+        {
+            "django.test.signals.localize_settings_changed": 124
+        },
+        {
+            "django.test.signals.file_storage_changed": 130
+        },
+        {
+            "django.test.signals.complex_setting_changed": 137
+        },
+        {
+            "django.test.signals.root_urlconf_changed": 146
+        },
+        {
+            "django.test.signals.static_storage_changed": 154
+        },
+        {
+            "django.test.signals.static_finders_changed": 165
+        },
+        {
+            "django.test.signals.auth_password_validators_changed": 175
+        },
+        {
+            "django.test.signals.user_model_swapped": 182
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/test/testcases.py": [
+        {
+            "django.test.testcases._AssertTemplateUsedContext.on_template_render": 99
+        },
+        {
+            "django.test.testcases.SimpleTestCase.settings": 292
+        },
+        {
+            "django.test.testcases.SimpleTestCase.modify_settings": 299
+        },
+        {
+            "django.test.testcases.SimpleTestCase._assertFooMessage": 678
+        },
+        {
+            "django.test.testcases.SimpleTestCase.assertRaisesMessage": 690
+        },
+        {
+            "django.test.testcases.SimpleTestCase.assertWarnsMessage": 706
+        },
+        {
+            "django.test.testcases.TransactionTestCase.assertNumQueries": 1058
+        },
+        {
+            "django.test.testcases.CheckCondition.__init__": 1190
+        },
+        {
+            "django.test.testcases.skip_wrapper": 1215
+        },
+        {
+            "django.test.testcases.skipIfDBFeature": 1255
+        },
+        {
+            "django.test.testcases.skipUnlessDBFeature": 1264
+        },
+        {
+            "django.test.testcases.skipUnlessAnyDBFeature": 1273
+        },
+        {
+            "django.test.testcases.QuietWSGIRequestHandler.log_message": 1287
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/test/runner.py": [
+        {
+            "django.test.runner.DiscoverRunner.__init__": 407
+        },
+        {
+            "django.test.runner.DiscoverRunner.setup_test_environment": 465
+        },
+        {
+            "django.test.runner.DiscoverRunner.build_suite": 469
+        },
+        {
+            "django.test.runner.DiscoverRunner.setup_databases": 551
+        },
+        {
+            "django.test.runner.DiscoverRunner.run_suite": 572
+        },
+        {
+            "django.test.runner.DiscoverRunner.teardown_databases": 577
+        },
+        {
+            "django.test.runner.DiscoverRunner.teardown_test_environment": 586
+        },
+        {
+            "django.test.runner.DiscoverRunner.suite_result": 590
+        },
+        {
+            "django.test.runner.DiscoverRunner.run_tests": 614
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/test/client.py": [
+        {
+            "django.test.client.ClientHandler.__init__": 119
+        },
+        {
+            "django.test.client.store_rendered_templates": 161
+        },
+        {
+            "django.test.client.RequestFactory.__init__": 270
+        },
+        {
+            "django.test.client.RequestFactory._base_environ": 276
+        },
+        {
+            "django.test.client.RequestFactory.request": 307
+        },
+        {
+            "django.test.client.RequestFactory.get": 342
+        },
+        {
+            "django.test.client.RequestFactory.post": 350
+        },
+        {
+            "django.test.client.RequestFactory.head": 359
+        },
+        {
+            "django.test.client.RequestFactory.trace": 367
+        },
+        {
+            "django.test.client.RequestFactory.options": 371
+        },
+        {
+            "django.test.client.RequestFactory.put": 377
+        },
+        {
+            "django.test.client.RequestFactory.patch": 384
+        },
+        {
+            "django.test.client.RequestFactory.delete": 391
+        },
+        {
+            "django.test.client.RequestFactory.generic": 398
+        },
+        {
+            "django.test.client.Client.__init__": 443
+        },
+        {
+            "django.test.client.Client.store_exc_info": 448
+        },
+        {
+            "django.test.client.Client.request": 465
+        },
+        {
+            "django.test.client.Client.get": 533
+        },
+        {
+            "django.test.client.Client.post": 540
+        },
+        {
+            "django.test.client.Client.head": 548
+        },
+        {
+            "django.test.client.Client.options": 555
+        },
+        {
+            "django.test.client.Client.put": 563
+        },
+        {
+            "django.test.client.Client.patch": 571
+        },
+        {
+            "django.test.client.Client.delete": 579
+        },
+        {
+            "django.test.client.Client.trace": 587
+        },
+        {
+            "django.test.client.Client.login": 594
+        },
+        {
+            "django.test.client.Client._parse_json": 663
+        },
+        {
+            "django.test.client.Client._handle_redirects": 673
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/paginator.py": [
+        {
+            "django.core.paginator.Paginator._get_page": 77
+        },
+        {
+            "django.core.paginator.QuerySetPaginator.__init__": 131
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/validators.py": [
+        {
+            "django.core.validators.URLValidator.__init__": 105
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/serializers/xml_serializer.py": [
+        {
+            "django.core.serializers.xml_serializer.Deserializer.__init__": 153
+        },
+        {
+            "django.core.serializers.xml_serializer.DefusedExpatParser.__init__": 346
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/serializers/base.py": [
+        {
+            "django.core.serializers.base.Serializer.serialize": 75
+        },
+        {
+            "django.core.serializers.base.Deserializer.__init__": 177
+        },
+        {
+            "django.core.serializers.base.DeserializedObject.save": 219
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/serializers/pyyaml.py": [
+        {
+            "django.core.serializers.pyyaml.Deserializer": 64
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/serializers/json.py": [
+        {
+            "django.core.serializers.json.Deserializer": 61
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/serializers/__init__.py": [
+        {
+            "django.core.serializers.__init__.BadSerializer.__call__": 49
+        },
+        {
+            "django.core.serializers.__init__.serialize": 122
+        },
+        {
+            "django.core.serializers.__init__.deserialize": 132
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/serializers/python.py": [
+        {
+            "django.core.serializers.python.Deserializer": 79
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/base.py": [
+        {
+            "django.core.management.base.CommandParser.__init__": 45
+        },
+        {
+            "django.core.management.base.wrapped": 78
+        },
+        {
+            "django.core.management.base.DjangoHelpFormatter.add_usage": 107
+        },
+        {
+            "django.core.management.base.BaseCommand.create_parser": 249
+        },
+        {
+            "django.core.management.base.BaseCommand.execute": 342
+        },
+        {
+            "django.core.management.base.BaseCommand._run_checks": 376
+        },
+        {
+            "django.core.management.base.BaseCommand.handle": 473
+        },
+        {
+            "django.core.management.base.AppCommand.handle": 494
+        },
+        {
+            "django.core.management.base.AppCommand.handle_app_config": 507
+        },
+        {
+            "django.core.management.base.LabelCommand.handle": 535
+        },
+        {
+            "django.core.management.base.LabelCommand.handle_label": 543
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/sql.py": [
+        {
+            "django.core.management.sql.emit_pre_migrate_signal": 21
+        },
+        {
+            "django.core.management.sql.emit_post_migrate_signal": 38
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/templates.py": [
+        {
+            "django.core.management.templates.TemplateCommand.handle": 59
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/__init__.py": [
+        {
+            "django.core.management.__init__.call_command": 75
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/check.py": [
+        {
+            "django.core.management.commands.check.Command.handle": 36
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/sendtestemail.py": [
+        {
+            "django.core.management.commands.sendtestemail.Command.handle": 26
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/test.py": [
+        {
+            "django.core.management.commands.test.Command.handle": 49
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/squashmigrations.py": [
+        {
+            "django.core.management.commands.squashmigrations.Command.handle": 45
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/inspectdb.py": [
+        {
+            "django.core.management.commands.inspectdb.Command.handle": 32
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/makemessages.py": [
+        {
+            "django.core.management.commands.makemessages.check_programs": 28
+        },
+        {
+            "django.core.management.commands.makemessages.Command.handle": 284
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/testserver.py": [
+        {
+            "django.core.management.commands.testserver.Command.handle": 29
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/runserver.py": [
+        {
+            "django.core.management.commands.runserver.Command.execute": 54
+        },
+        {
+            "django.core.management.commands.runserver.Command.get_handler": 62
+        },
+        {
+            "django.core.management.commands.runserver.Command.handle": 66
+        },
+        {
+            "django.core.management.commands.runserver.Command.run": 97
+        },
+        {
+            "django.core.management.commands.runserver.Command.inner_run": 106
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/showmigrations.py": [
+        {
+            "django.core.management.commands.showmigrations.Command.handle": 38
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/startapp.py": [
+        {
+            "django.core.management.commands.startapp.Command.handle": 11
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/sqlflush.py": [
+        {
+            "django.core.management.commands.sqlflush.Command.handle": 21
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/sqlsequencereset.py": [
+        {
+            "django.core.management.commands.sqlsequencereset.Command.handle_app_config": 17
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/compilemessages.py": [
+        {
+            "django.core.management.commands.compilemessages.Command.handle": 50
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/startproject.py": [
+        {
+            "django.core.management.commands.startproject.Command.handle": 13
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/flush.py": [
+        {
+            "django.core.management.commands.flush.Command.handle": 27
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/shell.py": [
+        {
+            "django.core.management.commands.shell.Command.handle": 83
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/sqlmigrate.py": [
+        {
+            "django.core.management.commands.sqlmigrate.Command.execute": 25
+        },
+        {
+            "django.core.management.commands.sqlmigrate.Command.handle": 32
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/migrate.py": [
+        {
+            "django.core.management.commands.migrate.Command._run_checks": 63
+        },
+        {
+            "django.core.management.commands.migrate.Command.handle": 69
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/dbshell.py": [
+        {
+            "django.core.management.commands.dbshell.Command.handle": 19
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/dumpdata.py": [
+        {
+            "django.core.management.commands.dumpdata.Command.handle": 68
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/makemigrations.py": [
+        {
+            "django.core.management.commands.makemigrations.Command.handle": 61
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/createcachetable.py": [
+        {
+            "django.core.management.commands.createcachetable.Command.handle": 32
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/diffsettings.py": [
+        {
+            "django.core.management.commands.diffsettings.Command.handle": 41
+        },
+        {
+            "django.core.management.commands.diffsettings.Command.output_hash": 57
+        },
+        {
+            "django.core.management.commands.diffsettings.Command.output_unified": 69
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/management/commands/loaddata.py": [
+        {
+            "django.core.management.commands.loaddata.Command.handle": 63
+        },
+        {
+            "django.core.management.commands.loaddata.SingleZipReader.__init__": 341
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/cache/__init__.py": [
+        {
+            "django.core.cache.__init__._create_cache": 32
+        },
+        {
+            "django.core.cache.__init__.close_caches": 116
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/cache/backends/dummy.py": [
+        {
+            "django.core.cache.backends.dummy.DummyCache.__init__": 7
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/cache/backends/base.py": [
+        {
+            "django.core.cache.backends.base.BaseCache.close": 275
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/cache/backends/memcached.py": [
+        {
+            "django.core.cache.backends.memcached.BaseMemcachedCache.close": 99
+        },
+        {
+            "django.core.cache.backends.memcached.PyLibMCCache.close": 198
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/messages.py": [
+        {
+            "django.core.checks.messages.Debug.__init__": 54
+        },
+        {
+            "django.core.checks.messages.Info.__init__": 59
+        },
+        {
+            "django.core.checks.messages.Warning.__init__": 64
+        },
+        {
+            "django.core.checks.messages.Error.__init__": 69
+        },
+        {
+            "django.core.checks.messages.Critical.__init__": 74
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/translation.py": [
+        {
+            "django.core.checks.translation.check_setting_language_code": 13
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/caches.py": [
+        {
+            "django.core.checks.caches.check_default_cache_is_configured": 13
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/database.py": [
+        {
+            "django.core.checks.database.check_database_backends": 7
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/registry.py": [
+        {
+            "django.core.checks.registry.CheckRegistry.register": 28
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/templates.py": [
+        {
+            "django.core.checks.templates.check_setting_app_dirs_loaders": 19
+        },
+        {
+            "django.core.checks.templates.check_string_if_invalid_is_string": 27
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/model_checks.py": [
+        {
+            "django.core.checks.model_checks.check_all_models": 12
+        },
+        {
+            "django.core.checks.model_checks.check_lazy_references": 179
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/urls.py": [
+        {
+            "django.core.checks.urls.check_url_config": 9
+        },
+        {
+            "django.core.checks.urls.check_url_namespaces_unique": 31
+        },
+        {
+            "django.core.checks.urls.check_url_settings": 97
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/security/sessions.py": [
+        {
+            "django.core.checks.security.sessions.check_session_cookie_secure": 67
+        },
+        {
+            "django.core.checks.security.sessions.check_session_cookie_httponly": 80
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/security/csrf.py": [
+        {
+            "django.core.checks.security.csrf.check_csrf_middleware": 28
+        },
+        {
+            "django.core.checks.security.csrf.check_csrf_cookie_secure": 34
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/checks/security/base.py": [
+        {
+            "django.core.checks.security.base.check_security_middleware": 119
+        },
+        {
+            "django.core.checks.security.base.check_xframe_options_middleware": 125
+        },
+        {
+            "django.core.checks.security.base.check_sts": 131
+        },
+        {
+            "django.core.checks.security.base.check_sts_include_subdomains": 137
+        },
+        {
+            "django.core.checks.security.base.check_sts_preload": 147
+        },
+        {
+            "django.core.checks.security.base.check_content_type_nosniff": 157
+        },
+        {
+            "django.core.checks.security.base.check_xss_filter": 166
+        },
+        {
+            "django.core.checks.security.base.check_ssl_redirect": 175
+        },
+        {
+            "django.core.checks.security.base.check_secret_key": 184
+        },
+        {
+            "django.core.checks.security.base.check_debug": 194
+        },
+        {
+            "django.core.checks.security.base.check_xframe_deny": 200
+        },
+        {
+            "django.core.checks.security.base.check_allowed_hosts": 209
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/mail/message.py": [
+        {
+            "django.core.mail.message.SafeMIMEMultipart.__init__": 201
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/mail/__init__.py": [
+        {
+            "django.core.mail.__init__.get_connection": 26
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/mail/backends/filebased.py": [
+        {
+            "django.core.mail.backends.filebased.EmailBackend.__init__": 14
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/mail/backends/locmem.py": [
+        {
+            "django.core.mail.backends.locmem.EmailBackend.__init__": 18
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/mail/backends/console.py": [
+        {
+            "django.core.mail.backends.console.EmailBackend.__init__": 11
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/mail/backends/base.py": [
+        {
+            "django.core.mail.backends.base.BaseEmailBackend.__init__": 17
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/mail/backends/smtp.py": [
+        {
+            "django.core.mail.backends.smtp.EmailBackend.__init__": 17
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/servers/basehttp.py": [
+        {
+            "django.core.servers.basehttp.WSGIServer.__init__": 63
+        },
+        {
+            "django.core.servers.basehttp.ServerHandler.__init__": 84
+        },
+        {
+            "django.core.servers.basehttp.WSGIRequestHandler.log_message": 126
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/handlers/wsgi.py": [
+        {
+            "django.core.handlers.wsgi.WSGIHandler.__init__": 133
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/handlers/base.py": [
+        {
+            "django.core.handlers.base.reset_urlconf": 161
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/files/storage.py": [
+        {
+            "django.core.files.storage.FileSystemStorage._clear_cached_properties": 186
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/core/files/uploadhandler.py": [
+        {
+            "django.core.files.uploadhandler.TemporaryFileUploadHandler.new_file": 135
+        },
+        {
+            "django.core.files.uploadhandler.MemoryFileUploadHandler.new_file": 165
+        },
+        {
+            "django.core.files.uploadhandler.load_handler": 195
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/urls/resolvers.py": [
+        {
+            "django.urls.resolvers.URLResolver.reverse": 605
+        },
+        {
+            "django.urls.resolvers.URLResolver._reverse_with_prefix": 608
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/apps/registry.py": [
+        {
+            "django.apps.registry.Apps.lazy_model_operation": 377
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/measure.py": [
+        {
+            "django.contrib.gis.measure.MeasureBase.__init__": 58
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/shortcuts.py": [
+        {
+            "django.contrib.gis.shortcuts.render_to_kml": 24
+        },
+        {
+            "django.contrib.gis.shortcuts.render_to_kmz": 32
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/backends/postgis/base.py": [
+        {
+            "django.contrib.gis.db.backends.postgis.base.DatabaseWrapper.__init__": 15
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/backends/postgis/schema.py": [
+        {
+            "django.contrib.gis.db.backends.postgis.schema.PostGISSchemaEditor._create_index_sql": 20
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/backends/postgis/operations.py": [
+        {
+            "django.contrib.gis.db.backends.postgis.operations.PostGISOperator.__init__": 29
+        },
+        {
+            "django.contrib.gis.db.backends.postgis.operations.PostGISOperator.as_sql": 40
+        },
+        {
+            "django.contrib.gis.db.backends.postgis.operations.PostGISOperations.distance_expr_for_lookup": 371
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/backends/oracle/schema.py": [
+        {
+            "django.contrib.gis.db.backends.oracle.schema.OracleGISSchemaEditor.__init__": 27
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/backends/mysql/schema.py": [
+        {
+            "django.contrib.gis.db.backends.mysql.schema.MySQLGISSchemaEditor.__init__": 14
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/backends/spatialite/base.py": [
+        {
+            "django.contrib.gis.db.backends.spatialite.base.DatabaseWrapper.__init__": 24
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/backends/spatialite/schema.py": [
+        {
+            "django.contrib.gis.db.backends.spatialite.schema.SpatialiteSchemaEditor.__init__": 30
+        },
+        {
+            "django.contrib.gis.db.backends.spatialite.schema.SpatialiteSchemaEditor.delete_model": 84
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/models/functions.py": [
+        {
+            "django.contrib.gis.db.models.functions.GeoFuncMixin.__init__": 24
+        },
+        {
+            "django.contrib.gis.db.models.functions.GeoFuncMixin.as_sql": 52
+        },
+        {
+            "django.contrib.gis.db.models.functions.GeoFuncMixin.resolve_expression": 57
+        },
+        {
+            "django.contrib.gis.db.models.functions.SQLiteDecimalToFloatMixin.as_sqlite": 105
+        },
+        {
+            "django.contrib.gis.db.models.functions.OracleToleranceMixin.as_oracle": 115
+        },
+        {
+            "django.contrib.gis.db.models.functions.Area.as_sql": 133
+        },
+        {
+            "django.contrib.gis.db.models.functions.Area.as_sqlite": 138
+        },
+        {
+            "django.contrib.gis.db.models.functions.AsGeoJSON.__init__": 154
+        },
+        {
+            "django.contrib.gis.db.models.functions.AsGML.__init__": 174
+        },
+        {
+            "django.contrib.gis.db.models.functions.AsGML.as_oracle": 180
+        },
+        {
+            "django.contrib.gis.db.models.functions.AsKML.as_sqlite": 190
+        },
+        {
+            "django.contrib.gis.db.models.functions.AsSVG.__init__": 200
+        },
+        {
+            "django.contrib.gis.db.models.functions.BoundingCircle.__init__": 211
+        },
+        {
+            "django.contrib.gis.db.models.functions.BoundingCircle.as_oracle": 214
+        },
+        {
+            "django.contrib.gis.db.models.functions.Distance.__init__": 242
+        },
+        {
+            "django.contrib.gis.db.models.functions.Distance.as_postgresql": 248
+        },
+        {
+            "django.contrib.gis.db.models.functions.Distance.as_sqlite": 273
+        },
+        {
+            "django.contrib.gis.db.models.functions.ForceRHR.__init__": 292
+        },
+        {
+            "django.contrib.gis.db.models.functions.GeoHash.__init__": 303
+        },
+        {
+            "django.contrib.gis.db.models.functions.GeoHash.as_mysql": 309
+        },
+        {
+            "django.contrib.gis.db.models.functions.IsValid.as_oracle": 327
+        },
+        {
+            "django.contrib.gis.db.models.functions.Length.__init__": 333
+        },
+        {
+            "django.contrib.gis.db.models.functions.Length.as_sql": 337
+        },
+        {
+            "django.contrib.gis.db.models.functions.Length.as_postgresql": 342
+        },
+        {
+            "django.contrib.gis.db.models.functions.Length.as_sqlite": 357
+        },
+        {
+            "django.contrib.gis.db.models.functions.Perimeter.as_postgresql": 392
+        },
+        {
+            "django.contrib.gis.db.models.functions.Perimeter.as_sqlite": 401
+        },
+        {
+            "django.contrib.gis.db.models.functions.Scale.__init__": 416
+        },
+        {
+            "django.contrib.gis.db.models.functions.SnapToGrid.__init__": 428
+        },
+        {
+            "django.contrib.gis.db.models.functions.Transform.__init__": 452
+        },
+        {
+            "django.contrib.gis.db.models.functions.Translate.as_sqlite": 463
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/models/aggregates.py": [
+        {
+            "django.contrib.gis.db.models.aggregates.GeoAggregate.as_sql": 19
+        },
+        {
+            "django.contrib.gis.db.models.aggregates.GeoAggregate.as_oracle": 30
+        },
+        {
+            "django.contrib.gis.db.models.aggregates.Extent.__init__": 59
+        },
+        {
+            "django.contrib.gis.db.models.aggregates.Extent3D.__init__": 70
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/db/models/fields.py": [
+        {
+            "django.contrib.gis.db.models.fields.BaseSpatialField.__init__": 67
+        },
+        {
+            "django.contrib.gis.db.models.fields.BaseSpatialField.get_db_prep_value": 143
+        },
+        {
+            "django.contrib.gis.db.models.fields.GeometryField.__init__": 207
+        },
+        {
+            "django.contrib.gis.db.models.fields.GeometryField.contribute_to_class": 252
+        },
+        {
+            "django.contrib.gis.db.models.fields.GeometryField.formfield": 258
+        },
+        {
+            "django.contrib.gis.db.models.fields.RasterField.contribute_to_class": 362
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/utils/ogrinspect.py": [
+        {
+            "django.contrib.gis.utils.ogrinspect.ogrinspect": 51
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/serializers/geojson.py": [
+        {
+            "django.contrib.gis.serializers.geojson.Deserializer.__init__": 66
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/collections.py": [
+        {
+            "django.contrib.gis.geos.collections.GeometryCollection.__init__": 19
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/factory.py": [
+        {
+            "django.contrib.gis.geos.factory.fromstr": 31
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/linestring.py": [
+        {
+            "django.contrib.gis.geos.linestring.LineString.__init__": 14
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/libgeos.py": [
+        {
+            "django.contrib.gis.geos.libgeos.GEOSFuncFactory.__init__": 143
+        },
+        {
+            "django.contrib.gis.geos.libgeos.GEOSFuncFactory.__call__": 154
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/mutable_list.py": [
+        {
+            "django.contrib.gis.geos.mutable_list.ListMixin.__init__": 62
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/polygon.py": [
+        {
+            "django.contrib.gis.geos.polygon.Polygon.__init__": 12
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/prototypes/threadsafe.py": [
+        {
+            "django.contrib.gis.geos.prototypes.threadsafe.GEOSFunc.__call__": 42
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/geos/prototypes/coordseq.py": [
+        {
+            "django.contrib.gis.geos.prototypes.coordseq.CsOperation.__init__": 37
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/gdal/envelope.py": [
+        {
+            "django.contrib.gis.gdal.envelope.Envelope.__init__": 37
+        },
+        {
+            "django.contrib.gis.gdal.envelope.Envelope.expand_to_include": 94
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/management/commands/ogrinspect.py": [
+        {
+            "django.contrib.gis.management.commands.ogrinspect.Command.handle": 98
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/admin/options.py": [
+        {
+            "django.contrib.gis.admin.options.GeoModelAdmin.formfield_for_dbfield": 52
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/gis/forms/fields.py": [
+        {
+            "django.contrib.gis.forms.fields.GeometryField.__init__": 26
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/sitemaps/views.py": [
+        {
+            "django.contrib.sitemaps.views.inner": 15
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/sitemaps/management/commands/ping_google.py": [
+        {
+            "django.contrib.sitemaps.management.commands.ping_google.Command.handle": 12
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/syndication/views.py": [
+        {
+            "django.contrib.syndication.views.Feed.__call__": 34
+        },
+        {
+            "django.contrib.syndication.views.Feed.get_object": 109
+        },
+        {
+            "django.contrib.syndication.views.Feed.get_context_data": 112
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/contenttypes/checks.py": [
+        {
+            "django.contrib.contenttypes.checks.check_generic_foreign_keys": 7
+        },
+        {
+            "django.contrib.contenttypes.checks.check_model_name_lengths": 24
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/contenttypes/admin.py": [
+        {
+            "django.contrib.contenttypes.admin.GenericInlineModelAdmin.get_formset": 90
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/contenttypes/models.py": [
+        {
+            "django.contrib.contenttypes.models.ContentTypeManager.__init__": 11
+        },
+        {
+            "django.contrib.contenttypes.models.ContentTypeManager.get_for_models": 62
+        },
+        {
+            "django.contrib.contenttypes.models.ContentType.get_object_for_this_type": 161
+        },
+        {
+            "django.contrib.contenttypes.models.ContentType.get_all_objects_for_this_type": 170
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/contenttypes/fields.py": [
+        {
+            "django.contrib.contenttypes.fields.GenericForeignKey.contribute_to_class": 49
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericForeignKey.check": 74
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelation.__init__": 288
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelation.check": 312
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelation.contribute_to_class": 428
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelatedObjectManager.add": 585
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelatedObjectManager.remove": 619
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelatedObjectManager.create": 666
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelatedObjectManager.get_or_create": 674
+        },
+        {
+            "django.contrib.contenttypes.fields.GenericRelatedObjectManager.update_or_create": 681
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/contenttypes/forms.py": [
+        {
+            "django.contrib.contenttypes.forms.BaseGenericInlineFormSet.__init__": 12
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/contenttypes/management/__init__.py": [
+        {
+            "django.contrib.contenttypes.management.__init__.inject_rename_contenttypes_operations": 45
+        },
+        {
+            "django.contrib.contenttypes.management.__init__.create_contenttypes": 104
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/contenttypes/management/commands/remove_stale_contenttypes.py": [
+        {
+            "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.Command.handle": 22
+        },
+        {
+            "django.contrib.contenttypes.management.commands.remove_stale_contenttypes.NoFastDeleteCollector.can_fast_delete": 76
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/indexes.py": [
+        {
+            "django.contrib.postgres.indexes.BrinIndex.__init__": 42
+        },
+        {
+            "django.contrib.postgres.indexes.BTreeIndex.__init__": 75
+        },
+        {
+            "django.contrib.postgres.indexes.GinIndex.__init__": 95
+        },
+        {
+            "django.contrib.postgres.indexes.GistIndex.__init__": 124
+        },
+        {
+            "django.contrib.postgres.indexes.HashIndex.__init__": 149
+        },
+        {
+            "django.contrib.postgres.indexes.SpGistIndex.__init__": 169
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/search.py": [
+        {
+            "django.contrib.postgres.search.SearchVector.__init__": 53
+        },
+        {
+            "django.contrib.postgres.search.SearchRank.__init__": 195
+        },
+        {
+            "django.contrib.postgres.search.TrigramBase.__init__": 227
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/signals.py": [
+        {
+            "django.contrib.postgres.signals.register_type_handlers": 37
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/apps.py": [
+        {
+            "django.contrib.postgres.apps.uninstall_if_needed": 20
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/fields/array.py": [
+        {
+            "django.contrib.postgres.fields.array.ArrayField.__init__": 27
+        },
+        {
+            "django.contrib.postgres.fields.array.ArrayField.check": 50
+        },
+        {
+            "django.contrib.postgres.fields.array.ArrayField.formfield": 187
+        },
+        {
+            "django.contrib.postgres.fields.array.IndexTransform.__init__": 262
+        },
+        {
+            "django.contrib.postgres.fields.array.IndexTransformFactory.__call__": 282
+        },
+        {
+            "django.contrib.postgres.fields.array.SliceTransform.__init__": 288
+        },
+        {
+            "django.contrib.postgres.fields.array.SliceTransformFactory.__call__": 304
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/fields/mixins.py": [
+        {
+            "django.contrib.postgres.fields.mixins.CheckFieldDefaultMixin.check": 26
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/fields/hstore.py": [
+        {
+            "django.contrib.postgres.fields.hstore.HStoreField.formfield": 49
+        },
+        {
+            "django.contrib.postgres.fields.hstore.KeyTransform.__init__": 83
+        },
+        {
+            "django.contrib.postgres.fields.hstore.KeyTransformFactory.__call__": 97
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/fields/ranges.py": [
+        {
+            "django.contrib.postgres.fields.ranges.RangeField.__init__": 21
+        },
+        {
+            "django.contrib.postgres.fields.ranges.RangeField.formfield": 81
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/fields/jsonb.py": [
+        {
+            "django.contrib.postgres.fields.jsonb.JSONField.__init__": 38
+        },
+        {
+            "django.contrib.postgres.fields.jsonb.JSONField.formfield": 79
+        },
+        {
+            "django.contrib.postgres.fields.jsonb.KeyTransform.__init__": 98
+        },
+        {
+            "django.contrib.postgres.fields.jsonb.KeyTransformTextLookupMixin.__init__": 130
+        },
+        {
+            "django.contrib.postgres.fields.jsonb.KeyTransformFactory.__call__": 185
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/aggregates/mixins.py": [
+        {
+            "django.contrib.postgres.aggregates.mixins.OrderableAggMixin.__init__": 6
+        },
+        {
+            "django.contrib.postgres.aggregates.mixins.OrderableAggMixin.resolve_expression": 18
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/aggregates/general.py": [
+        {
+            "django.contrib.postgres.aggregates.general.StringAgg.__init__": 58
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/forms/array.py": [
+        {
+            "django.contrib.postgres.forms.array.SimpleArrayField.__init__": 19
+        },
+        {
+            "django.contrib.postgres.forms.array.SplitArrayWidget.__init__": 108
+        },
+        {
+            "django.contrib.postgres.forms.array.SplitArrayField.__init__": 173
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/postgres/forms/ranges.py": [
+        {
+            "django.contrib.postgres.forms.ranges.BaseRangeField.__init__": 23
+        },
+        {
+            "django.contrib.postgres.forms.ranges.FloatRangeField.__init__": 81
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admindocs/views.py": [
+        {
+            "django.contrib.admindocs.views.BaseAdminDocsView.dispatch": 37
+        },
+        {
+            "django.contrib.admindocs.views.BaseAdminDocsView.get_context_data": 44
+        },
+        {
+            "django.contrib.admindocs.views.TemplateTagIndexView.get_context_data": 58
+        },
+        {
+            "django.contrib.admindocs.views.TemplateFilterIndexView.get_context_data": 89
+        },
+        {
+            "django.contrib.admindocs.views.ViewIndexView.get_context_data": 120
+        },
+        {
+            "django.contrib.admindocs.views.ViewDetailView.get_context_data": 155
+        },
+        {
+            "django.contrib.admindocs.views.ModelIndexView.get_context_data": 177
+        },
+        {
+            "django.contrib.admindocs.views.ModelDetailView.get_context_data": 185
+        },
+        {
+            "django.contrib.admindocs.views.TemplateDetailView.get_context_data": 320
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/sessions/backends/base.py": [
+        {
+            "django.contrib.sessions.backends.base.SessionBase.get_expiry_age": 199
+        },
+        {
+            "django.contrib.sessions.backends.base.SessionBase.get_expiry_date": 224
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/sessions/management/commands/clearsessions.py": [
+        {
+            "django.contrib.sessions.management.commands.clearsessions.Command.handle": 13
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/sites/managers.py": [
+        {
+            "django.contrib.sites.managers.CurrentSiteManager.check": 16
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/sites/management.py": [
+        {
+            "django.contrib.sites.management.create_default_site": 11
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/sites/models.py": [
+        {
+            "django.contrib.sites.models.clear_site_cache": 103
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/checks.py": [
+        {
+            "django.contrib.auth.checks.check_user_model": 11
+        },
+        {
+            "django.contrib.auth.checks.check_models_permissions": 97
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/admin.py": [
+        {
+            "django.contrib.auth.admin.GroupAdmin.formfield_for_manytomany": 31
+        },
+        {
+            "django.contrib.auth.admin.UserAdmin.get_form": 72
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/hashers.py": [
+        {
+            "django.contrib.auth.hashers.reset_hashers": 100
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/mixins.py": [
+        {
+            "django.contrib.auth.mixins.LoginRequiredMixin.dispatch": 49
+        },
+        {
+            "django.contrib.auth.mixins.PermissionRequiredMixin.dispatch": 82
+        },
+        {
+            "django.contrib.auth.mixins.UserPassesTestMixin.dispatch": 105
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/views.py": [
+        {
+            "django.contrib.auth.views.LoginView.dispatch": 52
+        },
+        {
+            "django.contrib.auth.views.LoginView.get_context_data": 93
+        },
+        {
+            "django.contrib.auth.views.LogoutView.dispatch": 115
+        },
+        {
+            "django.contrib.auth.views.LogoutView.post": 123
+        },
+        {
+            "django.contrib.auth.views.LogoutView.get_context_data": 152
+        },
+        {
+            "django.contrib.auth.views.PasswordContextMixin.get_context_data": 197
+        },
+        {
+            "django.contrib.auth.views.PasswordResetView.dispatch": 219
+        },
+        {
+            "django.contrib.auth.views.PasswordResetConfirmView.dispatch": 257
+        },
+        {
+            "django.contrib.auth.views.PasswordResetConfirmView.get_context_data": 305
+        },
+        {
+            "django.contrib.auth.views.PasswordResetCompleteView.get_context_data": 322
+        },
+        {
+            "django.contrib.auth.views.PasswordChangeView.dispatch": 337
+        },
+        {
+            "django.contrib.auth.views.PasswordChangeDoneView.dispatch": 358
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/backends.py": [
+        {
+            "django.contrib.auth.backends.ModelBackend.authenticate": 16
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/__init__.py": [
+        {
+            "django.contrib.auth.__init__.authenticate": 62
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/base_user.py": [
+        {
+            "django.contrib.auth.base_user.AbstractBaseUser.save": 65
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/models.py": [
+        {
+            "django.contrib.auth.models.update_last_login": 14
+        },
+        {
+            "django.contrib.auth.models.UserManager._create_user": 135
+        },
+        {
+            "django.contrib.auth.models.UserManager.create_user": 148
+        },
+        {
+            "django.contrib.auth.models.UserManager.create_superuser": 153
+        },
+        {
+            "django.contrib.auth.models.AbstractUser.email_user": 352
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/decorators.py": [
+        {
+            "django.contrib.auth.decorators._wrapped_view": 19
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/forms.py": [
+        {
+            "django.contrib.auth.forms.ReadOnlyPasswordHashField.__init__": 56
+        },
+        {
+            "django.contrib.auth.forms.UserCreationForm.__init__": 100
+        },
+        {
+            "django.contrib.auth.forms.UserChangeForm.__init__": 149
+        },
+        {
+            "django.contrib.auth.forms.AuthenticationForm.__init__": 185
+        },
+        {
+            "django.contrib.auth.forms.SetPasswordForm.__init__": 335
+        },
+        {
+            "django.contrib.auth.forms.AdminPasswordChangeForm.__init__": 410
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/management/__init__.py": [
+        {
+            "django.contrib.auth.management.__init__.create_permissions": 35
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/management/commands/changepassword.py": [
+        {
+            "django.contrib.auth.management.commands.changepassword.Command.handle": 34
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/auth/management/commands/createsuperuser.py": [
+        {
+            "django.contrib.auth.management.commands.createsuperuser.Command.__init__": 28
+        },
+        {
+            "django.contrib.auth.management.commands.createsuperuser.Command.execute": 59
+        },
+        {
+            "django.contrib.auth.management.commands.createsuperuser.Command.handle": 63
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/staticfiles/storage.py": [
+        {
+            "django.contrib.staticfiles.storage.StaticFilesStorage.__init__": 29
+        },
+        {
+            "django.contrib.staticfiles.storage.HashedFilesMixin.__init__": 60
+        },
+        {
+            "django.contrib.staticfiles.storage.HashedFilesMixin.post_process": 209
+        },
+        {
+            "django.contrib.staticfiles.storage.ManifestFilesMixin.__init__": 375
+        },
+        {
+            "django.contrib.staticfiles.storage.ManifestFilesMixin.post_process": 401
+        },
+        {
+            "django.contrib.staticfiles.storage.CachedFilesMixin.__init__": 461
+        },
+        {
+            "django.contrib.staticfiles.storage.CachedStaticFilesStorage.__init__": 479
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/staticfiles/checks.py": [
+        {
+            "django.contrib.staticfiles.checks.check_finders": 4
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/staticfiles/finders.py": [
+        {
+            "django.contrib.staticfiles.finders.BaseFinder.check": 25
+        },
+        {
+            "django.contrib.staticfiles.finders.FileSystemFinder.__init__": 53
+        },
+        {
+            "django.contrib.staticfiles.finders.FileSystemFinder.check": 71
+        },
+        {
+            "django.contrib.staticfiles.finders.AppDirectoriesFinder.__init__": 143
+        },
+        {
+            "django.contrib.staticfiles.finders.BaseStorageFinder.__init__": 206
+        },
+        {
+            "django.contrib.staticfiles.finders.DefaultStorageFinder.__init__": 250
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/staticfiles/views.py": [
+        {
+            "django.contrib.staticfiles.views.serve": 15
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/staticfiles/management/commands/runserver.py": [
+        {
+            "django.contrib.staticfiles.management.commands.runserver.Command.get_handler": 22
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/staticfiles/management/commands/findstatic.py": [
+        {
+            "django.contrib.staticfiles.management.commands.findstatic.Command.handle_label": 18
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/staticfiles/management/commands/collectstatic.py": [
+        {
+            "django.contrib.staticfiles.management.commands.collectstatic.Command.__init__": 21
+        },
+        {
+            "django.contrib.staticfiles.management.commands.collectstatic.Command.set_options": 71
+        },
+        {
+            "django.contrib.staticfiles.management.commands.collectstatic.Command.handle": 148
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/flatpages/forms.py": [
+        {
+            "django.contrib.flatpages.forms.FlatpageForm.__init__": 25
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/sites.py": [
+        {
+            "django.contrib.admin.sites.AdminSite.register": 85
+        },
+        {
+            "django.contrib.admin.sites.AdminSite.inner": 211
+        },
+        {
+            "django.contrib.admin.sites.AdminSite.wrapper": 240
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/checks.py": [
+        {
+            "django.contrib.admin.checks.check_admin_app": 52
+        },
+        {
+            "django.contrib.admin.checks.check_dependencies": 60
+        },
+        {
+            "django.contrib.admin.checks.BaseModelAdminChecks.check": 134
+        },
+        {
+            "django.contrib.admin.checks.ModelAdminChecks.check": 625
+        },
+        {
+            "django.contrib.admin.checks.InlineModelAdminChecks.check": 1004
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/utils.py": [
+        {
+            "django.contrib.admin.utils.NestedObjects.__init__": 160
+        },
+        {
+            "django.contrib.admin.utils.NestedObjects.collect": 169
+        },
+        {
+            "django.contrib.admin.utils.NestedObjects.can_fast_delete": 214
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/options.py": [
+        {
+            "django.contrib.admin.options.BaseModelAdmin.check": 122
+        },
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_dbfield": 133
+        },
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_choice_field": 190
+        },
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_foreignkey": 221
+        },
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_manytomany": 245
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.wrapper": 605
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_form": 661
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_changelist": 712
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_changelist_form": 762
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_changelist_formset": 775
+        },
+        {
+            "django.contrib.admin.options.InlineModelAdmin.get_extra": 2032
+        },
+        {
+            "django.contrib.admin.options.InlineModelAdmin.get_min_num": 2036
+        },
+        {
+            "django.contrib.admin.options.InlineModelAdmin.get_max_num": 2040
+        },
+        {
+            "django.contrib.admin.options.InlineModelAdmin.get_formset": 2044
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/widgets.py": [
+        {
+            "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.get_related_url": 274
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/helpers.py": [
+        {
+            "django.contrib.admin.helpers.InlineFieldset.__init__": 381
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/decorators.py": [
+        {
+            "django.contrib.admin.decorators.register": 1
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/views/autocomplete.py": [
+        {
+            "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get": 10
+        },
+        {
+            "django.contrib.admin.views.autocomplete.AutocompleteJsonView.get_paginator": 38
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/admin/templatetags/admin_list.py": [
+        {
+            "django.contrib.admin.templatetags.admin_list.ResultList.__init__": 304
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/messages/storage/session.py": [
+        {
+            "django.contrib.messages.storage.session.SessionStorage.__init__": 16
+        },
+        {
+            "django.contrib.messages.storage.session.SessionStorage._get": 23
+        },
+        {
+            "django.contrib.messages.storage.session.SessionStorage._store": 31
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/messages/storage/base.py": [
+        {
+            "django.contrib.messages.storage.base.BaseStorage.__init__": 51
+        },
+        {
+            "django.contrib.messages.storage.base.BaseStorage._get": 82
+        },
+        {
+            "django.contrib.messages.storage.base.BaseStorage._store": 97
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/messages/storage/cookie.py": [
+        {
+            "django.contrib.messages.storage.cookie.MessageDecoder.decode": 47
+        },
+        {
+            "django.contrib.messages.storage.cookie.CookieStorage._get": 63
+        },
+        {
+            "django.contrib.messages.storage.cookie.CookieStorage._store": 98
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/contrib/messages/storage/fallback.py": [
+        {
+            "django.contrib.messages.storage.fallback.FallbackStorage.__init__": 13
+        },
+        {
+            "django.contrib.messages.storage.fallback.FallbackStorage._get": 19
+        },
+        {
+            "django.contrib.messages.storage.fallback.FallbackStorage._store": 38
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/conf/__init__.py": [
+        {
+            "django.conf.__init__.LazySettings.configure": 100
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/conf/urls/i18n.py": [
+        {
+            "django.conf.urls.i18n.i18n_patterns": 8
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/conf/urls/static.py": [
+        {
+            "django.conf.urls.static.static": 10
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/template/library.py": [
+        {
+            "django.template.library.Library.filter": 54
+        },
+        {
+            "django.template.library.Library.filter_function": 96
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/template/defaultfilters.py": [
+        {
+            "django.template.defaultfilters._dec": 40
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/template/defaulttags.py": [
+        {
+            "django.template.defaulttags.IfChangedNode.__init__": 222
+        },
+        {
+            "django.template.defaulttags.TemplateIfParser.__init__": 882
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/template/loader_tags.py": [
+        {
+            "django.template.loader_tags.IncludeNode.__init__": 156
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/template/context.py": [
+        {
+            "django.template.context.ContextDict.__init__": 14
+        },
+        {
+            "django.template.context.ContextDict.__exit__": 23
+        },
+        {
+            "django.template.context.BaseContext.push": 48
+        },
+        {
+            "django.template.context.make_context": 265
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/forms/utils.py": [
+        {
+            "django.forms.utils.ErrorList.__reduce_ex__": 139
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/forms/widgets.py": [
+        {
+            "django.forms.widgets.Media.merge": 116
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/forms/boundfield.py": [
+        {
+            "django.forms.boundfield.BoundField.as_text": 96
+        },
+        {
+            "django.forms.boundfield.BoundField.as_textarea": 102
+        },
+        {
+            "django.forms.boundfield.BoundField.as_hidden": 106
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/forms/formsets.py": [
+        {
+            "django.forms.formsets.ManagementForm.__init__": 34
+        },
+        {
+            "django.forms.formsets.BaseFormSet._construct_form": 148
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/forms/models.py": [
+        {
+            "django.forms.models.BaseModelFormSet.__init__": 565
+        },
+        {
+            "django.forms.models.BaseModelFormSet._construct_form": 591
+        },
+        {
+            "django.forms.models.BaseInlineFormSet.__init__": 887
+        },
+        {
+            "django.forms.models.BaseInlineFormSet._construct_form": 915
+        },
+        {
+            "django.forms.models.InlineForeignKeyField.__init__": 1094
+        },
+        {
+            "django.forms.models.ModelChoiceField.__init__": 1163
+        },
+        {
+            "django.forms.models.ModelMultipleChoiceField.__init__": 1275
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/forms/fields.py": [
+        {
+            "django.forms.fields.CharField.__init__": 209
+        },
+        {
+            "django.forms.fields.IntegerField.__init__": 249
+        },
+        {
+            "django.forms.fields.DecimalField.__init__": 328
+        },
+        {
+            "django.forms.fields.BaseTemporalField.__init__": 373
+        },
+        {
+            "django.forms.fields.RegexField.__init__": 498
+        },
+        {
+            "django.forms.fields.EmailField.__init__": 525
+        },
+        {
+            "django.forms.fields.FileField.__init__": 542
+        },
+        {
+            "django.forms.fields.URLField.__init__": 662
+        },
+        {
+            "django.forms.fields.ChoiceField.__init__": 765
+        },
+        {
+            "django.forms.fields.TypedChoiceField.__init__": 822
+        },
+        {
+            "django.forms.fields.TypedMultipleChoiceField.__init__": 891
+        },
+        {
+            "django.forms.fields.ComboField.__init__": 930
+        },
+        {
+            "django.forms.fields.MultiValueField.__init__": 972
+        },
+        {
+            "django.forms.fields.FilePathField.__init__": 1079
+        },
+        {
+            "django.forms.fields.SplitDateTimeField.__init__": 1130
+        },
+        {
+            "django.forms.fields.GenericIPAddressField.__init__": 1159
+        },
+        {
+            "django.forms.fields.SlugField.__init__": 1176
+        }
+    ],
+    "/home/zhang/Packages/django/django2.2.18/forms/forms.py": [
+        {
+            "django.forms.forms.DeclarativeFieldsMetaclass.__prepare__": 56
+        }
+    ]
+}

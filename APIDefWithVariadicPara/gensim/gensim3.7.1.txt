@@ -1,0 +1,392 @@
+{
+    "/home/zhang/Packages/gensim/gensim3.7.1/utils.py": [
+        {
+            "gensim.utils._synchronizer": 102
+        },
+        {
+            "gensim.utils.call_on_class_only": 365
+        },
+        {
+            "gensim.utils.new_func1": 1441
+        },
+        {
+            "gensim.utils.new_func2": 1457
+        },
+        {
+            "gensim.utils.check_output": 1887
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/interfaces.py": [
+        {
+            "gensim.interfaces.CorpusABC.save": 83
+        },
+        {
+            "gensim.interfaces.TransformedCorpus.__init__": 140
+        },
+        {
+            "gensim.interfaces.TransformationABC._apply": 239
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/corpora/textcorpus.py": [
+        {
+            "gensim.corpora.textcorpus.TextDirectoryCorpus.__init__": 479
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/corpora/hashdictionary.py": [
+        {
+            "gensim.corpora.hashdictionary.HashDictionary.from_documents": 155
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/corpora/sharded_corpus.py": [
+        {
+            "gensim.corpora.sharded_corpus.ShardedCorpus.save": 760
+        },
+        {
+            "gensim.corpora.sharded_corpus.ShardedCorpus.save_corpus": 785
+        },
+        {
+            "gensim.corpora.sharded_corpus.ShardedCorpus.serialize": 807
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/corpora/wikicorpus.py": [
+        {
+            "gensim.corpora.wikicorpus.filter_example": 96
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/test/test_corpora.py": [
+        {
+            "gensim.test.test_corpora.TestWikiCorpus.reject_all": 785
+        },
+        {
+            "gensim.test.test_corpora.TestWikiCorpus.keep_some": 791
+        },
+        {
+            "gensim.test.test_corpora.TestTextDirectoryCorpus.write_one_level": 802
+        },
+        {
+            "gensim.test.test_corpora.TestTextDirectoryCorpus.write_docs_to_directory": 809
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/test/test_doc2vec.py": [
+        {
+            "gensim.test.test_doc2vec.ConcatenatedDoc2Vec.train": 729
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/similarities/docsim.py": [
+        {
+            "gensim.similarities.docsim.Similarity.save": 689
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/tfidfmodel.py": [
+        {
+            "gensim.models.tfidfmodel.TfidfModel.load": 350
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/ldamodel.py": [
+        {
+            "gensim.models.ldamodel.LdaState.load": 282
+        },
+        {
+            "gensim.models.ldamodel.LdaModel.save": 1526
+        },
+        {
+            "gensim.models.ldamodel.LdaModel.load": 1608
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/keyedvectors.py": [
+        {
+            "gensim.models.keyedvectors.Vocab.__init__": 197
+        },
+        {
+            "gensim.models.keyedvectors.BaseKeyedVectors.save": 217
+        },
+        {
+            "gensim.models.keyedvectors.BaseKeyedVectors.load": 221
+        },
+        {
+            "gensim.models.keyedvectors.BaseKeyedVectors.most_similar": 228
+        },
+        {
+            "gensim.models.keyedvectors.WordEmbeddingsKeyedVectors.save": 414
+        },
+        {
+            "gensim.models.keyedvectors.Word2VecKeyedVectors.load": 1517
+        },
+        {
+            "gensim.models.keyedvectors.Doc2VecKeyedVectors.save": 1589
+        },
+        {
+            "gensim.models.keyedvectors.FastTextKeyedVectors.load": 1992
+        },
+        {
+            "gensim.models.keyedvectors.FastTextKeyedVectors.save": 2040
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/base_any2vec.py": [
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel._set_train_params": 108
+        },
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel._do_train_epoch": 128
+        },
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel._check_training_sanity": 136
+        },
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel._worker_loop_corpusfile": 145
+        },
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel._train_epoch_corpusfile": 374
+        },
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel.train": 493
+        },
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel.load": 577
+        },
+        {
+            "gensim.models.base_any2vec.BaseAny2VecModel.save": 605
+        },
+        {
+            "gensim.models.base_any2vec.BaseWordEmbeddingsModel._set_train_params": 645
+        },
+        {
+            "gensim.models.base_any2vec.BaseWordEmbeddingsModel.__init__": 648
+        },
+        {
+            "gensim.models.base_any2vec.BaseWordEmbeddingsModel.build_vocab": 896
+        },
+        {
+            "gensim.models.base_any2vec.BaseWordEmbeddingsModel.train": 1026
+        },
+        {
+            "gensim.models.base_any2vec.BaseWordEmbeddingsModel._check_training_sanity": 1155
+        },
+        {
+            "gensim.models.base_any2vec.BaseWordEmbeddingsModel.load": 1214
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/translation_matrix.py": [
+        {
+            "gensim.models.translation_matrix.TranslationMatrix.save": 258
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/phrases.py": [
+        {
+            "gensim.models.phrases.PhrasesTransformation.load": 193
+        },
+        {
+            "gensim.models.phrases.Phrases.load": 400
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/lsimodel.py": [
+        {
+            "gensim.models.lsimodel.LsiModel.save": 731
+        },
+        {
+            "gensim.models.lsimodel.LsiModel.load": 762
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/nmf.py": [
+        {
+            "gensim.models.nmf.Nmf._apply": 655
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/ldaseqmodel.py": [
+        {
+            "gensim.models.ldaseqmodel.f_obs": 1529
+        },
+        {
+            "gensim.models.ldaseqmodel.df_obs": 1603
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/lda_worker.py": [
+        {
+            "gensim.models.lda_worker.Worker.initialize": 93
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/poincare.py": [
+        {
+            "gensim.models.poincare.PoincareModel.save": 355
+        },
+        {
+            "gensim.models.poincare.PoincareModel.load": 376
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/lsi_dispatcher.py": [
+        {
+            "gensim.models.lsi_dispatcher.Dispatcher.initialize": 112
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/lsi_worker.py": [
+        {
+            "gensim.models.lsi_worker.Worker.initialize": 87
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/doc2vec.py": [
+        {
+            "gensim.models.doc2vec.Doc2Vec.__init__": 476
+        },
+        {
+            "gensim.models.doc2vec.Doc2Vec._set_train_params": 643
+        },
+        {
+            "gensim.models.doc2vec.Doc2Vec._do_train_epoch": 673
+        },
+        {
+            "gensim.models.doc2vec.Doc2Vec.load": 1082
+        },
+        {
+            "gensim.models.doc2vec.Doc2Vec.build_vocab": 1136
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/coherencemodel.py": [
+        {
+            "gensim.models.coherencemodel.CoherenceModel.for_models": 217
+        },
+        {
+            "gensim.models.coherencemodel.CoherenceModel.for_topics": 286
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/callbacks.py": [
+        {
+            "gensim.models.callbacks.Metric.set_parameters": 134
+        },
+        {
+            "gensim.models.callbacks.CoherenceMetric.get_value": 228
+        },
+        {
+            "gensim.models.callbacks.PerplexityMetric.get_value": 286
+        },
+        {
+            "gensim.models.callbacks.DiffMetric.get_value": 350
+        },
+        {
+            "gensim.models.callbacks.ConvergenceMetric.get_value": 417
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/word2vec.py": [
+        {
+            "gensim.models.word2vec.Word2Vec._do_train_epoch": 785
+        },
+        {
+            "gensim.models.word2vec.Word2Vec._set_train_params": 828
+        },
+        {
+            "gensim.models.word2vec.Word2Vec.save": 1255
+        },
+        {
+            "gensim.models.word2vec.Word2Vec.load": 1310
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/lda_dispatcher.py": [
+        {
+            "gensim.models.lda_dispatcher.Dispatcher.initialize": 124
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/fasttext.py": [
+        {
+            "gensim.models.fasttext.FastText.build_vocab": 635
+        },
+        {
+            "gensim.models.fasttext.FastText._set_train_params": 706
+        },
+        {
+            "gensim.models.fasttext.FastText._do_train_epoch": 772
+        },
+        {
+            "gensim.models.fasttext.FastText.train": 816
+        },
+        {
+            "gensim.models.fasttext.FastText.save": 1029
+        },
+        {
+            "gensim.models.fasttext.FastText.load": 1050
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/deprecated/keyedvectors.py": [
+        {
+            "gensim.models.deprecated.keyedvectors.Vocab.__init__": 115
+        },
+        {
+            "gensim.models.deprecated.keyedvectors.EuclideanKeyedVectors.save": 454
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/deprecated/fasttext_wrapper.py": [
+        {
+            "gensim.models.deprecated.fasttext_wrapper.FastTextKeyedVectors.save": 80
+        },
+        {
+            "gensim.models.deprecated.fasttext_wrapper.FastTextKeyedVectors.load_word2vec_format": 152
+        },
+        {
+            "gensim.models.deprecated.fasttext_wrapper.FastText.save": 250
+        },
+        {
+            "gensim.models.deprecated.fasttext_wrapper.FastText.load": 278
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/deprecated/doc2vec.py": [
+        {
+            "gensim.models.deprecated.doc2vec.load_old_doc2vec": 90
+        },
+        {
+            "gensim.models.deprecated.doc2vec.DocvecsArray.save": 462
+        },
+        {
+            "gensim.models.deprecated.doc2vec.Doc2Vec.__init__": 657
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/deprecated/word2vec.py": [
+        {
+            "gensim.models.deprecated.word2vec.load_old_word2vec": 171
+        },
+        {
+            "gensim.models.deprecated.word2vec.Word2Vec.save": 1631
+        },
+        {
+            "gensim.models.deprecated.word2vec.Word2Vec.load": 1640
+        },
+        {
+            "gensim.models.deprecated.word2vec.Word2Vec._load_specials": 1666
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/deprecated/fasttext.py": [
+        {
+            "gensim.models.deprecated.fasttext.load_old_fasttext": 52
+        },
+        {
+            "gensim.models.deprecated.fasttext.FastText.load_fasttext_format": 689
+        },
+        {
+            "gensim.models.deprecated.fasttext.FastText.save": 701
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/wrappers/ldamallet.py": [
+        {
+            "gensim.models.wrappers.ldamallet.LdaMallet.load": 572
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/models/wrappers/ldavowpalwabbit.py": [
+        {
+            "gensim.models.wrappers.ldavowpalwabbit.LdaVowpalWabbit.save": 403
+        },
+        {
+            "gensim.models.wrappers.ldavowpalwabbit.LdaVowpalWabbit.load": 431
+        }
+    ],
+    "/home/zhang/Packages/gensim/gensim3.7.1/topic_coherence/text_analysis.py": [
+        {
+            "gensim.topic_coherence.text_analysis.InvertedIndexBased.__init__": 220
+        },
+        {
+            "gensim.topic_coherence.text_analysis.WordOccurrenceAccumulator.__init__": 330
+        },
+        {
+            "gensim.topic_coherence.text_analysis.ParallelWordOccurrenceAccumulator.__init__": 431
+        },
+        {
+            "gensim.topic_coherence.text_analysis.WordVectorsAccumulator.__init__": 617
+        }
+    ]
+}

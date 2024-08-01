@@ -1,0 +1,131 @@
+{
+    "/home/zhang/Packages/scipy/scipy0.19.0/integrate/_ode.py": [
+        {
+            "scipy.integrate._ode.vode.step": 875,
+            "run": [
+                878,
+                "[850]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.vode.run_relax": 882,
+            "run": [
+                885,
+                "[850]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.step": 1219,
+            "run": [
+                1222,
+                "[1201]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.run_relax": 1226,
+            "run": [
+                1229,
+                "[1201]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy0.19.0/ndimage/filters.py": [
+        {
+            "scipy.ndimage.filters.gaussian_laplace": 497,
+            "gaussian_filter": [
+                536,
+                "[262]"
+            ]
+        },
+        {
+            "scipy.ndimage.filters.derivative2": 533,
+            "gaussian_filter": [
+                536,
+                "[262]"
+            ]
+        },
+        {
+            "scipy.ndimage.filters.gaussian_gradient_magnitude": 592,
+            "gaussian_filter": [
+                632,
+                "[262]"
+            ]
+        },
+        {
+            "scipy.ndimage.filters.derivative": 629,
+            "gaussian_filter": [
+                632,
+                "[262]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy0.19.0/stats/_distn_infrastructure.py": [
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._munp": 782,
+            "generic_moment": [
+                785,
+                "[3380]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._logcdf": 892,
+            "_cdf": [
+                893,
+                "[3356]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._sf": 895,
+            "_cdf": [
+                896,
+                "[3356]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.median": 1165,
+            "ppf": [
+                1190,
+                "[461]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.interval": 1268,
+            "ppf": [
+                1297,
+                "[461]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_continuous.fit_loc_scale": 2278,
+            "stats": [
+                2298,
+                "[478]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy0.19.0/optimize/minpack.py": [
+        {
+            "scipy.optimize.minpack.curve_fit": 502,
+            "leastsq": [
+                736,
+                "[261]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy0.19.0/optimize/tests/test_linesearch.py": [
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_wolfe": 40,
+            "assert_wolfe": [
+                41,
+                "[15]"
+            ]
+        },
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_armijo": 45,
+            "assert_armijo": [
+                46,
+                "[30]"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "/home/zhang/Packages/jax/jax0.3.1/_src/profiler.py": [
+        {
+            "jax._src.profiler.trace_function": 212,
+            "annotate_function": [
+                216,
+                "[175]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.1/_src/lax/control_flow.py": [
+        {
+            "jax._src.lax.control_flow.cond": 980,
+            "_cond": [
+                992,
+                "[898]"
+            ]
+        },
+        {
+            "jax._src.lax.control_flow.scan_bind": 2207,
+            "_scan_typecheck": [
+                2210,
+                "[2163]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.1/experimental/maps.py": [
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1356,
+            "_xmap_lowering_rule_spmd_manual": [
+                1359,
+                "[1511]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1356,
+            "_xmap_lowering_rule_spmd": [
+                1361,
+                "[1452]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1356,
+            "_xmap_lowering_rule_replica": [
+                1363,
+                "[1368]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1554,
+            "_xmap_translation_rule_spmd": [
+                1558,
+                "[1694]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1554,
+            "_xmap_translation_rule_replica": [
+                1560,
+                "[1563]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.1/experimental/host_callback.py": [
+        {
+            "jax.experimental.host_callback._outside_call_impl": 946,
+            "_outside_call_run_callback": [
+                950,
+                "[1111]"
+            ]
+        },
+        {
+            "jax.experimental.host_callback._outside_call_translation_rule": 966,
+            "_outside_call_run_callback": [
+                1067,
+                "[1111]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.1/experimental/sparse/bcoo.py": [
+        {
+            "jax.experimental.sparse.bcoo._bcoo_spdot_general_jvp": 1089,
+            "bcoo_spdot_general": [
+                1092,
+                "[916]"
+            ]
+        }
+    ]
+}

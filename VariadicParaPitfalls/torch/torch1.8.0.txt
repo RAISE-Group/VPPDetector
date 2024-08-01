@@ -1,0 +1,78 @@
+{
+    "/home/zhang/Packages/torch/torch1.8.0/utils/tensorboard/_caffe2_graph.py": [
+        {
+            "torch.utils.tensorboard._caffe2_graph.protos_to_graph_def": 766,
+            "_operators_to_graph_def": [
+                784,
+                "[601]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.8.0/testing/_internal/common_utils.py": [
+        {
+            "torch.testing._internal.common_utils.TestCase.compare_with_numpy": 804,
+            "assertEqual": [
+                830,
+                "[912]"
+            ]
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.assertEqualIgnoreType": 909,
+            "assertEqual": [
+                910,
+                "[912]"
+            ]
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.assertNotEqual": 1062,
+            "assertEqual": [
+                1065,
+                "[912]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.8.0/onnx/symbolic_opset9.py": [
+        {
+            "torch.onnx.symbolic_opset9.lstm": 1895,
+            "_lstm_packed": [
+                1897,
+                "[1889]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.lstm": 1895,
+            "_lstm_full": [
+                1899,
+                "[1882]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.std": 2200,
+            "_var_mean": [
+                2202,
+                "[2177]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.var": 2208,
+            "_var_mean": [
+                2210,
+                "[2177]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.var_mean": 2216,
+            "_var_mean": [
+                2218,
+                "[2177]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.std_mean": 2224,
+            "_var_mean": [
+                2226,
+                "[2177]"
+            ]
+        }
+    ]
+}

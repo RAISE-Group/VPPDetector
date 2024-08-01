@@ -1,0 +1,156 @@
+{
+    "/home/zhang/Packages/scipy/scipy1.9.3/integrate/_ode.py": [
+        {
+            "scipy.integrate._ode.vode.step": 1019,
+            "run": [
+                1022,
+                "[992]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.vode.run_relax": 1026,
+            "run": [
+                1029,
+                "[992]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.step": 1356,
+            "run": [
+                1359,
+                "[1336]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.run_relax": 1363,
+            "run": [
+                1366,
+                "[1336]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.9.3/ndimage/_filters.py": [
+        {
+            "scipy.ndimage._filters.gaussian_laplace": 497,
+            "gaussian_filter": [
+                536,
+                "[265]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.derivative2": 533,
+            "gaussian_filter": [
+                536,
+                "[265]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.gaussian_gradient_magnitude": 592,
+            "gaussian_filter": [
+                632,
+                "[265]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.derivative": 629,
+            "gaussian_filter": [
+                632,
+                "[265]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.9.3/_lib/_uarray/_backend.py": [
+        {
+            "scipy._lib._uarray._backend.create_multimethod": 153,
+            "generate_multimethod": [
+                169,
+                "[174]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.9.3/stats/_distn_infrastructure.py": [
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._munp": 871,
+            "generic_moment": [
+                874,
+                "[3959]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._logcdf": 1007,
+            "_cdf": [
+                1009,
+                "[3935]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._sf": 1011,
+            "_cdf": [
+                1012,
+                "[3935]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.median": 1410,
+            "ppf": [
+                1434,
+                "[458]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.interval": 1509,
+            "ppf": [
+                1573,
+                "[458]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_continuous.fit_loc_scale": 2756,
+            "stats": [
+                2776,
+                "[475]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.9.3/optimize/_minpack_py.py": [
+        {
+            "scipy.optimize._minpack_py.curve_fit": 533,
+            "leastsq": [
+                834,
+                "[279]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.9.3/optimize/tests/test_linesearch.py": [
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_wolfe": 37,
+            "assert_wolfe": [
+                38,
+                "[12]"
+            ]
+        },
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_armijo": 42,
+            "assert_armijo": [
+                43,
+                "[27]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.9.3/optimize/tests/test_minpack.py": [
+        {
+            "scipy.optimize.tests.test_minpack.TestLeastSq.func": 363,
+            "residuals": [
+                365,
+                "[264]"
+            ]
+        },
+        {
+            "scipy.optimize.tests.test_minpack.TestLeastSq.deriv_func": 375,
+            "residuals_jacobian": [
+                377,
+                "[269]"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,983 @@
+{
+    "/home/zhang/Packages/redis/redis4.2.0rc1/utils.py": [
+        {
+            "redis.utils.from_url": 18
+        },
+        {
+            "redis.utils.dict_merge": 47
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/cluster.py": [
+        {
+            "redis.cluster.get_connection": 46
+        },
+        {
+            "redis.cluster.parse_scan_result": 52
+        },
+        {
+            "redis.cluster.parse_pubsub_numsub": 59
+        },
+        {
+            "redis.cluster.parse_cluster_slots": 72
+        },
+        {
+            "redis.cluster.fix_server": 75
+        },
+        {
+            "redis.cluster.cleanup_kwargs": 177
+        },
+        {
+            "redis.cluster.RedisCluster.__init__": 411
+        },
+        {
+            "redis.cluster.RedisCluster.from_url": 567
+        },
+        {
+            "redis.cluster.RedisCluster.pubsub": 712
+        },
+        {
+            "redis.cluster.RedisCluster._determine_nodes": 745
+        },
+        {
+            "redis.cluster.RedisCluster._get_command_keys": 798
+        },
+        {
+            "redis.cluster.RedisCluster.determine_slot": 813
+        },
+        {
+            "redis.cluster.RedisCluster.execute_command": 904
+        },
+        {
+            "redis.cluster.RedisCluster._execute_command": 967
+        },
+        {
+            "redis.cluster.RedisCluster._process_result": 1096
+        },
+        {
+            "redis.cluster.NodesManager.__init__": 1165
+        },
+        {
+            "redis.cluster.NodesManager.create_redis_node": 1325
+        },
+        {
+            "redis.cluster.ClusterPubSub.__init__": 1517
+        },
+        {
+            "redis.cluster.ClusterPubSub.execute_command": 1593
+        },
+        {
+            "redis.cluster.ClusterPipeline.__init__": 1650
+        },
+        {
+            "redis.cluster.ClusterPipeline.execute_command": 1714
+        },
+        {
+            "redis.cluster.ClusterPipeline.pipeline_execute_command": 1720
+        },
+        {
+            "redis.cluster.ClusterPipeline.immediate_execute_command": 1983
+        },
+        {
+            "redis.cluster.ClusterPipeline._execute_transaction": 1989
+        },
+        {
+            "redis.cluster.ClusterPipeline.watch": 1997
+        },
+        {
+            "redis.cluster.ClusterPipeline.script_load_for_pipeline": 2005
+        },
+        {
+            "redis.cluster.ClusterPipeline.delete": 2011
+        },
+        {
+            "redis.cluster.inner": 2029
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/typing.py": [
+        {
+            "redis.typing.CommandsProtocol.execute_command": 44
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/sentinel.py": [
+        {
+            "redis.sentinel.SentinelManagedConnection.__init__": 20
+        },
+        {
+            "redis.sentinel.SentinelConnectionPool.__init__": 86
+        },
+        {
+            "redis.sentinel.Sentinel.__init__": 173
+        },
+        {
+            "redis.sentinel.Sentinel.execute_command": 195
+        },
+        {
+            "redis.sentinel.Sentinel.master_for": 274
+        },
+        {
+            "redis.sentinel.Sentinel.slave_for": 312
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/exceptions.py": [
+        {
+            "redis.exceptions.TryAgainError.__init__": 159
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/client.py": [
+        {
+            "redis.client.parse_memory_stats": 147
+        },
+        {
+            "redis.client.zset_score_pairs": 255
+        },
+        {
+            "redis.client.sort_return_tuples": 267
+        },
+        {
+            "redis.client.parse_xclaim": 304
+        },
+        {
+            "redis.client.parse_xautoclaim": 310
+        },
+        {
+            "redis.client.parse_xinfo_stream": 316
+        },
+        {
+            "redis.client.parse_xpending": 339
+        },
+        {
+            "redis.client.parse_zadd": 366
+        },
+        {
+            "redis.client.parse_client_list": 374
+        },
+        {
+            "redis.client.parse_config_get": 382
+        },
+        {
+            "redis.client.parse_scan": 387
+        },
+        {
+            "redis.client.parse_hscan": 392
+        },
+        {
+            "redis.client.parse_zscan": 397
+        },
+        {
+            "redis.client.parse_zmscore": 404
+        },
+        {
+            "redis.client.parse_slowlog_get": 409
+        },
+        {
+            "redis.client.parse_stralgo": 431
+        },
+        {
+            "redis.client.parse_cluster_info": 460
+        },
+        {
+            "redis.client.parse_cluster_nodes": 483
+        },
+        {
+            "redis.client.parse_geosearch_generic": 493
+        },
+        {
+            "redis.client.parse_command": 526
+        },
+        {
+            "redis.client.parse_pubsub_numsub": 541
+        },
+        {
+            "redis.client.parse_client_kill": 545
+        },
+        {
+            "redis.client.parse_acl_getuser": 551
+        },
+        {
+            "redis.client.parse_acl_log": 575
+        },
+        {
+            "redis.client.parse_set_result": 631
+        },
+        {
+            "redis.client.Redis.from_url": 817
+        },
+        {
+            "redis.client.Redis.transaction": 1038
+        },
+        {
+            "redis.client.Redis.pubsub": 1123
+        },
+        {
+            "redis.client.Redis._send_command_parse_response": 1154
+        },
+        {
+            "redis.client.Redis.execute_command": 1175
+        },
+        {
+            "redis.client.Redis.parse_response": 1192
+        },
+        {
+            "redis.client.Monitor.__exit__": 1233
+        },
+        {
+            "redis.client.PubSub.execute_command": 1369
+        },
+        {
+            "redis.client.PubSub._execute": 1418
+        },
+        {
+            "redis.client.PubSub.psubscribe": 1485
+        },
+        {
+            "redis.client.PubSub.punsubscribe": 1511
+        },
+        {
+            "redis.client.PubSub.subscribe": 1524
+        },
+        {
+            "redis.client.PubSub.unsubscribe": 1550
+        },
+        {
+            "redis.client.Pipeline.execute_command": 1801
+        },
+        {
+            "redis.client.Pipeline.immediate_execute_command": 1828
+        },
+        {
+            "redis.client.Pipeline.pipeline_execute_command": 1849
+        },
+        {
+            "redis.client.Pipeline.parse_response": 1961
+        },
+        {
+            "redis.client.Pipeline.watch": 2036
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/connection.py": [
+        {
+            "redis.connection.HiredisParser.on_connect": 385
+        },
+        {
+            "redis.connection.Connection.disconnect": 740
+        },
+        {
+            "redis.connection.Connection.send_command": 800
+        },
+        {
+            "redis.connection.Connection.pack_command": 839
+        },
+        {
+            "redis.connection.SSLConnection.__init__": 920
+        },
+        {
+            "redis.connection.ConnectionPool.from_url": 1225
+        },
+        {
+            "redis.connection.ConnectionPool.__init__": 1273
+        },
+        {
+            "redis.connection.ConnectionPool.get_connection": 1365
+        },
+        {
+            "redis.connection.BlockingConnectionPool.__init__": 1493
+        },
+        {
+            "redis.connection.BlockingConnectionPool.get_connection": 1540
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/asyncio/utils.py": [
+        {
+            "redis.asyncio.utils.from_url": 7
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/asyncio/sentinel.py": [
+        {
+            "redis.asyncio.sentinel.SentinelManagedConnection.__init__": 27
+        },
+        {
+            "redis.asyncio.sentinel.SentinelConnectionPool.__init__": 87
+        },
+        {
+            "redis.asyncio.sentinel.Sentinel.__init__": 177
+        },
+        {
+            "redis.asyncio.sentinel.Sentinel.master_for": 284
+        },
+        {
+            "redis.asyncio.sentinel.Sentinel.slave_for": 322
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/asyncio/client.py": [
+        {
+            "redis.asyncio.client.ResponseCallbackProtocol.__call__": 71
+        },
+        {
+            "redis.asyncio.client.Redis.from_url": 101
+        },
+        {
+            "redis.asyncio.client.Redis.pubsub": 389
+        },
+        {
+            "redis.asyncio.client.PubSub.punsubscribe": 785
+        },
+        {
+            "redis.asyncio.client.PubSub.unsubscribe": 821
+        },
+        {
+            "redis.asyncio.client.Pipeline.execute_command": 1085
+        },
+        {
+            "redis.asyncio.client.Pipeline.pipeline_execute_command": 1137
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/asyncio/connection.py": [
+        {
+            "redis.asyncio.connection.Connection.pack_command": 946
+        },
+        {
+            "redis.asyncio.connection.SSLConnection.__init__": 1023
+        },
+        {
+            "redis.asyncio.connection.ConnectionPool.from_url": 1300
+        },
+        {
+            "redis.asyncio.connection.ConnectionPool.__init__": 1343
+        },
+        {
+            "redis.asyncio.connection.BlockingConnectionPool.__init__": 1575
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/parser.py": [
+        {
+            "redis.commands.parser.CommandsParser.get_keys": 25
+        },
+        {
+            "redis.commands.parser.CommandsParser._get_moveable_keys": 81
+        },
+        {
+            "redis.commands.parser.CommandsParser._get_pubsub_keys": 109
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/core.py": [
+        {
+            "redis.commands.core.ACLCommands.acl_cat": 61
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_dryrun": 74
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_deluser": 82
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_genpass": 90
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_getuser": 108
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_help": 118
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_list": 126
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_log": 134
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_log_reset": 150
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_load": 160
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_save": 171
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_setuser": 182
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_users": 349
+        },
+        {
+            "redis.commands.core.ACLCommands.acl_whoami": 356
+        },
+        {
+            "redis.commands.core.ManagementCommands.bgrewriteaof": 381
+        },
+        {
+            "redis.commands.core.ManagementCommands.bgsave": 388
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_kill": 410
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_kill_filter": 417
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_info": 467
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_list": 476
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_getname": 505
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_getredir": 513
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_reply": 522
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_id": 547
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_tracking": 593
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_trackinginfo": 653
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_setname": 662
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_unblock": 670
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_pause": 689
+        },
+        {
+            "redis.commands.core.ManagementCommands.client_unpause": 712
+        },
+        {
+            "redis.commands.core.ManagementCommands.command": 728
+        },
+        {
+            "redis.commands.core.ManagementCommands.command_info": 736
+        },
+        {
+            "redis.commands.core.ManagementCommands.command_count": 741
+        },
+        {
+            "redis.commands.core.ManagementCommands.config_get": 744
+        },
+        {
+            "redis.commands.core.ManagementCommands.config_set": 752
+        },
+        {
+            "redis.commands.core.ManagementCommands.config_resetstat": 759
+        },
+        {
+            "redis.commands.core.ManagementCommands.config_rewrite": 767
+        },
+        {
+            "redis.commands.core.ManagementCommands.dbsize": 775
+        },
+        {
+            "redis.commands.core.ManagementCommands.debug_object": 783
+        },
+        {
+            "redis.commands.core.ManagementCommands.debug_segfault": 791
+        },
+        {
+            "redis.commands.core.ManagementCommands.echo": 800
+        },
+        {
+            "redis.commands.core.ManagementCommands.flushall": 808
+        },
+        {
+            "redis.commands.core.ManagementCommands.flushdb": 822
+        },
+        {
+            "redis.commands.core.ManagementCommands.swapdb": 861
+        },
+        {
+            "redis.commands.core.ManagementCommands.select": 869
+        },
+        {
+            "redis.commands.core.ManagementCommands.info": 876
+        },
+        {
+            "redis.commands.core.ManagementCommands.lastsave": 893
+        },
+        {
+            "redis.commands.core.ManagementCommands.lolwut": 902
+        },
+        {
+            "redis.commands.core.ManagementCommands.migrate": 920
+        },
+        {
+            "redis.commands.core.ManagementCommands.object": 968
+        },
+        {
+            "redis.commands.core.ManagementCommands.memory_doctor": 976
+        },
+        {
+            "redis.commands.core.ManagementCommands.memory_help": 985
+        },
+        {
+            "redis.commands.core.ManagementCommands.memory_stats": 994
+        },
+        {
+            "redis.commands.core.ManagementCommands.memory_malloc_stats": 1002
+        },
+        {
+            "redis.commands.core.ManagementCommands.memory_usage": 1010
+        },
+        {
+            "redis.commands.core.ManagementCommands.memory_purge": 1028
+        },
+        {
+            "redis.commands.core.ManagementCommands.ping": 1036
+        },
+        {
+            "redis.commands.core.ManagementCommands.quit": 1044
+        },
+        {
+            "redis.commands.core.ManagementCommands.replicaof": 1052
+        },
+        {
+            "redis.commands.core.ManagementCommands.save": 1063
+        },
+        {
+            "redis.commands.core.ManagementCommands.shutdown": 1072
+        },
+        {
+            "redis.commands.core.ManagementCommands.slaveof": 1095
+        },
+        {
+            "redis.commands.core.ManagementCommands.slowlog_get": 1109
+        },
+        {
+            "redis.commands.core.ManagementCommands.slowlog_len": 1126
+        },
+        {
+            "redis.commands.core.ManagementCommands.slowlog_reset": 1134
+        },
+        {
+            "redis.commands.core.ManagementCommands.time": 1142
+        },
+        {
+            "redis.commands.core.ManagementCommands.wait": 1151
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.bitop": 1383
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.delete": 1461
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.exists": 1483
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.keys": 1660
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.mget": 1701
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.randomkey": 1835
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.stralgo": 2047
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.touch": 2126
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.watch": 2151
+        },
+        {
+            "redis.commands.core.BasicKeyCommands.unlink": 2167
+        },
+        {
+            "redis.commands.core.ListCommands.blmpop": 2286
+        },
+        {
+            "redis.commands.core.ListCommands.lmpop": 2307
+        },
+        {
+            "redis.commands.core.ListCommands.lpush": 2372
+        },
+        {
+            "redis.commands.core.ListCommands.lpushx": 2380
+        },
+        {
+            "redis.commands.core.ListCommands.rpush": 2458
+        },
+        {
+            "redis.commands.core.ScanCommands.scan": 2601
+        },
+        {
+            "redis.commands.core.ScanCommands.scan_iter": 2634
+        },
+        {
+            "redis.commands.core.SetCommands.sadd": 2915
+        },
+        {
+            "redis.commands.core.SetCommands.sdiff": 2931
+        },
+        {
+            "redis.commands.core.SetCommands.sdiffstore": 2940
+        },
+        {
+            "redis.commands.core.SetCommands.sinter": 2950
+        },
+        {
+            "redis.commands.core.SetCommands.sinterstore": 2972
+        },
+        {
+            "redis.commands.core.SetCommands.smismember": 2998
+        },
+        {
+            "redis.commands.core.SetCommands.srem": 3042
+        },
+        {
+            "redis.commands.core.SetCommands.sunion": 3050
+        },
+        {
+            "redis.commands.core.SetCommands.sunionstore": 3059
+        },
+        {
+            "redis.commands.core.StreamCommands.xack": 3079
+        },
+        {
+            "redis.commands.core.StreamCommands.xdel": 3274
+        },
+        {
+            "redis.commands.core.SortedSetCommands.zrem": 4307
+        },
+        {
+            "redis.commands.core.SortedSetCommands._zaggregate": 4416
+        },
+        {
+            "redis.commands.core.HyperlogCommands.pfadd": 4456
+        },
+        {
+            "redis.commands.core.HyperlogCommands.pfcount": 4464
+        },
+        {
+            "redis.commands.core.HyperlogCommands.pfmerge": 4473
+        },
+        {
+            "redis.commands.core.HashCommands.hdel": 4491
+        },
+        {
+            "redis.commands.core.HashCommands.hmget": 4610
+        },
+        {
+            "redis.commands.core.PubSubCommands.publish": 4736
+        },
+        {
+            "redis.commands.core.PubSubCommands.pubsub_channels": 4745
+        },
+        {
+            "redis.commands.core.PubSubCommands.pubsub_numpat": 4753
+        },
+        {
+            "redis.commands.core.PubSubCommands.pubsub_numsub": 4761
+        },
+        {
+            "redis.commands.core.ScriptCommands._eval": 4780
+        },
+        {
+            "redis.commands.core.ScriptCommands.eval": 4785
+        },
+        {
+            "redis.commands.core.ScriptCommands.eval_ro": 4798
+        },
+        {
+            "redis.commands.core.ScriptCommands._evalsha": 4810
+        },
+        {
+            "redis.commands.core.ScriptCommands.evalsha": 4815
+        },
+        {
+            "redis.commands.core.ScriptCommands.evalsha_ro": 4829
+        },
+        {
+            "redis.commands.core.ScriptCommands.script_exists": 4842
+        },
+        {
+            "redis.commands.core.ScriptCommands.script_debug": 4852
+        },
+        {
+            "redis.commands.core.GeoCommands.geohash": 4989
+        },
+        {
+            "redis.commands.core.GeoCommands.geopos": 4998
+        },
+        {
+            "redis.commands.core.GeoCommands._georadiusgeneric": 5110
+        },
+        {
+            "redis.commands.core.GeoCommands._geosearchgeneric": 5280
+        },
+        {
+            "redis.commands.core.ModuleCommands.module_load": 5359
+        },
+        {
+            "redis.commands.core.ModuleCommands.command_getkeys": 5395
+        },
+        {
+            "redis.commands.core.ClusterCommands.cluster": 5468
+        },
+        {
+            "redis.commands.core.ClusterCommands.readwrite": 5471
+        },
+        {
+            "redis.commands.core.ClusterCommands.readonly": 5479
+        },
+        {
+            "redis.commands.core.FunctionCommands._fcall": 5550
+        },
+        {
+            "redis.commands.core.FunctionCommands.fcall": 5555
+        },
+        {
+            "redis.commands.core.FunctionCommands.fcall_ro": 5563
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/cluster.py": [
+        {
+            "redis.commands.cluster.ClusterMultiKeyCommands.mget_nonatomic": 32
+        },
+        {
+            "redis.commands.cluster.ClusterMultiKeyCommands._split_command_across_slots": 93
+        },
+        {
+            "redis.commands.cluster.ClusterMultiKeyCommands.exists": 108
+        },
+        {
+            "redis.commands.cluster.ClusterMultiKeyCommands.delete": 116
+        },
+        {
+            "redis.commands.cluster.ClusterMultiKeyCommands.touch": 127
+        },
+        {
+            "redis.commands.cluster.ClusterMultiKeyCommands.unlink": 140
+        },
+        {
+            "redis.commands.cluster.ClusterManagementCommands.slaveof": 161
+        },
+        {
+            "redis.commands.cluster.ClusterManagementCommands.replicaof": 164
+        },
+        {
+            "redis.commands.cluster.ClusterManagementCommands.swapdb": 167
+        },
+        {
+            "redis.commands.cluster.ClusterDataAccessCommands.stralgo": 179
+        },
+        {
+            "redis.commands.cluster.RedisClusterCommands.cluster_addslots": 236
+        },
+        {
+            "redis.commands.cluster.RedisClusterCommands.cluster_delslots": 261
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/sentinel.py": [
+        {
+            "redis.commands.sentinel.SentinelCommands.sentinel": 10
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/json/commands.py": [
+        {
+            "redis.commands.json.commands.JSONCommands.arrappend": 17
+        },
+        {
+            "redis.commands.json.commands.JSONCommands.arrinsert": 51
+        },
+        {
+            "redis.commands.json.commands.JSONCommands.get": 173
+        },
+        {
+            "redis.commands.json.commands.JSONCommands.jsonget": 375
+        },
+        {
+            "redis.commands.json.commands.JSONCommands.jsonmget": 381
+        },
+        {
+            "redis.commands.json.commands.JSONCommands.jsonset": 387
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/bf/__init__.py": [
+        {
+            "redis.commands.bf.__init__.CMSBloom.__init__": 91
+        },
+        {
+            "redis.commands.bf.__init__.TOPKBloom.__init__": 112
+        },
+        {
+            "redis.commands.bf.__init__.CFBloom.__init__": 134
+        },
+        {
+            "redis.commands.bf.__init__.TDigestBloom.__init__": 160
+        },
+        {
+            "redis.commands.bf.__init__.BFBloom.__init__": 184
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/bf/commands.py": [
+        {
+            "redis.commands.bf.commands.BFCommands.madd": 77
+        },
+        {
+            "redis.commands.bf.commands.BFCommands.mexists": 122
+        },
+        {
+            "redis.commands.bf.commands.TOPKCommands.add": 298
+        },
+        {
+            "redis.commands.bf.commands.TOPKCommands.query": 321
+        },
+        {
+            "redis.commands.bf.commands.TOPKCommands.count": 330
+        },
+        {
+            "redis.commands.bf.commands.CMSCommands.query": 471
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/timeseries/__init__.py": [
+        {
+            "redis.commands.timeseries.__init__.TimeSeries.__init__": 32
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/timeseries/commands.py": [
+        {
+            "redis.commands.timeseries.commands.TimeSeriesCommands.create": 25
+        },
+        {
+            "redis.commands.timeseries.commands.TimeSeriesCommands.alter": 77
+        },
+        {
+            "redis.commands.timeseries.commands.TimeSeriesCommands.add": 96
+        },
+        {
+            "redis.commands.timeseries.commands.TimeSeriesCommands.incrby": 164
+        },
+        {
+            "redis.commands.timeseries.commands.TimeSeriesCommands.decrby": 208
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/graph/__init__.py": [
+        {
+            "redis.commands.graph.__init__.Graph.call_procedure": 145
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/graph/commands.py": [
+        {
+            "redis.commands.graph.commands.GraphCommands.bulk": 122
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/document.py": [
+        {
+            "redis.commands.search.document.Document.__init__": 6
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/field.py": [
+        {
+            "redis.commands.search.field.TextField.__init__": 46
+        },
+        {
+            "redis.commands.search.field.NumericField.__init__": 68
+        },
+        {
+            "redis.commands.search.field.GeoField.__init__": 77
+        },
+        {
+            "redis.commands.search.field.TagField.__init__": 89
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/query.py": [
+        {
+            "redis.commands.search.query.Query.limit_ids": 43
+        },
+        {
+            "redis.commands.search.query.Query.return_fields": 49
+        },
+        {
+            "redis.commands.search.query.Query.limit_fields": 250
+        },
+        {
+            "redis.commands.search.query.Filter.__init__": 293
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/aggregation.py": [
+        {
+            "redis.commands.search.aggregation.Reducer.__init__": 25
+        },
+        {
+            "redis.commands.search.aggregation.AggregateRequest.load": 113
+        },
+        {
+            "redis.commands.search.aggregation.AggregateRequest.group_by": 129
+        },
+        {
+            "redis.commands.search.aggregation.AggregateRequest.apply": 154
+        },
+        {
+            "redis.commands.search.aggregation.AggregateRequest.sort_by": 217
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/reducers.py": [
+        {
+            "redis.commands.search.reducers.first_value.__init__": 129
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/querystring.py": [
+        {
+            "redis.commands.search.querystring.tags": 1
+        },
+        {
+            "redis.commands.search.querystring.TagValue.__init__": 121
+        },
+        {
+            "redis.commands.search.querystring.Node.__init__": 137
+        },
+        {
+            "redis.commands.search.querystring.intersect": 297
+        },
+        {
+            "redis.commands.search.querystring.union": 301
+        },
+        {
+            "redis.commands.search.querystring.disjunct": 305
+        },
+        {
+            "redis.commands.search.querystring.disjunct_union": 309
+        },
+        {
+            "redis.commands.search.querystring.querystring": 313
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/__init__.py": [
+        {
+            "redis.commands.search.__init__.Search.BatchIndexer.add_document": 29
+        }
+    ],
+    "/home/zhang/Packages/redis/redis4.2.0rc1/commands/search/commands.py": [
+        {
+            "redis.commands.search.commands.SearchCommands._add_document": 173
+        },
+        {
+            "redis.commands.search.commands.SearchCommands.add_document": 237
+        },
+        {
+            "redis.commands.search.commands.SearchCommands.get": 356
+        },
+        {
+            "redis.commands.search.commands.SearchCommands.dict_add": 604
+        },
+        {
+            "redis.commands.search.commands.SearchCommands.dict_del": 618
+        },
+        {
+            "redis.commands.search.commands.SearchCommands.sugadd": 726
+        },
+        {
+            "redis.commands.search.commands.SearchCommands.synupdate": 816
+        }
+    ]
+}

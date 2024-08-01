@@ -1,0 +1,919 @@
+{
+    "/home/zhang/Packages/dask/dask0.17.1/threaded.py": [
+        {
+            "dask.threaded.get": 33
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/local.py": [
+        {
+            "dask.local.get_async": 405
+        },
+        {
+            "dask.local.get_sync": 556
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/cache.py": [
+        {
+            "dask.cache.Cache.__init__": 32
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/compatibility.py": [
+        {
+            "dask.compatibility.LZMAFile.__init__": 14
+        },
+        {
+            "dask.compatibility.BZ2File.__init__": 127
+        },
+        {
+            "dask.compatibility.BZ2File.read": 143
+        },
+        {
+            "dask.compatibility.BZ2File.read1": 146
+        },
+        {
+            "dask.compatibility.BZ2File.readline": 152
+        },
+        {
+            "dask.compatibility.BZ2File.readlines": 155
+        },
+        {
+            "dask.compatibility.BZ2File.seek": 158
+        },
+        {
+            "dask.compatibility.BZ2File.truncate": 168
+        },
+        {
+            "dask.compatibility.BZ2File.write": 174
+        },
+        {
+            "dask.compatibility.BZ2File.writelines": 177
+        },
+        {
+            "dask.compatibility.GzipFile.__init__": 183
+        },
+        {
+            "dask.compatibility.GzipFile.flush": 193
+        },
+        {
+            "dask.compatibility.GzipFile.read": 199
+        },
+        {
+            "dask.compatibility.GzipFile.read1": 202
+        },
+        {
+            "dask.compatibility.GzipFile.readline": 208
+        },
+        {
+            "dask.compatibility.GzipFile.readlines": 211
+        },
+        {
+            "dask.compatibility.GzipFile.seek": 214
+        },
+        {
+            "dask.compatibility.GzipFile.truncate": 225
+        },
+        {
+            "dask.compatibility.GzipFile.write": 231
+        },
+        {
+            "dask.compatibility.GzipFile.writelines": 234
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/utils.py": [
+        {
+            "dask.utils.deepmap": 30
+        },
+        {
+            "dask.utils.ignoring": 79
+        },
+        {
+            "dask.utils.wrapped": 512
+        },
+        {
+            "dask.utils.methodcaller.__call__": 686
+        },
+        {
+            "dask.utils.SerializableLock.acquire": 773
+        },
+        {
+            "dask.utils.SerializableLock.release": 776
+        },
+        {
+            "dask.utils.SerializableLock.__exit__": 782
+        },
+        {
+            "dask.utils.partial_by_order": 867
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/multiprocessing.py": [
+        {
+            "dask.multiprocessing.get": 128
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/sharedict.py": [
+        {
+            "dask.sharedict.merge": 91
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/base.py": [
+        {
+            "dask.base.DaskMethodsMixin.visualize": 42
+        },
+        {
+            "dask.base.DaskMethodsMixin.persist": 89
+        },
+        {
+            "dask.base.DaskMethodsMixin.compute": 119
+        },
+        {
+            "dask.base.Base._optimize": 201
+        },
+        {
+            "dask.base.Base._get": 207
+        },
+        {
+            "dask.base.compute_as_if_collection": 214
+        },
+        {
+            "dask.base.dont_optimize": 223
+        },
+        {
+            "dask.base.collections_to_dsk": 231
+        },
+        {
+            "dask.base.optimize": 272
+        },
+        {
+            "dask.base.compute": 323
+        },
+        {
+            "dask.base.visualize": 398
+        },
+        {
+            "dask.base.persist": 481
+        },
+        {
+            "dask.base.tokenize": 600
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/optimize.py": [
+        {
+            "dask.optimize.inner": 19
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/delayed.py": [
+        {
+            "dask.delayed.tokenize": 100
+        },
+        {
+            "dask.delayed.Delayed.__call__": 422
+        },
+        {
+            "dask.delayed.DelayedLeaf.__call__": 490
+        },
+        {
+            "dask.delayed.DelayedAttr.__call__": 508
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/rewrite.py": [
+        {
+            "dask.rewrite.RuleSet.__init__": 243
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/callbacks.py": [
+        {
+            "dask.callbacks.Callback.__exit__": 72
+        },
+        {
+            "dask.callbacks.add_callbacks.__init__": 131
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/context.py": [
+        {
+            "dask.context.set_options.__init__": 38
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dot.py": [
+        {
+            "dask.dot.to_graphviz": 107
+        },
+        {
+            "dask.dot.dot_graph": 191
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bag/core.py": [
+        {
+            "dask.bag.core.optimize": 109
+        },
+        {
+            "dask.bag.core.StringAccessor._strmap": 248
+        },
+        {
+            "dask.bag.core.Bag.map": 419
+        },
+        {
+            "dask.bag.core.Bag.starmap": 480
+        },
+        {
+            "dask.bag.core.Bag.map_partitions": 611
+        },
+        {
+            "dask.bag.core.bag_zip": 1594
+        },
+        {
+            "dask.bag.core.bag_map": 1709
+        },
+        {
+            "dask.bag.core.map_partitions": 1822
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bag/tests/test_bag.py": [
+        {
+            "dask.bag.tests.test_bag.vararg_inc": 129
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/tests/test_utils.py": [
+        {
+            "dask.tests.test_utils.vararg": 40
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/tests/test_cache.py": [
+        {
+            "dask.tests.test_cache.f": 51
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/tests/test_optimization.py": [
+        {
+            "dask.tests.test_optimization.fuse2": 30
+        },
+        {
+            "dask.tests.test_optimization.load": 314
+        },
+        {
+            "dask.tests.test_optimization.load": 324
+        },
+        {
+            "dask.tests.test_optimization.f": 346
+        },
+        {
+            "dask.tests.test_optimization.f": 887
+        },
+        {
+            "dask.tests.test_optimization.f": 956
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/tests/test_order.py": [
+        {
+            "dask.tests.test_order.f": 18
+        },
+        {
+            "dask.tests.test_order._": 290
+        },
+        {
+            "dask.tests.test_order._": 336
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/tests/test_delayed.py": [
+        {
+            "dask.tests.test_delayed.fail": 208
+        },
+        {
+            "dask.tests.test_delayed.mysum": 325
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/tests/test_context.py": [
+        {
+            "dask.tests.test_context.myget": 9
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/utils.py": [
+        {
+            "dask.dataframe.utils.insert_meta_param_description": 100
+        },
+        {
+            "dask.dataframe.utils.assert_eq": 562
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/groupby.py": [
+        {
+            "dask.dataframe.groupby._groupby_raise_unaligned": 105
+        },
+        {
+            "dask.dataframe.groupby._apply_chunk": 224
+        },
+        {
+            "dask.dataframe.groupby._var_chunk": 238
+        },
+        {
+            "dask.dataframe.groupby._nunique_df_chunk": 273
+        },
+        {
+            "dask.dataframe.groupby._nunique_series_chunk": 318
+        },
+        {
+            "dask.dataframe.groupby._groupby_apply_funcs": 601
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/core.py": [
+        {
+            "dask.dataframe.core._Frame.__array__": 331
+        },
+        {
+            "dask.dataframe.core._Frame.drop_duplicates": 420
+        },
+        {
+            "dask.dataframe.core._Frame.map_partitions": 468
+        },
+        {
+            "dask.dataframe.core._Frame.map_overlap": 546
+        },
+        {
+            "dask.dataframe.core._Frame.reduction": 655
+        },
+        {
+            "dask.dataframe.core._Frame.pipe": 780
+        },
+        {
+            "dask.dataframe.core._Frame.to_hdf": 1031
+        },
+        {
+            "dask.dataframe.core._Frame.to_parquet": 1036
+        },
+        {
+            "dask.dataframe.core._Frame.to_csv": 1041
+        },
+        {
+            "dask.dataframe.core.Series.groupby": 1898
+        },
+        {
+            "dask.dataframe.core.Series.apply": 2045
+        },
+        {
+            "dask.dataframe.core.DataFrame.set_index": 2384
+        },
+        {
+            "dask.dataframe.core.DataFrame.groupby": 2478
+        },
+        {
+            "dask.dataframe.core.DataFrame.categorize": 2483
+        },
+        {
+            "dask.dataframe.core.DataFrame.assign": 2488
+        },
+        {
+            "dask.dataframe.core.DataFrame.query": 2508
+        },
+        {
+            "dask.dataframe.core.DataFrame.eval": 2528
+        },
+        {
+            "dask.dataframe.core.DataFrame.apply": 2705
+        },
+        {
+            "dask.dataframe.core.elemwise": 3019
+        },
+        {
+            "dask.dataframe.core.apply_concat_apply": 3104
+        },
+        {
+            "dask.dataframe.core._emulate": 3284
+        },
+        {
+            "dask.dataframe.core.map_partitions": 3294
+        },
+        {
+            "dask.dataframe.core._reduction_chunk": 3960
+        },
+        {
+            "dask.dataframe.core._reduction_combine": 3966
+        },
+        {
+            "dask.dataframe.core._reduction_aggregate": 3974
+        },
+        {
+            "dask.dataframe.core.to_datetime": 4082
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/rolling.py": [
+        {
+            "dask.dataframe.rolling.map_overlap": 45
+        },
+        {
+            "dask.dataframe.rolling.pandas_rolling_method": 177
+        },
+        {
+            "dask.dataframe.rolling.Rolling._call_method": 225
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/multi.py": [
+        {
+            "dask.dataframe.multi.align_partitions": 75
+        },
+        {
+            "dask.dataframe.multi.single_partition_join": 297
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/optimize.py": [
+        {
+            "dask.dataframe.optimize.optimize": 14
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/methods.py": [
+        {
+            "dask.dataframe.methods.assign": 138
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/shuffle.py": [
+        {
+            "dask.dataframe.shuffle.set_index": 29
+        },
+        {
+            "dask.dataframe.shuffle.maybe_buffered_partd.__call__": 253
+        },
+        {
+            "dask.dataframe.shuffle.set_sorted_index": 488
+        },
+        {
+            "dask.dataframe.shuffle.compute_divisions": 512
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/categorical.py": [
+        {
+            "dask.dataframe.categorical.categorize": 64
+        },
+        {
+            "dask.dataframe.categorical.CategoricalAccessor.as_known": 174
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/accessor.py": [
+        {
+            "dask.dataframe.accessor.Accessor._function_map": 60
+        },
+        {
+            "dask.dataframe.accessor.str_cat": 163
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/tseries/resample.py": [
+        {
+            "dask.dataframe.tseries.resample._resample": 26
+        },
+        {
+            "dask.dataframe.tseries.resample.Resampler.__init__": 86
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/tseries/tests/test_resample.py": [
+        {
+            "dask.dataframe.tseries.tests.test_resample.resample": 10
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/tests/test_shuffle.py": [
+        {
+            "dask.dataframe.tests.test_shuffle.throw": 287
+        },
+        {
+            "dask.dataframe.tests.test_shuffle.throw": 340
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/tests/test_groupby.py": [
+        {
+            "dask.dataframe.tests.test_groupby.call": 474
+        },
+        {
+            "dask.dataframe.tests.test_groupby.call": 813
+        },
+        {
+            "dask.dataframe.tests.test_groupby.call": 849
+        },
+        {
+            "dask.dataframe.tests.test_groupby.call": 1127
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/io/csv.py": [
+        {
+            "dask.dataframe.io.csv.read_pandas": 258
+        },
+        {
+            "dask.dataframe.io.csv.read": 416
+        },
+        {
+            "dask.dataframe.io.csv._to_csv_chunk": 437
+        },
+        {
+            "dask.dataframe.io.csv.to_csv": 442
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/io/parquet.py": [
+        {
+            "dask.dataframe.io.parquet._read_parquet_row_group": 338
+        },
+        {
+            "dask.dataframe.io.parquet._write_fastparquet": 406
+        },
+        {
+            "dask.dataframe.io.parquet._write_pyarrow": 635
+        },
+        {
+            "dask.dataframe.io.parquet._write_partition_pyarrow": 667
+        },
+        {
+            "dask.dataframe.io.parquet.to_parquet": 802
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/io/sql.py": [
+        {
+            "dask.dataframe.io.sql.read_sql_table": 9
+        },
+        {
+            "dask.dataframe.io.sql._read_sql_chunk": 165
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/io/hdf.py": [
+        {
+            "dask.dataframe.io.hdf.to_hdf": 38
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/io/io.py": [
+        {
+            "dask.dataframe.io.io.from_bcolz": 201
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/io/tests/test_csv.py": [
+        {
+            "dask.dataframe.io.tests.test_csv.my_get": 1065
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/dataframe/io/tests/test_parquet.py": [
+        {
+            "dask.dataframe.io.tests.test_parquet.write_read_engines": 53
+        },
+        {
+            "dask.dataframe.io.tests.test_parquet.read": 272
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/local.py": [
+        {
+            "dask.bytes.local.LocalFileSystem.__init__": 19
+        },
+        {
+            "dask.bytes.local.LocalFileSystem.open": 46
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/utils.py": [
+        {
+            "dask.bytes.utils.SeekableFile.read1": 129
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/core.py": [
+        {
+            "dask.bytes.core.read_bytes": 21
+        },
+        {
+            "dask.bytes.core.OpenFile.__exit__": 183
+        },
+        {
+            "dask.bytes.core.open_files": 193
+        },
+        {
+            "dask.bytes.core.open_text_files": 320
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/pyarrow.py": [
+        {
+            "dask.bytes.pyarrow.PyArrowHadoopFileSystem.__init__": 27
+        },
+        {
+            "dask.bytes.pyarrow.PyArrowHadoopFileSystem.open": 36
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/compression.py": [
+        {
+            "dask.bytes.compression.noop_file": 13
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/hdfs3.py": [
+        {
+            "dask.bytes.hdfs3.HDFS3HadoopFileSystem.__init__": 14
+        },
+        {
+            "dask.bytes.hdfs3.HDFS3HadoopFileSystem.open": 23
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/s3.py": [
+        {
+            "dask.bytes.s3.DaskS3FileSystem.__init__": 12
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/bytes/http.py": [
+        {
+            "dask.bytes.http.HTTPFileSystem.__init__": 20
+        },
+        {
+            "dask.bytes.http.HTTPFileSystem.open": 40
+        },
+        {
+            "dask.bytes.http.HTTPFile.__init__": 92
+        },
+        {
+            "dask.bytes.http.HTTPFile.__exit__": 250
+        },
+        {
+            "dask.bytes.http.file_size": 276
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/ufunc.py": [
+        {
+            "dask.array.ufunc.__array_wrap__": 15
+        },
+        {
+            "dask.array.ufunc.wrapped": 28
+        },
+        {
+            "dask.array.ufunc.da_frompyfunc.__call__": 64
+        },
+        {
+            "dask.array.ufunc.ufunc.__call__": 111
+        },
+        {
+            "dask.array.ufunc.ufunc.outer": 119
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/stats.py": [
+        {
+            "dask.array.stats.f_oneway": 291
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/routines.py": [
+        {
+            "dask.array.routines.result_type": 37
+        },
+        {
+            "dask.array.routines.atleast_3d": 43
+        },
+        {
+            "dask.array.routines.atleast_2d": 63
+        },
+        {
+            "dask.array.routines.atleast_1d": 81
+        },
+        {
+            "dask.array.routines.apply_along_axis": 293
+        },
+        {
+            "dask.array.routines.variadic_choose": 980
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/chunk.py": [
+        {
+            "dask.array.chunk.keepdims_wrapped_callable": 24
+        },
+        {
+            "dask.array.chunk.astype": 196
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/utils.py": [
+        {
+            "dask.array.utils._allclose": 19
+        },
+        {
+            "dask.array.utils.allclose": 30
+        },
+        {
+            "dask.array.utils.assert_eq": 73
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/learn.py": [
+        {
+            "dask.array.learn.fit": 16
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/core.py": [
+        {
+            "dask.array.core.dotmany": 166
+        },
+        {
+            "dask.array.core.top": 306
+        },
+        {
+            "dask.array.core.map_blocks": 550
+        },
+        {
+            "dask.array.core.broadcast_chunks": 777
+        },
+        {
+            "dask.array.core.store": 819
+        },
+        {
+            "dask.array.core.Array.keys": 1067
+        },
+        {
+            "dask.array.core.Array.__array_ufunc__": 1120
+        },
+        {
+            "dask.array.core.Array.__array__": 1191
+        },
+        {
+            "dask.array.core.Array.store": 1204
+        },
+        {
+            "dask.array.core.Array.to_hdf5": 1207
+        },
+        {
+            "dask.array.core.Array.transpose": 1372
+        },
+        {
+            "dask.array.core.Array.reshape": 1393
+        },
+        {
+            "dask.array.core.Array.astype": 1406
+        },
+        {
+            "dask.array.core.Array.map_blocks": 1680
+        },
+        {
+            "dask.array.core.Array.map_overlap": 1683
+        },
+        {
+            "dask.array.core.unify_chunks": 2120
+        },
+        {
+            "dask.array.core.atop": 2193
+        },
+        {
+            "dask.array.core.broadcast_shapes": 2866
+        },
+        {
+            "dask.array.core.elemwise": 2896
+        },
+        {
+            "dask.array.core._enforce_dtype": 2987
+        },
+        {
+            "dask.array.core.offset_func": 3092
+        },
+        {
+            "dask.array.core._offset": 3102
+        },
+        {
+            "dask.array.core.to_hdf5": 3345
+        },
+        {
+            "dask.array.core._vindex": 3419
+        },
+        {
+            "dask.array.core._vindex_1d": 3476
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/ghost.py": [
+        {
+            "dask.array.ghost.map_overlap": 385
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/ma.py": [
+        {
+            "dask.array.ma._masked_array": 202
+        },
+        {
+            "dask.array.ma.masked_array": 208
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/slicing.py": [
+        {
+            "dask.array.slicing.getitem_variadic": 887
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/reductions.py": [
+        {
+            "dask.array.reductions.numel": 232
+        },
+        {
+            "dask.array.reductions.nannumel": 237
+        },
+        {
+            "dask.array.reductions.mean_chunk": 242
+        },
+        {
+            "dask.array.reductions.mean_combine": 252
+        },
+        {
+            "dask.array.reductions.mean_agg": 262
+        },
+        {
+            "dask.array.reductions.moment_chunk": 294
+        },
+        {
+            "dask.array.reductions.moment_combine": 319
+        },
+        {
+            "dask.array.reductions.moment_agg": 345
+        },
+        {
+            "dask.array.reductions.arg_combine": 514
+        },
+        {
+            "dask.array.reductions.arg_agg": 523
+        },
+        {
+            "dask.array.reductions.nanarg_agg": 527
+        },
+        {
+            "dask.array.reductions._nanargmin": 610
+        },
+        {
+            "dask.array.reductions._nanargmax": 617
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/optimization.py": [
+        {
+            "dask.array.optimization.optimize": 22
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/creation.py": [
+        {
+            "dask.array.creation.arange": 229
+        },
+        {
+            "dask.array.creation.meshgrid": 302
+        },
+        {
+            "dask.array.creation.offset_func": 587
+        },
+        {
+            "dask.array.creation._offset": 597
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/wrap.py": [
+        {
+            "dask.array.wrap.wrap_func_shape_as_first_arg": 18
+        },
+        {
+            "dask.array.wrap.wrap": 50
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/numpy_compat.py": [
+        {
+            "dask.array.numpy_compat.isclose": 12
+        },
+        {
+            "dask.array.numpy_compat._Recurser.map_reduce": 402
+        },
+        {
+            "dask.array.numpy_compat._Recurser.f": 440
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/random.py": [
+        {
+            "dask.array.random.RandomState._wrap": 52
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/array/tests/test_array_core.py": [
+        {
+            "dask.array.tests.test_array_core.foo": 1106
+        },
+        {
+            "dask.array.tests.test_array_core.CounterLock.__init__": 1417
+        },
+        {
+            "dask.array.tests.test_array_core.CounterLock.acquire": 1423
+        },
+        {
+            "dask.array.tests.test_array_core.CounterLock.release": 1427
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/diagnostics/profile.py": [
+        {
+            "dask.diagnostics.profile.Profiler._plot": 82
+        },
+        {
+            "dask.diagnostics.profile.Profiler.visualize": 86
+        },
+        {
+            "dask.diagnostics.profile.ResourceProfiler.__exit__": 168
+        },
+        {
+            "dask.diagnostics.profile.ResourceProfiler._plot": 192
+        },
+        {
+            "dask.diagnostics.profile.ResourceProfiler.visualize": 196
+        },
+        {
+            "dask.diagnostics.profile.CacheProfiler._plot": 346
+        },
+        {
+            "dask.diagnostics.profile.CacheProfiler.visualize": 351
+        }
+    ],
+    "/home/zhang/Packages/dask/dask0.17.1/diagnostics/profile_visualize.py": [
+        {
+            "dask.diagnostics.profile_visualize.visualize": 148
+        },
+        {
+            "dask.diagnostics.profile_visualize.plot_tasks": 220
+        },
+        {
+            "dask.diagnostics.profile_visualize.plot_resources": 305
+        },
+        {
+            "dask.diagnostics.profile_visualize.plot_cache": 362
+        }
+    ]
+}

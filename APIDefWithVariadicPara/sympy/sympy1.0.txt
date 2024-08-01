@@ -1,0 +1,4960 @@
+{
+    "/home/zhang/Packages/sympy/sympy1.0/calculus/util.py": [
+        {
+            "sympy.calculus.util.not_empty_in": 13
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/assumptions/assume.py": [
+        {
+            "sympy.assumptions.assume.AssumptionsContext.add": 36
+        },
+        {
+            "sympy.assumptions.assume.assuming": 197
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/assumptions/sathandlers.py": [
+        {
+            "sympy.assumptions.sathandlers.CustomLambda.rcall": 252
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/assumptions/tests/test_refine.py": [
+        {
+            "sympy.assumptions.tests.test_refine.MyClass.__init__": 140
+        },
+        {
+            "sympy.assumptions.tests.test_refine.MyClass.my_func": 145
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/sets/fancysets.py": [
+        {
+            "sympy.sets.fancysets.Range.__new__": 329
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/sets/sets.py": [
+        {
+            "sympy.sets.sets.ProductSet.__new__": 555
+        },
+        {
+            "sympy.sets.sets.Union.__new__": 1140
+        },
+        {
+            "sympy.sets.sets.Union.roundrobin": 1312
+        },
+        {
+            "sympy.sets.sets.Intersection.__new__": 1358
+        },
+        {
+            "sympy.sets.sets.FiniteSet.__new__": 1764
+        },
+        {
+            "sympy.sets.sets.imageset": 1996
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/liealgebras/cartan_type.py": [
+        {
+            "sympy.liealgebras.cartan_type.CartanType_generator.__call__": 10
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/series/order.py": [
+        {
+            "sympy.series.order.Order.__new__": 129
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/series/sequences.py": [
+        {
+            "sympy.series.sequences.SeqAdd.__new__": 759
+        },
+        {
+            "sympy.series.sequences.SeqMul.__new__": 868
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/series/limits.py": [
+        {
+            "sympy.series.limits.Limit.doit": 122
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/series/fourier.py": [
+        {
+            "sympy.series.fourier.FourierSeries.__new__": 107
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/series/formal.py": [
+        {
+            "sympy.series.formal.FormalPowerSeries.__new__": 916
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/tensor/tensor.py": [
+        {
+            "sympy.tensor.tensor.TIDS.free_dum_from_indices": 227
+        },
+        {
+            "sympy.tensor.tensor._TensorDataLazyEvaluator.fromfunction_sympify": 1139
+        },
+        {
+            "sympy.tensor.tensor._TensorManager.set_comms": 1286
+        },
+        {
+            "sympy.tensor.tensor.TensorSymmetry.__new__": 1748
+        },
+        {
+            "sympy.tensor.tensor.tensorsymmetry": 1776
+        },
+        {
+            "sympy.tensor.tensor.TensorType.__new__": 1887
+        },
+        {
+            "sympy.tensor.tensor.TensorHead.__new__": 2162
+        },
+        {
+            "sympy.tensor.tensor.TensorHead._check_auto_matrix_indices_in_call": 2226
+        },
+        {
+            "sympy.tensor.tensor.TensorHead.__call__": 2271
+        },
+        {
+            "sympy.tensor.tensor.TensAdd.__new__": 2612
+        },
+        {
+            "sympy.tensor.tensor.TensAdd.__call__": 2784
+        },
+        {
+            "sympy.tensor.tensor.TensAdd.fun_eval": 2909
+        },
+        {
+            "sympy.tensor.tensor.TensAdd.substitute_indices": 2936
+        },
+        {
+            "sympy.tensor.tensor.Tensor.__new__": 3055
+        },
+        {
+            "sympy.tensor.tensor.Tensor._new_with_dummy_replacement": 3064
+        },
+        {
+            "sympy.tensor.tensor.Tensor.substitute_indices": 3145
+        },
+        {
+            "sympy.tensor.tensor.Tensor.__call__": 3148
+        },
+        {
+            "sympy.tensor.tensor.Tensor.fun_eval": 3179
+        },
+        {
+            "sympy.tensor.tensor.TensMul.__new__": 3324
+        },
+        {
+            "sympy.tensor.tensor.TensMul.from_data": 3374
+        },
+        {
+            "sympy.tensor.tensor.TensMul.from_TIDS": 3379
+        },
+        {
+            "sympy.tensor.tensor.TensMul.substitute_indices": 3635
+        },
+        {
+            "sympy.tensor.tensor.TensMul.fun_eval": 3638
+        },
+        {
+            "sympy.tensor.tensor.TensMul.__call__": 3668
+        },
+        {
+            "sympy.tensor.tensor.tensor_mul": 3743
+        },
+        {
+            "sympy.tensor.tensor.substitute_indices": 3956
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/tensor/indexed.py": [
+        {
+            "sympy.tensor.indexed.Indexed.__new__": 137
+        },
+        {
+            "sympy.tensor.indexed.IndexedBase.__new__": 328
+        },
+        {
+            "sympy.tensor.indexed.IndexedBase.__getitem__": 347
+        },
+        {
+            "sympy.tensor.indexed.Idx.__new__": 466
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/tensor/tests/test_tensor.py": [
+        {
+            "sympy.tensor.tests.test_tensor.Metric.__new__": 444
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/tensor/array/arrayop.py": [
+        {
+            "sympy.tensor.array.arrayop.tensorproduct": 20
+        },
+        {
+            "sympy.tensor.array.arrayop.tensorcontraction": 66
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/tensor/array/ndim_array.py": [
+        {
+            "sympy.tensor.array.ndim_array.NDimArray.__new__": 58
+        },
+        {
+            "sympy.tensor.array.ndim_array.NDimArray._handle_ndarray_creation_inputs": 110
+        },
+        {
+            "sympy.tensor.array.ndim_array.NDimArray.diff": 193
+        },
+        {
+            "sympy.tensor.array.ndim_array.NDimArray._eval_diff": 364
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/tensor/array/sparse_ndim_array.py": [
+        {
+            "sympy.tensor.array.sparse_ndim_array.SparseNDimArray.__new__": 15
+        },
+        {
+            "sympy.tensor.array.sparse_ndim_array.SparseNDimArray.zeros": 65
+        },
+        {
+            "sympy.tensor.array.sparse_ndim_array.SparseNDimArray.reshape": 102
+        },
+        {
+            "sympy.tensor.array.sparse_ndim_array.ImmutableSparseNDimArray.__new__": 112
+        },
+        {
+            "sympy.tensor.array.sparse_ndim_array.MutableSparseNDimArray.__new__": 143
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/tensor/array/dense_ndim_array.py": [
+        {
+            "sympy.tensor.array.dense_ndim_array.DenseNDimArray.__new__": 15
+        },
+        {
+            "sympy.tensor.array.dense_ndim_array.DenseNDimArray.zeros": 56
+        },
+        {
+            "sympy.tensor.array.dense_ndim_array.DenseNDimArray.reshape": 85
+        },
+        {
+            "sympy.tensor.array.dense_ndim_array.ImmutableDenseNDimArray.__new__": 120
+        },
+        {
+            "sympy.tensor.array.dense_ndim_array.ImmutableDenseNDimArray._new": 124
+        },
+        {
+            "sympy.tensor.array.dense_ndim_array.MutableDenseNDimArray.__new__": 142
+        },
+        {
+            "sympy.tensor.array.dense_ndim_array.MutableDenseNDimArray._new": 146
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/categories/diagram_drawing.py": [
+        {
+            "sympy.categories.diagram_drawing.DiagramGrid.__init__": 1169
+        },
+        {
+            "sympy.categories.diagram_drawing.xypic_draw_diagram": 2513
+        },
+        {
+            "sympy.categories.diagram_drawing.preview_diagram": 2555
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/categories/baseclasses.py": [
+        {
+            "sympy.categories.baseclasses.CompositeMorphism.__new__": 268
+        },
+        {
+            "sympy.categories.baseclasses.Diagram.__new__": 647
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/frv.py": [
+        {
+            "sympy.stats.frv.SingleFiniteDistribution.__new__": 169
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/drv.py": [
+        {
+            "sympy.stats.drv.SingleDiscreteDistribution.__new__": 22
+        },
+        {
+            "sympy.stats.drv.SingleDiscreteDistribution.check": 27
+        },
+        {
+            "sympy.stats.drv.SingleDiscreteDistribution.compute_cdf": 53
+        },
+        {
+            "sympy.stats.drv.SingleDiscreteDistribution.cdf": 68
+        },
+        {
+            "sympy.stats.drv.SingleDiscreteDistribution.expectation": 72
+        },
+        {
+            "sympy.stats.drv.SingleDiscreteDistribution.__call__": 82
+        },
+        {
+            "sympy.stats.drv.SingleDiscretePSpace.integrate": 108
+        },
+        {
+            "sympy.stats.drv.SingleDiscretePSpace.compute_cdf": 123
+        },
+        {
+            "sympy.stats.drv.SingleDiscretePSpace.compute_density": 129
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/rv.py": [
+        {
+            "sympy.stats.rv.RandomDomain.__new__": 40
+        },
+        {
+            "sympy.stats.rv.ProductPSpace.__new__": 272
+        },
+        {
+            "sympy.stats.rv.ProductPSpace.integrate": 315
+        },
+        {
+            "sympy.stats.rv.ProductDomain.__new__": 346
+        },
+        {
+            "sympy.stats.rv.given": 465
+        },
+        {
+            "sympy.stats.rv.expectation": 529
+        },
+        {
+            "sympy.stats.rv.probability": 584
+        },
+        {
+            "sympy.stats.rv.Density.doit": 658
+        },
+        {
+            "sympy.stats.rv.density": 677
+        },
+        {
+            "sympy.stats.rv.cdf": 722
+        },
+        {
+            "sympy.stats.rv.where": 765
+        },
+        {
+            "sympy.stats.rv.sample": 795
+        },
+        {
+            "sympy.stats.rv.sample_iter": 810
+        },
+        {
+            "sympy.stats.rv.sample_iter_lambdify": 844
+        },
+        {
+            "sympy.stats.rv.sample_iter_subs": 890
+        },
+        {
+            "sympy.stats.rv.sampling_P": 916
+        },
+        {
+            "sympy.stats.rv.sampling_E": 950
+        },
+        {
+            "sympy.stats.rv.sampling_density": 971
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/drv_types.py": [
+        {
+            "sympy.stats.drv_types.rv": 9
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/crv.py": [
+        {
+            "sympy.stats.crv.SingleContinuousDomain.integrate": 44
+        },
+        {
+            "sympy.stats.crv.ProductContinuousDomain.integrate": 63
+        },
+        {
+            "sympy.stats.crv.ConditionalContinuousDomain.integrate": 82
+        },
+        {
+            "sympy.stats.crv.ContinuousDistribution.__call__": 143
+        },
+        {
+            "sympy.stats.crv.SingleContinuousDistribution.__new__": 163
+        },
+        {
+            "sympy.stats.crv.SingleContinuousDistribution.check": 168
+        },
+        {
+            "sympy.stats.crv.SingleContinuousDistribution.compute_cdf": 196
+        },
+        {
+            "sympy.stats.crv.SingleContinuousDistribution.cdf": 211
+        },
+        {
+            "sympy.stats.crv.SingleContinuousDistribution.expectation": 215
+        },
+        {
+            "sympy.stats.crv.ContinuousPSpace.integrate": 254
+        },
+        {
+            "sympy.stats.crv.ContinuousPSpace.compute_density": 267
+        },
+        {
+            "sympy.stats.crv.ContinuousPSpace.compute_cdf": 280
+        },
+        {
+            "sympy.stats.crv.ContinuousPSpace.probability": 295
+        },
+        {
+            "sympy.stats.crv.ContinuousPSpace.conditional_space": 331
+        },
+        {
+            "sympy.stats.crv.SingleContinuousPSpace.integrate": 369
+        },
+        {
+            "sympy.stats.crv.SingleContinuousPSpace.compute_cdf": 382
+        },
+        {
+            "sympy.stats.crv.SingleContinuousPSpace.compute_density": 388
+        },
+        {
+            "sympy.stats.crv._reduce_inequalities": 415
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/crv_types.py": [
+        {
+            "sympy.stats.crv_types.UniformDistribution.compute_cdf": 2278
+        },
+        {
+            "sympy.stats.crv_types.UniformDistribution.expectation": 2289
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/frv_types.py": [
+        {
+            "sympy.stats.frv_types.rv": 27
+        },
+        {
+            "sympy.stats.frv_types.BinomialDistribution.__new__": 212
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/stats/rv_interface.py": [
+        {
+            "sympy.stats.rv_interface.moment": 15
+        },
+        {
+            "sympy.stats.rv_interface.variance": 35
+        },
+        {
+            "sympy.stats.rv_interface.standard_deviation": 60
+        },
+        {
+            "sympy.stats.rv_interface.covariance": 82
+        },
+        {
+            "sympy.stats.rv_interface.correlation": 113
+        },
+        {
+            "sympy.stats.rv_interface.cmoment": 144
+        },
+        {
+            "sympy.stats.rv_interface.smoment": 165
+        },
+        {
+            "sympy.stats.rv_interface.skewness": 187
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/sandbox/indexed_integrals.py": [
+        {
+            "sympy.sandbox.indexed_integrals.IndexedIntegral.__new__": 38
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/power.py": [
+        {
+            "sympy.core.power.Pow._eval_expand_power_exp": 662
+        },
+        {
+            "sympy.core.power.Pow._eval_expand_power_base": 673
+        },
+        {
+            "sympy.core.power.Pow._eval_expand_multinomial": 789
+        },
+        {
+            "sympy.core.power.Pow.as_real_imag": 911
+        },
+        {
+            "sympy.core.power.Pow._taylor_term": 1356
+        },
+        {
+            "sympy.core.power.Pow.is_constant": 1444
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/logic.py": [
+        {
+            "sympy.core.logic.Logic.__new__": 197
+        },
+        {
+            "sympy.core.logic.AndOr_Base.__new__": 292
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/containers.py": [
+        {
+            "sympy.core.containers.Tuple.__new__": 35
+        },
+        {
+            "sympy.core.containers.wrap_tuples": 153
+        },
+        {
+            "sympy.core.containers.Dict.__new__": 196
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/cache.py": [
+        {
+            "sympy.core.cache.wrapper": 91
+        },
+        {
+            "sympy.core.cache.wrapper": 158
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/compatibility.py": [
+        {
+            "sympy.core.compatibility.with_metaclass": 140
+        },
+        {
+            "sympy.core.compatibility.K.__init__": 303
+        },
+        {
+            "sympy.core.compatibility.check_output": 764
+        },
+        {
+            "sympy.core.compatibility.wrapper": 856
+        },
+        {
+            "sympy.core.compatibility.wrapper": 864
+        },
+        {
+            "sympy.core.compatibility.wrapper": 878
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/exprtools.py": [
+        {
+            "sympy.core.exprtools.Dummy": 1281
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/assumptions.py": [
+        {
+            "sympy.core.assumptions.ManagedProperties.__init__": 313
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/expr.py": [
+        {
+            "sympy.core.expr.Expr.is_constant": 426
+        },
+        {
+            "sympy.core.expr.Expr.as_expr": 1360
+        },
+        {
+            "sympy.core.expr.Expr.as_independent": 1448
+        },
+        {
+            "sympy.core.expr.Expr.as_real_imag": 1638
+        },
+        {
+            "sympy.core.expr.Expr.as_coeff_mul": 1708
+        },
+        {
+            "sympy.core.expr.Expr.as_coeff_add": 1743
+        },
+        {
+            "sympy.core.expr.Expr.is_polynomial": 2213
+        },
+        {
+            "sympy.core.expr.Expr.is_rational_function": 2286
+        },
+        {
+            "sympy.core.expr.Expr.is_algebraic_expr": 2356
+        },
+        {
+            "sympy.core.expr.Expr.taylor_term": 2581
+        },
+        {
+            "sympy.core.expr.Expr.as_leading_term": 2751
+        },
+        {
+            "sympy.core.expr.Expr.diff": 2863
+        },
+        {
+            "sympy.core.expr.Expr._eval_expand_complex": 2875
+        },
+        {
+            "sympy.core.expr.Expr._expand_hint": 2880
+        },
+        {
+            "sympy.core.expr.Expr.expand": 2910
+        },
+        {
+            "sympy.core.expr.Expr.integrate": 3003
+        },
+        {
+            "sympy.core.expr.Expr.together": 3030
+        },
+        {
+            "sympy.core.expr.Expr.apart": 3035
+        },
+        {
+            "sympy.core.expr.Expr.trigsimp": 3045
+        },
+        {
+            "sympy.core.expr.Expr.factor": 3065
+        },
+        {
+            "sympy.core.expr.Expr.cancel": 3075
+        },
+        {
+            "sympy.core.expr.Expr.invert": 3080
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/basic.py": [
+        {
+            "sympy.core.basic.Basic.__new__": 77
+        },
+        {
+            "sympy.core.basic.Basic.fromiter": 225
+        },
+        {
+            "sympy.core.basic.Basic.atoms": 398
+        },
+        {
+            "sympy.core.basic.Basic.rcall": 523
+        },
+        {
+            "sympy.core.basic.Basic.as_poly": 678
+        },
+        {
+            "sympy.core.basic.Basic.subs": 714
+        },
+        {
+            "sympy.core.basic.Basic._subs": 908
+        },
+        {
+            "sympy.core.basic.Basic.has": 1112
+        },
+        {
+            "sympy.core.basic.Basic.doit": 1498
+        },
+        {
+            "sympy.core.basic.Basic._eval_rewrite": 1524
+        },
+        {
+            "sympy.core.basic.Basic.rewrite": 1544
+        },
+        {
+            "sympy.core.basic.Atom.doit": 1629
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/core.py": [
+        {
+            "sympy.core.core.BasicMeta.__init__": 70
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/evalf.py": [
+        {
+            "sympy.core.evalf.N": 1462
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/relational.py": [
+        {
+            "sympy.core.relational.Relational.__new__": 52
+        },
+        {
+            "sympy.core.relational.Equality.__new__": 286
+        },
+        {
+            "sympy.core.relational.Unequality.__new__": 356
+        },
+        {
+            "sympy.core.relational._Inequality.__new__": 385
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/symbol.py": [
+        {
+            "sympy.core.symbol.Symbol.__new__": 89
+        },
+        {
+            "sympy.core.symbol.Symbol.__new_stage2__": 102
+        },
+        {
+            "sympy.core.symbol.Symbol.__call__": 154
+        },
+        {
+            "sympy.core.symbol.Symbol.as_real_imag": 158
+        },
+        {
+            "sympy.core.symbol.Symbol.is_constant": 169
+        },
+        {
+            "sympy.core.symbol.Dummy.__new__": 201
+        },
+        {
+            "sympy.core.symbol.Wild.__new__": 296
+        },
+        {
+            "sympy.core.symbol.Wild.__xnew__": 307
+        },
+        {
+            "sympy.core.symbol.Wild.__call__": 326
+        },
+        {
+            "sympy.core.symbol.symbols": 332
+        },
+        {
+            "sympy.core.symbol.var": 545
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/function.py": [
+        {
+            "sympy.core.function.FunctionClass.__init__": 105
+        },
+        {
+            "sympy.core.function.Application.__new__": 195
+        },
+        {
+            "sympy.core.function.Application.eval": 238
+        },
+        {
+            "sympy.core.function.Function.__new__": 363
+        },
+        {
+            "sympy.core.function.AppliedUndef.__new__": 718
+        },
+        {
+            "sympy.core.function.UndefinedFunction.__new__": 737
+        },
+        {
+            "sympy.core.function.WildFunction.__init__": 798
+        },
+        {
+            "sympy.core.function.Derivative.__new__": 1016
+        },
+        {
+            "sympy.core.function.Derivative.doit": 1268
+        },
+        {
+            "sympy.core.function.Lambda.__call__": 1425
+        },
+        {
+            "sympy.core.function.Subs.__new__": 1515
+        },
+        {
+            "sympy.core.function.Subs.mystr": 1542
+        },
+        {
+            "sympy.core.function.Subs.evalf": 1573
+        },
+        {
+            "sympy.core.function.diff": 1625
+        },
+        {
+            "sympy.core.function.expand": 1694
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/operations.py": [
+        {
+            "sympy.core.operations.AssocOp.__new__": 28
+        },
+        {
+            "sympy.core.operations.AssocOp._new_rawargs": 63
+        },
+        {
+            "sympy.core.operations.LatticeOp.__new__": 407
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/singleton.py": [
+        {
+            "sympy.core.singleton.Singleton.__new__": 97
+        },
+        {
+            "sympy.core.singleton.Singleton.__call__": 102
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/add.py": [
+        {
+            "sympy.core.add._unevaluated_Add": 21
+        },
+        {
+            "sympy.core.add.Add.as_coeff_add": 307
+        },
+        {
+            "sympy.core.add.Add.as_real_imag": 759
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/numbers.py": [
+        {
+            "sympy.core.numbers.igcd": 142
+        },
+        {
+            "sympy.core.numbers.ilcm": 180
+        },
+        {
+            "sympy.core.numbers.Number.__new__": 334
+        },
+        {
+            "sympy.core.numbers.Number.invert": 357
+        },
+        {
+            "sympy.core.numbers.Number.__round__": 390
+        },
+        {
+            "sympy.core.numbers.Number._eval_order": 411
+        },
+        {
+            "sympy.core.numbers.Number.is_constant": 529
+        },
+        {
+            "sympy.core.numbers.Number.as_coeff_mul": 532
+        },
+        {
+            "sympy.core.numbers.Number.as_coeff_add": 540
+        },
+        {
+            "sympy.core.numbers.AlgebraicNumber.__new__": 2034
+        },
+        {
+            "sympy.core.numbers.Zero._eval_order": 2225
+        },
+        {
+            "sympy.core.numbers.One._eval_order": 2270
+        },
+        {
+            "sympy.core.numbers.GoldenRatio._eval_expand_func": 3300
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/decorators.py": [
+        {
+            "sympy.core.decorators.deprecated": 15
+        },
+        {
+            "sympy.core.decorators.new_func": 22
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/trace.py": [
+        {
+            "sympy.core.trace.Tr.__new__": 103
+        },
+        {
+            "sympy.core.trace.Tr.doit": 156
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/multidimensional.py": [
+        {
+            "sympy.core.multidimensional.vectorize.__init__": 89
+        },
+        {
+            "sympy.core.multidimensional.vectorize.wrapper": 107
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/mul.py": [
+        {
+            "sympy.core.mul._unevaluated_Mul": 35
+        },
+        {
+            "sympy.core.mul.Mul.as_coeff_mul": 684
+        },
+        {
+            "sympy.core.mul.Mul.as_real_imag": 717
+        },
+        {
+            "sympy.core.mul.Mul._eval_expand_mul": 788
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/tests/test_function.py": [
+        {
+            "sympy.core.tests.test_function.myfunc.eval": 110
+        },
+        {
+            "sympy.core.tests.test_function.MyFunc.eval": 350
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/tests/test_containers.py": [
+        {
+            "sympy.core.tests.test_containers.wrap_tuples_and_return": 105
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/core/tests/test_evalf.py": [
+        {
+            "sympy.core.tests.test_evalf.NS": 14
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/concrete/products.py": [
+        {
+            "sympy.concrete.products.Product.__new__": 191
+        },
+        {
+            "sympy.concrete.products.Product._eval_rewrite_as_Sum": 195
+        },
+        {
+            "sympy.concrete.products.Product.doit": 208
+        },
+        {
+            "sympy.concrete.products.Product.reverse_order": 394
+        },
+        {
+            "sympy.concrete.products.product": 478
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/concrete/expr_with_limits.py": [
+        {
+            "sympy.concrete.expr_with_limits._process_limits": 20
+        },
+        {
+            "sympy.concrete.expr_with_limits.ExprWithLimits.__new__": 77
+        },
+        {
+            "sympy.concrete.expr_with_limits.AddWithLimits.__new__": 349
+        },
+        {
+            "sympy.concrete.expr_with_limits.AddWithLimits._eval_factor": 408
+        },
+        {
+            "sympy.concrete.expr_with_limits.AddWithLimits._eval_expand_basic": 424
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/concrete/summations.py": [
+        {
+            "sympy.concrete.summations.Sum.__new__": 154
+        },
+        {
+            "sympy.concrete.summations.Sum.doit": 171
+        },
+        {
+            "sympy.concrete.summations.Sum.reverse_order": 626
+        },
+        {
+            "sympy.concrete.summations.summation": 705
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/concrete/expr_with_intlimits.py": [
+        {
+            "sympy.concrete.expr_with_intlimits.ExprWithIntLimits.reorder": 170
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/concrete/tests/test_sums_products.py": [
+        {
+            "sympy.concrete.tests.test_sums_products.NS": 292
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/testutil.py": [
+        {
+            "sympy.combinatorics.testutil.canonicalize_naive": 196
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/perm_groups.py": [
+        {
+            "sympy.combinatorics.perm_groups.PermutationGroup.__new__": 122
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/graycode.py": [
+        {
+            "sympy.combinatorics.graycode.GrayCode.__new__": 53
+        },
+        {
+            "sympy.combinatorics.graycode.GrayCode.generate_gray": 149
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/prufer.py": [
+        {
+            "sympy.combinatorics.prufer.Prufer.edges": 239
+        },
+        {
+            "sympy.combinatorics.prufer.Prufer.__new__": 336
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/tensor_can.py": [
+        {
+            "sympy.combinatorics.tensor_can.canonicalize": 633
+        },
+        {
+            "sympy.combinatorics.tensor_can.gens_products": 1153
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/group_constructs.py": [
+        {
+            "sympy.combinatorics.group_constructs.DirectProduct": 11
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/permutations.py": [
+        {
+            "sympy.combinatorics.permutations._af_rmuln": 48
+        },
+        {
+            "sympy.combinatorics.permutations.Cycle.__call__": 315
+        },
+        {
+            "sympy.combinatorics.permutations.Cycle.__init__": 424
+        },
+        {
+            "sympy.combinatorics.permutations.Permutation.__new__": 796
+        },
+        {
+            "sympy.combinatorics.permutations.Permutation.rmul": 1176
+        },
+        {
+            "sympy.combinatorics.permutations.Permutation.rmul_with_af": 1222
+        },
+        {
+            "sympy.combinatorics.permutations.Permutation.__call__": 1536
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/named_groups.py": [
+        {
+            "sympy.combinatorics.named_groups.AbelianGroup": 11
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/combinatorics/partitions.py": [
+        {
+            "sympy.combinatorics.partitions.Partition.__new__": 29
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/sparse.py": [
+        {
+            "sympy.matrices.sparse.SparseMatrix.__init__": 40
+        },
+        {
+            "sympy.matrices.sparse.SparseMatrix.has": 616
+        },
+        {
+            "sympy.matrices.sparse.SparseMatrix._eval_inverse": 1037
+        },
+        {
+            "sympy.matrices.sparse.MutableSparseMatrix._new": 1145
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/dense.py": [
+        {
+            "sympy.matrices.dense.DenseMatrix._eval_inverse": 256
+        },
+        {
+            "sympy.matrices.dense.DenseMatrix._eval_diff": 319
+        },
+        {
+            "sympy.matrices.dense.MutableDenseMatrix._new": 602
+        },
+        {
+            "sympy.matrices.dense.MutableDenseMatrix.__new__": 610
+        },
+        {
+            "sympy.matrices.dense.symarray": 999
+        },
+        {
+            "sympy.matrices.dense.diag": 1277
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/immutable.py": [
+        {
+            "sympy.matrices.immutable.ImmutableMatrix._new": 42
+        },
+        {
+            "sympy.matrices.immutable.ImmutableMatrix.__new__": 51
+        },
+        {
+            "sympy.matrices.immutable.ImmutableMatrix.__setitem__": 67
+        },
+        {
+            "sympy.matrices.immutable.ImmutableSparseMatrix._new": 149
+        },
+        {
+            "sympy.matrices.immutable.ImmutableSparseMatrix.__new__": 160
+        },
+        {
+            "sympy.matrices.immutable.ImmutableSparseMatrix.__setitem__": 163
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/matrices.py": [
+        {
+            "sympy.matrices.matrices.MatrixBase._handle_creation_inputs": 88
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.inv": 308
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.evalf": 1114
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.atoms": 1120
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.subs": 1159
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.expand": 1193
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.doit": 1229
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.berkowitz_eigenvals": 3019
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.eigenvals": 3029
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.eigenvects": 3048
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.left_eigenvects": 3118
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.doit": 3210
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.integrate": 3218
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.limit": 3245
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.diff": 3268
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.has": 3854
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.hstack": 3912
+        },
+        {
+            "sympy.matrices.matrices.MatrixBase.vstack": 3928
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/blockmatrix.py": [
+        {
+            "sympy.matrices.expressions.blockmatrix.BlockMatrix.__new__": 47
+        },
+        {
+            "sympy.matrices.expressions.blockmatrix.BlockDiagMatrix.__new__": 202
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/transpose.py": [
+        {
+            "sympy.matrices.expressions.transpose.Transpose.doit": 35
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/matadd.py": [
+        {
+            "sympy.matrices.expressions.matadd.MatAdd.__new__": 30
+        },
+        {
+            "sympy.matrices.expressions.matadd.MatAdd.doit": 56
+        },
+        {
+            "sympy.matrices.expressions.matadd.validate": 64
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/matpow.py": [
+        {
+            "sympy.matrices.expressions.matpow.MatPow.doit": 51
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/matmul.py": [
+        {
+            "sympy.matrices.expressions.matmul.MatMul.__new__": 31
+        },
+        {
+            "sympy.matrices.expressions.matmul.MatMul.doit": 109
+        },
+        {
+            "sympy.matrices.expressions.matmul.MatMul.args_cnc": 118
+        },
+        {
+            "sympy.matrices.expressions.matmul.validate": 126
+        },
+        {
+            "sympy.matrices.expressions.matmul.newmul": 136
+        },
+        {
+            "sympy.matrices.expressions.matmul.only_squares": 234
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/adjoint.py": [
+        {
+            "sympy.matrices.expressions.adjoint.Adjoint.doit": 35
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/hadamard.py": [
+        {
+            "sympy.matrices.expressions.hadamard.hadamard_product": 8
+        },
+        {
+            "sympy.matrices.expressions.hadamard.HadamardProduct.__new__": 50
+        },
+        {
+            "sympy.matrices.expressions.hadamard.HadamardProduct.doit": 68
+        },
+        {
+            "sympy.matrices.expressions.hadamard.validate": 71
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/trace.py": [
+        {
+            "sympy.matrices.expressions.trace.Trace.doit": 41
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/matexpr.py": [
+        {
+            "sympy.matrices.expressions.matexpr.MatrixExpr.__new__": 72
+        },
+        {
+            "sympy.matrices.expressions.matexpr.MatrixExpr._eval_simplify": 184
+        },
+        {
+            "sympy.matrices.expressions.matexpr.MatrixElement.doit": 342
+        },
+        {
+            "sympy.matrices.expressions.matexpr.MatrixSymbol.__call__": 388
+        },
+        {
+            "sympy.matrices.expressions.matexpr.MatrixSymbol.doit": 398
+        },
+        {
+            "sympy.matrices.expressions.matexpr.MatrixSymbol._eval_simplify": 405
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/matrices/expressions/inverse.py": [
+        {
+            "sympy.matrices.expressions.inverse.Inverse.doit": 60
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/vector/functions.py": [
+        {
+            "sympy.vector.functions.orthogonalize": 477
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/vector/dyadic.py": [
+        {
+            "sympy.vector.dyadic.DyadicMul.__new__": 213
+        },
+        {
+            "sympy.vector.dyadic.DyadicAdd.__new__": 233
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/vector/vector.py": [
+        {
+            "sympy.vector.vector.VectorAdd.__new__": 398
+        },
+        {
+            "sympy.vector.vector.VectorMul.__new__": 423
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/vector/basisdependent.py": [
+        {
+            "sympy.vector.basisdependent.BasisDependent.evalf": 58
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent.trigsimp": 87
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent._eval_trigsimp": 103
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent._eval_Integral": 109
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent._eval_diff": 114
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent.factor": 127
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent.as_coeff_add": 145
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent.diff": 150
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependent.doit": 166
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependentAdd.__new__": 179
+        },
+        {
+            "sympy.vector.basisdependent.BasisDependentMul.__new__": 230
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/theanocode.py": [
+        {
+            "sympy.printing.theanocode.TheanoPrinter.__init__": 69
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_Basic": 97
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_Number": 102
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_MatrixSymbol": 105
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_DenseMatrix": 115
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_MatMul": 126
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_MatrixSlice": 133
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_BlockMatrix": 139
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_slice": 147
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_Pi": 152
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_Piecewise": 155
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_Rational": 166
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_Integer": 170
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_factorial": 173
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter._print_Derivative": 176
+        },
+        {
+            "sympy.printing.theanocode.TheanoPrinter.doprint": 186
+        },
+        {
+            "sympy.printing.theanocode.theano_code": 192
+        },
+        {
+            "sympy.printing.theanocode.dim_handling": 198
+        },
+        {
+            "sympy.printing.theanocode.theano_function": 215
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/codeprinter.py": [
+        {
+            "sympy.printing.codeprinter.Assignment.__new__": 61
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/julia.py": [
+        {
+            "sympy.printing.julia.julia_code": 487
+        },
+        {
+            "sympy.printing.julia.print_julia_code": 624
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/tableform.py": [
+        {
+            "sympy.printing.tableform.TableForm.__init__": 35
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/str.py": [
+        {
+            "sympy.printing.str.sstr": 732
+        },
+        {
+            "sympy.printing.str.sstrrepr": 760
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/mathematica.py": [
+        {
+            "sympy.printing.mathematica.mathematica_code": 112
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/latex.py": [
+        {
+            "sympy.printing.latex.latex": 1902
+        },
+        {
+            "sympy.printing.latex.print_latex": 2030
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/printer.py": [
+        {
+            "sympy.printing.printer.Printer.set_global_settings": 218
+        },
+        {
+            "sympy.printing.printer.Printer._print": 235
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/fcode.py": [
+        {
+            "sympy.printing.fcode.fcode": 404
+        },
+        {
+            "sympy.printing.fcode.print_fcode": 518
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/octave.py": [
+        {
+            "sympy.printing.octave.octave_code": 483
+        },
+        {
+            "sympy.printing.octave.print_octave_code": 622
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/jscode.py": [
+        {
+            "sympy.printing.jscode.jscode": 194
+        },
+        {
+            "sympy.printing.jscode.print_jscode": 302
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/dot.py": [
+        {
+            "sympy.printing.dot.dotprint": 124
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/python.py": [
+        {
+            "sympy.printing.python.python": 48
+        },
+        {
+            "sympy.printing.python.print_python": 90
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/lambdarepr.py": [
+        {
+            "sympy.printing.lambdarepr.lambdarepr": 249
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/preview.py": [
+        {
+            "sympy.printing.preview.preview": 25
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/repr.py": [
+        {
+            "sympy.printing.repr.srepr": 199
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/ccode.py": [
+        {
+            "sympy.printing.ccode.ccode": 264
+        },
+        {
+            "sympy.printing.ccode.print_ccode": 380
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/mathml.py": [
+        {
+            "sympy.printing.mathml.mathml": 442
+        },
+        {
+            "sympy.printing.mathml.print_mathml": 447
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/tests/test_codeprinter.py": [
+        {
+            "sympy.printing.tests.test_codeprinter.setup_test_printer": 10
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/tests/test_theanocode.py": [
+        {
+            "sympy.printing.tests.test_theanocode.fgraph_of": 22
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/pretty/pretty_symbology.py": [
+        {
+            "sympy.printing.pretty.pretty_symbology.xstr": 107
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/pretty/pretty.py": [
+        {
+            "sympy.printing.pretty.pretty.pretty": 2026
+        },
+        {
+            "sympy.printing.pretty.pretty.pretty_print": 2044
+        },
+        {
+            "sympy.printing.pretty.pretty.pager_print": 2077
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/printing/pretty/stringpict.py": [
+        {
+            "sympy.printing.pretty.stringpict.stringPict.next": 57
+        },
+        {
+            "sympy.printing.pretty.stringpict.stringPict.right": 88
+        },
+        {
+            "sympy.printing.pretty.stringpict.stringPict.left": 105
+        },
+        {
+            "sympy.printing.pretty.stringpict.stringPict.stack": 112
+        },
+        {
+            "sympy.printing.pretty.stringpict.stringPict.below": 150
+        },
+        {
+            "sympy.printing.pretty.stringpict.stringPict.above": 169
+        },
+        {
+            "sympy.printing.pretty.stringpict.stringPict.render": 251
+        },
+        {
+            "sympy.printing.pretty.stringpict.prettyForm.__add__": 389
+        },
+        {
+            "sympy.printing.pretty.stringpict.prettyForm.__mul__": 429
+        },
+        {
+            "sympy.printing.pretty.stringpict.prettyForm.apply": 504
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/unify/core.py": [
+        {
+            "sympy.unify.core.unify": 78
+        },
+        {
+            "sympy.unify.core.unify_var": 133
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/unify/usympy.py": [
+        {
+            "sympy.unify.usympy.unify": 75
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/units.py": [
+        {
+            "sympy.physics.units.Unit.__new__": 103
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/secondquant.py": [
+        {
+            "sympy.physics.secondquant.AntiSymmetricTensor.doit": 294
+        },
+        {
+            "sympy.physics.secondquant.SqOperator.doit": 363
+        },
+        {
+            "sympy.physics.secondquant.Commutator.doit": 1689
+        },
+        {
+            "sympy.physics.secondquant.NO.doit": 1877
+        },
+        {
+            "sympy.physics.secondquant.wicks": 2760
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/wigner.py": [
+        {
+            "sympy.physics.wigner.Wigner3j.doit": 706
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/unitsystems/units.py": [
+        {
+            "sympy.physics.unitsystems.units.Unit.__new__": 43
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/unitsystems/quantities.py": [
+        {
+            "sympy.physics.unitsystems.quantities.Quantity.__new__": 25
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/unitsystems/dimensions.py": [
+        {
+            "sympy.physics.unitsystems.dimensions.Dimension.__new__": 75
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/tests/test_secondquant.py": [
+        {
+            "sympy.physics.tests.test_secondquant.atv": 955
+        },
+        {
+            "sympy.physics.tests.test_secondquant.att": 959
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/optics/gaussopt.py": [
+        {
+            "sympy.physics.optics.gaussopt.RayTransferMatrix.__new__": 111
+        },
+        {
+            "sympy.physics.optics.gaussopt.GeometricRay.__new__": 418
+        },
+        {
+            "sympy.physics.optics.gaussopt.BeamParameter.__new__": 521
+        },
+        {
+            "sympy.physics.optics.gaussopt.conjugate_gauss_beams": 802
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/optics/waves.py": [
+        {
+            "sympy.physics.optics.waves.TWave._eval_rewrite_as_sin": 271
+        },
+        {
+            "sympy.physics.optics.waves.TWave._eval_rewrite_as_cos": 275
+        },
+        {
+            "sympy.physics.optics.waves.TWave._eval_rewrite_as_pde": 279
+        },
+        {
+            "sympy.physics.optics.waves.TWave._eval_rewrite_as_exp": 285
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/mechanics/functions.py": [
+        {
+            "sympy.physics.mechanics.functions.mechanics_printing": 39
+        },
+        {
+            "sympy.physics.mechanics.functions.linear_momentum": 125
+        },
+        {
+            "sympy.physics.mechanics.functions.angular_momentum": 175
+        },
+        {
+            "sympy.physics.mechanics.functions.kinetic_energy": 233
+        },
+        {
+            "sympy.physics.mechanics.functions.potential_energy": 289
+        },
+        {
+            "sympy.physics.mechanics.functions.Lagrangian": 341
+        },
+        {
+            "sympy.physics.mechanics.functions.msubs": 425
+        },
+        {
+            "sympy.physics.mechanics.functions._crawl": 472
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/mechanics/lagrange.py": [
+        {
+            "sympy.physics.mechanics.lagrange.LagrangesMethod.linearize": 348
+        },
+        {
+            "sympy.physics.mechanics.lagrange.LagrangesMethod.rhs": 427
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/mechanics/kane.py": [
+        {
+            "sympy.physics.mechanics.kane.KanesMethod.linearize": 469
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/vector/functions.py": [
+        {
+            "sympy.physics.vector.functions.get_motion_params": 372
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/vector/dyadic.py": [
+        {
+            "sympy.physics.vector.dyadic.Dyadic.Fake.render": 198
+        },
+        {
+            "sympy.physics.vector.dyadic.Dyadic.doit": 465
+        },
+        {
+            "sympy.physics.vector.dyadic.Dyadic.subs": 503
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/vector/vector.py": [
+        {
+            "sympy.physics.vector.vector.Vector.Fake.render": 260
+        },
+        {
+            "sympy.physics.vector.vector.Vector.doit": 599
+        },
+        {
+            "sympy.physics.vector.vector.Vector.subs": 630
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/vector/printing.py": [
+        {
+            "sympy.physics.vector.printing.vprint": 220
+        },
+        {
+            "sympy.physics.vector.printing.vsstrrepr": 255
+        },
+        {
+            "sympy.physics.vector.printing.vsprint": 272
+        },
+        {
+            "sympy.physics.vector.printing.vpprint": 303
+        },
+        {
+            "sympy.physics.vector.printing.vlatex": 337
+        },
+        {
+            "sympy.physics.vector.printing.init_vprinting": 377
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/operatorset.py": [
+        {
+            "sympy.physics.quantum.operatorset.operators_to_state": 49
+        },
+        {
+            "sympy.physics.quantum.operatorset.state_to_operators": 150
+        },
+        {
+            "sympy.physics.quantum.operatorset._get_state": 247
+        },
+        {
+            "sympy.physics.quantum.operatorset._get_ops": 258
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/shor.py": [
+        {
+            "sympy.physics.quantum.shor.CMod._apply_operator_Qubit": 63
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/spin.py": [
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._print_contents": 79
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._print_contents_pretty": 82
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._print_contents_latex": 87
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._represent_base": 90
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_op": 100
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_JxKet": 114
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_JxKetCoupled": 117
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_JyKet": 120
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_JyKetCoupled": 123
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_JzKet": 126
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_JzKetCoupled": 129
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_TensorProduct": 132
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._apply_operator_Sum": 147
+        },
+        {
+            "sympy.physics.quantum.spin.SpinOpBase._eval_trace": 153
+        },
+        {
+            "sympy.physics.quantum.spin.JplusOp._apply_operator_JzKet": 172
+        },
+        {
+            "sympy.physics.quantum.spin.JplusOp._apply_operator_JzKetCoupled": 180
+        },
+        {
+            "sympy.physics.quantum.spin.JplusOp._represent_default_basis": 196
+        },
+        {
+            "sympy.physics.quantum.spin.JplusOp._represent_JzOp": 199
+        },
+        {
+            "sympy.physics.quantum.spin.JplusOp._eval_rewrite_as_xyz": 202
+        },
+        {
+            "sympy.physics.quantum.spin.JminusOp._apply_operator_JzKet": 213
+        },
+        {
+            "sympy.physics.quantum.spin.JminusOp._apply_operator_JzKetCoupled": 221
+        },
+        {
+            "sympy.physics.quantum.spin.JminusOp._represent_default_basis": 237
+        },
+        {
+            "sympy.physics.quantum.spin.JminusOp._represent_JzOp": 240
+        },
+        {
+            "sympy.physics.quantum.spin.JminusOp._eval_rewrite_as_xyz": 243
+        },
+        {
+            "sympy.physics.quantum.spin.JxOp._apply_operator_JzKet": 260
+        },
+        {
+            "sympy.physics.quantum.spin.JxOp._apply_operator_JzKetCoupled": 265
+        },
+        {
+            "sympy.physics.quantum.spin.JxOp._represent_default_basis": 270
+        },
+        {
+            "sympy.physics.quantum.spin.JxOp._represent_JzOp": 273
+        },
+        {
+            "sympy.physics.quantum.spin.JxOp._eval_rewrite_as_plusminus": 278
+        },
+        {
+            "sympy.physics.quantum.spin.JyOp._apply_operator_JzKet": 295
+        },
+        {
+            "sympy.physics.quantum.spin.JyOp._apply_operator_JzKetCoupled": 300
+        },
+        {
+            "sympy.physics.quantum.spin.JyOp._represent_default_basis": 305
+        },
+        {
+            "sympy.physics.quantum.spin.JyOp._represent_JzOp": 308
+        },
+        {
+            "sympy.physics.quantum.spin.JyOp._eval_rewrite_as_plusminus": 313
+        },
+        {
+            "sympy.physics.quantum.spin.JzOp._represent_default_basis": 342
+        },
+        {
+            "sympy.physics.quantum.spin.JzOp._represent_JzOp": 345
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._apply_operator_JxKet": 369
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._apply_operator_JxKetCoupled": 373
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._apply_operator_JyKet": 377
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._apply_operator_JyKetCoupled": 381
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._apply_operator_JzKet": 385
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._apply_operator_JzKetCoupled": 389
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._represent_default_basis": 399
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._represent_JzOp": 402
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._print_contents_pretty": 405
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._print_contents_latex": 410
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._eval_rewrite_as_xyz": 413
+        },
+        {
+            "sympy.physics.quantum.spin.J2Op._eval_rewrite_as_plusminus": 416
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._print_operator_name": 498
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._print_operator_name_pretty": 501
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._print_operator_name_latex": 507
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._represent_base": 603
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._represent_default_basis": 618
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._represent_JzOp": 621
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_uncoupled": 624
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_JxKet": 646
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_JyKet": 649
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_JzKet": 652
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_coupled": 655
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_JxKetCoupled": 680
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_JyKetCoupled": 683
+        },
+        {
+            "sympy.physics.quantum.spin.Rotation._apply_operator_JzKetCoupled": 686
+        },
+        {
+            "sympy.physics.quantum.spin.WignerD.__new__": 771
+        },
+        {
+            "sympy.physics.quantum.spin.WignerD._latex": 804
+        },
+        {
+            "sympy.physics.quantum.spin.WignerD._pretty": 817
+        },
+        {
+            "sympy.physics.quantum.spin.WignerD.doit": 849
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._represent_base": 945
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._eval_rewrite_as_Jx": 964
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._eval_rewrite_as_Jy": 969
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._eval_rewrite_as_Jz": 974
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._rewrite_basis": 979
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._eval_innerproduct_JxBra": 1023
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._eval_innerproduct_JyBra": 1032
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._eval_innerproduct_JzBra": 1041
+        },
+        {
+            "sympy.physics.quantum.spin.SpinState._eval_trace": 1050
+        },
+        {
+            "sympy.physics.quantum.spin.JxKet._represent_default_basis": 1086
+        },
+        {
+            "sympy.physics.quantum.spin.JxKet._represent_JxOp": 1089
+        },
+        {
+            "sympy.physics.quantum.spin.JxKet._represent_JyOp": 1092
+        },
+        {
+            "sympy.physics.quantum.spin.JxKet._represent_JzOp": 1095
+        },
+        {
+            "sympy.physics.quantum.spin.JyKet._represent_default_basis": 1140
+        },
+        {
+            "sympy.physics.quantum.spin.JyKet._represent_JxOp": 1143
+        },
+        {
+            "sympy.physics.quantum.spin.JyKet._represent_JyOp": 1146
+        },
+        {
+            "sympy.physics.quantum.spin.JyKet._represent_JzOp": 1149
+        },
+        {
+            "sympy.physics.quantum.spin.JzKet._represent_default_basis": 1293
+        },
+        {
+            "sympy.physics.quantum.spin.JzKet._represent_JxOp": 1296
+        },
+        {
+            "sympy.physics.quantum.spin.JzKet._represent_JyOp": 1299
+        },
+        {
+            "sympy.physics.quantum.spin.JzKet._represent_JzOp": 1302
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState.__new__": 1346
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState._print_label": 1412
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState._print_label_pretty": 1424
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState._print_label_latex": 1441
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState._represent_coupled_base": 1481
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState._eval_rewrite_as_Jx": 1498
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState._eval_rewrite_as_Jy": 1503
+        },
+        {
+            "sympy.physics.quantum.spin.CoupledSpinState._eval_rewrite_as_Jz": 1508
+        },
+        {
+            "sympy.physics.quantum.spin.JxKetCoupled._represent_default_basis": 1534
+        },
+        {
+            "sympy.physics.quantum.spin.JxKetCoupled._represent_JxOp": 1537
+        },
+        {
+            "sympy.physics.quantum.spin.JxKetCoupled._represent_JyOp": 1540
+        },
+        {
+            "sympy.physics.quantum.spin.JxKetCoupled._represent_JzOp": 1543
+        },
+        {
+            "sympy.physics.quantum.spin.JyKetCoupled._represent_default_basis": 1588
+        },
+        {
+            "sympy.physics.quantum.spin.JyKetCoupled._represent_JxOp": 1591
+        },
+        {
+            "sympy.physics.quantum.spin.JyKetCoupled._represent_JyOp": 1594
+        },
+        {
+            "sympy.physics.quantum.spin.JyKetCoupled._represent_JzOp": 1597
+        },
+        {
+            "sympy.physics.quantum.spin.JzKetCoupled._represent_default_basis": 1747
+        },
+        {
+            "sympy.physics.quantum.spin.JzKetCoupled._represent_JxOp": 1750
+        },
+        {
+            "sympy.physics.quantum.spin.JzKetCoupled._represent_JyOp": 1753
+        },
+        {
+            "sympy.physics.quantum.spin.JzKetCoupled._represent_JzOp": 1756
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/qft.py": [
+        {
+            "sympy.physics.quantum.qft.RkGate.__new__": 46
+        },
+        {
+            "sympy.physics.quantum.qft.Fourier._represent_default_basis": 108
+        },
+        {
+            "sympy.physics.quantum.qft.Fourier._represent_ZGate": 111
+        },
+        {
+            "sympy.physics.quantum.qft.QFT._apply_operator_Qubit": 177
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/matrixutils.py": [
+        {
+            "sympy.physics.quantum.matrixutils.sympy_to_numpy": 52
+        },
+        {
+            "sympy.physics.quantum.matrixutils.sympy_to_scipy_sparse": 65
+        },
+        {
+            "sympy.physics.quantum.matrixutils.scipy_sparse_to_sympy": 78
+        },
+        {
+            "sympy.physics.quantum.matrixutils.numpy_to_sympy": 83
+        },
+        {
+            "sympy.physics.quantum.matrixutils.to_sympy": 88
+        },
+        {
+            "sympy.physics.quantum.matrixutils.to_numpy": 101
+        },
+        {
+            "sympy.physics.quantum.matrixutils.to_scipy_sparse": 113
+        },
+        {
+            "sympy.physics.quantum.matrixutils._sympy_tensor_product": 148
+        },
+        {
+            "sympy.physics.quantum.matrixutils._numpy_tensor_product": 222
+        },
+        {
+            "sympy.physics.quantum.matrixutils._scipy_sparse_tensor_product": 232
+        },
+        {
+            "sympy.physics.quantum.matrixutils.matrix_tensor_product": 244
+        },
+        {
+            "sympy.physics.quantum.matrixutils.matrix_eye": 268
+        },
+        {
+            "sympy.physics.quantum.matrixutils._numpy_zeros": 280
+        },
+        {
+            "sympy.physics.quantum.matrixutils._scipy_sparse_zeros": 288
+        },
+        {
+            "sympy.physics.quantum.matrixutils.matrix_zeros": 300
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/grover.py": [
+        {
+            "sympy.physics.quantum.grover.OracleGate._apply_operator_Qubit": 140
+        },
+        {
+            "sympy.physics.quantum.grover.OracleGate._represent_ZGate": 171
+        },
+        {
+            "sympy.physics.quantum.grover.WGate._apply_operator_Qubit": 225
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/piab.py": [
+        {
+            "sympy.physics.quantum.piab.PIABHamiltonian._apply_operator_PIABKet": 31
+        },
+        {
+            "sympy.physics.quantum.piab.PIABKet._represent_default_basis": 47
+        },
+        {
+            "sympy.physics.quantum.piab.PIABKet._represent_XOp": 50
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/qasm.py": [
+        {
+            "sympy.physics.quantum.qasm.Qasm.__init__": 130
+        },
+        {
+            "sympy.physics.quantum.qasm.Qasm.add": 138
+        },
+        {
+            "sympy.physics.quantum.qasm.Qasm.nop": 175
+        },
+        {
+            "sympy.physics.quantum.qasm.Qasm.defbox": 217
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/tensorproduct.py": [
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct.__new__": 119
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct._eval_rewrite": 146
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct._sympystr": 151
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct._pretty": 165
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct._latex": 209
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct.doit": 238
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct._eval_expand_tensorproduct": 241
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.TensorProduct._eval_trace": 260
+        },
+        {
+            "sympy.physics.quantum.tensorproduct.tensor_product_simp": 348
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/hilbert.py": [
+        {
+            "sympy.physics.quantum.hilbert.HilbertSpace._sympystr": 98
+        },
+        {
+            "sympy.physics.quantum.hilbert.HilbertSpace._pretty": 101
+        },
+        {
+            "sympy.physics.quantum.hilbert.HilbertSpace._latex": 105
+        },
+        {
+            "sympy.physics.quantum.hilbert.ComplexSpace._sympyrepr": 168
+        },
+        {
+            "sympy.physics.quantum.hilbert.ComplexSpace._sympystr": 172
+        },
+        {
+            "sympy.physics.quantum.hilbert.ComplexSpace._pretty": 175
+        },
+        {
+            "sympy.physics.quantum.hilbert.ComplexSpace._latex": 181
+        },
+        {
+            "sympy.physics.quantum.hilbert.L2._sympyrepr": 221
+        },
+        {
+            "sympy.physics.quantum.hilbert.L2._sympystr": 224
+        },
+        {
+            "sympy.physics.quantum.hilbert.L2._pretty": 227
+        },
+        {
+            "sympy.physics.quantum.hilbert.L2._latex": 232
+        },
+        {
+            "sympy.physics.quantum.hilbert.FockSpace._sympyrepr": 268
+        },
+        {
+            "sympy.physics.quantum.hilbert.FockSpace._sympystr": 271
+        },
+        {
+            "sympy.physics.quantum.hilbert.FockSpace._pretty": 274
+        },
+        {
+            "sympy.physics.quantum.hilbert.FockSpace._latex": 278
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorProductHilbertSpace.__new__": 325
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorProductHilbertSpace._spaces_printer": 390
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorProductHilbertSpace._sympyrepr": 399
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorProductHilbertSpace._sympystr": 403
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorProductHilbertSpace._pretty": 407
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorProductHilbertSpace._latex": 425
+        },
+        {
+            "sympy.physics.quantum.hilbert.DirectSumHilbertSpace.__new__": 470
+        },
+        {
+            "sympy.physics.quantum.hilbert.DirectSumHilbertSpace._sympyrepr": 510
+        },
+        {
+            "sympy.physics.quantum.hilbert.DirectSumHilbertSpace._sympystr": 514
+        },
+        {
+            "sympy.physics.quantum.hilbert.DirectSumHilbertSpace._pretty": 518
+        },
+        {
+            "sympy.physics.quantum.hilbert.DirectSumHilbertSpace._latex": 536
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorPowerHilbertSpace.__new__": 588
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorPowerHilbertSpace._sympyrepr": 631
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorPowerHilbertSpace._sympystr": 635
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorPowerHilbertSpace._pretty": 639
+        },
+        {
+            "sympy.physics.quantum.hilbert.TensorPowerHilbertSpace._latex": 648
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/circuitplot.py": [
+        {
+            "sympy.physics.quantum.circuitplot.CircuitPlot.__init__": 44
+        },
+        {
+            "sympy.physics.quantum.circuitplot.circuit_plot": 47
+        },
+        {
+            "sympy.physics.quantum.circuitplot.CircuitPlot.__init__": 70
+        },
+        {
+            "sympy.physics.quantum.circuitplot.circuit_plot": 295
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/sho1d.py": [
+        {
+            "sympy.physics.quantum.sho1d.RaisingOp._eval_rewrite_as_xp": 106
+        },
+        {
+            "sympy.physics.quantum.sho1d.RaisingOp._represent_default_basis": 123
+        },
+        {
+            "sympy.physics.quantum.sho1d.RaisingOp._represent_XOp": 126
+        },
+        {
+            "sympy.physics.quantum.sho1d.RaisingOp._represent_NumberOp": 134
+        },
+        {
+            "sympy.physics.quantum.sho1d.RaisingOp._print_contents": 152
+        },
+        {
+            "sympy.physics.quantum.sho1d.RaisingOp._print_contents_pretty": 156
+        },
+        {
+            "sympy.physics.quantum.sho1d.RaisingOp._print_contents_latex": 162
+        },
+        {
+            "sympy.physics.quantum.sho1d.LoweringOp._eval_rewrite_as_xp": 245
+        },
+        {
+            "sympy.physics.quantum.sho1d.LoweringOp._represent_default_basis": 265
+        },
+        {
+            "sympy.physics.quantum.sho1d.LoweringOp._represent_XOp": 268
+        },
+        {
+            "sympy.physics.quantum.sho1d.LoweringOp._represent_NumberOp": 276
+        },
+        {
+            "sympy.physics.quantum.sho1d.NumberOp._eval_rewrite_as_a": 364
+        },
+        {
+            "sympy.physics.quantum.sho1d.NumberOp._eval_rewrite_as_xp": 367
+        },
+        {
+            "sympy.physics.quantum.sho1d.NumberOp._eval_rewrite_as_H": 371
+        },
+        {
+            "sympy.physics.quantum.sho1d.NumberOp._represent_default_basis": 386
+        },
+        {
+            "sympy.physics.quantum.sho1d.NumberOp._represent_XOp": 389
+        },
+        {
+            "sympy.physics.quantum.sho1d.NumberOp._represent_NumberOp": 397
+        },
+        {
+            "sympy.physics.quantum.sho1d.Hamiltonian._eval_rewrite_as_a": 478
+        },
+        {
+            "sympy.physics.quantum.sho1d.Hamiltonian._eval_rewrite_as_xp": 481
+        },
+        {
+            "sympy.physics.quantum.sho1d.Hamiltonian._eval_rewrite_as_N": 484
+        },
+        {
+            "sympy.physics.quantum.sho1d.Hamiltonian._represent_default_basis": 493
+        },
+        {
+            "sympy.physics.quantum.sho1d.Hamiltonian._represent_XOp": 496
+        },
+        {
+            "sympy.physics.quantum.sho1d.Hamiltonian._represent_NumberOp": 504
+        },
+        {
+            "sympy.physics.quantum.sho1d.SHOKet._eval_innerproduct_SHOBra": 587
+        },
+        {
+            "sympy.physics.quantum.sho1d.SHOKet._represent_default_basis": 591
+        },
+        {
+            "sympy.physics.quantum.sho1d.SHOKet._represent_NumberOp": 594
+        },
+        {
+            "sympy.physics.quantum.sho1d.SHOBra._represent_default_basis": 656
+        },
+        {
+            "sympy.physics.quantum.sho1d.SHOBra._represent_NumberOp": 659
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/qubit.py": [
+        {
+            "sympy.physics.quantum.qubit.QubitState.flip": 111
+        },
+        {
+            "sympy.physics.quantum.qubit.Qubit._eval_innerproduct_QubitBra": 182
+        },
+        {
+            "sympy.physics.quantum.qubit.Qubit._represent_default_basis": 188
+        },
+        {
+            "sympy.physics.quantum.qubit.Qubit._represent_ZGate": 191
+        },
+        {
+            "sympy.physics.quantum.qubit.Qubit._eval_trace": 211
+        },
+        {
+            "sympy.physics.quantum.qubit.Qubit._reduced_density": 233
+        },
+        {
+            "sympy.physics.quantum.qubit.IntQubitState._print_label": 317
+        },
+        {
+            "sympy.physics.quantum.qubit.IntQubitState._print_label_pretty": 320
+        },
+        {
+            "sympy.physics.quantum.qubit.IntQubit._eval_innerproduct_IntQubitBra": 380
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/cg.py": [
+        {
+            "sympy.physics.quantum.cg.Wigner3j._pretty": 103
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner3j._latex": 138
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner3j.doit": 144
+        },
+        {
+            "sympy.physics.quantum.cg.CG.doit": 192
+        },
+        {
+            "sympy.physics.quantum.cg.CG._pretty": 197
+        },
+        {
+            "sympy.physics.quantum.cg.CG._latex": 215
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner6j._pretty": 263
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner6j._latex": 298
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner6j.doit": 304
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner9j._pretty": 364
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner9j._latex": 402
+        },
+        {
+            "sympy.physics.quantum.cg.Wigner9j.doit": 408
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/cartesian.py": [
+        {
+            "sympy.physics.quantum.cartesian.XOp._represent_PxKet": 62
+        },
+        {
+            "sympy.physics.quantum.cartesian.PxOp._represent_XKet": 122
+        },
+        {
+            "sympy.physics.quantum.cartesian.XKet._operators_to_state": 147
+        },
+        {
+            "sympy.physics.quantum.cartesian.XKet._state_to_operators": 150
+        },
+        {
+            "sympy.physics.quantum.cartesian.XKet._enumerate_state": 167
+        },
+        {
+            "sympy.physics.quantum.cartesian.XKet._eval_innerproduct_XBra": 170
+        },
+        {
+            "sympy.physics.quantum.cartesian.XKet._eval_innerproduct_PxBra": 173
+        },
+        {
+            "sympy.physics.quantum.cartesian.PositionState3D._operators_to_state": 198
+        },
+        {
+            "sympy.physics.quantum.cartesian.PositionState3D._state_to_operators": 201
+        },
+        {
+            "sympy.physics.quantum.cartesian.PositionKet3D._eval_innerproduct_PositionBra3D": 228
+        },
+        {
+            "sympy.physics.quantum.cartesian.PxKet._operators_to_state": 256
+        },
+        {
+            "sympy.physics.quantum.cartesian.PxKet._state_to_operators": 259
+        },
+        {
+            "sympy.physics.quantum.cartesian.PxKet._enumerate_state": 276
+        },
+        {
+            "sympy.physics.quantum.cartesian.PxKet._eval_innerproduct_XBra": 279
+        },
+        {
+            "sympy.physics.quantum.cartesian.PxKet._eval_innerproduct_PxBra": 282
+        },
+        {
+            "sympy.physics.quantum.cartesian._enumerate_continuous_1D": 307
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/qapply.py": [
+        {
+            "sympy.physics.quantum.qapply.qapply": 29
+        },
+        {
+            "sympy.physics.quantum.qapply.qapply_Mul": 110
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/innerproduct.py": [
+        {
+            "sympy.physics.quantum.innerproduct.InnerProduct._sympyrepr": 96
+        },
+        {
+            "sympy.physics.quantum.innerproduct.InnerProduct._sympystr": 100
+        },
+        {
+            "sympy.physics.quantum.innerproduct.InnerProduct._pretty": 105
+        },
+        {
+            "sympy.physics.quantum.innerproduct.InnerProduct._latex": 121
+        },
+        {
+            "sympy.physics.quantum.innerproduct.InnerProduct.doit": 126
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/boson.py": [
+        {
+            "sympy.physics.quantum.boson.BosonOp.__new__": 54
+        },
+        {
+            "sympy.physics.quantum.boson.BosonOp._eval_commutator_BosonOp": 66
+        },
+        {
+            "sympy.physics.quantum.boson.BosonOp._eval_commutator_FermionOp": 78
+        },
+        {
+            "sympy.physics.quantum.boson.BosonOp._eval_anticommutator_BosonOp": 81
+        },
+        {
+            "sympy.physics.quantum.boson.BosonOp._print_contents_latex": 106
+        },
+        {
+            "sympy.physics.quantum.boson.BosonOp._print_contents": 112
+        },
+        {
+            "sympy.physics.quantum.boson.BosonOp._print_contents_pretty": 118
+        },
+        {
+            "sympy.physics.quantum.boson.BosonFockKet._eval_innerproduct_BosonFockBra": 153
+        },
+        {
+            "sympy.physics.quantum.boson.BosonFockKet._apply_operator_BosonOp": 156
+        },
+        {
+            "sympy.physics.quantum.boson.BosonCoherentKet._eval_innerproduct_BosonCoherentBra": 216
+        },
+        {
+            "sympy.physics.quantum.boson.BosonCoherentKet._apply_operator_BosonOp": 222
+        },
+        {
+            "sympy.physics.quantum.boson.BosonCoherentBra._apply_operator_BosonOp": 251
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/qexpr.py": [
+        {
+            "sympy.physics.quantum.qexpr.QExpr.__new__": 103
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._new_rawargs": 141
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_sequence": 220
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_sequence_pretty": 226
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_label": 248
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_label_repr": 259
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_label_pretty": 264
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_label_latex": 269
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_contents": 276
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_contents_pretty": 286
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._print_contents_latex": 289
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._sympystr": 294
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._sympyrepr": 306
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._pretty": 311
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._latex": 315
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr.doit": 322
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._eval_rewrite": 325
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._represent_default_basis": 348
+        },
+        {
+            "sympy.physics.quantum.qexpr.QExpr._represent": 351
+        },
+        {
+            "sympy.physics.quantum.qexpr.dispatch_method": 427
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/identitysearch.py": [
+        {
+            "sympy.physics.quantum.identitysearch.GateIdentity.__new__": 635
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/commutator.py": [
+        {
+            "sympy.physics.quantum.commutator.Commutator._eval_expand_commutator": 121
+        },
+        {
+            "sympy.physics.quantum.commutator.Commutator.doit": 175
+        },
+        {
+            "sympy.physics.quantum.commutator.Commutator._sympyrepr": 194
+        },
+        {
+            "sympy.physics.quantum.commutator.Commutator._sympystr": 200
+        },
+        {
+            "sympy.physics.quantum.commutator.Commutator._pretty": 203
+        },
+        {
+            "sympy.physics.quantum.commutator.Commutator._latex": 210
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/pauli.py": [
+        {
+            "sympy.physics.quantum.pauli.SigmaOpBase.__new__": 30
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaOpBase._eval_commutator_BosonOp": 33
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX.__new__": 61
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._eval_commutator_SigmaY": 64
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._eval_commutator_SigmaZ": 70
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._eval_commutator_BosonOp": 76
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._eval_anticommutator_SigmaY": 79
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._eval_anticommutator_SigmaZ": 82
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._print_contents_latex": 88
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._print_contents": 94
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaX._represent_default_basis": 101
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY.__new__": 134
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY._eval_commutator_SigmaZ": 137
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY._eval_commutator_SigmaX": 143
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY._eval_anticommutator_SigmaX": 149
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY._eval_anticommutator_SigmaZ": 152
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY._print_contents_latex": 158
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY._print_contents": 164
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaY._represent_default_basis": 171
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ.__new__": 204
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ._eval_commutator_SigmaX": 207
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ._eval_commutator_SigmaY": 213
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ._eval_anticommutator_SigmaX": 219
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ._eval_anticommutator_SigmaY": 222
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ._print_contents_latex": 228
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ._print_contents": 234
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZ._represent_default_basis": 241
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus.__new__": 276
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_commutator_SigmaX": 279
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_commutator_SigmaY": 285
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_commutator_SigmaZ": 291
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_commutator_SigmaMinus": 294
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_anticommutator_SigmaZ": 297
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_anticommutator_SigmaX": 300
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_anticommutator_SigmaY": 303
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._eval_anticommutator_SigmaPlus": 306
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._print_contents_latex": 316
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._print_contents": 322
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaMinus._represent_default_basis": 325
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus.__new__": 360
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_commutator_SigmaX": 363
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_commutator_SigmaY": 369
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_commutator_SigmaZ": 375
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_commutator_SigmaMinus": 381
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_anticommutator_SigmaZ": 384
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_anticommutator_SigmaX": 387
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_anticommutator_SigmaY": 390
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._eval_anticommutator_SigmaMinus": 393
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._print_contents_latex": 406
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._print_contents": 412
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaPlus._represent_default_basis": 415
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZKet._eval_innerproduct_SigmaZBra": 452
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZKet._apply_operator_SigmaZ": 455
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZKet._apply_operator_SigmaX": 461
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZKet._apply_operator_SigmaY": 464
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZKet._apply_operator_SigmaMinus": 467
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZKet._apply_operator_SigmaPlus": 473
+        },
+        {
+            "sympy.physics.quantum.pauli.SigmaZKet._represent_default_basis": 479
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/gate.py": [
+        {
+            "sympy.physics.quantum.gate._max": 79
+        },
+        {
+            "sympy.physics.quantum.gate._min": 85
+        },
+        {
+            "sympy.physics.quantum.gate.Gate._apply_operator_IntQubit": 204
+        },
+        {
+            "sympy.physics.quantum.gate.Gate._apply_operator_Qubit": 208
+        },
+        {
+            "sympy.physics.quantum.gate.Gate._represent_default_basis": 255
+        },
+        {
+            "sympy.physics.quantum.gate.Gate._represent_ZGate": 258
+        },
+        {
+            "sympy.physics.quantum.gate.Gate._sympystr": 286
+        },
+        {
+            "sympy.physics.quantum.gate.Gate._pretty": 290
+        },
+        {
+            "sympy.physics.quantum.gate.Gate._latex": 295
+        },
+        {
+            "sympy.physics.quantum.gate.CGate.decompose": 394
+        },
+        {
+            "sympy.physics.quantum.gate.CGate._print_label": 417
+        },
+        {
+            "sympy.physics.quantum.gate.CGate._pretty": 422
+        },
+        {
+            "sympy.physics.quantum.gate.CGate._latex": 432
+        },
+        {
+            "sympy.physics.quantum.gate.UGate._pretty": 558
+        },
+        {
+            "sympy.physics.quantum.gate.UGate._latex": 564
+        },
+        {
+            "sympy.physics.quantum.gate.OneQubitGate._eval_commutator": 586
+        },
+        {
+            "sympy.physics.quantum.gate.OneQubitGate._eval_anticommutator": 592
+        },
+        {
+            "sympy.physics.quantum.gate.IdentityGate._eval_commutator": 627
+        },
+        {
+            "sympy.physics.quantum.gate.IdentityGate._eval_anticommutator": 630
+        },
+        {
+            "sympy.physics.quantum.gate.HadamardGate._eval_commutator_XGate": 666
+        },
+        {
+            "sympy.physics.quantum.gate.HadamardGate._eval_commutator_YGate": 669
+        },
+        {
+            "sympy.physics.quantum.gate.HadamardGate._eval_commutator_ZGate": 672
+        },
+        {
+            "sympy.physics.quantum.gate.HadamardGate._eval_anticommutator_XGate": 675
+        },
+        {
+            "sympy.physics.quantum.gate.HadamardGate._eval_anticommutator_YGate": 678
+        },
+        {
+            "sympy.physics.quantum.gate.HadamardGate._eval_anticommutator_ZGate": 681
+        },
+        {
+            "sympy.physics.quantum.gate.XGate._eval_commutator_YGate": 711
+        },
+        {
+            "sympy.physics.quantum.gate.XGate._eval_anticommutator_XGate": 714
+        },
+        {
+            "sympy.physics.quantum.gate.XGate._eval_anticommutator_YGate": 717
+        },
+        {
+            "sympy.physics.quantum.gate.XGate._eval_anticommutator_ZGate": 720
+        },
+        {
+            "sympy.physics.quantum.gate.YGate._eval_commutator_ZGate": 742
+        },
+        {
+            "sympy.physics.quantum.gate.YGate._eval_anticommutator_YGate": 745
+        },
+        {
+            "sympy.physics.quantum.gate.YGate._eval_anticommutator_ZGate": 748
+        },
+        {
+            "sympy.physics.quantum.gate.ZGate._eval_commutator_XGate": 770
+        },
+        {
+            "sympy.physics.quantum.gate.ZGate._eval_anticommutator_YGate": 773
+        },
+        {
+            "sympy.physics.quantum.gate.PhaseGate._eval_commutator_ZGate": 798
+        },
+        {
+            "sympy.physics.quantum.gate.PhaseGate._eval_commutator_TGate": 801
+        },
+        {
+            "sympy.physics.quantum.gate.TGate._eval_commutator_ZGate": 826
+        },
+        {
+            "sympy.physics.quantum.gate.TGate._eval_commutator_PhaseGate": 829
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._print_label": 918
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._pretty": 921
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._latex": 924
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._eval_commutator_ZGate": 931
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._eval_commutator_TGate": 938
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._eval_commutator_PhaseGate": 942
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._eval_commutator_XGate": 946
+        },
+        {
+            "sympy.physics.quantum.gate.CNotGate._eval_commutator_CNotGate": 953
+        },
+        {
+            "sympy.physics.quantum.gate.SwapGate.decompose": 981
+        },
+        {
+            "sympy.physics.quantum.gate.SwapGate._represent_ZGate": 995
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/operator.py": [
+        {
+            "sympy.physics.quantum.operator.Operator._print_operator_name": 111
+        },
+        {
+            "sympy.physics.quantum.operator.Operator._print_operator_name_pretty": 116
+        },
+        {
+            "sympy.physics.quantum.operator.Operator._print_contents": 119
+        },
+        {
+            "sympy.physics.quantum.operator.Operator._print_contents_pretty": 128
+        },
+        {
+            "sympy.physics.quantum.operator.Operator._print_contents_latex": 140
+        },
+        {
+            "sympy.physics.quantum.operator.Operator._eval_commutator": 153
+        },
+        {
+            "sympy.physics.quantum.operator.Operator._eval_anticommutator": 157
+        },
+        {
+            "sympy.physics.quantum.operator.Operator._apply_operator": 165
+        },
+        {
+            "sympy.physics.quantum.operator.Operator.matrix_element": 168
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator.__init__": 275
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator._eval_commutator": 281
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator._eval_anticommutator": 284
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator._apply_operator": 293
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator._print_contents": 299
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator._print_contents_pretty": 302
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator._print_contents_latex": 305
+        },
+        {
+            "sympy.physics.quantum.operator.IdentityOperator._represent_default_basis": 315
+        },
+        {
+            "sympy.physics.quantum.operator.OuterProduct.__new__": 391
+        },
+        {
+            "sympy.physics.quantum.operator.OuterProduct._sympystr": 460
+        },
+        {
+            "sympy.physics.quantum.operator.OuterProduct._sympyrepr": 463
+        },
+        {
+            "sympy.physics.quantum.operator.OuterProduct._pretty": 467
+        },
+        {
+            "sympy.physics.quantum.operator.OuterProduct._latex": 471
+        },
+        {
+            "sympy.physics.quantum.operator.OuterProduct._represent": 476
+        },
+        {
+            "sympy.physics.quantum.operator.OuterProduct._eval_trace": 481
+        },
+        {
+            "sympy.physics.quantum.operator.DifferentialOperator._print": 631
+        },
+        {
+            "sympy.physics.quantum.operator.DifferentialOperator._print_pretty": 637
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/represent.py": [
+        {
+            "sympy.physics.quantum.represent.represent": 52
+        },
+        {
+            "sympy.physics.quantum.represent.rep_innerproduct": 233
+        },
+        {
+            "sympy.physics.quantum.represent.rep_expectation": 289
+        },
+        {
+            "sympy.physics.quantum.represent.integrate_result": 332
+        },
+        {
+            "sympy.physics.quantum.represent.get_basis": 407
+        },
+        {
+            "sympy.physics.quantum.represent.enumerate_states": 500
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/constants.py": [
+        {
+            "sympy.physics.quantum.constants.HBar._sympyrepr": 46
+        },
+        {
+            "sympy.physics.quantum.constants.HBar._sympystr": 49
+        },
+        {
+            "sympy.physics.quantum.constants.HBar._pretty": 52
+        },
+        {
+            "sympy.physics.quantum.constants.HBar._latex": 57
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/anticommutator.py": [
+        {
+            "sympy.physics.quantum.anticommutator.AntiCommutator.doit": 108
+        },
+        {
+            "sympy.physics.quantum.anticommutator.AntiCommutator._sympyrepr": 127
+        },
+        {
+            "sympy.physics.quantum.anticommutator.AntiCommutator._sympystr": 133
+        },
+        {
+            "sympy.physics.quantum.anticommutator.AntiCommutator._pretty": 136
+        },
+        {
+            "sympy.physics.quantum.anticommutator.AntiCommutator._latex": 143
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/fermion.py": [
+        {
+            "sympy.physics.quantum.fermion.FermionOp.__new__": 51
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionOp._eval_commutator_FermionOp": 63
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionOp._eval_anticommutator_FermionOp": 70
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionOp._eval_anticommutator_BosonOp": 82
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionOp._eval_commutator_BosonOp": 86
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionOp._print_contents_latex": 92
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionOp._print_contents": 98
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionOp._print_contents_pretty": 104
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionFockKet._eval_innerproduct_FermionFockBra": 141
+        },
+        {
+            "sympy.physics.quantum.fermion.FermionFockKet._apply_operator_FermionOp": 144
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/state.py": [
+        {
+            "sympy.physics.quantum.state.StateBase._operators_to_state": 68
+        },
+        {
+            "sympy.physics.quantum.state.StateBase._state_to_operators": 79
+        },
+        {
+            "sympy.physics.quantum.state.StateBase._enumerate_state": 99
+        },
+        {
+            "sympy.physics.quantum.state.StateBase._represent_default_basis": 102
+        },
+        {
+            "sympy.physics.quantum.state.StateBase._sympystr": 171
+        },
+        {
+            "sympy.physics.quantum.state.StateBase._pretty": 175
+        },
+        {
+            "sympy.physics.quantum.state.StateBase._latex": 186
+        },
+        {
+            "sympy.physics.quantum.state.KetBase._eval_innerproduct": 236
+        },
+        {
+            "sympy.physics.quantum.state.KetBase._apply_operator": 250
+        },
+        {
+            "sympy.physics.quantum.state.BraBase._operators_to_state": 288
+        },
+        {
+            "sympy.physics.quantum.state.BraBase._state_to_operators": 292
+        },
+        {
+            "sympy.physics.quantum.state.BraBase._enumerate_state": 295
+        },
+        {
+            "sympy.physics.quantum.state.BraBase._represent": 323
+        },
+        {
+            "sympy.physics.quantum.state.TimeDepState._print_time": 507
+        },
+        {
+            "sympy.physics.quantum.state.TimeDepState._print_time_pretty": 513
+        },
+        {
+            "sympy.physics.quantum.state.TimeDepState._print_contents": 517
+        },
+        {
+            "sympy.physics.quantum.state.TimeDepState._print_label_repr": 522
+        },
+        {
+            "sympy.physics.quantum.state.TimeDepState._print_contents_pretty": 527
+        },
+        {
+            "sympy.physics.quantum.state.TimeDepState._print_contents_latex": 532
+        },
+        {
+            "sympy.physics.quantum.state.Wavefunction.__new__": 708
+        },
+        {
+            "sympy.physics.quantum.state.Wavefunction.__call__": 720
+        },
+        {
+            "sympy.physics.quantum.state.Wavefunction.eval": 780
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/density.py": [
+        {
+            "sympy.physics.quantum.density.Density.doit": 148
+        },
+        {
+            "sympy.physics.quantum.density.Density._represent": 197
+        },
+        {
+            "sympy.physics.quantum.density.Density._print_operator_name_latex": 200
+        },
+        {
+            "sympy.physics.quantum.density.Density._print_operator_name_pretty": 203
+        },
+        {
+            "sympy.physics.quantum.density.Density._eval_trace": 206
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/tests/test_represent.py": [
+        {
+            "sympy.physics.quantum.tests.test_represent.AKet._represent_default_basis": 33
+        },
+        {
+            "sympy.physics.quantum.tests.test_represent.AKet._represent_AOp": 36
+        },
+        {
+            "sympy.physics.quantum.tests.test_represent.AOp._represent_default_basis": 49
+        },
+        {
+            "sympy.physics.quantum.tests.test_represent.AOp._represent_AOp": 52
+        },
+        {
+            "sympy.physics.quantum.tests.test_represent.BOp._represent_default_basis": 58
+        },
+        {
+            "sympy.physics.quantum.tests.test_represent.BOp._represent_AOp": 61
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/tests/test_density.py": [
+        {
+            "sympy.physics.quantum.tests.test_density.TestTimeDepKet._eval_trace": 197
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/quantum/tests/test_qapply.py": [
+        {
+            "sympy.physics.quantum.tests.test_qapply.Foo._apply_operator_JzKet": 28
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/physics/hep/gamma_matrices.py": [
+        {
+            "sympy.physics.hep.gamma_matrices.GammaMatrixHead._gamma_trace1": 387
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/diffgeom/diffgeom.py": [
+        {
+            "sympy.diffgeom.diffgeom.Manifold._latex": 41
+        },
+        {
+            "sympy.diffgeom.diffgeom.Patch._latex": 85
+        },
+        {
+            "sympy.diffgeom.diffgeom.CoordSystem._latex": 348
+        },
+        {
+            "sympy.diffgeom.diffgeom.BaseScalarField.__call__": 474
+        },
+        {
+            "sympy.diffgeom.diffgeom.Differential.__call__": 740
+        },
+        {
+            "sympy.diffgeom.diffgeom.TensorProduct.__new__": 835
+        },
+        {
+            "sympy.diffgeom.diffgeom.TensorProduct.__init__": 847
+        },
+        {
+            "sympy.diffgeom.diffgeom.TensorProduct.__call__": 851
+        },
+        {
+            "sympy.diffgeom.diffgeom.TensorProduct._latex": 872
+        },
+        {
+            "sympy.diffgeom.diffgeom.WedgeProduct.__call__": 909
+        },
+        {
+            "sympy.diffgeom.diffgeom.LieDerivative.__call__": 973
+        },
+        {
+            "sympy.diffgeom.diffgeom.CovarDerivativeOp._latex": 1087
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/parsing/sympy_tokenize.py": [
+        {
+            "sympy.parsing.sympy_tokenize.group": 47
+        },
+        {
+            "sympy.parsing.sympy_tokenize.any": 51
+        },
+        {
+            "sympy.parsing.sympy_tokenize.maybe": 55
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/util.py": [
+        {
+            "sympy.geometry.util._uniquely_named_symbol": 129
+        },
+        {
+            "sympy.geometry.util.intersection": 143
+        },
+        {
+            "sympy.geometry.util.convex_hull": 224
+        },
+        {
+            "sympy.geometry.util.closest_points": 336
+        },
+        {
+            "sympy.geometry.util.farthest_points": 415
+        },
+        {
+            "sympy.geometry.util.are_coplanar": 501
+        },
+        {
+            "sympy.geometry.util.centroid": 634
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/entity.py": [
+        {
+            "sympy.geometry.entity.GeometryEntity.__new__": 62
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/line.py": [
+        {
+            "sympy.geometry.line.LinearEntity.__new__": 62
+        },
+        {
+            "sympy.geometry.line.LinearEntity.are_concurrent": 158
+        },
+        {
+            "sympy.geometry.line.Line.__new__": 1025
+        },
+        {
+            "sympy.geometry.line.Ray.__new__": 1284
+        },
+        {
+            "sympy.geometry.line.Segment.__new__": 1639
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/point.py": [
+        {
+            "sympy.geometry.point.Point.__new__": 78
+        },
+        {
+            "sympy.geometry.point.Point.is_concyclic": 111
+        },
+        {
+            "sympy.geometry.point.Point.is_collinear": 120
+        },
+        {
+            "sympy.geometry.point.Point.evalf": 334
+        },
+        {
+            "sympy.geometry.point.Point2D.__new__": 521
+        },
+        {
+            "sympy.geometry.point.Point2D.is_concyclic": 587
+        },
+        {
+            "sympy.geometry.point.Point3D.__new__": 809
+        },
+        {
+            "sympy.geometry.point.Point3D.are_collinear": 930
+        },
+        {
+            "sympy.geometry.point.Point3D.are_coplanar": 966
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/ellipse.py": [
+        {
+            "sympy.geometry.ellipse.Ellipse.__new__": 117
+        },
+        {
+            "sympy.geometry.ellipse.Circle.__new__": 1334
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/plane.py": [
+        {
+            "sympy.geometry.plane.Plane.__new__": 51
+        },
+        {
+            "sympy.geometry.plane.Plane.are_concurrent": 415
+        },
+        {
+            "sympy.geometry.plane.Plane.perpendicular_plane": 514
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/polygon.py": [
+        {
+            "sympy.geometry.polygon.Polygon.__new__": 115
+        },
+        {
+            "sympy.geometry.polygon.RegularPolygon.__new__": 1082
+        },
+        {
+            "sympy.geometry.polygon.Triangle.__new__": 1685
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/geometry/line3d.py": [
+        {
+            "sympy.geometry.line3d.LinearEntity3D.__new__": 44
+        },
+        {
+            "sympy.geometry.line3d.LinearEntity3D.are_concurrent": 183
+        },
+        {
+            "sympy.geometry.line3d.Line3D.__new__": 838
+        },
+        {
+            "sympy.geometry.line3d.Ray3D.__new__": 1039
+        },
+        {
+            "sympy.geometry.line3d.Segment3D.__new__": 1320
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/ntheory/residue_ntheory.py": [
+        {
+            "sympy.ntheory.residue_ntheory._product": 257
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/ntheory/modular.py": [
+        {
+            "sympy.ntheory.modular.solve_congruence": 133
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/gamma_functions.py": [
+        {
+            "sympy.functions.special.gamma_functions.gamma._eval_expand_func": 139
+        },
+        {
+            "sympy.functions.special.gamma_functions.polygamma._eval_expand_func": 695
+        },
+        {
+            "sympy.functions.special.gamma_functions.loggamma._eval_expand_func": 878
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/bessel.py": [
+        {
+            "sympy.functions.special.bessel.BesselBase._eval_expand_func": 71
+        },
+        {
+            "sympy.functions.special.bessel.SphericalBesselBase._expand": 582
+        },
+        {
+            "sympy.functions.special.bessel.SphericalBesselBase._eval_expand_func": 590
+        },
+        {
+            "sympy.functions.special.bessel.jn._expand": 686
+        },
+        {
+            "sympy.functions.special.bessel.yn._expand": 749
+        },
+        {
+            "sympy.functions.special.bessel.SphericalHankelBase._eval_expand_func": 784
+        },
+        {
+            "sympy.functions.special.bessel.SphericalHankelBase._expand": 793
+        },
+        {
+            "sympy.functions.special.bessel.AiryBase._as_real_imag": 994
+        },
+        {
+            "sympy.functions.special.bessel.AiryBase.as_real_imag": 1007
+        },
+        {
+            "sympy.functions.special.bessel.AiryBase._eval_expand_complex": 1014
+        },
+        {
+            "sympy.functions.special.bessel.airyai.taylor_term": 1127
+        },
+        {
+            "sympy.functions.special.bessel.airyai._eval_expand_func": 1161
+        },
+        {
+            "sympy.functions.special.bessel.airybi.taylor_term": 1295
+        },
+        {
+            "sympy.functions.special.bessel.airybi._eval_expand_func": 1331
+        },
+        {
+            "sympy.functions.special.bessel.airyaiprime._eval_expand_func": 1481
+        },
+        {
+            "sympy.functions.special.bessel.airybiprime._eval_expand_func": 1637
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/error_functions.py": [
+        {
+            "sympy.functions.special.error_functions.erf.taylor_term": 145
+        },
+        {
+            "sympy.functions.special.error_functions.erf.as_real_imag": 201
+        },
+        {
+            "sympy.functions.special.error_functions.erfc.taylor_term": 332
+        },
+        {
+            "sympy.functions.special.error_functions.erfc.as_real_imag": 390
+        },
+        {
+            "sympy.functions.special.error_functions.erfi.taylor_term": 512
+        },
+        {
+            "sympy.functions.special.error_functions.erfi.as_real_imag": 559
+        },
+        {
+            "sympy.functions.special.error_functions.expint._eval_expand_func": 1259
+        },
+        {
+            "sympy.functions.special.error_functions.FresnelIntegral._as_real_imag": 2061
+        },
+        {
+            "sympy.functions.special.error_functions.FresnelIntegral.as_real_imag": 2074
+        },
+        {
+            "sympy.functions.special.error_functions.fresnels.taylor_term": 2176
+        },
+        {
+            "sympy.functions.special.error_functions.fresnelc.taylor_term": 2308
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/tensor_functions.py": [
+        {
+            "sympy.functions.special.tensor_functions.Eijk": 15
+        },
+        {
+            "sympy.functions.special.tensor_functions.eval_levicivita": 30
+        },
+        {
+            "sympy.functions.special.tensor_functions.LeviCivita.eval": 74
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/elliptic_integrals.py": [
+        {
+            "sympy.functions.special.elliptic_integrals.elliptic_e._eval_rewrite_as_hyper": 245
+        },
+        {
+            "sympy.functions.special.elliptic_integrals.elliptic_e._eval_rewrite_as_meijerg": 250
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/beta_functions.py": [
+        {
+            "sympy.functions.special.beta_functions.beta._eval_expand_func": 103
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/hyper.py": [
+        {
+            "sympy.functions.special.hyper.hyper._eval_expand_func": 200
+        },
+        {
+            "sympy.functions.special.hyper.meijerg.__new__": 444
+        },
+        {
+            "sympy.functions.special.hyper.meijerg._eval_expand_func": 600
+        },
+        {
+            "sympy.functions.special.hyper.HyperRep.eval": 717
+        },
+        {
+            "sympy.functions.special.hyper.HyperRep._eval_rewrite_as_nonrep": 743
+        },
+        {
+            "sympy.functions.special.hyper.HyperRep._eval_rewrite_as_nonrepsmall": 763
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/spherical_harmonics.py": [
+        {
+            "sympy.functions.special.spherical_harmonics.Ynm._eval_expand_func": 161
+        },
+        {
+            "sympy.functions.special.spherical_harmonics.Ynm.as_real_imag": 210
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/special/zeta_functions.py": [
+        {
+            "sympy.functions.special.zeta_functions.lerchphi._eval_expand_func": 118
+        },
+        {
+            "sympy.functions.special.zeta_functions.polylog._eval_expand_func": 290
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/combinatorial/factorials.py": [
+        {
+            "sympy.functions.combinatorial.factorials.binomial._eval_expand_func": 820
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/combinatorial/numbers.py": [
+        {
+            "sympy.functions.combinatorial.numbers.harmonic._eval_expand_func": 641
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/elementary/hyperbolic.py": [
+        {
+            "sympy.functions.elementary.hyperbolic.sinh.taylor_term": 109
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.sinh.as_real_imag": 127
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.sinh._eval_expand_complex": 144
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.sinh._eval_expand_trig": 148
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.cosh.taylor_term": 261
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.cosh.as_real_imag": 276
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.cosh._eval_expand_complex": 291
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.cosh._eval_expand_trig": 295
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.tanh.taylor_term": 417
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.tanh.as_real_imag": 434
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.coth.taylor_term": 549
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.coth.as_real_imag": 566
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.ReciprocalHyperbolicFunction._call_reciprocal": 629
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.ReciprocalHyperbolicFunction._calculate_reciprocal": 634
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.ReciprocalHyperbolicFunction.as_real_imag": 659
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.ReciprocalHyperbolicFunction._eval_expand_complex": 665
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.csch.taylor_term": 705
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.sech.taylor_term": 753
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.asinh.taylor_term": 826
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.acosh.taylor_term": 932
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.atanh.taylor_term": 1016
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.acoth.taylor_term": 1086
+        },
+        {
+            "sympy.functions.elementary.hyperbolic.asech.expansion_term": 1212
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/elementary/miscellaneous.py": [
+        {
+            "sympy.functions.elementary.miscellaneous.MinMaxBase.__new__": 325
+        },
+        {
+            "sympy.functions.elementary.miscellaneous.MinMaxBase._find_localzeros": 383
+        },
+        {
+            "sympy.functions.elementary.miscellaneous.MinMaxBase.evalf": 456
+        },
+        {
+            "sympy.functions.elementary.miscellaneous.Max._eval_rewrite_as_Heaviside": 586
+        },
+        {
+            "sympy.functions.elementary.miscellaneous.Min._eval_rewrite_as_Heaviside": 646
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/elementary/trigonometric.py": [
+        {
+            "sympy.functions.elementary.trigonometric.TrigonometricFunction._eval_expand_complex": 49
+        },
+        {
+            "sympy.functions.elementary.trigonometric.TrigonometricFunction._as_real_imag": 53
+        },
+        {
+            "sympy.functions.elementary.trigonometric.sin.taylor_term": 324
+        },
+        {
+            "sympy.functions.elementary.trigonometric.sin.as_real_imag": 374
+        },
+        {
+            "sympy.functions.elementary.trigonometric.sin._eval_expand_trig": 378
+        },
+        {
+            "sympy.functions.elementary.trigonometric.cos.taylor_term": 603
+        },
+        {
+            "sympy.functions.elementary.trigonometric.cos.as_real_imag": 788
+        },
+        {
+            "sympy.functions.elementary.trigonometric.cos._eval_expand_trig": 792
+        },
+        {
+            "sympy.functions.elementary.trigonometric.tan.taylor_term": 990
+        },
+        {
+            "sympy.functions.elementary.trigonometric.tan.as_real_imag": 1019
+        },
+        {
+            "sympy.functions.elementary.trigonometric.tan._eval_expand_trig": 1027
+        },
+        {
+            "sympy.functions.elementary.trigonometric.cot.taylor_term": 1255
+        },
+        {
+            "sympy.functions.elementary.trigonometric.cot.as_real_imag": 1278
+        },
+        {
+            "sympy.functions.elementary.trigonometric.cot._eval_expand_trig": 1335
+        },
+        {
+            "sympy.functions.elementary.trigonometric.ReciprocalTrigonometricFunction._call_reciprocal": 1418
+        },
+        {
+            "sympy.functions.elementary.trigonometric.ReciprocalTrigonometricFunction._calculate_reciprocal": 1423
+        },
+        {
+            "sympy.functions.elementary.trigonometric.ReciprocalTrigonometricFunction.as_real_imag": 1463
+        },
+        {
+            "sympy.functions.elementary.trigonometric.ReciprocalTrigonometricFunction._eval_expand_trig": 1467
+        },
+        {
+            "sympy.functions.elementary.trigonometric.sec.taylor_term": 1539
+        },
+        {
+            "sympy.functions.elementary.trigonometric.csc.taylor_term": 1607
+        },
+        {
+            "sympy.functions.elementary.trigonometric.asin.taylor_term": 1820
+        },
+        {
+            "sympy.functions.elementary.trigonometric.acos.taylor_term": 1966
+        },
+        {
+            "sympy.functions.elementary.trigonometric.atan.taylor_term": 2131
+        },
+        {
+            "sympy.functions.elementary.trigonometric.acot.taylor_term": 2269
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/elementary/complexes.py": [
+        {
+            "sympy.functions.elementary.complexes.re.as_real_imag": 89
+        },
+        {
+            "sympy.functions.elementary.complexes.im.as_real_imag": 180
+        },
+        {
+            "sympy.functions.elementary.complexes.sign.doit": 260
+        },
+        {
+            "sympy.functions.elementary.complexes.adjoint._latex": 728
+        },
+        {
+            "sympy.functions.elementary.complexes.adjoint._pretty": 735
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/elementary/piecewise.py": [
+        {
+            "sympy.functions.elementary.piecewise.Piecewise.__new__": 92
+        },
+        {
+            "sympy.functions.elementary.piecewise.Piecewise.eval": 120
+        },
+        {
+            "sympy.functions.elementary.piecewise.Piecewise.doit": 167
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/functions/elementary/exponential.py": [
+        {
+            "sympy.functions.elementary.exponential.ExpBase._eval_expand_power_exp": 110
+        },
+        {
+            "sympy.functions.elementary.exponential.exp.taylor_term": 313
+        },
+        {
+            "sympy.functions.elementary.exponential.exp.as_real_imag": 328
+        },
+        {
+            "sympy.functions.elementary.exponential.log.taylor_term": 574
+        },
+        {
+            "sympy.functions.elementary.exponential.log._eval_expand_log": 590
+        },
+        {
+            "sympy.functions.elementary.exponential.log.as_real_imag": 643
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/iterables.py": [
+        {
+            "sympy.utilities.iterables.cprint": 287
+        },
+        {
+            "sympy.utilities.iterables.numbered_symbols": 553
+        },
+        {
+            "sympy.utilities.iterables.dict_merge": 672
+        },
+        {
+            "sympy.utilities.iterables.common_prefix": 682
+        },
+        {
+            "sympy.utilities.iterables.common_suffix": 708
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/pytest.py": [
+        {
+            "sympy.utilities.pytest.inner": 159
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/decorator.py": [
+        {
+            "sympy.utilities.decorator.threaded_func": 20
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/timeutils.py": [
+        {
+            "sympy.utilities.timeutils.wrapper": 61
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/benchmarking.py": [
+        {
+            "sympy.utilities.benchmarking.Function.__init__": 62
+        },
+        {
+            "sympy.utilities.benchmarking.Function.execute": 67
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/misc.py": [
+        {
+            "sympy.utilities.misc.maketree": 125
+        },
+        {
+            "sympy.utilities.misc.decorated": 172
+        },
+        {
+            "sympy.utilities.misc.debug": 178
+        },
+        {
+            "sympy.utilities.misc.replace": 253
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/autowrap.py": [
+        {
+            "sympy.utilities.autowrap.CythonCodeWrapper.__init__": 244
+        },
+        {
+            "sympy.utilities.autowrap.binary_function": 535
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/runtests.py": [
+        {
+            "sympy.utilities.runtests.test": 289
+        },
+        {
+            "sympy.utilities.runtests._test": 451
+        },
+        {
+            "sympy.utilities.runtests.doctest": 528
+        },
+        {
+            "sympy.utilities.runtests._doctest": 603
+        },
+        {
+            "sympy.utilities.runtests.SymPyDocTests.DummyWindow.__init__": 1413
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/tests/diagnose_imports.py": [
+        {
+            "sympy.utilities.tests.diagnose_imports.msg": 124
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/utilities/tests/test_decorator.py": [
+        {
+            "sympy.utilities.tests.test_decorator.function": 11
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/integrals/integrals.py": [
+        {
+            "sympy.integrals.integrals.Integral.__new__": 33
+        },
+        {
+            "sympy.integrals.integrals.Integral.doit": 354
+        },
+        {
+            "sympy.integrals.integrals.integrate": 1123
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/integrals/transforms.py": [
+        {
+            "sympy.integrals.transforms.IntegralTransform._compute_transform": 80
+        },
+        {
+            "sympy.integrals.transforms.IntegralTransform.doit": 91
+        },
+        {
+            "sympy.integrals.transforms.IntegralTransform._eval_rewrite_as_Integral": 161
+        },
+        {
+            "sympy.integrals.transforms.wrapper": 193
+        },
+        {
+            "sympy.integrals.transforms.MellinTransform._compute_transform": 293
+        },
+        {
+            "sympy.integrals.transforms.mellin_transform": 315
+        },
+        {
+            "sympy.integrals.transforms.InverseMellinTransform.__new__": 776
+        },
+        {
+            "sympy.integrals.transforms.InverseMellinTransform._compute_transform": 792
+        },
+        {
+            "sympy.integrals.transforms.inverse_mellin_transform": 815
+        },
+        {
+            "sympy.integrals.transforms.repl": 947
+        },
+        {
+            "sympy.integrals.transforms.LaplaceTransform._compute_transform": 1067
+        },
+        {
+            "sympy.integrals.transforms.laplace_transform": 1089
+        },
+        {
+            "sympy.integrals.transforms.pw_simp": 1136
+        },
+        {
+            "sympy.integrals.transforms.InverseLaplaceTransform.__new__": 1210
+        },
+        {
+            "sympy.integrals.transforms.InverseLaplaceTransform._compute_transform": 1222
+        },
+        {
+            "sympy.integrals.transforms.inverse_laplace_transform": 1231
+        },
+        {
+            "sympy.integrals.transforms.FourierTypeTransform._compute_transform": 1314
+        },
+        {
+            "sympy.integrals.transforms.fourier_transform": 1345
+        },
+        {
+            "sympy.integrals.transforms.inverse_fourier_transform": 1400
+        },
+        {
+            "sympy.integrals.transforms.SineCosineTypeTransform._compute_transform": 1483
+        },
+        {
+            "sympy.integrals.transforms.sine_transform": 1516
+        },
+        {
+            "sympy.integrals.transforms.inverse_sine_transform": 1569
+        },
+        {
+            "sympy.integrals.transforms.cosine_transform": 1623
+        },
+        {
+            "sympy.integrals.transforms.inverse_cosine_transform": 1676
+        },
+        {
+            "sympy.integrals.transforms.HankelTypeTransform.doit": 1741
+        },
+        {
+            "sympy.integrals.transforms.HankelTypeTransform._compute_transform": 1748
+        },
+        {
+            "sympy.integrals.transforms.hankel_transform": 1776
+        },
+        {
+            "sympy.integrals.transforms.inverse_hankel_transform": 1832
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/integrals/manualintegrate.py": [
+        {
+            "sympy.integrals.manualintegrate.alternatives": 203
+        },
+        {
+            "sympy.integrals.manualintegrate.pull_out_u": 351
+        },
+        {
+            "sympy.integrals.manualintegrate.integral_steps": 838
+        },
+        {
+            "sympy.integrals.manualintegrate.integral_is_subclass": 909
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/integrals/rationaltools.py": [
+        {
+            "sympy.integrals.rationaltools.ratint": 11
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/integrals/meijerint.py": [
+        {
+            "sympy.integrals.meijerint._has": 54
+        },
+        {
+            "sympy.integrals.meijerint._dummy": 549
+        },
+        {
+            "sympy.integrals.meijerint._dummy_": 561
+        },
+        {
+            "sympy.integrals.meijerint.debug": 759
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/integrals/risch.py": [
+        {
+            "sympy.integrals.risch.frac_in": 714
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/integrals/tests/test_integrals.py": [
+        {
+            "sympy.integrals.tests.test_integrals.NS": 369
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/bivariate.py": [
+        {
+            "sympy.solvers.bivariate.bivariate_type": 305
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/ode.py": [
+        {
+            "sympy.solvers.ode.dsolve": 387
+        },
+        {
+            "sympy.solvers.ode._helper_simplify": 661
+        },
+        {
+            "sympy.solvers.ode.classify_ode": 694
+        },
+        {
+            "sympy.solvers.ode.classify_sysode": 1283
+        },
+        {
+            "sympy.solvers.ode.homogeneous_order": 3156
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/polysys.py": [
+        {
+            "sympy.solvers.polysys.solve_poly_system": 18
+        },
+        {
+            "sympy.solvers.polysys.solve_triangulated": 238
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/solveset.py": [
+        {
+            "sympy.solvers.solveset.linear_eq_to_matrix": 814
+        },
+        {
+            "sympy.solvers.solveset.linsolve": 918
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/recurr.py": [
+        {
+            "sympy.solvers.recurr.rsolve_poly": 71
+        },
+        {
+            "sympy.solvers.recurr.rsolve_ratio": 349
+        },
+        {
+            "sympy.solvers.recurr.rsolve_hyper": 460
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/pde.py": [
+        {
+            "sympy.solvers.pde.pdsolve": 64
+        },
+        {
+            "sympy.solvers.pde.classify_pde": 233
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/solvers.py": [
+        {
+            "sympy.solvers.solvers.checksol": 122
+        },
+        {
+            "sympy.solvers.solvers.check_assumptions": 312
+        },
+        {
+            "sympy.solvers.solvers.solve": 359
+        },
+        {
+            "sympy.solvers.solvers._solve": 1240
+        },
+        {
+            "sympy.solvers.solvers._solve_system": 1641
+        },
+        {
+            "sympy.solvers.solvers.minsolve_linear_system": 2025
+        },
+        {
+            "sympy.solvers.solvers.solve_linear_system": 2105
+        },
+        {
+            "sympy.solvers.solvers.solve_undetermined_coeffs": 2303
+        },
+        {
+            "sympy.solvers.solvers._tsolve": 2481
+        },
+        {
+            "sympy.solvers.solvers.nsolve": 2639
+        },
+        {
+            "sympy.solvers.solvers._invert": 2776
+        },
+        {
+            "sympy.solvers.solvers.unrad": 2941
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/deutils.py": [
+        {
+            "sympy.solvers.deutils._desolve": 128
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/solvers/tests/test_solvers.py": [
+        {
+            "sympy.solvers.tests.test_solvers.NS": 25
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/distributedmodules.py": [
+        {
+            "sympy.polys.distributedmodules.sdm_from_vector": 341
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polytools.py": [
+        {
+            "sympy.polys.polytools.Poly.__new__": 71
+        },
+        {
+            "sympy.polys.polytools.Poly.new": 92
+        },
+        {
+            "sympy.polys.polytools.Poly.from_dict": 108
+        },
+        {
+            "sympy.polys.polytools.Poly.from_list": 114
+        },
+        {
+            "sympy.polys.polytools.Poly.from_poly": 120
+        },
+        {
+            "sympy.polys.polytools.Poly.from_expr": 126
+        },
+        {
+            "sympy.polys.polytools.Poly.reorder": 544
+        },
+        {
+            "sympy.polys.polytools.Poly.has_only_gens": 600
+        },
+        {
+            "sympy.polys.polytools.Poly.termwise": 851
+        },
+        {
+            "sympy.polys.polytools.Poly.as_expr": 930
+        },
+        {
+            "sympy.polys.polytools.Poly.eject": 1046
+        },
+        {
+            "sympy.polys.polytools.Poly.nth": 1933
+        },
+        {
+            "sympy.polys.polytools.Poly.integrate": 2165
+        },
+        {
+            "sympy.polys.polytools.Poly.diff": 2205
+        },
+        {
+            "sympy.polys.polytools.Poly.__call__": 2321
+        },
+        {
+            "sympy.polys.polytools.poly_from_expr": 4117
+        },
+        {
+            "sympy.polys.polytools.parallel_poly_from_expr": 4165
+        },
+        {
+            "sympy.polys.polytools.degree": 4278
+        },
+        {
+            "sympy.polys.polytools.degree_list": 4309
+        },
+        {
+            "sympy.polys.polytools.LC": 4336
+        },
+        {
+            "sympy.polys.polytools.LM": 4361
+        },
+        {
+            "sympy.polys.polytools.LT": 4387
+        },
+        {
+            "sympy.polys.polytools.pdiv": 4413
+        },
+        {
+            "sympy.polys.polytools.prem": 4443
+        },
+        {
+            "sympy.polys.polytools.pquo": 4473
+        },
+        {
+            "sympy.polys.polytools.pexquo": 4508
+        },
+        {
+            "sympy.polys.polytools.div": 4543
+        },
+        {
+            "sympy.polys.polytools.rem": 4575
+        },
+        {
+            "sympy.polys.polytools.quo": 4607
+        },
+        {
+            "sympy.polys.polytools.exquo": 4639
+        },
+        {
+            "sympy.polys.polytools.half_gcdex": 4674
+        },
+        {
+            "sympy.polys.polytools.gcdex": 4713
+        },
+        {
+            "sympy.polys.polytools.invert": 4752
+        },
+        {
+            "sympy.polys.polytools.subresultants": 4804
+        },
+        {
+            "sympy.polys.polytools.resultant": 4834
+        },
+        {
+            "sympy.polys.polytools.discriminant": 4872
+        },
+        {
+            "sympy.polys.polytools.cofactors": 4902
+        },
+        {
+            "sympy.polys.polytools.gcd_list": 4943
+        },
+        {
+            "sympy.polys.polytools.gcd": 5016
+        },
+        {
+            "sympy.polys.polytools.lcm_list": 5059
+        },
+        {
+            "sympy.polys.polytools.lcm": 5126
+        },
+        {
+            "sympy.polys.polytools.terms_gcd": 5169
+        },
+        {
+            "sympy.polys.polytools.trunc": 5285
+        },
+        {
+            "sympy.polys.polytools.monic": 5315
+        },
+        {
+            "sympy.polys.polytools.content": 5345
+        },
+        {
+            "sympy.polys.polytools.primitive": 5370
+        },
+        {
+            "sympy.polys.polytools.compose": 5416
+        },
+        {
+            "sympy.polys.polytools.decompose": 5446
+        },
+        {
+            "sympy.polys.polytools.sturm": 5476
+        },
+        {
+            "sympy.polys.polytools.gff_list": 5506
+        },
+        {
+            "sympy.polys.polytools.gff": 5550
+        },
+        {
+            "sympy.polys.polytools.sqf_norm": 5556
+        },
+        {
+            "sympy.polys.polytools.sqf_part": 5590
+        },
+        {
+            "sympy.polys.polytools.sqf_list": 5939
+        },
+        {
+            "sympy.polys.polytools.sqf": 5957
+        },
+        {
+            "sympy.polys.polytools.factor_list": 5975
+        },
+        {
+            "sympy.polys.polytools.factor": 5993
+        },
+        {
+            "sympy.polys.polytools.ground_roots": 6231
+        },
+        {
+            "sympy.polys.polytools.nth_power_roots_poly": 6256
+        },
+        {
+            "sympy.polys.polytools.cancel": 6295
+        },
+        {
+            "sympy.polys.polytools.reduced": 6373
+        },
+        {
+            "sympy.polys.polytools.groebner": 6433
+        },
+        {
+            "sympy.polys.polytools.is_zero_dimensional": 6487
+        },
+        {
+            "sympy.polys.polytools.GroebnerBasis.__new__": 6508
+        },
+        {
+            "sympy.polys.polytools.poly": 6778
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/ring_series.py": [
+        {
+            "sympy.polys.ring_series.rs_fun": 790
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/specialpolys.py": [
+        {
+            "sympy.polys.specialpolys.swinnerton_dyer_poly": 37
+        },
+        {
+            "sympy.polys.specialpolys.cyclotomic_poly": 69
+        },
+        {
+            "sympy.polys.specialpolys.symmetric_poly": 89
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polyroots.py": [
+        {
+            "sympy.polys.polyroots.roots": 791
+        },
+        {
+            "sympy.polys.polyroots.root_factors": 1074
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polyoptions.py": [
+        {
+            "sympy.polys.polyoptions.OptionType.__init__": 63
+        },
+        {
+            "sympy.polys.polyoptions.set_defaults": 767
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/orthopolys.py": [
+        {
+            "sympy.polys.orthopolys.jacobi_poly": 40
+        },
+        {
+            "sympy.polys.orthopolys.gegenbauer_poly": 73
+        },
+        {
+            "sympy.polys.orthopolys.chebyshevt_poly": 105
+        },
+        {
+            "sympy.polys.orthopolys.chebyshevu_poly": 136
+        },
+        {
+            "sympy.polys.orthopolys.hermite_poly": 171
+        },
+        {
+            "sympy.polys.orthopolys.legendre_poly": 203
+        },
+        {
+            "sympy.polys.orthopolys.laguerre_poly": 235
+        },
+        {
+            "sympy.polys.orthopolys.spherical_bessel_fn": 281
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/constructor.py": [
+        {
+            "sympy.polys.constructor.construct_domain": 222
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polyerrors.py": [
+        {
+            "sympy.polys.polyerrors.BasePolynomialError.new": 11
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/dispersion.py": [
+        {
+            "sympy.polys.dispersion.dispersionset": 7
+        },
+        {
+            "sympy.polys.dispersion.dispersion": 132
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/rings.py": [
+        {
+            "sympy.polys.rings.sring": 117
+        },
+        {
+            "sympy.polys.rings.PolyRing.drop": 403
+        },
+        {
+            "sympy.polys.rings.PolyRing.add": 443
+        },
+        {
+            "sympy.polys.rings.PolyRing.mul": 470
+        },
+        {
+            "sympy.polys.rings.PolyRing.drop_to_ground": 497
+        },
+        {
+            "sympy.polys.rings.PolyElement.as_expr": 587
+        },
+        {
+            "sympy.polys.rings.PolyElement.deflate": 2023
+        },
+        {
+            "sympy.polys.rings.PolyElement.__call__": 2245
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/numberfields.py": [
+        {
+            "sympy.polys.numberfields._minpoly_add": 370
+        },
+        {
+            "sympy.polys.numberfields._minpoly_mul": 382
+        },
+        {
+            "sympy.polys.numberfields.minimal_polynomial": 583
+        },
+        {
+            "sympy.polys.numberfields.primitive_element": 821
+        },
+        {
+            "sympy.polys.numberfields.field_isomorphism": 998
+        },
+        {
+            "sympy.polys.numberfields.to_number_field": 1033
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/orderings.py": [
+        {
+            "sympy.polys.orderings.ProductOrder.__init__": 107
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polyclasses.py": [
+        {
+            "sympy.polys.polyclasses.DMP.nth": 554
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polyfuncs.py": [
+        {
+            "sympy.polys.polyfuncs.symmetrize": 24
+        },
+        {
+            "sympy.polys.polyfuncs.horner": 157
+        },
+        {
+            "sympy.polys.polyfuncs.viete": 317
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polyutils.py": [
+        {
+            "sympy.polys.polyutils._sort_gens": 64
+        },
+        {
+            "sympy.polys.polyutils._sort_factors": 157
+        },
+        {
+            "sympy.polys.polyutils.parallel_dict_from_expr": 321
+        },
+        {
+            "sympy.polys.polyutils.dict_from_expr": 343
+        },
+        {
+            "sympy.polys.polyutils.expr_from_dict": 380
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/partfrac.py": [
+        {
+            "sympy.polys.partfrac.apart": 17
+        },
+        {
+            "sympy.polys.partfrac.apart_list": 214
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/polyconfig.py": [
+        {
+            "sympy.polys.polyconfig.using": 29
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/monomials.py": [
+        {
+            "sympy.polys.monomials.monomial_max": 204
+        },
+        {
+            "sympy.polys.monomials.monomial_min": 226
+        },
+        {
+            "sympy.polys.monomials.Monomial.as_expr": 428
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/rootoftools.py": [
+        {
+            "sympy.polys.rootoftools.RootSum.doit": 930
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/fields.py": [
+        {
+            "sympy.polys.fields.sfield": 44
+        },
+        {
+            "sympy.polys.fields.FracElement.as_expr": 292
+        },
+        {
+            "sympy.polys.fields.FracElement.__call__": 567
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/agca/ideals.py": [
+        {
+            "sympy.polys.agca.ideals.Ideal.quotient": 151
+        },
+        {
+            "sympy.polys.agca.ideals.ModuleImplementedIdeal._quotient": 291
+        },
+        {
+            "sympy.polys.agca.ideals.ModuleImplementedIdeal.reduce_element": 364
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/agca/modules.py": [
+        {
+            "sympy.polys.agca.modules.Module.submodule": 83
+        },
+        {
+            "sympy.polys.agca.modules.FreeModulePolyRing.submodule": 457
+        },
+        {
+            "sympy.polys.agca.modules.FreeModuleQuotientRing.submodule": 503
+        },
+        {
+            "sympy.polys.agca.modules.SubModule.intersect": 641
+        },
+        {
+            "sympy.polys.agca.modules.SubModule.module_quotient": 673
+        },
+        {
+            "sympy.polys.agca.modules.SubModule.submodule": 743
+        },
+        {
+            "sympy.polys.agca.modules.SubModule.syzygy_module": 794
+        },
+        {
+            "sympy.polys.agca.modules.SubModule.quotient_module": 851
+        },
+        {
+            "sympy.polys.agca.modules.SubQuotientModule.__init__": 946
+        },
+        {
+            "sympy.polys.agca.modules.QuotientModule.submodule": 1315
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/agca/tests/test_homomorphisms.py": [
+        {
+            "sympy.polys.agca.tests.test_homomorphisms.dummy.submodule": 87
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/old_polynomialring.py": [
+        {
+            "sympy.polys.domains.old_polynomialring.PolynomialRingBase.__init__": 40
+        },
+        {
+            "sympy.polys.domains.old_polynomialring.PolynomialRingBase.poly_ring": 118
+        },
+        {
+            "sympy.polys.domains.old_polynomialring.PolynomialRingBase.frac_field": 122
+        },
+        {
+            "sympy.polys.domains.old_polynomialring.PolynomialRing": 353
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/old_fractionfield.py": [
+        {
+            "sympy.polys.domains.old_fractionfield.FractionField.__init__": 25
+        },
+        {
+            "sympy.polys.domains.old_fractionfield.FractionField.poly_ring": 150
+        },
+        {
+            "sympy.polys.domains.old_fractionfield.FractionField.frac_field": 154
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/compositedomain.py": [
+        {
+            "sympy.polys.domains.compositedomain.CompositeDomain.inject": 18
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/quotientring.py": [
+        {
+            "sympy.polys.domains.quotientring.QuotientRing.poly_ring": 169
+        },
+        {
+            "sympy.polys.domains.quotientring.QuotientRing.frac_field": 173
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/rationalfield.py": [
+        {
+            "sympy.polys.domains.rationalfield.RationalField.algebraic_field": 23
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/algebraicfield.py": [
+        {
+            "sympy.polys.domains.algebraicfield.AlgebraicField.__init__": 26
+        },
+        {
+            "sympy.polys.domains.algebraicfield.AlgebraicField.algebraic_field": 58
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/domain.py": [
+        {
+            "sympy.polys.domains.domain.Domain.new": 63
+        },
+        {
+            "sympy.polys.domains.domain.Domain.__call__": 70
+        },
+        {
+            "sympy.polys.domains.domain.Domain.normal": 74
+        },
+        {
+            "sympy.polys.domains.domain.Domain.poly_ring": 363
+        },
+        {
+            "sympy.polys.domains.domain.Domain.frac_field": 368
+        },
+        {
+            "sympy.polys.domains.domain.Domain.old_poly_ring": 373
+        },
+        {
+            "sympy.polys.domains.domain.Domain.old_frac_field": 378
+        },
+        {
+            "sympy.polys.domains.domain.Domain.algebraic_field": 383
+        },
+        {
+            "sympy.polys.domains.domain.Domain.inject": 387
+        },
+        {
+            "sympy.polys.domains.domain.Domain.evalf": 507
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/simpledomain.py": [
+        {
+            "sympy.polys.domains.simpledomain.SimpleDomain.inject": 14
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/ring.py": [
+        {
+            "sympy.polys.domains.ring.Ring.ideal": 81
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/polys/domains/integerring.py": [
+        {
+            "sympy.polys.domains.integerring.IntegerRing.algebraic_field": 30
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/logic/boolalg.py": [
+        {
+            "sympy.logic.boolalg.BooleanFunction._to_nnf": 288
+        },
+        {
+            "sympy.logic.boolalg.Xor.__new__": 619
+        },
+        {
+            "sympy.logic.boolalg.Nand.eval": 705
+        },
+        {
+            "sympy.logic.boolalg.Nor.eval": 739
+        },
+        {
+            "sympy.logic.boolalg.Implies.eval": 792
+        },
+        {
+            "sympy.logic.boolalg.Equivalent.__new__": 843
+        },
+        {
+            "sympy.logic.boolalg.ITE.eval": 921
+        },
+        {
+            "sympy.logic.boolalg.ITE.diff": 941
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/strategies/tools.py": [
+        {
+            "sympy.strategies.tools.subs": 7
+        },
+        {
+            "sympy.strategies.tools.canon": 25
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/strategies/core.py": [
+        {
+            "sympy.strategies.core.chain": 38
+        },
+        {
+            "sympy.strategies.core.debug_rl": 53
+        },
+        {
+            "sympy.strategies.core.do_one": 81
+        },
+        {
+            "sympy.strategies.core.minimize": 100
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/strategies/tree.py": [
+        {
+            "sympy.strategies.tree.greedy": 41
+        },
+        {
+            "sympy.strategies.tree.brute": 133
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/strategies/branch/tools.py": [
+        {
+            "sympy.strategies.branch.tools.canon": 6
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/strategies/branch/core.py": [
+        {
+            "sympy.strategies.branch.core.multiplex": 42
+        },
+        {
+            "sympy.strategies.branch.core.do_one": 79
+        },
+        {
+            "sympy.strategies.branch.core.chain": 91
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/interactive/session.py": [
+        {
+            "sympy.interactive.session.my_run_cell": 150
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/experimental_lambdify.py": [
+        {
+            "sympy.plotting.experimental_lambdify.vectorized_lambdify.__call__": 114
+        },
+        {
+            "sympy.plotting.experimental_lambdify.experimental_lambdify": 239
+        },
+        {
+            "sympy.plotting.experimental_lambdify.Lambdifier.__call__": 310
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/plot.py": [
+        {
+            "sympy.plotting.plot.Plot.__init__": 145
+        },
+        {
+            "sympy.plotting.plot.Plot.__setitem__": 201
+        },
+        {
+            "sympy.plotting.plot.LineOver1DRangeSeries.__init__": 423
+        },
+        {
+            "sympy.plotting.plot.Parametric2DLineSeries.__init__": 526
+        },
+        {
+            "sympy.plotting.plot.Parametric3DLineSeries.__init__": 657
+        },
+        {
+            "sympy.plotting.plot.SurfaceOver2DRangeSeries.__init__": 725
+        },
+        {
+            "sympy.plotting.plot.ParametricSurfaceSeries.__init__": 763
+        },
+        {
+            "sympy.plotting.plot.plot": 1131
+        },
+        {
+            "sympy.plotting.plot.plot_parametric": 1289
+        },
+        {
+            "sympy.plotting.plot.plot3d_parametric_line": 1420
+        },
+        {
+            "sympy.plotting.plot.plot3d": 1516
+        },
+        {
+            "sympy.plotting.plot.plot3d_parametric_surface": 1628
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/plot_implicit.py": [
+        {
+            "sympy.plotting.plot_implicit.plot_implicit": 203
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/tests/test_plot.py": [
+        {
+            "sympy.plotting.tests.test_plot.disable_print": 26
+        },
+        {
+            "sympy.plotting.tests.test_plot.wrapper": 28
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/tests/test_plot_implicit.py": [
+        {
+            "sympy.plotting.tests.test_plot_implicit.plot_and_save": 15
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot_window.py": [
+        {
+            "sympy.plotting.pygletplot.plot_window.PlotWindow.__init__": 14
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot_controller.py": [
+        {
+            "sympy.plotting.pygletplot.plot_controller.PlotController.__init__": 69
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot_modes.py": [
+        {
+            "sympy.plotting.pygletplot.plot_modes.inner": 13
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot_mode.py": [
+        {
+            "sympy.plotting.pygletplot.plot_mode.PlotMode.__new__": 61
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/color_scheme.py": [
+        {
+            "sympy.plotting.pygletplot.color_scheme.ColorGradient.__init__": 12
+        },
+        {
+            "sympy.plotting.pygletplot.color_scheme.ColorScheme.__init__": 50
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot_axes.py": [
+        {
+            "sympy.plotting.pygletplot.plot_axes.PlotAxes.__init__": 16
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/managed_window.py": [
+        {
+            "sympy.plotting.pygletplot.managed_window.ManagedWindow.__init__": 24
+        },
+        {
+            "sympy.plotting.pygletplot.managed_window.ManagedWindow.__event_loop__": 39
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot.py": [
+        {
+            "sympy.plotting.pygletplot.plot.PygletPlot.__init__": 160
+        },
+        {
+            "sympy.plotting.pygletplot.plot.PygletPlot.append": 350
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/__init__.py": [
+        {
+            "sympy.plotting.pygletplot.__init__.PygletPlot": 8
+        },
+        {
+            "sympy.plotting.pygletplot.__init__.PygletPlot": 143
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot_mode_base.py": [
+        {
+            "sympy.plotting.pygletplot.plot_mode_base.PlotModeBase.__init__": 134
+        },
+        {
+            "sympy.plotting.pygletplot.plot_mode_base.PlotModeBase.w": 171
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/pygletplot/plot_interval.py": [
+        {
+            "sympy.plotting.pygletplot.plot_interval.PlotInterval.check": 13
+        },
+        {
+            "sympy.plotting.pygletplot.plot_interval.PlotInterval.__init__": 20
+        },
+        {
+            "sympy.plotting.pygletplot.plot_interval.PlotInterval.try_parse": 123
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/intervalmath/lib_interval.py": [
+        {
+            "sympy.plotting.intervalmath.lib_interval.imin": 180
+        },
+        {
+            "sympy.plotting.intervalmath.lib_interval.imax": 201
+        },
+        {
+            "sympy.plotting.intervalmath.lib_interval.And": 416
+        },
+        {
+            "sympy.plotting.intervalmath.lib_interval.Or": 436
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/plotting/intervalmath/interval_arithmetic.py": [
+        {
+            "sympy.plotting.intervalmath.interval_arithmetic.interval.__init__": 66
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/simplify/ratsimp.py": [
+        {
+            "sympy.simplify.ratsimp.ratsimpmodprime": 33
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/simplify/trigsimp.py": [
+        {
+            "sympy.simplify.trigsimp.trigsimp": 428
+        },
+        {
+            "sympy.simplify.trigsimp.groebnersimp": 491
+        },
+        {
+            "sympy.simplify.trigsimp.trigsimp_old": 591
+        },
+        {
+            "sympy.simplify.trigsimp.groebnersimp": 687
+        },
+        {
+            "sympy.simplify.trigsimp.futrig": 1051
+        },
+        {
+            "sympy.simplify.trigsimp._futrig": 1095
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/simplify/radsimp.py": [
+        {
+            "sympy.simplify.radsimp.rcollect": 409
+        },
+        {
+            "sympy.simplify.radsimp.collect_const": 517
+        },
+        {
+            "sympy.simplify.radsimp.fraction_expand": 988
+        },
+        {
+            "sympy.simplify.radsimp.numer_expand": 992
+        },
+        {
+            "sympy.simplify.radsimp.denom_expand": 997
+        },
+        {
+            "sympy.simplify.radsimp._split_gcd": 1048
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/simplify/powsimp.py": [
+        {
+            "sympy.simplify.powsimp.recurse": 104
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/simplify/simplify.py": [
+        {
+            "sympy.simplify.simplify.shorter": 536
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/simplify/hyperexpand.py": [
+        {
+            "sympy.simplify.hyperexpand.debug": 471
+        }
+    ],
+    "/home/zhang/Packages/sympy/sympy1.0/simplify/tests/test_simplify.py": [
+        {
+            "sympy.simplify.tests.test_simplify.A._eval_simplify": 545
+        }
+    ]
+}

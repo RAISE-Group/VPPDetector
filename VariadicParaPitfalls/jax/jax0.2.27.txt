@@ -1,0 +1,82 @@
+{
+    "/home/zhang/Packages/jax/jax0.2.27/_src/profiler.py": [
+        {
+            "jax._src.profiler.trace_function": 212,
+            "annotate_function": [
+                216,
+                "[175]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.27/_src/lax/control_flow.py": [
+        {
+            "jax._src.lax.control_flow.cond": 978,
+            "_cond": [
+                990,
+                "[896]"
+            ]
+        },
+        {
+            "jax._src.lax.control_flow.scan_bind": 2206,
+            "_scan_typecheck": [
+                2209,
+                "[2162]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.27/experimental/maps.py": [
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1297,
+            "_xmap_lowering_rule_spmd": [
+                1299,
+                "[1384]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1297,
+            "_xmap_lowering_rule_replica": [
+                1301,
+                "[1304]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1444,
+            "_xmap_translation_rule_spmd": [
+                1446,
+                "[1578]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1444,
+            "_xmap_translation_rule_replica": [
+                1448,
+                "[1451]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.27/experimental/host_callback.py": [
+        {
+            "jax.experimental.host_callback._outside_call_impl": 946,
+            "_outside_call_run_callback": [
+                950,
+                "[1111]"
+            ]
+        },
+        {
+            "jax.experimental.host_callback._outside_call_translation_rule": 966,
+            "_outside_call_run_callback": [
+                1067,
+                "[1111]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.27/experimental/sparse/bcoo.py": [
+        {
+            "jax.experimental.sparse.bcoo._bcoo_spdot_general_jvp": 933,
+            "bcoo_spdot_general": [
+                936,
+                "[764]"
+            ]
+        }
+    ]
+}

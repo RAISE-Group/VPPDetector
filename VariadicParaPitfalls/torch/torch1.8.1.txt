@@ -1,0 +1,78 @@
+{
+    "/home/zhang/Packages/torch/torch1.8.1/utils/tensorboard/_caffe2_graph.py": [
+        {
+            "torch.utils.tensorboard._caffe2_graph.protos_to_graph_def": 766,
+            "_operators_to_graph_def": [
+                784,
+                "[601]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.8.1/testing/_internal/common_utils.py": [
+        {
+            "torch.testing._internal.common_utils.TestCase.compare_with_numpy": 804,
+            "assertEqual": [
+                830,
+                "[912]"
+            ]
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.assertEqualIgnoreType": 909,
+            "assertEqual": [
+                910,
+                "[912]"
+            ]
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.assertNotEqual": 1062,
+            "assertEqual": [
+                1065,
+                "[912]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.8.1/onnx/symbolic_opset9.py": [
+        {
+            "torch.onnx.symbolic_opset9.lstm": 1904,
+            "_lstm_packed": [
+                1906,
+                "[1898]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.lstm": 1904,
+            "_lstm_full": [
+                1908,
+                "[1891]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.std": 2217,
+            "_var_mean": [
+                2219,
+                "[2194]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.var": 2225,
+            "_var_mean": [
+                2227,
+                "[2194]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.var_mean": 2233,
+            "_var_mean": [
+                2235,
+                "[2194]"
+            ]
+        },
+        {
+            "torch.onnx.symbolic_opset9.std_mean": 2241,
+            "_var_mean": [
+                2243,
+                "[2194]"
+            ]
+        }
+    ]
+}

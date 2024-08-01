@@ -1,0 +1,1304 @@
+{
+    "/home/zhang/Packages/torch/torch1.7.0/serialization.py": [
+        {
+            "torch.serialization._opener.__exit__": 197
+        },
+        {
+            "torch.serialization._open_file.__exit__": 205
+        },
+        {
+            "torch.serialization._open_buffer_writer.__exit__": 216
+        },
+        {
+            "torch.serialization._open_zipfile_writer_file.__exit__": 241
+        },
+        {
+            "torch.serialization._open_zipfile_writer_buffer.__exit__": 250
+        },
+        {
+            "torch.serialization.load": 472
+        },
+        {
+            "torch.serialization._legacy_load": 579
+        },
+        {
+            "torch.serialization._load": 775
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_utils.py": [
+        {
+            "torch._utils._type": 10
+        },
+        {
+            "torch._utils._cuda": 48
+        },
+        {
+            "torch._utils.annotate": 320
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/overrides.py": [
+        {
+            "torch.overrides.handle_torch_function": 1005
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_six.py": [
+        {
+            "torch._six.with_metaclass": 20
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_torch_docs.py": [
+        {
+            "torch._torch_docs.merge_dicts": 25
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/functional.py": [
+        {
+            "torch.functional.broadcast_tensors": 42
+        },
+        {
+            "torch.functional.einsum": 245
+        },
+        {
+            "torch.functional.meshgrid": 329
+        },
+        {
+            "torch.functional.meshgrid": 332
+        },
+        {
+            "torch.functional._meshgrid": 336
+        },
+        {
+            "torch.functional.cartesian_prod": 902
+        },
+        {
+            "torch.functional.block_diag": 935
+        },
+        {
+            "torch.functional.atleast_1d": 1024
+        },
+        {
+            "torch.functional.atleast_2d": 1058
+        },
+        {
+            "torch.functional.atleast_3d": 1093
+        },
+        {
+            "torch.functional.chain_matmul": 1289
+        },
+        {
+            "torch.functional.align_tensors": 1447
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_vmap_internals.py": [
+        {
+            "torch._vmap_internals.wrapped": 231
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_utils_internal.py": [
+        {
+            "torch._utils_internal.get_file_path": 13
+        },
+        {
+            "torch._utils_internal.get_file_path_2": 17
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/hub.py": [
+        {
+            "torch.hub.load": 276
+        },
+        {
+            "torch.hub._load_local": 336
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/tensor.py": [
+        {
+            "torch.tensor.wrapped": 21
+        },
+        {
+            "torch.tensor.Tensor.resize": 409
+        },
+        {
+            "torch.tensor.Tensor.refine_names": 678
+        },
+        {
+            "torch.tensor.Tensor.align_to": 724
+        },
+        {
+            "torch.tensor.Tensor.rename_": 810
+        },
+        {
+            "torch.tensor.Tensor.rename": 820
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_jit_internal.py": [
+        {
+            "torch._jit_internal.fn": 206
+        },
+        {
+            "torch._jit_internal.ignore": 341
+        },
+        {
+            "torch._jit_internal.__exit__": 762
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/cuda/nvtx.py": [
+        {
+            "torch.cuda.nvtx._NVTXStub._fail": 6
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/cuda/streams.py": [
+        {
+            "torch.cuda.streams.Stream.__new__": 30
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/cuda/__init__.py": [
+        {
+            "torch.cuda.__init__.device.__exit__": 211
+        },
+        {
+            "torch.cuda.__init__._lazy_new": 433
+        },
+        {
+            "torch.cuda.__init__._CudaBase.type": 442
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/cuda/amp/autocast_mode.py": [
+        {
+            "torch.cuda.amp.autocast_mode.autocast.__exit__": 110
+        },
+        {
+            "torch.cuda.amp.autocast_mode.autocast.decorate_autocast": 118
+        },
+        {
+            "torch.cuda.amp.autocast_mode.custom_fwd": 144
+        },
+        {
+            "torch.cuda.amp.autocast_mode.decorate_fwd": 175
+        },
+        {
+            "torch.cuda.amp.autocast_mode.decorate_bwd": 198
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/cuda/amp/grad_scaler.py": [
+        {
+            "torch.cuda.amp.grad_scaler.GradScaler.step": 250
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/bundled_inputs.py": [
+        {
+            "torch.utils.bundled_inputs.bundle_randn": 135
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/cpp_extension.py": [
+        {
+            "torch.utils.cpp_extension._join_rocm_home": 72
+        },
+        {
+            "torch.utils.cpp_extension.BuildExtension.with_options": 297
+        },
+        {
+            "torch.utils.cpp_extension.BuildExtension.cls_with_options.__init__": 303
+        },
+        {
+            "torch.utils.cpp_extension.BuildExtension.__init__": 309
+        },
+        {
+            "torch.utils.cpp_extension.CppExtension": 639
+        },
+        {
+            "torch.utils.cpp_extension.CUDAExtension": 683
+        },
+        {
+            "torch.utils.cpp_extension._join_cuda_home": 1647
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/checkpoint.py": [
+        {
+            "torch.utils.checkpoint.get_device_states": 28
+        },
+        {
+            "torch.utils.checkpoint.CheckpointFunction.forward": 49
+        },
+        {
+            "torch.utils.checkpoint.CheckpointFunction.backward": 65
+        },
+        {
+            "torch.utils.checkpoint.checkpoint": 89
+        },
+        {
+            "torch.utils.checkpoint.checkpoint_sequential": 149
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/throughput_benchmark.py": [
+        {
+            "torch.utils.throughput_benchmark.ThroughputBenchmark.run_once": 100
+        },
+        {
+            "torch.utils.throughput_benchmark.ThroughputBenchmark.add_input": 109
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/show_pickle.py": [
+        {
+            "torch.utils.show_pickle.FakeClass.__call__": 51
+        },
+        {
+            "torch.utils.show_pickle.FakeClass.fake_new": 54
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/hipify/hipify_python.py": [
+        {
+            "torch.utils.hipify.hipify_python.GeneratedFileCleaner.open": 56
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/benchmark/utils/fuzzer.py": [
+        {
+            "torch.utils.benchmark.utils.fuzzer.FuzzedTensor.default_tensor_constructor": 258
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/benchmark/utils/valgrind_wrapper/timer_interface.py": [
+        {
+            "torch.utils.benchmark.utils.valgrind_wrapper.timer_interface._ValgrindWrapper.run": 272
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/benchmark/examples/compare.py": [
+        {
+            "torch.utils.benchmark.examples.compare.FauxTorch.add": 32
+        },
+        {
+            "torch.utils.benchmark.examples.compare.FauxTorch.mul": 35
+        },
+        {
+            "torch.utils.benchmark.examples.compare.FauxTorch.cat": 38
+        },
+        {
+            "torch.utils.benchmark.examples.compare.FauxTorch.matmul": 41
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/tensorboard/_caffe2_graph.py": [
+        {
+            "torch.utils.tensorboard._caffe2_graph.model_to_graph_def": 730
+        },
+        {
+            "torch.utils.tensorboard._caffe2_graph.nets_to_graph_def": 748
+        },
+        {
+            "torch.utils.tensorboard._caffe2_graph.protos_to_graph_def": 767
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/data/dataset.py": [
+        {
+            "torch.utils.data.dataset.TensorDataset.__init__": 159
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/utils/data/_utils/worker.py": [
+        {
+            "torch.utils.data._utils.worker.WorkerInfo.__init__": 59
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/multiprocessing/pool.py": [
+        {
+            "torch.multiprocessing.pool.clean_worker": 8
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/multiprocessing/queue.py": [
+        {
+            "torch.multiprocessing.queue.Queue.__init__": 33
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_package/importer.py": [
+        {
+            "torch._package.importer._UnpicklerWrapper.__init__": 339
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_package/_custom_import_pickler.py": [
+        {
+            "torch._package._custom_import_pickler.CustomImportPickler.__init__": 6
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_package/_mock.py": [
+        {
+            "torch._package._mock._not_implemented": 34
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_fx/proxy.py": [
+        {
+            "torch._fx.proxy.Proxy.__call__": 80
+        },
+        {
+            "torch._fx.proxy.Attribute.__call__": 127
+        },
+        {
+            "torch._fx.proxy.impl": 132
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_fx/graph_module.py": [
+        {
+            "torch._fx.graph_module.patched_getline": 18
+        },
+        {
+            "torch._fx.graph_module.GraphModule.__new__": 93
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/_fx/symbolic_trace.py": [
+        {
+            "torch._fx.symbolic_trace.Tracer.module_call_wrapper": 126
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/autograd/anomaly_mode.py": [
+        {
+            "torch.autograd.anomaly_mode.detect_anomaly.__exit__": 79
+        },
+        {
+            "torch.autograd.anomaly_mode.set_detect_anomaly.__exit__": 105
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/autograd/profiler.py": [
+        {
+            "torch.autograd.profiler.ContextDecorator.wrapped": 26
+        },
+        {
+            "torch.autograd.profiler.EventList.__init__": 35
+        },
+        {
+            "torch.autograd.profiler.EnforceUnique.see": 1023
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/autograd/grad_mode.py": [
+        {
+            "torch.autograd.grad_mode._DecoratorContextManager.decorate_context": 22
+        },
+        {
+            "torch.autograd.grad_mode._DecoratorContextManager.generator_context": 30
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/autograd/functional.py": [
+        {
+            "torch.autograd.functional.ensure_single_output_function": 492
+        },
+        {
+            "torch.autograd.functional.jac_func": 505
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/autograd/function.py": [
+        {
+            "torch.autograd.function._ContextMethodMixin.save_for_backward": 14
+        },
+        {
+            "torch.autograd.function._ContextMethodMixin.mark_dirty": 28
+        },
+        {
+            "torch.autograd.function._ContextMethodMixin.mark_shared_storage": 41
+        },
+        {
+            "torch.autograd.function._ContextMethodMixin.mark_non_differentiable": 47
+        },
+        {
+            "torch.autograd.function.BackwardCFunction.apply": 87
+        },
+        {
+            "torch.autograd.function.Function.__call__": 155
+        },
+        {
+            "torch.autograd.function.Function.forward": 164
+        },
+        {
+            "torch.autograd.function.Function.backward": 179
+        },
+        {
+            "torch.autograd.function.wrapper": 204
+        },
+        {
+            "torch.autograd.function.NestedIOFunction._do_forward": 346
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.backward": 362
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.forward": 369
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.save_for_backward": 376
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.mark_dirty": 385
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.mark_non_differentiable": 388
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.forward_extended": 391
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.backward_extended": 394
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/autograd/__init__.py": [
+        {
+            "torch.autograd.__init__.variable": 211
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/autograd/gradcheck.py": [
+        {
+            "torch.autograd.gradcheck.new_func": 515
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/__init__.py": [
+        {
+            "torch.testing.__init__._validate_dtypes": 201
+        },
+        {
+            "torch.testing.__init__.floating_types_and": 219
+        },
+        {
+            "torch.testing.__init__.floating_and_complex_types_and": 226
+        },
+        {
+            "torch.testing.__init__.integral_types_and": 233
+        },
+        {
+            "torch.testing.__init__.all_types_and": 240
+        },
+        {
+            "torch.testing.__init__.all_types_and_complex_and": 251
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_distributed.py": [
+        {
+            "torch.testing._internal.common_distributed.wrapper": 38
+        },
+        {
+            "torch.testing._internal.common_distributed.wrapper": 53
+        },
+        {
+            "torch.testing._internal.common_distributed.wrapper": 65
+        },
+        {
+            "torch.testing._internal.common_distributed.wrapper": 77
+        },
+        {
+            "torch.testing._internal.common_distributed.wrapper": 91
+        },
+        {
+            "torch.testing._internal.common_distributed.wrapper": 138
+        },
+        {
+            "torch.testing._internal.common_distributed.wrapper": 150
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/expecttest.py": [
+        {
+            "torch.testing._internal.expecttest.TestCase.assertExpectedRaisesInline": 191
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/dist_utils.py": [
+        {
+            "torch.testing._internal.dist_utils.wrapper": 27
+        },
+        {
+            "torch.testing._internal.dist_utils.new_test_method": 65
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/hypothesis_utils.py": [
+        {
+            "torch.testing._internal.hypothesis_utils._floats_wrapper": 38
+        },
+        {
+            "torch.testing._internal.hypothesis_utils.floats": 63
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_utils.py": [
+        {
+            "torch.testing._internal.common_utils.prof_callable": 115
+        },
+        {
+            "torch.testing._internal.common_utils.prof_func_call": 125
+        },
+        {
+            "torch.testing._internal.common_utils.prof_meth_call": 128
+        },
+        {
+            "torch.testing._internal.common_utils.call_helper": 206
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 360
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 369
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 408
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 423
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 453
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 463
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 488
+        },
+        {
+            "torch.testing._internal.common_utils.settings": 619
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.wrapper": 742
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.compare_with_numpy": 822
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.assertEqualIgnoreType": 915
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.assertNotEqual": 1040
+        },
+        {
+            "torch.testing._internal.common_utils.TestCase.assertExpectedRaises": 1056
+        },
+        {
+            "torch.testing._internal.common_utils.wrapper": 1232
+        },
+        {
+            "torch.testing._internal.common_utils.f_retry": 1251
+        },
+        {
+            "torch.testing._internal.common_utils.random_symmetric_matrix": 1335
+        },
+        {
+            "torch.testing._internal.common_utils.random_symmetric_psd_matrix": 1343
+        },
+        {
+            "torch.testing._internal.common_utils.random_symmetric_pd_matrix": 1350
+        },
+        {
+            "torch.testing._internal.common_utils.random_fullrank_matrix_distinct_singular_value": 1377
+        },
+        {
+            "torch.testing._internal.common_utils.random_matrix": 1391
+        },
+        {
+            "torch.testing._internal.common_utils.random_lowrank_matrix": 1419
+        },
+        {
+            "torch.testing._internal.common_utils.random_sparse_matrix": 1428
+        },
+        {
+            "torch.testing._internal.common_utils.random_sparse_pd_matrix": 1454
+        },
+        {
+            "torch.testing._internal.common_utils.BytesIOContext.__exit__": 1636
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/jit_metaprogramming_utils.py": [
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.gen_script_fn_and_args": 257
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.script_fn": 265
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.partial_apply_nontensors": 273
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.new_fn": 276
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.traced_fn": 283
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.get_nn_functional_compiled_fn_and_inputs": 308
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.create_script_module": 383
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.script_module": 384
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.get_nn_module_name_from_kwargs": 417
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.get_nn_mod_test_name": 425
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.get_nn_module_class_from_kwargs": 432
+        },
+        {
+            "torch.testing._internal.jit_metaprogramming_utils.try_get_nn_module_compiled_mod_and_inputs": 440
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_nn.py": [
+        {
+            "torch.testing._internal.common_nn._rand_tensor_non_equal": 301
+        },
+        {
+            "torch.testing._internal.common_nn.wrap_functional": 306
+        },
+        {
+            "torch.testing._internal.common_nn.FunctionalModule.forward": 308
+        },
+        {
+            "torch.testing._internal.common_nn.TestBase.__init__": 4589
+        },
+        {
+            "torch.testing._internal.common_nn.ModuleTest.__init__": 4665
+        },
+        {
+            "torch.testing._internal.common_nn.NewModuleTest.__init__": 4832
+        },
+        {
+            "torch.testing._internal.common_nn.CriterionTest.__init__": 4965
+        },
+        {
+            "torch.testing._internal.common_nn.CriterionTest.apply_fn": 4998
+        },
+        {
+            "torch.testing._internal.common_nn.CriterionTest.apply_fn": 5003
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_cuda.py": [
+        {
+            "torch.testing._internal.common_cuda.wrapped": 111
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_quantization.py": [
+        {
+            "torch.testing._internal.common_quantization.wrapper": 249
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_methods_invocations.py": [
+        {
+            "torch.testing._internal.common_methods_invocations.OpInfo.__call__": 92
+        },
+        {
+            "torch.testing._internal.common_methods_invocations.UnaryUfuncInfo.__init__": 159
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/jit_utils.py": [
+        {
+            "torch.testing._internal.jit_utils.JitTestCase.capture_stdout.__exit__": 104
+        },
+        {
+            "torch.testing._internal.jit_utils.JitTestCase.assertExpectedONNXGraph": 263
+        },
+        {
+            "torch.testing._internal.jit_utils.JitTestCase.assertExpectedGraph": 267
+        },
+        {
+            "torch.testing._internal.jit_utils.wrapper": 577
+        },
+        {
+            "torch.testing._internal.jit_utils.wrapper": 584
+        },
+        {
+            "torch.testing._internal.jit_utils._trace": 589
+        },
+        {
+            "torch.testing._internal.jit_utils.wrapper": 596
+        },
+        {
+            "torch.testing._internal.jit_utils.wrapper": 610
+        },
+        {
+            "torch.testing._internal.jit_utils.warmup_backward": 628
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_device_type.py": [
+        {
+            "torch.testing._internal.common_device_type.DeviceTypeTestBase.test_wrapper": 83
+        },
+        {
+            "torch.testing._internal.common_device_type.skipIf.dep_fn": 271
+        },
+        {
+            "torch.testing._internal.common_device_type.dep_fn": 334
+        },
+        {
+            "torch.testing._internal.common_device_type.expectedFailure.efail_fn": 352
+        },
+        {
+            "torch.testing._internal.common_device_type.onlyOn.only_fn": 373
+        },
+        {
+            "torch.testing._internal.common_device_type.deviceCountAtLeast.multi_fn": 393
+        },
+        {
+            "torch.testing._internal.common_device_type.only_fn": 404
+        },
+        {
+            "torch.testing._internal.common_device_type.dtypes.__init__": 429
+        },
+        {
+            "torch.testing._internal.common_device_type.dtypesIfCPU.__init__": 453
+        },
+        {
+            "torch.testing._internal.common_device_type.dtypesIfCUDA.__init__": 459
+        },
+        {
+            "torch.testing._internal.common_device_type.expectedAlertNondeterministic.efail_fn": 482
+        },
+        {
+            "torch.testing._internal.common_device_type.expectedAlertNondeterministic.efail_fn_no_device": 509
+        },
+        {
+            "torch.testing._internal.common_device_type.wrap_fn": 540
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/common_quantized.py": [
+        {
+            "torch.testing._internal.common_quantized.test_fn": 111
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/distributed/distributed_test.py": [
+        {
+            "torch.testing._internal.distributed.distributed_test.DistributedTest._DistTestBase._barrier": 311
+        },
+        {
+            "torch.testing._internal.distributed.distributed_test.DistributedTest._DistTestBase._init_group_test": 314
+        },
+        {
+            "torch.testing._internal.distributed.distributed_test.DistributedTest._DistTestBase._init_full_group_test": 323
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/distributed/ddp_under_dist_autograd_test.py": [
+        {
+            "torch.testing._internal.distributed.ddp_under_dist_autograd_test._call_method": 72
+        },
+        {
+            "torch.testing._internal.distributed.ddp_under_dist_autograd_test._remote_method": 76
+        },
+        {
+            "torch.testing._internal.distributed.ddp_under_dist_autograd_test._remote_method_async": 81
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/distributed/rpc/dist_autograd_test.py": [
+        {
+            "torch.testing._internal.distributed.rpc.dist_autograd_test.DistAutogradTest._exec_func_with_dst": 165
+        },
+        {
+            "torch.testing._internal.distributed.rpc.dist_autograd_test.DistAutogradTest._exec_func": 180
+        },
+        {
+            "torch.testing._internal.distributed.rpc.dist_autograd_test.DistAutogradTest._verify_backwards": 714
+        },
+        {
+            "torch.testing._internal.distributed.rpc.dist_autograd_test.DistAutogradTest._verify_backwards_remote": 721
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/distributed/rpc/dist_optimizer_test.py": [
+        {
+            "torch.testing._internal.distributed.rpc.dist_optimizer_test._call_method": 47
+        },
+        {
+            "torch.testing._internal.distributed.rpc.dist_optimizer_test.remote_method": 51
+        },
+        {
+            "torch.testing._internal.distributed.rpc.dist_optimizer_test.rpc_async_method": 71
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/distributed/rpc/rpc_test.py": [
+        {
+            "torch.testing._internal.distributed.rpc.rpc_test._stub_construct_rpc_backend_options_handler": 89
+        },
+        {
+            "torch.testing._internal.distributed.rpc.rpc_test._call_method_on_rref": 167
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/distributed/rpc/faulty_rpc_agent_test_fixture.py": [
+        {
+            "torch.testing._internal.distributed.rpc.faulty_rpc_agent_test_fixture.FaultyRpcAgentTestFixture.__init__": 18
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/testing/_internal/codegen/random_topo_test.py": [
+        {
+            "torch.testing._internal.codegen.random_topo_test.random_topology_test": 38
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/jit/_trace.py": [
+        {
+            "torch.jit._trace.ONNXTracedModule.forward": 86
+        },
+        {
+            "torch.jit._trace.ONNXTracedModule.wrapper": 94
+        },
+        {
+            "torch.jit._trace.TracedModule.forward": 1001
+        },
+        {
+            "torch.jit._trace.wrapper": 1046
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/jit/_script.py": [
+        {
+            "torch.jit._script.ScriptMeta.init_then_script": 152
+        },
+        {
+            "torch.jit._script.RecursiveScriptModule.save": 382
+        },
+        {
+            "torch.jit._script.RecursiveScriptModule._save_for_lite_interpreter": 390
+        },
+        {
+            "torch.jit._script.RecursiveScriptModule._save_to_buffer_for_lite_interpreter": 404
+        },
+        {
+            "torch.jit._script.RecursiveScriptModule.save_to_buffer": 407
+        },
+        {
+            "torch.jit._script.RecursiveScriptModule.get_debug_state": 410
+        },
+        {
+            "torch.jit._script.RecursiveScriptModule.graph_for": 416
+        },
+        {
+            "torch.jit._script.RecursiveScriptModule.forward_magic_method": 482
+        },
+        {
+            "torch.jit._script.fail": 578
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/jit/_async.py": [
+        {
+            "torch.jit._async.fork": 19
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/jit/_recursive.py": [
+        {
+            "torch.jit._recursive.lazy_binding_method": 589
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/jit/_fuser.py": [
+        {
+            "torch.jit._fuser._graph_for": 67
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/jit/mobile/__init__.py": [
+        {
+            "torch.jit.mobile.__init__.LiteScriptModule.__call__": 57
+        },
+        {
+            "torch.jit.mobile.__init__.LiteScriptModule.forward": 63
+        },
+        {
+            "torch.jit.mobile.__init__.LiteScriptModule.run_method": 66
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/onnx/symbolic_opset8.py": [
+        {
+            "torch.onnx.symbolic_opset8.symbolic_fn": 23
+        },
+        {
+            "torch.onnx.symbolic_opset8._try_cast_integer_to_float": 64
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/onnx/utils.py": [
+        {
+            "torch.onnx.utils._newNode": 679
+        },
+        {
+            "torch.onnx.utils._graph_op": 695
+        },
+        {
+            "torch.onnx.utils._block_op": 748
+        },
+        {
+            "torch.onnx.utils._graph_at": 899
+        },
+        {
+            "torch.onnx.utils._graph_constant": 903
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/onnx/symbolic_helper.py": [
+        {
+            "torch.onnx.symbolic_helper.parse_args": 85
+        },
+        {
+            "torch.onnx.symbolic_helper.wrapper": 89
+        },
+        {
+            "torch.onnx.symbolic_helper.symbolic_fn": 161
+        },
+        {
+            "torch.onnx.symbolic_helper._try_get_scalar_type": 168
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/onnx/symbolic_opset11.py": [
+        {
+            "torch.onnx.symbolic_opset11.symbolic_fn": 108
+        },
+        {
+            "torch.onnx.symbolic_opset11.arange": 452
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/onnx/symbolic_opset9.py": [
+        {
+            "torch.onnx.symbolic_opset9.wrapper": 233
+        },
+        {
+            "torch.onnx.symbolic_opset9.reduce": 248
+        },
+        {
+            "torch.onnx.symbolic_opset9.symbolic_fn": 802
+        },
+        {
+            "torch.onnx.symbolic_opset9.scalar_tensor": 1367
+        },
+        {
+            "torch.onnx.symbolic_opset9.slice": 1476
+        },
+        {
+            "torch.onnx.symbolic_opset9.to": 1560
+        },
+        {
+            "torch.onnx.symbolic_opset9.lstm": 1761
+        },
+        {
+            "torch.onnx.symbolic_opset9.symbolic": 1781
+        },
+        {
+            "torch.onnx.symbolic_opset9.randn": 1835
+        },
+        {
+            "torch.onnx.symbolic_opset9.rand": 1847
+        },
+        {
+            "torch.onnx.symbolic_opset9.std": 2020
+        },
+        {
+            "torch.onnx.symbolic_opset9.arange": 2032
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/onnx/__init__.py": [
+        {
+            "torch.onnx.__init__._export": 23
+        },
+        {
+            "torch.onnx.__init__.export_to_pretty_string": 230
+        },
+        {
+            "torch.onnx.__init__._export_to_pretty_string": 235
+        },
+        {
+            "torch.onnx.__init__._run_symbolic_function": 258
+        },
+        {
+            "torch.onnx.__init__._run_symbolic_method": 263
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/onnx/symbolic_opset10.py": [
+        {
+            "torch.onnx.symbolic_opset10.symbolic_fn": 91
+        },
+        {
+            "torch.onnx.symbolic_opset10.slice": 139
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/rendezvous.py": [
+        {
+            "torch.distributed.rendezvous.rendezvous": 50
+        },
+        {
+            "torch.distributed.rendezvous._file_rendezvous_handler": 89
+        },
+        {
+            "torch.distributed.rendezvous._tcp_rendezvous_handler": 115
+        },
+        {
+            "torch.distributed.rendezvous._env_rendezvous_handler": 137
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/rpc/server_process_global_profiler.py": [
+        {
+            "torch.distributed.rpc.server_process_global_profiler._server_process_global_profile.__init__": 94
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/rpc/rref_proxy.py": [
+        {
+            "torch.distributed.rpc.rref_proxy._invoke_rpc": 14
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/rpc/functions.py": [
+        {
+            "torch.distributed.rpc.functions.wrapper": 161
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/rpc/api.py": [
+        {
+            "torch.distributed.rpc.api.wrapper": 63
+        },
+        {
+            "torch.distributed.rpc.api.method": 325
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/rpc/backend_registry.py": [
+        {
+            "torch.distributed.rpc.backend_registry.construct_rpc_backend_options": 78
+        },
+        {
+            "torch.distributed.rpc.backend_registry.init_backend": 90
+        },
+        {
+            "torch.distributed.rpc.backend_registry._process_group_construct_rpc_backend_options_handler": 94
+        },
+        {
+            "torch.distributed.rpc.backend_registry._tensorpipe_construct_rpc_backend_options_handler": 161
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/rpc/_testing/faulty_agent_backend_registry.py": [
+        {
+            "torch.distributed.rpc._testing.faulty_agent_backend_registry._faulty_process_group_construct_rpc_backend_options_handler": 9
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/nn/api/remote_module.py": [
+        {
+            "torch.distributed.nn.api.remote_module._RemoteModule.to": 227
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributed/optim/optimizer.py": [
+        {
+            "torch.distributed.optim.optimizer._ScriptLocalOptimizer.__init__": 25
+        },
+        {
+            "torch.distributed.optim.optimizer._LocalOptimizer.__init__": 47
+        },
+        {
+            "torch.distributed.optim.optimizer._new_local_optimizer": 63
+        },
+        {
+            "torch.distributed.optim.optimizer._new_script_local_optimizer": 73
+        },
+        {
+            "torch.distributed.optim.optimizer.DistributedOptimizer.__init__": 157
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/quantization/_numeric_suite.py": [
+        {
+            "torch.quantization._numeric_suite.Shadow.forward": 234
+        },
+        {
+            "torch.quantization._numeric_suite.compare_model_stub": 326
+        },
+        {
+            "torch.quantization._numeric_suite.compare_model_outputs": 419
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/quantization/observer.py": [
+        {
+            "torch.quantization.observer._with_args": 11
+        },
+        {
+            "torch.quantization.observer._PartialWrapper.__call__": 30
+        },
+        {
+            "torch.quantization.observer.ObserverBase.calculate_qparams": 65
+        },
+        {
+            "torch.quantization.observer.RecordingObserver.__init__": 989
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/quantization/_learnable_fake_quantize.py": [
+        {
+            "torch.quantization._learnable_fake_quantize._LearnableFakeQuantize.__init__": 214
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/quantization/fake_quantize.py": [
+        {
+            "torch.quantization.fake_quantize.FakeQuantize.__init__": 44
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/init.py": [
+        {
+            "torch.nn.init.deprecated_init": 471
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/utils/prune.py": [
+        {
+            "torch.nn.utils.prune.BasePruningMethod.apply": 76
+        },
+        {
+            "torch.nn.utils.prune.BasePruningMethod._get_composite_method": 91
+        },
+        {
+            "torch.nn.utils.prune.PruningContainer.__init__": 208
+        },
+        {
+            "torch.nn.utils.prune.global_unstructured": 846
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/utils/rnn.py": [
+        {
+            "torch.nn.utils.rnn.PackedSequence.cuda": 69
+        },
+        {
+            "torch.nn.utils.rnn.PackedSequence.cpu": 75
+        },
+        {
+            "torch.nn.utils.rnn.PackedSequence.to": 106
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/parallel/data_parallel.py": [
+        {
+            "torch.nn.parallel.data_parallel.DataParallel.forward": 146
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/parallel/distributed.py": [
+        {
+            "torch.nn.parallel.distributed.DistributedDataParallel.forward": 560
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/parallel/__init__.py": [
+        {
+            "torch.nn.parallel.__init__.DistributedDataParallelCPU": 10
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/parallel/_functions.py": [
+        {
+            "torch.nn.parallel._functions.Broadcast.forward": 12
+        },
+        {
+            "torch.nn.parallel._functions.Broadcast.backward": 32
+        },
+        {
+            "torch.nn.parallel._functions.ReduceAddCoalesced.forward": 39
+        },
+        {
+            "torch.nn.parallel._functions.ReduceAddCoalesced.backward": 47
+        },
+        {
+            "torch.nn.parallel._functions.Gather.forward": 54
+        },
+        {
+            "torch.nn.parallel._functions.Scatter.backward": 101
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/modules/container.py": [
+        {
+            "torch.nn.modules.container.Container.__init__": 19
+        },
+        {
+            "torch.nn.modules.container.Sequential.__init__": 50
+        },
+        {
+            "torch.nn.modules.container.Sequential.__init__": 57
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/modules/module.py": [
+        {
+            "torch.nn.modules.module._forward_unimplemented": 157
+        },
+        {
+            "torch.nn.modules.module.Module.to": 511
+        },
+        {
+            "torch.nn.modules.module.Module._slow_forward": 678
+        },
+        {
+            "torch.nn.modules.module.Module._call_impl": 697
+        },
+        {
+            "torch.nn.modules.module.Module.remove_from": 763
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/modules/linear.py": [
+        {
+            "torch.nn.modules.linear.Identity.__init__": 27
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/modules/rnn.py": [
+        {
+            "torch.nn.modules.rnn.RNN.__init__": 376
+        },
+        {
+            "torch.nn.modules.rnn.LSTM.__init__": 494
+        },
+        {
+            "torch.nn.modules.rnn.GRU.__init__": 665
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/modules/conv.py": [
+        {
+            "torch.nn.modules.conv._ConvTransposeMixin.__init__": 1087
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/nn/quantized/dynamic/modules/rnn.py": [
+        {
+            "torch.nn.quantized.dynamic.modules.rnn.LSTM.__init__": 316
+        },
+        {
+            "torch.nn.quantized.dynamic.modules.rnn.LSTMCell.__init__": 629
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/one_hot_categorical.py": [
+        {
+            "torch.distributions.one_hot_categorical.OneHotCategorical._new": 49
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/utils.py": [
+        {
+            "torch.distributions.utils.broadcast_all": 7
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/exp_family.py": [
+        {
+            "torch.distributions.exp_family.ExponentialFamily._log_normalizer": 34
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/relaxed_categorical.py": [
+        {
+            "torch.distributions.relaxed_categorical.ExpRelaxedCategorical._new": 53
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/multinomial.py": [
+        {
+            "torch.distributions.multinomial.Multinomial._new": 70
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/negative_binomial.py": [
+        {
+            "torch.distributions.negative_binomial.NegativeBinomial._new": 55
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/kl.py": [
+        {
+            "torch.distributions.kl._Match.__init__": 81
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/bernoulli.py": [
+        {
+            "torch.distributions.bernoulli.Bernoulli._new": 63
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/relaxed_bernoulli.py": [
+        {
+            "torch.distributions.relaxed_bernoulli.LogitRelaxedBernoulli._new": 64
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/categorical.py": [
+        {
+            "torch.distributions.categorical.Categorical._new": 75
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/continuous_bernoulli.py": [
+        {
+            "torch.distributions.continuous_bernoulli.ContinuousBernoulli._new": 77
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/distributions/binomial.py": [
+        {
+            "torch.distributions.binomial.Binomial._new": 72
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/optim/swa_utils.py": [
+        {
+            "torch.optim.swa_utils.AveragedModel.forward": 100
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.7.0/optim/lr_scheduler.py": [
+        {
+            "torch.optim.lr_scheduler._LRScheduler.wrapper": 54
+        }
+    ]
+}

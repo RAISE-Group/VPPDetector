@@ -1,0 +1,300 @@
+{
+    "/home/zhang/Packages/spacy/spacy3.3.1/util.py": [
+        {
+            "spacy.util.SimpleFrozenDict.__init__": 192
+        },
+        {
+            "spacy.util.SimpleFrozenList.__init__": 219
+        },
+        {
+            "spacy.util.SimpleFrozenList.append": 227
+        },
+        {
+            "spacy.util.SimpleFrozenList.clear": 230
+        },
+        {
+            "spacy.util.SimpleFrozenList.extend": 233
+        },
+        {
+            "spacy.util.SimpleFrozenList.insert": 236
+        },
+        {
+            "spacy.util.SimpleFrozenList.pop": 239
+        },
+        {
+            "spacy.util.SimpleFrozenList.remove": 242
+        },
+        {
+            "spacy.util.SimpleFrozenList.reverse": 245
+        },
+        {
+            "spacy.util.SimpleFrozenList.sort": 248
+        },
+        {
+            "spacy.util.add_lookups": 1134
+        },
+        {
+            "spacy.util.update_exc": 1156
+        },
+        {
+            "spacy.util.filter_chain_spans": 1244
+        },
+        {
+            "spacy.util.DummyTokenizer.pipe": 1526
+        },
+        {
+            "spacy.util.DummyTokenizer.to_bytes": 1532
+        },
+        {
+            "spacy.util.DummyTokenizer.from_bytes": 1535
+        },
+        {
+            "spacy.util.DummyTokenizer.to_disk": 1538
+        },
+        {
+            "spacy.util.DummyTokenizer.from_disk": 1541
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/lookups.py": [
+        {
+            "spacy.lookups.Lookups.to_bytes": 258
+        },
+        {
+            "spacy.lookups.Lookups.from_bytes": 267
+        },
+        {
+            "spacy.lookups.Lookups.to_disk": 280
+        },
+        {
+            "spacy.lookups.Lookups.from_disk": 297
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/ty.py": [
+        {
+            "spacy.ty.InitializableComponent.initialize": 32
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/language.py": [
+        {
+            "spacy.language.Language.__init__": 130
+        },
+        {
+            "spacy.language.Language.__init_subclass__": 194
+        },
+        {
+            "spacy.language.Language.disable_pipes": 1030
+        },
+        {
+            "spacy.language.DisabledPipes.__exit__": 2167
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/scorer.py": [
+        {
+            "spacy.scorer.Scorer.__init__": 104
+        },
+        {
+            "spacy.scorer.Scorer.score_tokenization": 141
+        },
+        {
+            "spacy.scorer.Scorer.score_token_attr": 191
+        },
+        {
+            "spacy.scorer.Scorer.score_token_attr_per_feat": 242
+        },
+        {
+            "spacy.scorer.Scorer.score_spans": 326
+        },
+        {
+            "spacy.scorer.Scorer.score_cats": 427
+        },
+        {
+            "spacy.scorer.Scorer.score_links": 565
+        },
+        {
+            "spacy.scorer.Scorer.score_deps": 634
+        },
+        {
+            "spacy.scorer.get_ner_prf": 742
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/lemmatizer.py": [
+        {
+            "spacy.pipeline.lemmatizer.lemmatizer_score": 43
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/functions.py": [
+        {
+            "spacy.pipeline.functions.TokenSplitter.to_bytes": 115
+        },
+        {
+            "spacy.pipeline.functions.TokenSplitter.from_bytes": 121
+        },
+        {
+            "spacy.pipeline.functions.TokenSplitter.to_disk": 128
+        },
+        {
+            "spacy.pipeline.functions.TokenSplitter.from_disk": 135
+        },
+        {
+            "spacy.pipeline.functions.DocCleaner.to_bytes": 177
+        },
+        {
+            "spacy.pipeline.functions.DocCleaner.from_bytes": 183
+        },
+        {
+            "spacy.pipeline.functions.DocCleaner.to_disk": 190
+        },
+        {
+            "spacy.pipeline.functions.DocCleaner.from_disk": 197
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/attributeruler.py": [
+        {
+            "spacy.pipeline.attributeruler.attribute_ruler_score": 39
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/span_ruler.py": [
+        {
+            "spacy.pipeline.span_ruler.overlapping_labeled_spans_score": 177
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/spancat.py": [
+        {
+            "spacy.pipeline.spancat.spancat_score": 154
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/entityruler.py": [
+        {
+            "spacy.pipeline.entityruler.entity_ruler_score": 59
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/entity_linker.py": [
+        {
+            "spacy.pipeline.entity_linker.entity_linker_score": 127
+        },
+        {
+            "spacy.pipeline.entity_linker.EntityLinker.rehearse": 576
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/textcat_multilabel.py": [
+        {
+            "spacy.pipeline.textcat_multilabel.textcat_multilabel_score": 114
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/textcat.py": [
+        {
+            "spacy.pipeline.textcat.textcat_score": 112
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/pipeline/legacy/entity_linker.py": [
+        {
+            "spacy.pipeline.legacy.entity_linker.entity_linker_score": 31
+        },
+        {
+            "spacy.pipeline.legacy.entity_linker.EntityLinker_v1.rehearse": 423
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/tests/pipeline/test_attributeruler.py": [
+        {
+            "spacy.tests.pipeline.test_attributeruler.weird_scorer": 170
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/tests/pipeline/test_annotates_on_update.py": [
+        {
+            "spacy.tests.pipeline.test_annotates_on_update.AssertSents.__init__": 57
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/tests/pipeline/test_pipe_methods.py": [
+        {
+            "spacy.tests.pipeline.test_pipe_methods.IncompatPipe.begin_training": 538
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/tests/pipeline/test_pipe_factories.py": [
+        {
+            "spacy.tests.pipeline.test_pipe_factories.MyComponent.to_disk": 31
+        },
+        {
+            "spacy.tests.pipeline.test_pipe_factories.MyComponent.from_disk": 34
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/tests/serialize/test_resource_warning.py": [
+        {
+            "spacy.tests.serialize.test_resource_warning.SerializableDummy.__init__": 28
+        },
+        {
+            "spacy.tests.serialize.test_resource_warning.SerializableDummy.to_bytes": 35
+        },
+        {
+            "spacy.tests.serialize.test_resource_warning.SerializableDummy.to_disk": 41
+        },
+        {
+            "spacy.tests.serialize.test_resource_warning.SerializableDummy.from_disk": 44
+        },
+        {
+            "spacy.tests.serialize.test_resource_warning.MyPipe.__init__": 48
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/lang/ja/__init__.py": [
+        {
+            "spacy.lang.ja.__init__.JapaneseTokenizer.to_bytes": 162
+        },
+        {
+            "spacy.lang.ja.__init__.JapaneseTokenizer.from_bytes": 166
+        },
+        {
+            "spacy.lang.ja.__init__.JapaneseTokenizer.to_disk": 172
+        },
+        {
+            "spacy.lang.ja.__init__.JapaneseTokenizer.from_disk": 177
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/lang/zh/__init__.py": [
+        {
+            "spacy.lang.zh.__init__.ChineseTokenizer.to_bytes": 150
+        },
+        {
+            "spacy.lang.zh.__init__.ChineseTokenizer.from_bytes": 177
+        },
+        {
+            "spacy.lang.zh.__init__.ChineseTokenizer.to_disk": 222
+        },
+        {
+            "spacy.lang.zh.__init__.ChineseTokenizer.from_disk": 249
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/training/converters/conll_ner_to_docs.py": [
+        {
+            "spacy.training.converters.conll_ner_to_docs.conll_ner_to_docs": 10
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/training/converters/conllu_to_docs.py": [
+        {
+            "spacy.training.converters.conllu_to_docs.conllu_to_docs": 10
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/training/converters/iob_to_docs.py": [
+        {
+            "spacy.training.converters.iob_to_docs.iob_to_docs": 11
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/training/converters/json_to_docs.py": [
+        {
+            "spacy.training.converters.json_to_docs.json_to_docs": 9
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/cli/download.py": [
+        {
+            "spacy.cli.download.download": 38
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/cli/__init__.py": [
+        {
+            "spacy.cli.__init__.link": 33
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy3.3.1/tokens/underscore.py": [
+        {
+            "spacy.tokens.underscore.get_ext_args": 105
+        }
+    ]
+}

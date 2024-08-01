@@ -1,0 +1,73 @@
+{
+    "/home/zhang/Packages/jax/jax0.2.26/_src/profiler.py": [
+        {
+            "jax._src.profiler.trace_function": 212,
+            "annotate_function": [
+                216,
+                "[175]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.26/_src/lax/control_flow.py": [
+        {
+            "jax._src.lax.control_flow.cond": 889,
+            "_cond": [
+                901,
+                "[807]"
+            ]
+        },
+        {
+            "jax._src.lax.control_flow.scan_bind": 2089,
+            "_scan_typecheck": [
+                2092,
+                "[2045]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.26/experimental/maps.py": [
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1297,
+            "_xmap_lowering_rule_spmd": [
+                1299,
+                "[1378]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1297,
+            "_xmap_lowering_rule_replica": [
+                1301,
+                "[1304]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1438,
+            "_xmap_translation_rule_spmd": [
+                1440,
+                "[1572]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1438,
+            "_xmap_translation_rule_replica": [
+                1442,
+                "[1445]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.26/experimental/host_callback.py": [
+        {
+            "jax.experimental.host_callback._outside_call_impl": 872,
+            "_outside_call_run_callback": [
+                876,
+                "[1037]"
+            ]
+        },
+        {
+            "jax.experimental.host_callback._outside_call_translation_rule": 892,
+            "_outside_call_run_callback": [
+                993,
+                "[1037]"
+            ]
+        }
+    ]
+}

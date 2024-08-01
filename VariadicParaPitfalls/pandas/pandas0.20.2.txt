@@ -1,0 +1,256 @@
+{
+    "/home/zhang/Packages/pandas/pandas0.20.2/tests/test_expressions.py": [
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_frame": 150,
+            "run_arithmetic": [
+                152,
+                "[73]"
+            ]
+        },
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_frame": 150,
+            "run_binary": [
+                161,
+                "[117]"
+            ]
+        },
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_series": 166,
+            "run_arithmetic": [
+                167,
+                "[73]"
+            ]
+        },
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_panel": 179,
+            "run_arithmetic": [
+                181,
+                "[73]"
+            ]
+        },
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_panel": 179,
+            "run_binary": [
+                188,
+                "[117]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/tests/tseries/test_offsets.py": [
+        {
+            "pandas.tests.tseries.test_offsets.TestDST._test_all_offsets": 4798,
+            "_test_offset": [
+                4803,
+                "[4805]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/util/testing.py": [
+        {
+            "pandas.util.testing.assert_almost_equal": 177,
+            "assert_index_equal": [
+                197,
+                "[896]"
+            ]
+        },
+        {
+            "pandas.util.testing.assert_almost_equal": 177,
+            "assert_series_equal": [
+                203,
+                "[1226]"
+            ]
+        },
+        {
+            "pandas.util.testing.assert_almost_equal": 177,
+            "assert_frame_equal": [
+                209,
+                "[1335]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/io/pytables.py": [
+        {
+            "pandas.io.pytables.GenericFixed.read_index": 2464,
+            "read_index_node": [
+                2474,
+                "[2571]"
+            ]
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_block_index": 2514,
+            "read_array": [
+                2516,
+                "[2430]"
+            ]
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_sparse_intindex": 2524,
+            "read_array": [
+                2526,
+                "[2430]"
+            ]
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_multi_index": 2551,
+            "read_index_node": [
+                2559,
+                "[2571]"
+            ]
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_multi_index": 2551,
+            "read_array": [
+                2565,
+                "[2430]"
+            ]
+        },
+        {
+            "pandas.io.pytables.SeriesFixed.read": 2748,
+            "read_array": [
+                2751,
+                "[2430]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/io/stata.py": [
+        {
+            "pandas.io.stata.StataReader.data": 1409,
+            "read": [
+                1418,
+                "[1441]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/io/packers.py": [
+        {
+            "pandas.io.packers.to_msgpack": 120,
+            "pack": [
+                150,
+                "[680]"
+            ]
+        },
+        {
+            "pandas.io.packers.read_msgpack": 163,
+            "unpack": [
+                188,
+                "[694]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/io/formats/printing.py": [
+        {
+            "pandas.io.formats.printing._pprint_seq": 97,
+            "pprint_thing": [
+                117,
+                "[157]"
+            ]
+        },
+        {
+            "pandas.io.formats.printing._pprint_dict": 129,
+            "pprint_thing": [
+                146,
+                "[157]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/resample.py": [
+        {
+            "pandas.core.resample.PeriodIndexResampler.aggregate": 817,
+            "_downsample": [
+                820,
+                "[840]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/series.py": [
+        {
+            "pandas.core.series.Series.aggregate": 2203,
+            "apply": [
+                2222,
+                "[2230]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/groupby.py": [
+        {
+            "pandas.core.groupby._GroupBy.wrapper": 574,
+            "f": [
+                583,
+                "[705]"
+            ]
+        },
+        {
+            "pandas.core.groupby.GroupBy.cumprod": 1567,
+            "_cython_transform": [
+                1573,
+                "[802]"
+            ]
+        },
+        {
+            "pandas.core.groupby.GroupBy.cumsum": 1577,
+            "_cython_transform": [
+                1583,
+                "[802]"
+            ]
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy.aggregate": 3465,
+            "_aggregate": [
+                3468,
+                "[2141]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/panel.py": [
+        {
+            "pandas.core.panel.Panel._extract_axes": 1369,
+            "_extract_axis": [
+                1371,
+                "[1445]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/strings.py": [
+        {
+            "pandas.core.strings._noarg_wrapper": 1318,
+            "_na_map": [
+                1320,
+                "[154]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/tools/datetimes.py": [
+        {
+            "pandas.core.tools.datetimes._guess_datetime_format_for_array": 177,
+            "_guess_datetime_format": [
+                181,
+                "[60]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/computation/expr.py": [
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit": 306,
+            "visitor": [
+                313,
+                "[662]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.2/core/indexes/base.py": [
+        {
+            "pandas.core.indexes.base.Index.get_indexer_for": 2711,
+            "get_indexer": [
+                2717,
+                "[2565]"
+            ]
+        },
+        {
+            "pandas.core.indexes.base.Index.get_indexer_for": 2711,
+            "get_indexer_non_unique": [
+                2718,
+                "[2696]"
+            ]
+        }
+    ]
+}

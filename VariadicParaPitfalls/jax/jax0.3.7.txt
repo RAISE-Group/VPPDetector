@@ -1,0 +1,107 @@
+{
+    "/home/zhang/Packages/jax/jax0.3.7/_src/profiler.py": [
+        {
+            "jax._src.profiler.trace_function": 212,
+            "annotate_function": [
+                216,
+                "[175]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.7/_src/tree_util.py": [
+        {
+            "jax._src.tree_util.tree_multimap": 186,
+            "tree_map": [
+                190,
+                "[160]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.7/_src/lax/control_flow.py": [
+        {
+            "jax._src.lax.control_flow.cond": 911,
+            "_cond": [
+                923,
+                "[819]"
+            ]
+        },
+        {
+            "jax._src.lax.control_flow.scan_bind": 2133,
+            "_scan_typecheck": [
+                2136,
+                "[2088]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.7/_src/lax/lax.py": [
+        {
+            "jax._src.lax.lax._dot_general_padding_rule": 2603,
+            "dot_general": [
+                2610,
+                "[663]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.7/experimental/maps.py": [
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1373,
+            "_xmap_lowering_rule_spmd_manual": [
+                1376,
+                "[1528]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1373,
+            "_xmap_lowering_rule_spmd": [
+                1378,
+                "[1469]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_lowering_rule": 1373,
+            "_xmap_lowering_rule_replica": [
+                1380,
+                "[1385]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1571,
+            "_xmap_translation_rule_spmd": [
+                1575,
+                "[1711]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 1571,
+            "_xmap_translation_rule_replica": [
+                1577,
+                "[1580]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.7/experimental/host_callback.py": [
+        {
+            "jax.experimental.host_callback._outside_call_impl": 967,
+            "_outside_call_run_callback": [
+                971,
+                "[1132]"
+            ]
+        },
+        {
+            "jax.experimental.host_callback._outside_call_translation_rule": 987,
+            "_outside_call_run_callback": [
+                1088,
+                "[1132]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.3.7/experimental/sparse/bcoo.py": [
+        {
+            "jax.experimental.sparse.bcoo._bcoo_spdot_general_jvp": 1357,
+            "_bcoo_spdot_general": [
+                1360,
+                "[1183]"
+            ]
+        }
+    ]
+}

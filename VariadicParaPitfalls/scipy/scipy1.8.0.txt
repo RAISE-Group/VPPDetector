@@ -1,0 +1,165 @@
+{
+    "/home/zhang/Packages/scipy/scipy1.8.0/integrate/_ode.py": [
+        {
+            "scipy.integrate._ode.vode.step": 1021,
+            "run": [
+                1024,
+                "[994]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.vode.run_relax": 1028,
+            "run": [
+                1031,
+                "[994]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.step": 1358,
+            "run": [
+                1361,
+                "[1338]"
+            ]
+        },
+        {
+            "scipy.integrate._ode.lsoda.run_relax": 1365,
+            "run": [
+                1368,
+                "[1338]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.8.0/ndimage/_filters.py": [
+        {
+            "scipy.ndimage._filters.gaussian_laplace": 497,
+            "gaussian_filter": [
+                536,
+                "[265]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.derivative2": 533,
+            "gaussian_filter": [
+                536,
+                "[265]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.gaussian_gradient_magnitude": 592,
+            "gaussian_filter": [
+                632,
+                "[265]"
+            ]
+        },
+        {
+            "scipy.ndimage._filters.derivative": 629,
+            "gaussian_filter": [
+                632,
+                "[265]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.8.0/_lib/_uarray/_backend.py": [
+        {
+            "scipy._lib._uarray._backend.create_multimethod": 153,
+            "generate_multimethod": [
+                169,
+                "[174]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.8.0/stats/_distn_infrastructure.py": [
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._munp": 878,
+            "generic_moment": [
+                881,
+                "[3761]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._logcdf": 1014,
+            "_cdf": [
+                1016,
+                "[3737]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic._sf": 1018,
+            "_cdf": [
+                1019,
+                "[3737]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.median": 1336,
+            "ppf": [
+                1360,
+                "[464]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_generic.interval": 1435,
+            "ppf": [
+                1463,
+                "[464]"
+            ]
+        },
+        {
+            "scipy.stats._distn_infrastructure.rv_continuous.fit_loc_scale": 2615,
+            "stats": [
+                2635,
+                "[481]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.8.0/signal/windows/_windows.py": [
+        {
+            "scipy.signal.windows._windows.hanning": 791,
+            "hann": [
+                792,
+                "[708]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.8.0/optimize/_minpack_py.py": [
+        {
+            "scipy.optimize._minpack_py.curve_fit": 533,
+            "leastsq": [
+                789,
+                "[279]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.8.0/optimize/tests/test_linesearch.py": [
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_wolfe": 37,
+            "assert_wolfe": [
+                38,
+                "[12]"
+            ]
+        },
+        {
+            "scipy.optimize.tests.test_linesearch.assert_line_armijo": 42,
+            "assert_armijo": [
+                43,
+                "[27]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/scipy/scipy1.8.0/optimize/tests/test_minpack.py": [
+        {
+            "scipy.optimize.tests.test_minpack.TestLeastSq.func": 363,
+            "residuals": [
+                365,
+                "[264]"
+            ]
+        },
+        {
+            "scipy.optimize.tests.test_minpack.TestLeastSq.deriv_func": 375,
+            "residuals_jacobian": [
+                377,
+                "[269]"
+            ]
+        }
+    ]
+}

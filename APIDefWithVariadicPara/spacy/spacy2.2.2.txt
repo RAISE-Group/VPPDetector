@@ -1,0 +1,217 @@
+{
+    "/home/zhang/Packages/spacy/spacy2.2.2/util.py": [
+        {
+            "spacy.util.load_model": 201
+        },
+        {
+            "spacy.util.load_model_from_link": 223
+        },
+        {
+            "spacy.util.load_model_from_package": 233
+        },
+        {
+            "spacy.util.load_model_from_path": 239
+        },
+        {
+            "spacy.util.load_model_from_init_py": 265
+        },
+        {
+            "spacy.util.add_lookups": 469
+        },
+        {
+            "spacy.util.update_exc": 489
+        },
+        {
+            "spacy.util.DummyTokenizer.to_bytes": 856
+        },
+        {
+            "spacy.util.DummyTokenizer.from_bytes": 859
+        },
+        {
+            "spacy.util.DummyTokenizer.to_disk": 862
+        },
+        {
+            "spacy.util.DummyTokenizer.from_disk": 865
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/lemmatizer.py": [
+        {
+            "spacy.lemmatizer.Lemmatizer.load": 20
+        },
+        {
+            "spacy.lemmatizer.Lemmatizer.__init__": 23
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/_ml.py": [
+        {
+            "spacy._ml.create_default_optimizer": 46
+        },
+        {
+            "spacy._ml._zero_init_impl": 72
+        },
+        {
+            "spacy._ml.PrecomputableAffine.__init__": 170
+        },
+        {
+            "spacy._ml.Tok2Vec": 320
+        },
+        {
+            "spacy._ml.MultiSoftmax.__init__": 542
+        },
+        {
+            "spacy._ml.build_tagger_model": 570
+        },
+        {
+            "spacy._ml.build_morphologizer_model": 596
+        },
+        {
+            "spacy._ml.build_text_classifier": 638
+        },
+        {
+            "spacy._ml.build_bow_text_classifier": 712
+        },
+        {
+            "spacy._ml.build_simple_cnn_text_classifier": 735
+        },
+        {
+            "spacy._ml.build_nel_encoder": 755
+        },
+        {
+            "spacy._ml.concatenate_lists": 801
+        },
+        {
+            "spacy._ml.CharacterEmbed.__init__": 920
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/lookups.py": [
+        {
+            "spacy.lookups.Lookups.to_bytes": 104
+        },
+        {
+            "spacy.lookups.Lookups.from_bytes": 113
+        },
+        {
+            "spacy.lookups.Lookups.to_disk": 127
+        },
+        {
+            "spacy.lookups.Lookups.from_disk": 143
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/language.py": [
+        {
+            "spacy.language.Language.__init__": 136
+        },
+        {
+            "spacy.language.Language.disable_pipes": 440
+        },
+        {
+            "spacy.language.Language.begin_training": 584
+        },
+        {
+            "spacy.language.Language.resume_training": 628
+        },
+        {
+            "spacy.language.Language.use_params": 695
+        },
+        {
+            "spacy.language.Language.to_bytes": 944
+        },
+        {
+            "spacy.language.Language.from_bytes": 968
+        },
+        {
+            "spacy.language.component.__call__": 1026
+        },
+        {
+            "spacy.language.component.factory": 1036
+        },
+        {
+            "spacy.language.DisabledPipes.__init__": 1071
+        },
+        {
+            "spacy.language.DisabledPipes.__exit__": 1084
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/__init__.py": [
+        {
+            "spacy.__init__.load": 26
+        },
+        {
+            "spacy.__init__.blank": 33
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/pipeline/hooks.py": [
+        {
+            "spacy.pipeline.hooks.SimilarityHook.__init__": 62
+        },
+        {
+            "spacy.pipeline.hooks.SimilarityHook.pipe": 76
+        },
+        {
+            "spacy.pipeline.hooks.SimilarityHook.begin_training": 88
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/pipeline/entityruler.py": [
+        {
+            "spacy.pipeline.entityruler.EntityRuler.__init__": 29
+        },
+        {
+            "spacy.pipeline.entityruler.EntityRuler.from_nlp": 73
+        },
+        {
+            "spacy.pipeline.entityruler.EntityRuler.from_bytes": 237
+        },
+        {
+            "spacy.pipeline.entityruler.EntityRuler.to_bytes": 260
+        },
+        {
+            "spacy.pipeline.entityruler.EntityRuler.from_disk": 278
+        },
+        {
+            "spacy.pipeline.entityruler.EntityRuler.to_disk": 312
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/ml/_wire.py": [
+        {
+            "spacy.ml._wire.concatenate_lists": 6
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/ml/_legacy_tok2vec.py": [
+        {
+            "spacy.ml._legacy_tok2vec.Tok2Vec": 15
+        },
+        {
+            "spacy.ml._legacy_tok2vec.concatenate_lists": 107
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/cli/download.py": [
+        {
+            "spacy.cli.download.download": 24
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/cli/converters/conllu2json.py": [
+        {
+            "spacy.cli.converters.conllu2json.conllu2json": 9
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/cli/converters/jsonl2json.py": [
+        {
+            "spacy.cli.converters.jsonl2json.ner_jsonl2json": 10
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/cli/converters/iob2json.py": [
+        {
+            "spacy.cli.converters.iob2json.iob2json": 11
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/cli/converters/conll_ner2json.py": [
+        {
+            "spacy.cli.converters.conll_ner2json.conll_ner2json": 12
+        }
+    ],
+    "/home/zhang/Packages/spacy/spacy2.2.2/tokens/underscore.py": [
+        {
+            "spacy.tokens.underscore.get_ext_args": 83
+        }
+    ]
+}

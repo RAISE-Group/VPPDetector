@@ -1,0 +1,573 @@
+{
+    "/home/zhang/Packages/torch/torch1.1.0/serialization.py": [
+        {
+            "torch.serialization.load": 299
+        },
+        {
+            "torch.serialization._load": 381
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/_utils.py": [
+        {
+            "torch._utils._type": 6
+        },
+        {
+            "torch._utils._cuda": 44
+        },
+        {
+            "torch._utils.annotate": 267
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/_six.py": [
+        {
+            "torch._six.with_metaclass": 42
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/_torch_docs.py": [
+        {
+            "torch._torch_docs.merge_dicts": 25
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/functional.py": [
+        {
+            "torch.functional.broadcast_tensors": 36
+        },
+        {
+            "torch.functional.einsum": 137
+        },
+        {
+            "torch.functional.meshgrid": 252
+        },
+        {
+            "torch.functional.cartesian_prod": 575
+        },
+        {
+            "torch.functional.chain_matmul": 700
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/_utils_internal.py": [
+        {
+            "torch._utils_internal.get_file_path": 12
+        },
+        {
+            "torch._utils_internal.get_file_path_2": 16
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/hub.py": [
+        {
+            "torch.hub.load": 282
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/tensor.py": [
+        {
+            "torch.tensor.Tensor.resize": 319
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/_jit_internal.py": [
+        {
+            "torch._jit_internal.fn": 115
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/cuda/streams.py": [
+        {
+            "torch.cuda.streams.Stream.__new__": 20
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/cuda/__init__.py": [
+        {
+            "torch.cuda.__init__.device.__exit__": 226
+        },
+        {
+            "torch.cuda.__init__._lazy_new": 583
+        },
+        {
+            "torch.cuda.__init__._CudaBase.type": 593
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/utils/cpp_extension.py": [
+        {
+            "torch.utils.cpp_extension.BuildExtension.with_options": 204
+        },
+        {
+            "torch.utils.cpp_extension.BuildExtension.init_with_options": 209
+        },
+        {
+            "torch.utils.cpp_extension.BuildExtension.__init__": 215
+        },
+        {
+            "torch.utils.cpp_extension.CppExtension": 360
+        },
+        {
+            "torch.utils.cpp_extension.CUDAExtension": 406
+        },
+        {
+            "torch.utils.cpp_extension._join_cuda_home": 1057
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/utils/checkpoint.py": [
+        {
+            "torch.utils.checkpoint.get_device_states": 28
+        },
+        {
+            "torch.utils.checkpoint.CheckpointFunction.forward": 49
+        },
+        {
+            "torch.utils.checkpoint.CheckpointFunction.backward": 65
+        },
+        {
+            "torch.utils.checkpoint.checkpoint": 89
+        },
+        {
+            "torch.utils.checkpoint.checkpoint_sequential": 141
+        },
+        {
+            "torch.utils.checkpoint.forward": 182
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/utils/tensorboard/writer.py": [
+        {
+            "torch.utils.tensorboard.writer.SummaryWriter.__init__": 158
+        },
+        {
+            "torch.utils.tensorboard.writer.SummaryWriter.add_image_with_boxes": 395
+        },
+        {
+            "torch.utils.tensorboard.writer.SummaryWriter.add_graph": 494
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/utils/tensorboard/_caffe2_graph.py": [
+        {
+            "torch.utils.tensorboard._caffe2_graph.model_to_graph_def": 733
+        },
+        {
+            "torch.utils.tensorboard._caffe2_graph.nets_to_graph_def": 751
+        },
+        {
+            "torch.utils.tensorboard._caffe2_graph.protos_to_graph_def": 770
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/utils/data/dataset.py": [
+        {
+            "torch.utils.data.dataset.TensorDataset.__init__": 35
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/multiprocessing/pool.py": [
+        {
+            "torch.multiprocessing.pool.clean_worker": 8
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/multiprocessing/queue.py": [
+        {
+            "torch.multiprocessing.queue.Queue.__init__": 33
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/backends/cudnn/__init__.py": [
+        {
+            "torch.backends.cudnn.__init__.add_tensor": 421
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/autograd/anomaly_mode.py": [
+        {
+            "torch.autograd.anomaly_mode.detect_anomaly.__exit__": 70
+        },
+        {
+            "torch.autograd.anomaly_mode.set_detect_anomaly.__exit__": 97
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/autograd/profiler.py": [
+        {
+            "torch.autograd.profiler.EventList.__init__": 10
+        },
+        {
+            "torch.autograd.profiler.EnforceUnique.see": 571
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/autograd/grad_mode.py": [
+        {
+            "torch.autograd.grad_mode.no_grad.__exit__": 35
+        },
+        {
+            "torch.autograd.grad_mode.no_grad.decorate_no_grad": 41
+        },
+        {
+            "torch.autograd.grad_mode.enable_grad.__exit__": 79
+        },
+        {
+            "torch.autograd.grad_mode.enable_grad.decorate_enable_grad": 85
+        },
+        {
+            "torch.autograd.grad_mode.set_grad_enabled.__exit__": 129
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/autograd/function.py": [
+        {
+            "torch.autograd.function._ContextMethodMixin.save_for_backward": 12
+        },
+        {
+            "torch.autograd.function._ContextMethodMixin.mark_dirty": 26
+        },
+        {
+            "torch.autograd.function._ContextMethodMixin.mark_shared_storage": 39
+        },
+        {
+            "torch.autograd.function._ContextMethodMixin.mark_non_differentiable": 45
+        },
+        {
+            "torch.autograd.function.BackwardCFunction.apply": 76
+        },
+        {
+            "torch.autograd.function.Function.forward": 146
+        },
+        {
+            "torch.autograd.function.Function.backward": 160
+        },
+        {
+            "torch.autograd.function.wrapper": 184
+        },
+        {
+            "torch.autograd.function.NestedIOFunction._do_forward": 323
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.backward": 339
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.forward": 346
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.save_for_backward": 353
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.mark_dirty": 362
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.mark_non_differentiable": 365
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.forward_extended": 368
+        },
+        {
+            "torch.autograd.function.NestedIOFunction.backward_extended": 371
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/autograd/__init__.py": [
+        {
+            "torch.autograd.__init__.variable": 156
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/autograd/gradcheck.py": [
+        {
+            "torch.autograd.gradcheck.new_func": 371
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/jit/__init__.py": [
+        {
+            "torch.jit.__init__.LegacyTracedModule.forward": 269
+        },
+        {
+            "torch.jit.__init__.ScriptMeta.init_then_register": 947
+        },
+        {
+            "torch.jit.__init__.ScriptModule.save": 1098
+        },
+        {
+            "torch.jit.__init__.ScriptModule.save_to_buffer": 1101
+        },
+        {
+            "torch.jit.__init__.ScriptModule.get_debug_state": 1104
+        },
+        {
+            "torch.jit.__init__.ScriptModule.graph_for": 1189
+        },
+        {
+            "torch.jit.__init__.fail": 1298
+        },
+        {
+            "torch.jit.__init__.TracedModule.forward": 1348
+        },
+        {
+            "torch.jit.__init__._disable_tracing.__exit__": 1503
+        },
+        {
+            "torch.jit.__init__._graph_for": 1517
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/onnx/utils.py": [
+        {
+            "torch.onnx.utils._newNode": 443
+        },
+        {
+            "torch.onnx.utils._graph_op": 459
+        },
+        {
+            "torch.onnx.utils._graph_at": 581
+        },
+        {
+            "torch.onnx.utils._graph_constant": 585
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/onnx/symbolic.py": [
+        {
+            "torch.onnx.symbolic.parse_args": 77
+        },
+        {
+            "torch.onnx.symbolic.wrapper": 79
+        },
+        {
+            "torch.onnx.symbolic._try_get_scalar_type": 126
+        },
+        {
+            "torch.onnx.symbolic.to": 1203
+        },
+        {
+            "torch.onnx.symbolic.lstm": 1378
+        },
+        {
+            "torch.onnx.symbolic.symbolic": 1398
+        },
+        {
+            "torch.onnx.symbolic.randn": 1444
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/onnx/__init__.py": [
+        {
+            "torch.onnx.__init__._export": 17
+        },
+        {
+            "torch.onnx.__init__.export": 23
+        },
+        {
+            "torch.onnx.__init__.export_to_pretty_string": 28
+        },
+        {
+            "torch.onnx.__init__._export_to_pretty_string": 33
+        },
+        {
+            "torch.onnx.__init__.set_training": 43
+        },
+        {
+            "torch.onnx.__init__._run_symbolic_function": 48
+        },
+        {
+            "torch.onnx.__init__._run_symbolic_method": 53
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributed/rendezvous.py": [
+        {
+            "torch.distributed.rendezvous.rendezvous": 44
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributed/deprecated/__init__.py": [
+        {
+            "torch.distributed.deprecated.__init__.init_process_group": 51
+        },
+        {
+            "torch.distributed.deprecated.__init__.init_master_worker": 110
+        },
+        {
+            "torch.distributed.deprecated.__init__.gather": 454
+        },
+        {
+            "torch.distributed.deprecated.__init__.scatter": 483
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/init.py": [
+        {
+            "torch.nn.init.deprecated_init": 427
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/utils/rnn.py": [
+        {
+            "torch.nn.utils.rnn.PackedSequence.cuda": 74
+        },
+        {
+            "torch.nn.utils.rnn.PackedSequence.to": 140
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/parallel/data_parallel.py": [
+        {
+            "torch.nn.parallel.data_parallel.DataParallel.forward": 137
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/parallel/distributed.py": [
+        {
+            "torch.nn.parallel.distributed.DistributedDataParallel.forward": 349
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/parallel/distributed_cpu.py": [
+        {
+            "torch.nn.parallel.distributed_cpu.DistributedDataParallelCPU.allreduce_hook": 99
+        },
+        {
+            "torch.nn.parallel.distributed_cpu.DistributedDataParallelCPU.forward": 109
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/parallel/_functions.py": [
+        {
+            "torch.nn.parallel._functions.Broadcast.forward": 12
+        },
+        {
+            "torch.nn.parallel._functions.Broadcast.backward": 31
+        },
+        {
+            "torch.nn.parallel._functions.ReduceAddCoalesced.forward": 38
+        },
+        {
+            "torch.nn.parallel._functions.ReduceAddCoalesced.backward": 46
+        },
+        {
+            "torch.nn.parallel._functions.Gather.forward": 53
+        },
+        {
+            "torch.nn.parallel._functions.Scatter.backward": 98
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/parallel/deprecated/distributed.py": [
+        {
+            "torch.nn.parallel.deprecated.distributed.DistributedDataParallel.forward": 198
+        },
+        {
+            "torch.nn.parallel.deprecated.distributed.DistributedDataParallel.allreduce_hook": 326
+        },
+        {
+            "torch.nn.parallel.deprecated.distributed.DistributedDataParallel.distributed_data_parallel_hook": 335
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/parallel/deprecated/distributed_cpu.py": [
+        {
+            "torch.nn.parallel.deprecated.distributed_cpu.DistributedDataParallelCPU.allreduce_hook": 95
+        },
+        {
+            "torch.nn.parallel.deprecated.distributed_cpu.DistributedDataParallelCPU.forward": 105
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/modules/container.py": [
+        {
+            "torch.nn.modules.container.Container.__init__": 13
+        },
+        {
+            "torch.nn.modules.container.Sequential.__init__": 43
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/modules/module.py": [
+        {
+            "torch.nn.modules.module.Module.forward": 76
+        },
+        {
+            "torch.nn.modules.module.Module.to": 307
+        },
+        {
+            "torch.nn.modules.module.Module._slow_forward": 465
+        },
+        {
+            "torch.nn.modules.module.Module.__call__": 484
+        },
+        {
+            "torch.nn.modules.module.Module.remove_from": 538
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/modules/linear.py": [
+        {
+            "torch.nn.modules.linear.Identity.__init__": 28
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/modules/rnn.py": [
+        {
+            "torch.nn.modules.rnn.RNN.__init__": 345
+        },
+        {
+            "torch.nn.modules.rnn.LSTM.__init__": 468
+        },
+        {
+            "torch.nn.modules.rnn.GRU.__init__": 644
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/_functions/thnn/auto_symbolic.py": [
+        {
+            "torch.nn._functions.thnn.auto_symbolic.reflectionpad_symbolic": 4
+        },
+        {
+            "torch.nn._functions.thnn.auto_symbolic.replicationpad_symbolic": 10
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/nn/_functions/thnn/auto.py": [
+        {
+            "torch.nn._functions.thnn.auto.symbolic": 36
+        },
+        {
+            "torch.nn._functions.thnn.auto.forward": 41
+        },
+        {
+            "torch.nn._functions.thnn.auto.backward_cls_backward": 86
+        },
+        {
+            "torch.nn._functions.thnn.auto.symbolic": 138
+        },
+        {
+            "torch.nn._functions.thnn.auto.forward": 142
+        },
+        {
+            "torch.nn._functions.thnn.auto.backward_cls_forward": 199
+        },
+        {
+            "torch.nn._functions.thnn.auto.backward_cls_backward": 244
+        },
+        {
+            "torch.nn._functions.thnn.auto.default_double_backwards_fn": 318
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/one_hot_categorical.py": [
+        {
+            "torch.distributions.one_hot_categorical.OneHotCategorical._new": 49
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/utils.py": [
+        {
+            "torch.distributions.utils.broadcast_all": 11
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/exp_family.py": [
+        {
+            "torch.distributions.exp_family.ExponentialFamily._log_normalizer": 34
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/relaxed_categorical.py": [
+        {
+            "torch.distributions.relaxed_categorical.ExpRelaxedCategorical._new": 53
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/multinomial.py": [
+        {
+            "torch.distributions.multinomial.Multinomial._new": 70
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/negative_binomial.py": [
+        {
+            "torch.distributions.negative_binomial.NegativeBinomial._new": 55
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/kl.py": [
+        {
+            "torch.distributions.kl._Match.__init__": 79
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/bernoulli.py": [
+        {
+            "torch.distributions.bernoulli.Bernoulli._new": 63
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/relaxed_bernoulli.py": [
+        {
+            "torch.distributions.relaxed_bernoulli.LogitRelaxedBernoulli._new": 64
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/categorical.py": [
+        {
+            "torch.distributions.categorical.Categorical._new": 75
+        }
+    ],
+    "/home/zhang/Packages/torch/torch1.1.0/distributions/binomial.py": [
+        {
+            "torch.distributions.binomial.Binomial._new": 68
+        }
+    ]
+}

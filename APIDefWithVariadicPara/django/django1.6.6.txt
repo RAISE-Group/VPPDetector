@@ -1,0 +1,614 @@
+{
+    "/home/zhang/Packages/django/django1.6.6/__init__.py": [
+        {
+            "django.__init__.get_version": 3
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/admin.py": [
+        {
+            "django.contrib.auth.admin.GroupAdmin.formfield_for_manytomany": 28
+        },
+        {
+            "django.contrib.auth.admin.UserAdmin.get_form": 68
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/hashers.py": [
+        {
+            "django.contrib.auth.hashers.reset_hashers": 27
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/views.py": [
+        {
+            "django.contrib.auth.views.password_reset_confirm_uidb36": 227
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/backends.py": [
+        {
+            "django.contrib.auth.backends.ModelBackend.authenticate": 11
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/__init__.py": [
+        {
+            "django.contrib.auth.__init__.authenticate": 43
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/models.py": [
+        {
+            "django.contrib.auth.models.update_last_login": 24
+        },
+        {
+            "django.contrib.auth.models.UserManager._create_user": 172
+        },
+        {
+            "django.contrib.auth.models.UserManager.create_user": 189
+        },
+        {
+            "django.contrib.auth.models.UserManager.create_superuser": 193
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/decorators.py": [
+        {
+            "django.contrib.auth.decorators._wrapped_view": 20
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/forms.py": [
+        {
+            "django.contrib.auth.forms.ReadOnlyPasswordHashField.__init__": 54
+        },
+        {
+            "django.contrib.auth.forms.UserChangeForm.__init__": 141
+        },
+        {
+            "django.contrib.auth.forms.AuthenticationForm.__init__": 168
+        },
+        {
+            "django.contrib.auth.forms.SetPasswordForm.__init__": 273
+        },
+        {
+            "django.contrib.auth.forms.AdminPasswordChangeForm.__init__": 337
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/tests/test_decorators.py": [
+        {
+            "django.contrib.auth.tests.test_decorators.LoginRequiredTestCase.CallableView.__call__": 19
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/tests/test_signals.py": [
+        {
+            "django.contrib.auth.tests.test_signals.SignalTestCase.listener_login": 15
+        },
+        {
+            "django.contrib.auth.tests.test_signals.SignalTestCase.listener_logout": 18
+        },
+        {
+            "django.contrib.auth.tests.test_signals.SignalTestCase.listener_login_failed": 21
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/tests/test_auth_backends.py": [
+        {
+            "django.contrib.auth.tests.test_auth_backends.CountingMD5PasswordHasher.encode": 23
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/tests/test_models.py": [
+        {
+            "django.contrib.auth.tests.test_models.TestCreateSuperUserSignals.post_save_listener": 152
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/tests/test_basic.py": [
+        {
+            "django.contrib.auth.tests.test_basic.user_model_swapped": 23
+        },
+        {
+            "django.contrib.auth.tests.test_basic.wrapped": 38
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/tests/test_forms.py": [
+        {
+            "django.contrib.auth.tests.test_forms.UserChangeFormTest.MyUserForm.__init__": 267
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/tests/urls.py": [
+        {
+            "django.contrib.auth.tests.urls.CustomRequestAuthenticationForm.__init__": 14
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/management/__init__.py": [
+        {
+            "django.contrib.auth.management.__init__.create_permissions": 61
+        },
+        {
+            "django.contrib.auth.management.__init__.create_superuser": 107
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/management/commands/changepassword.py": [
+        {
+            "django.contrib.auth.management.commands.changepassword.Command.handle": 27
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/auth/management/commands/createsuperuser.py": [
+        {
+            "django.contrib.auth.management.commands.createsuperuser.Command.__init__": 22
+        },
+        {
+            "django.contrib.auth.management.commands.createsuperuser.Command.handle": 49
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/staticfiles/storage.py": [
+        {
+            "django.contrib.staticfiles.storage.StaticFilesStorage.__init__": 30
+        },
+        {
+            "django.contrib.staticfiles.storage.CachedFilesMixin.__init__": 61
+        },
+        {
+            "django.contrib.staticfiles.storage.CachedFilesMixin.post_process": 204
+        },
+        {
+            "django.contrib.staticfiles.storage.AppStaticStorage.__init__": 298
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/staticfiles/finders.py": [
+        {
+            "django.contrib.staticfiles.finders.FileSystemFinder.__init__": 46
+        },
+        {
+            "django.contrib.staticfiles.finders.AppDirectoriesFinder.__init__": 117
+        },
+        {
+            "django.contrib.staticfiles.finders.BaseStorageFinder.__init__": 179
+        },
+        {
+            "django.contrib.staticfiles.finders.DefaultStorageFinder.__init__": 221
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/staticfiles/views.py": [
+        {
+            "django.contrib.staticfiles.views.serve": 17
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/staticfiles/management/commands/runserver.py": [
+        {
+            "django.contrib.staticfiles.management.commands.runserver.Command.get_handler": 17
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/staticfiles/management/commands/findstatic.py": [
+        {
+            "django.contrib.staticfiles.management.commands.findstatic.Command.handle_label": 19
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/staticfiles/management/commands/collectstatic.py": [
+        {
+            "django.contrib.staticfiles.management.commands.collectstatic.Command.__init__": 51
+        },
+        {
+            "django.contrib.staticfiles.management.commands.collectstatic.Command.set_options": 65
+        },
+        {
+            "django.contrib.staticfiles.management.commands.collectstatic.Command.handle_noargs": 139
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/admin/util.py": [
+        {
+            "django.contrib.admin.util.NestedObjects.__init__": 145
+        },
+        {
+            "django.contrib.admin.util.NestedObjects.collect": 153
+        },
+        {
+            "django.contrib.admin.util.NestedObjects.can_fast_delete": 194
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/admin/sites.py": [
+        {
+            "django.contrib.admin.sites.AdminSite.register": 52
+        },
+        {
+            "django.contrib.admin.sites.AdminSite.inner": 189
+        },
+        {
+            "django.contrib.admin.sites.AdminSite.wrapper": 214
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/admin/options.py": [
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_dbfield": 113
+        },
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_choice_field": 167
+        },
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_foreignkey": 198
+        },
+        {
+            "django.contrib.admin.options.BaseModelAdmin.formfield_for_manytomany": 219
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.wrapper": 449
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_form": 513
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_changelist": 551
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_changelist_form": 572
+        },
+        {
+            "django.contrib.admin.options.ModelAdmin.get_changelist_formset": 586
+        },
+        {
+            "django.contrib.admin.options.InlineModelAdmin.get_extra": 1605
+        },
+        {
+            "django.contrib.admin.options.InlineModelAdmin.get_max_num": 1609
+        },
+        {
+            "django.contrib.admin.options.InlineModelAdmin.get_formset": 1613
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/admin/widgets.py": [
+        {
+            "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.render": 250
+        },
+        {
+            "django.contrib.admin.widgets.RelatedFieldWidgetWrapper.build_attrs": 265
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/admin/helpers.py": [
+        {
+            "django.contrib.admin.helpers.InlineFieldset.__init__": 313
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/admin/views/decorators.py": [
+        {
+            "django.contrib.admin.views.decorators._checklogin": 14
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/admin/templatetags/admin_list.py": [
+        {
+            "django.contrib.admin.templatetags.admin_list.ResultList.__init__": 256
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/preview.py": [
+        {
+            "django.contrib.formtools.preview.FormPreview.__call__": 23
+        },
+        {
+            "django.contrib.formtools.preview.FormPreview.parse_params": 105
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/tests/wizard/test_forms.py": [
+        {
+            "django.contrib.formtools.tests.wizard.test_forms.get_request": 27
+        },
+        {
+            "django.contrib.formtools.tests.wizard.test_forms.CustomKwargsStep1.__init__": 48
+        },
+        {
+            "django.contrib.formtools.tests.wizard.test_forms.TestWizard.dispatch": 73
+        },
+        {
+            "django.contrib.formtools.tests.wizard.test_forms.TestWizard.get_form_kwargs": 77
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/tests/wizard/wizardtests/tests.py": [
+        {
+            "django.contrib.formtools.tests.wizard.wizardtests.tests.WizardTestGenericViewInterface.TestWizard.get_context_data": 325
+        },
+        {
+            "django.contrib.formtools.tests.wizard.wizardtests.tests.WizardTestGenericViewInterface.AnotherMixin.get_context_data": 338
+        },
+        {
+            "django.contrib.formtools.tests.wizard.wizardtests.tests.WizardTestGenericViewInterface.TestWizard.get_context_data": 350
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/tests/wizard/wizardtests/forms.py": [
+        {
+            "django.contrib.formtools.tests.wizard.wizardtests.forms.ContactWizard.done": 37
+        },
+        {
+            "django.contrib.formtools.tests.wizard.wizardtests.forms.ContactWizard.get_context_data": 49
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/tests/wizard/namedwizardtests/tests.py": [
+        {
+            "django.contrib.formtools.tests.wizard.namedwizardtests.tests.TestNamedUrlSessionWizardView.dispatch": 361
+        },
+        {
+            "django.contrib.formtools.tests.wizard.namedwizardtests.tests.TestNamedUrlCookieWizardView.dispatch": 368
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/tests/wizard/namedwizardtests/forms.py": [
+        {
+            "django.contrib.formtools.tests.wizard.namedwizardtests.forms.ContactWizard.done": 35
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/wizard/views.py": [
+        {
+            "django.contrib.formtools.wizard.views.WizardView.as_view": 114
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.get_initkwargs": 124
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.get_prefix": 194
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.dispatch": 221
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.get": 242
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.post": 256
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.render_next_step": 303
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.render_goto_step": 319
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.render_done": 330
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.render_revalidation_failure": 433
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.get_context_data": 529
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.render": 561
+        },
+        {
+            "django.contrib.formtools.wizard.views.WizardView.done": 569
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.get_initkwargs": 600
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.get": 620
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.post": 665
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.get_context_data": 675
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.render_next_step": 684
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.render_goto_step": 693
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.render_revalidation_failure": 701
+        },
+        {
+            "django.contrib.formtools.wizard.views.NamedUrlWizardView.render_done": 709
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/wizard/storage/session.py": [
+        {
+            "django.contrib.formtools.wizard.storage.session.SessionStorage.__init__": 6
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/wizard/storage/cookie.py": [
+        {
+            "django.contrib.formtools.wizard.storage.cookie.CookieStorage.__init__": 12
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/formtools/wizard/storage/__init__.py": [
+        {
+            "django.contrib.formtools.wizard.storage.__init__.get_storage": 9
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/messages/storage/session.py": [
+        {
+            "django.contrib.messages.storage.session.SessionStorage.__init__": 14
+        },
+        {
+            "django.contrib.messages.storage.session.SessionStorage._get": 21
+        },
+        {
+            "django.contrib.messages.storage.session.SessionStorage._store": 29
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/messages/storage/base.py": [
+        {
+            "django.contrib.messages.storage.base.BaseStorage.__init__": 64
+        },
+        {
+            "django.contrib.messages.storage.base.BaseStorage._get": 95
+        },
+        {
+            "django.contrib.messages.storage.base.BaseStorage._store": 110
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/messages/storage/cookie.py": [
+        {
+            "django.contrib.messages.storage.cookie.MessageDecoder.decode": 48
+        },
+        {
+            "django.contrib.messages.storage.cookie.CookieStorage._get": 63
+        },
+        {
+            "django.contrib.messages.storage.cookie.CookieStorage._store": 90
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/contrib/messages/storage/fallback.py": [
+        {
+            "django.contrib.messages.storage.fallback.FallbackStorage.__init__": 12
+        },
+        {
+            "django.contrib.messages.storage.fallback.FallbackStorage._get": 18
+        },
+        {
+            "django.contrib.messages.storage.fallback.FallbackStorage._store": 37
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/conf/__init__.py": [
+        {
+            "django.conf.__init__.LazySettings.configure": 82
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/conf/urls/i18n.py": [
+        {
+            "django.conf.urls.i18n.i18n_patterns": 5
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/conf/urls/static.py": [
+        {
+            "django.conf.urls.static.static": 6
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/conf/urls/__init__.py": [
+        {
+            "django.conf.urls.__init__.patterns": 41
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/template/defaultfilters.py": [
+        {
+            "django.template.defaultfilters._dec": 37
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/template/defaulttags.py": [
+        {
+            "django.template.defaulttags.IfChangedNode.__init__": 217
+        },
+        {
+            "django.template.defaulttags.TemplateIfParser.__init__": 872
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/template/base.py": [
+        {
+            "django.template.base.Library.filter": 1078
+        },
+        {
+            "django.template.base.Library.filter_function": 1113
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/template/loader_tags.py": [
+        {
+            "django.template.loader_tags.BaseIncludeNode.__init__": 126
+        },
+        {
+            "django.template.loader_tags.ConstantIncludeNode.__init__": 142
+        },
+        {
+            "django.template.loader_tags.IncludeNode.__init__": 158
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/template/loader.py": [
+        {
+            "django.template.loader.BaseLoader.__init__": 39
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/forms/widgets.py": [
+        {
+            "django.forms.widgets.Media.__init__": 35
+        },
+        {
+            "django.forms.widgets.Widget.build_attrs": 195
+        },
+        {
+            "django.forms.widgets.RadioChoiceInput.__init__": 628
+        },
+        {
+            "django.forms.widgets.RadioInput.__init__": 634
+        },
+        {
+            "django.forms.widgets.CheckboxChoiceInput.__init__": 643
+        },
+        {
+            "django.forms.widgets.RendererMixin.__init__": 703
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/forms/formsets.py": [
+        {
+            "django.forms.formsets.ManagementForm.__init__": 34
+        },
+        {
+            "django.forms.formsets.BaseFormSet._construct_form": 136
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/forms/models.py": [
+        {
+            "django.forms.models.BaseModelFormSet.__init__": 539
+        },
+        {
+            "django.forms.models.BaseModelFormSet._construct_form": 558
+        },
+        {
+            "django.forms.models.BaseInlineFormSet.__init__": 825
+        },
+        {
+            "django.forms.models.BaseInlineFormSet._construct_form": 847
+        },
+        {
+            "django.forms.models.InlineForeignKeyField.__init__": 1002
+        },
+        {
+            "django.forms.models.ModelChoiceField.__init__": 1067
+        },
+        {
+            "django.forms.models.ModelMultipleChoiceField.__init__": 1163
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/forms/fields.py": [
+        {
+            "django.forms.fields.CharField.__init__": 196
+        },
+        {
+            "django.forms.fields.IntegerField.__init__": 224
+        },
+        {
+            "django.forms.fields.DecimalField.__init__": 307
+        },
+        {
+            "django.forms.fields.BaseTemporalField.__init__": 386
+        },
+        {
+            "django.forms.fields.RegexField.__init__": 495
+        },
+        {
+            "django.forms.fields.FileField.__init__": 546
+        },
+        {
+            "django.forms.fields.ChoiceField.__init__": 757
+        },
+        {
+            "django.forms.fields.TypedChoiceField.__init__": 813
+        },
+        {
+            "django.forms.fields.TypedMultipleChoiceField.__init__": 880
+        },
+        {
+            "django.forms.fields.ComboField.__init__": 916
+        },
+        {
+            "django.forms.fields.MultiValueField.__init__": 957
+        },
+        {
+            "django.forms.fields.FilePathField.__init__": 1034
+        },
+        {
+            "django.forms.fields.SplitDateTimeField.__init__": 1089
+        },
+        {
+            "django.forms.fields.GenericIPAddressField.__init__": 1127
+        }
+    ],
+    "/home/zhang/Packages/django/django1.6.6/forms/forms.py": [
+        {
+            "django.forms.forms.BoundField.as_text": 477
+        },
+        {
+            "django.forms.forms.BoundField.as_textarea": 483
+        },
+        {
+            "django.forms.forms.BoundField.as_hidden": 487
+        }
+    ]
+}

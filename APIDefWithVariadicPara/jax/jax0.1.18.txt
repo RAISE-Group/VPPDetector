@@ -1,0 +1,532 @@
+{
+    "/home/zhang/Packages/jax/jax0.1.18/flatten_util.py": [
+        {
+            "jax.flatten_util.ravel_list": 35
+        },
+        {
+            "jax.flatten_util.ravel_fun": 40
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/util.py": [
+        {
+            "jax.util.safe_zip": 31
+        },
+        {
+            "jax.util.safe_map": 38
+        },
+        {
+            "jax.util.partial": 70
+        },
+        {
+            "jax.util.memoized_fun": 147
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/abstract_arrays.py": [
+        {
+            "jax.abstract_arrays.error": 37
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/lax.py": [
+        {
+            "jax.lax.broadcast_shapes": 58
+        },
+        {
+            "jax.lax.standard_abstract_eval": 748
+        },
+        {
+            "jax.lax.standard_translate": 762
+        },
+        {
+            "jax.lax.unop_dtype_rule": 767
+        },
+        {
+            "jax.lax.binop_dtype_rule": 786
+        },
+        {
+            "jax.lax.broadcasting_shape_rule": 799
+        },
+        {
+            "jax.lax._brcast": 830
+        },
+        {
+            "jax.lax._conv_general_dilated_shape_rule": 1108
+        },
+        {
+            "jax.lax._conv_general_dilated_dtype_rule": 1118
+        },
+        {
+            "jax.lax._conv_general_dilated_translation_rule": 1161
+        },
+        {
+            "jax.lax._conv_general_dilated_batch_rule": 1169
+        },
+        {
+            "jax.lax._concatenate_shape_rule": 1520
+        },
+        {
+            "jax.lax._concatenate_dtype_rule": 1545
+        },
+        {
+            "jax.lax._concatenate_translation_rule": 1549
+        },
+        {
+            "jax.lax._concatenate_transpose_rule": 1553
+        },
+        {
+            "jax.lax._reshape_shape_rule": 1631
+        },
+        {
+            "jax.lax._reshape_dtype_rule": 1645
+        },
+        {
+            "jax.lax._reshape_batch_rule": 1659
+        },
+        {
+            "jax.lax._select_batch_rule": 1762
+        },
+        {
+            "jax.lax._slice_batching_rule": 1861
+        },
+        {
+            "jax.lax._dynamic_slice_batching_rule": 1921
+        },
+        {
+            "jax.lax._gather_dtype_rule": 2025
+        },
+        {
+            "jax.lax._scatter_dtype_rule": 2103
+        },
+        {
+            "jax.lax._scatter_shape_rule": 2109
+        },
+        {
+            "jax.lax._reduce_window_sum_batch_rule": 2337
+        },
+        {
+            "jax.lax._reduce_window_max_batch_rule": 2398
+        },
+        {
+            "jax.lax._select_and_scatter_add_batch_rule": 2476
+        },
+        {
+            "jax.lax.unbound_name_error": 2839
+        },
+        {
+            "jax.lax._check_same_dtypes": 2926
+        },
+        {
+            "jax.lax.ranges_like": 3033
+        },
+        {
+            "jax.lax.remaining": 3041
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/test_util.py": [
+        {
+            "jax.test_util.f_vjp": 149
+        },
+        {
+            "jax.test_util.skip_on_devices": 163
+        },
+        {
+            "jax.test_util.test_method_wrapper": 167
+        },
+        {
+            "jax.test_util.test_method_wrapper": 182
+        },
+        {
+            "jax.test_util.cases_from_gens": 391
+        },
+        {
+            "jax.test_util.JaxTestCase.wrapped_fun": 460
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/core.py": [
+        {
+            "jax.core.Primitive.bind": 66
+        },
+        {
+            "jax.core.Primitive.impl": 85
+        },
+        {
+            "jax.core.eval_jaxpr": 93
+        },
+        {
+            "jax.core.pack_p_bind": 492
+        },
+        {
+            "jax.core.process_env_traces": 511
+        },
+        {
+            "jax.core.call_bind": 523
+        },
+        {
+            "jax.core.call_impl": 536
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/config.py": [
+        {
+            "jax.config.Config.DEFINE_bool": 48
+        },
+        {
+            "jax.config.Config.DEFINE_integer": 51
+        },
+        {
+            "jax.config.Config.DEFINE_string": 54
+        },
+        {
+            "jax.config.Config.DEFINE_enum": 57
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/api.py": [
+        {
+            "jax.api.f_jitted": 73
+        },
+        {
+            "jax.api.grad_f": 113
+        },
+        {
+            "jax.api.value_and_grad_f": 146
+        },
+        {
+            "jax.api.jacfun": 161
+        },
+        {
+            "jax.api.jacfun": 174
+        },
+        {
+            "jax.api.batched_fun": 249
+        },
+        {
+            "jax.api.f_jitted": 264
+        },
+        {
+            "jax.api.pmap_fun": 283
+        },
+        {
+            "jax.api.split_fun": 296
+        },
+        {
+            "jax.api.papply_fun": 310
+        },
+        {
+            "jax.api.linearize": 335
+        },
+        {
+            "jax.api.fun": 346
+        },
+        {
+            "jax.api.vjp": 354
+        },
+        {
+            "jax.api.trace_to_jaxpr": 371
+        },
+        {
+            "jax.api.fun": 379
+        },
+        {
+            "jax.api.jaxpr_maker": 392
+        },
+        {
+            "jax.api.argnums_partial_": 421
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/linear_util.py": [
+        {
+            "jax.linear_util.staged": 52
+        },
+        {
+            "jax.linear_util.f_partial": 54
+        },
+        {
+            "jax.linear_util.WrappedFun.wrap": 69
+        },
+        {
+            "jax.linear_util.WrappedFun.call_wrapped": 78
+        },
+        {
+            "jax.linear_util.transformation": 116
+        },
+        {
+            "jax.linear_util.transformation_with_aux": 120
+        },
+        {
+            "jax.linear_util.memoized_fun": 137
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/tree_util.py": [
+        {
+            "jax.tree_util.tree_multimap": 38
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/lax_linalg.py": [
+        {
+            "jax.lax_linalg.triangular_solve_shape_rule": 158
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/api_util.py": [
+        {
+            "jax.api_util.wraps": 29
+        },
+        {
+            "jax.api_util.pytree_fun_to_jaxtupletree_fun": 43
+        },
+        {
+            "jax.api_util.apply_jaxtree_fun": 48
+        },
+        {
+            "jax.api_util.pytree_fun_to_flatjaxtuple_fun": 62
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/lib/xla_client.py": [
+        {
+            "jax.lib.xla_client.ComputationBuilder.Tuple": 992
+        },
+        {
+            "jax.lib.xla_client.forward": 1349
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/lib/pywrap_xla.py": [
+        {
+            "jax.lib.pywrap_xla.LocalShapedBuffer.__init__": 123
+        },
+        {
+            "jax.lib.pywrap_xla.LocalShapedBufferTuple.__init__": 150
+        },
+        {
+            "jax.lib.pywrap_xla.XrtAllocation.__init__": 172
+        },
+        {
+            "jax.lib.pywrap_xla.XrtAllocationTuple.__init__": 197
+        },
+        {
+            "jax.lib.pywrap_xla.CompiledLocalComputation.__init__": 219
+        },
+        {
+            "jax.lib.pywrap_xla.CompiledXrtComputation.__init__": 236
+        },
+        {
+            "jax.lib.pywrap_xla.LocalComputation.__init__": 251
+        },
+        {
+            "jax.lib.pywrap_xla.LocalOp.__init__": 277
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/lib/xla_bridge.py": [
+        {
+            "jax.lib.xla_bridge._JaxComputationBuilderBase.Build": 301
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/experimental/minmax.py": [
+        {
+            "jax.experimental.minmax.tree_opt_maker": 36
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/experimental/stax.py": [
+        {
+            "jax.experimental.stax._elemwise_no_params": 148
+        },
+        {
+            "jax.experimental.stax.serial": 256
+        },
+        {
+            "jax.experimental.stax.parallel": 282
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/numpy/linalg.py": [
+        {
+            "jax.numpy.linalg._promote_arg_dtypes": 37
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/numpy/lax_numpy.py": [
+        {
+            "jax.numpy.lax_numpy._promote_shapes": 133
+        },
+        {
+            "jax.numpy.lax_numpy._promote_dtypes": 143
+        },
+        {
+            "jax.numpy.lax_numpy._promote_to_result_dtype": 155
+        },
+        {
+            "jax.numpy.lax_numpy._result_dtype": 161
+        },
+        {
+            "jax.numpy.lax_numpy._check_arraylike": 167
+        },
+        {
+            "jax.numpy.lax_numpy._promote_args": 176
+        },
+        {
+            "jax.numpy.lax_numpy._promote_args_like": 182
+        },
+        {
+            "jax.numpy.lax_numpy.op": 309
+        },
+        {
+            "jax.numpy.lax_numpy.broadcast_arrays": 654
+        },
+        {
+            "jax.numpy.lax_numpy.nan_reduction": 929
+        },
+        {
+            "jax.numpy.lax_numpy.atleast_1d": 1059
+        },
+        {
+            "jax.numpy.lax_numpy.atleast_2d": 1068
+        },
+        {
+            "jax.numpy.lax_numpy.arange": 1167
+        },
+        {
+            "jax.numpy.lax_numpy.einsum": 1410
+        },
+        {
+            "jax.numpy.lax_numpy.wrapped": 1989
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/interpreters/pxla.py": [
+        {
+            "jax.interpreters.pxla.move_output_axis_transform": 64
+        },
+        {
+            "jax.interpreters.pxla.compile_replicated": 226
+        },
+        {
+            "jax.interpreters.pxla.replicated_computation": 232
+        },
+        {
+            "jax.interpreters.pxla.xla_pcall_impl": 289
+        },
+        {
+            "jax.interpreters.pxla.xla_parallel_callable": 312
+        },
+        {
+            "jax.interpreters.pxla.execute_replicated": 328
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/interpreters/batching.py": [
+        {
+            "jax.interpreters.batching.batch_subtrace": 63
+        },
+        {
+            "jax.interpreters.batching.vectorized_batcher": 215
+        },
+        {
+            "jax.interpreters.batching.broadcast_batcher": 222
+        },
+        {
+            "jax.interpreters.batching.reducer_batcher": 231
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/interpreters/partial_eval.py": [
+        {
+            "jax.interpreters.partial_eval.partial_eval_wrapper": 112
+        },
+        {
+            "jax.interpreters.partial_eval.abstract_eval_unimplemented": 194
+        },
+        {
+            "jax.interpreters.partial_eval.trace_unwrapped_to_jaxpr": 249
+        },
+        {
+            "jax.interpreters.partial_eval.trace_to_jaxpr": 252
+        },
+        {
+            "jax.interpreters.partial_eval.eval_jaxpr_raw": 353
+        },
+        {
+            "jax.interpreters.partial_eval.compiled_call_impl": 380
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/interpreters/parallel.py": [
+        {
+            "jax.interpreters.parallel.pmap_transform": 54
+        },
+        {
+            "jax.interpreters.parallel.pmap_subtrace": 65
+        },
+        {
+            "jax.interpreters.parallel.axisvar_split": 171
+        },
+        {
+            "jax.interpreters.parallel.axisvar_split_subtrace": 182
+        },
+        {
+            "jax.interpreters.parallel.vectorized_papply": 382
+        },
+        {
+            "jax.interpreters.parallel.broadcasting_papply": 410
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/interpreters/ad.py": [
+        {
+            "jax.interpreters.ad.pack_output": 58
+        },
+        {
+            "jax.interpreters.ad.linearize": 62
+        },
+        {
+            "jax.interpreters.ad.linear_jvp": 282
+        },
+        {
+            "jax.interpreters.ad.linear_transpose": 291
+        },
+        {
+            "jax.interpreters.ad.defjvp": 295
+        },
+        {
+            "jax.interpreters.ad.standard_jvp": 300
+        },
+        {
+            "jax.interpreters.ad.defjvp2": 307
+        },
+        {
+            "jax.interpreters.ad.standard_jvp2": 312
+        },
+        {
+            "jax.interpreters.ad.bilinear_transpose": 337
+        },
+        {
+            "jax.interpreters.ad.zero_jvp": 352
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.1.18/interpreters/xla.py": [
+        {
+            "jax.interpreters.xla.apply_primitive": 47
+        },
+        {
+            "jax.interpreters.xla.xla_primitive_callable": 53
+        },
+        {
+            "jax.interpreters.xla.primitive_computation": 62
+        },
+        {
+            "jax.interpreters.xla.execute_compiled_primitive": 76
+        },
+        {
+            "jax.interpreters.xla.compile_jaxpr": 116
+        },
+        {
+            "jax.interpreters.xla.jaxpr_computation": 122
+        },
+        {
+            "jax.interpreters.xla.forward_method": 234
+        },
+        {
+            "jax.interpreters.xla.flatten_fun": 376
+        },
+        {
+            "jax.interpreters.xla.xla_call_impl": 412
+        },
+        {
+            "jax.interpreters.xla.xla_callable": 426
+        },
+        {
+            "jax.interpreters.xla.execute_compiled": 436
+        },
+        {
+            "jax.interpreters.xla.xla_call_translation_rule": 442
+        }
+    ]
+}

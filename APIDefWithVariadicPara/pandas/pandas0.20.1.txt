@@ -1,0 +1,2508 @@
+{
+    "/home/zhang/Packages/pandas/pandas0.20.1/tseries/offsets.py": [
+        {
+            "pandas.tseries.offsets.DateOffset.__init__": 191
+        },
+        {
+            "pandas.tseries.offsets.BusinessDay.__init__": 589
+        },
+        {
+            "pandas.tseries.offsets.BusinessHourMixin.__init__": 704
+        },
+        {
+            "pandas.tseries.offsets.BusinessHour.__init__": 934
+        },
+        {
+            "pandas.tseries.offsets.CustomBusinessDay.__init__": 973
+        },
+        {
+            "pandas.tseries.offsets.CustomBusinessHour.__init__": 1083
+        },
+        {
+            "pandas.tseries.offsets.SemiMonthOffset.__init__": 1172
+        },
+        {
+            "pandas.tseries.offsets.CustomBusinessMonthEnd.__init__": 1465
+        },
+        {
+            "pandas.tseries.offsets.CustomBusinessMonthBegin.__init__": 1525
+        },
+        {
+            "pandas.tseries.offsets.Week.__init__": 1571
+        },
+        {
+            "pandas.tseries.offsets.WeekOfMonth.__init__": 1689
+        },
+        {
+            "pandas.tseries.offsets.LastWeekOfMonth.__init__": 1783
+        },
+        {
+            "pandas.tseries.offsets.QuarterOffset.__init__": 1856
+        },
+        {
+            "pandas.tseries.offsets.QuarterEnd.__init__": 1979
+        },
+        {
+            "pandas.tseries.offsets.YearOffset.__init__": 2057
+        },
+        {
+            "pandas.tseries.offsets.FY5253.__init__": 2301
+        },
+        {
+            "pandas.tseries.offsets.FY5253._from_name": 2478
+        },
+        {
+            "pandas.tseries.offsets.FY5253Quarter.__init__": 2529
+        },
+        {
+            "pandas.tseries.offsets.FY5253Quarter._from_name": 2635
+        },
+        {
+            "pandas.tseries.offsets.Easter.__init__": 2649
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/test_resample.py": [
+        {
+            "pandas.tests.test_resample.Base.create_index": 694
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/test_window.py": [
+        {
+            "pandas.tests.test_window.TestMoments.roll_mean": 1123
+        },
+        {
+            "pandas.tests.test_window.TestMoments._check_moment_func": 1249
+        },
+        {
+            "pandas.tests.test_window.TestMoments._check_ndarray": 1276
+        },
+        {
+            "pandas.tests.test_window.TestMoments._check_structures": 1361
+        },
+        {
+            "pandas.tests.test_window.TestMomentsConsistency._check_pairwise_moment": 2388
+        },
+        {
+            "pandas.tests.test_window.TestMomentsConsistency.func": 2459
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/test_base.py": [
+        {
+            "pandas.tests.test_base.CheckImmutable.check_mutable_error": 47
+        },
+        {
+            "pandas.tests.test_base.TestPandasDelegate.Delegator.bar": 103
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/test_nanops.py": [
+        {
+            "pandas.tests.test_nanops.TestnanopsDataFrame.check_fun_data": 183
+        },
+        {
+            "pandas.tests.test_nanops.TestnanopsDataFrame.check_fun": 223
+        },
+        {
+            "pandas.tests.test_nanops.TestnanopsDataFrame.check_funs": 240
+        },
+        {
+            "pandas.tests.test_nanops.TestnanopsDataFrame._badobj_wrap": 313
+        },
+        {
+            "pandas.tests.test_nanops.TestnanopsDataFrame.check_nancorr_nancov_2d": 469
+        },
+        {
+            "pandas.tests.test_nanops.TestnanopsDataFrame.check_nancorr_nancov_1d": 500
+        },
+        {
+            "pandas.tests.test_nanops.TestnanopsDataFrame.check_bool": 650
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/test_expressions.py": [
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_frame": 150
+        },
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_series": 166
+        },
+        {
+            "pandas.tests.test_expressions.TestExpressions.run_panel": 179
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/tseries/test_offsets.py": [
+        {
+            "pandas.tests.tseries.test_offsets.makeFY5253LastOfMonthQuarter": 3215
+        },
+        {
+            "pandas.tests.tseries.test_offsets.makeFY5253NearestEndMonthQuarter": 3219
+        },
+        {
+            "pandas.tests.tseries.test_offsets.makeFY5253NearestEndMonth": 3223
+        },
+        {
+            "pandas.tests.tseries.test_offsets.makeFY5253LastOfMonth": 3227
+        },
+        {
+            "pandas.tests.tseries.test_offsets.TestDST._test_all_offsets": 4798
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/frame/test_constructors.py": [
+        {
+            "pandas.tests.frame.test_constructors.TestDataFrameConstructors.Record.__init__": 1871
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/frame/test_subclass.py": [
+        {
+            "pandas.tests.frame.test_subclass.TestDataFrameSubclassing.CustomDataFrame.__init__": 36
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/frame/test_apply.py": [
+        {
+            "pandas.tests.frame.test_apply.zip_frames": 473
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/computation/test_eval.py": [
+        {
+            "pandas.tests.computation.test_eval.should_warn": 825
+        },
+        {
+            "pandas.tests.computation.test_eval.TestOperationsNumExprPandas.eval": 1081
+        },
+        {
+            "pandas.tests.computation.test_eval.TestMathPythonPython.eval": 1597
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/series/test_operators.py": [
+        {
+            "pandas.tests.series.test_operators.TestSeriesOperators.timedelta64": 588
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/scalar/test_period.py": [
+        {
+            "pandas.tests.scalar.test_period.TestPeriodProperties._ex": 651
+        },
+        {
+            "pandas.tests.scalar.test_period.TestPeriodProperties._ex": 695
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/util/test_hashing.py": [
+        {
+            "pandas.tests.util.test_hashing.TestHashing.check_equal": 53
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/util/test_testing.py": [
+        {
+            "pandas.tests.util.test_testing.TestAssertAlmostEqual._assert_almost_equal_both": 17
+        },
+        {
+            "pandas.tests.util.test_testing.TestAssertAlmostEqual._assert_not_almost_equal_both": 21
+        },
+        {
+            "pandas.tests.util.test_testing.TestAssertSeriesEqual._assert_equal": 491
+        },
+        {
+            "pandas.tests.util.test_testing.TestAssertSeriesEqual._assert_not_equal": 495
+        },
+        {
+            "pandas.tests.util.test_testing.TestAssertFrameEqual._assert_equal": 585
+        },
+        {
+            "pandas.tests.util.test_testing.TestAssertFrameEqual._assert_not_equal": 589
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/test_html.py": [
+        {
+            "pandas.tests.io.test_html.assert_framelist_equal": 66
+        },
+        {
+            "pandas.tests.io.test_html.ReadHtmlMixin.read_html": 91
+        },
+        {
+            "pandas.tests.io.test_html.TestReadHtml._bank_data": 308
+        },
+        {
+            "pandas.tests.io.test_html.TestReadHtmlEncoding.read_html": 788
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/test_pytables.py": [
+        {
+            "pandas.tests.io.test_pytables.TestHDFStore.roundtrip": 194
+        },
+        {
+            "pandas.tests.io.test_pytables.TestHDFStore._check_roundtrip": 4252
+        },
+        {
+            "pandas.tests.io.test_pytables.TestHDFStore._check_double_roundtrip": 4263
+        },
+        {
+            "pandas.tests.io.test_pytables.TestHDFStore.do_copy": 4463
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/test_packers.py": [
+        {
+            "pandas.tests.io.test_packers.TestPackers.encode_decode": 101
+        },
+        {
+            "pandas.tests.io.test_packers.TestSparse._check_roundtrip": 536
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/test_sql.py": [
+        {
+            "pandas.tests.io.test_sql.format_query": 2049
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/test_excel.py": [
+        {
+            "pandas.tests.io.test_excel.SharedItems.get_exceldf": 132
+        },
+        {
+            "pandas.tests.io.test_excel.wrapped": 1865
+        },
+        {
+            "pandas.tests.io.test_excel.ExcelWriterEngineTests.DummyClass.write_cells": 2329
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/json/test_ujson.py": [
+        {
+            "pandas.tests.io.json.test_ujson.UltraJSONTests.helper": 87
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/formats/test_printing.py": [
+        {
+            "pandas.tests.io.formats.test_printing.TestFormattBase.just": 80
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/parser/parse_dates.py": [
+        {
+            "pandas.tests.io.parser.parse_dates.ParseDatesTests.func": 55
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/parser/test_parsers.py": [
+        {
+            "pandas.tests.io.parser.test_parsers.BaseParser.read_csv": 36
+        },
+        {
+            "pandas.tests.io.parser.test_parsers.BaseParser.read_table": 39
+        },
+        {
+            "pandas.tests.io.parser.test_parsers.TestCParserHighMemory.read_csv": 58
+        },
+        {
+            "pandas.tests.io.parser.test_parsers.TestCParserHighMemory.read_table": 64
+        },
+        {
+            "pandas.tests.io.parser.test_parsers.TestCParserLowMemory.read_csv": 76
+        },
+        {
+            "pandas.tests.io.parser.test_parsers.TestCParserLowMemory.read_table": 82
+        },
+        {
+            "pandas.tests.io.parser.test_parsers.TestPythonParser.read_csv": 93
+        },
+        {
+            "pandas.tests.io.parser.test_parsers.TestPythonParser.read_table": 98
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/io/parser/test_textreader.py": [
+        {
+            "pandas.tests.io.parser.test_textreader.TestTextReader._make_reader": 246
+        },
+        {
+            "pandas.tests.io.parser.test_textreader.TestTextReader._make_reader": 274
+        },
+        {
+            "pandas.tests.io.parser.test_textreader.TestTextReader._make_reader": 293
+        },
+        {
+            "pandas.tests.io.parser.test_textreader.TestTextReader._make_reader": 320
+        },
+        {
+            "pandas.tests.io.parser.test_textreader.TestTextReader._test": 332
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/plotting/test_misc.py": [
+        {
+            "pandas.tests.plotting.test_misc.TestDataFramePlots.scat": 62
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/plotting/common.py": [
+        {
+            "pandas.tests.plotting.common._check_plot_works": 530
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tests/plotting/test_datetimelike.py": [
+        {
+            "pandas.tests.plotting.test_datetimelike._check_plot_works": 1339
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tools/hashing.py": [
+        {
+            "pandas.tools.hashing.wrapper": 9
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tools/plotting.py": [
+        {
+            "pandas.tools.plotting.wrapper": 13
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/tools/merge.py": [
+        {
+            "pandas.tools.merge.wrapper": 7
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/compat/chainmap_impl.py": [
+        {
+            "pandas.compat.chainmap_impl.ChainMap.__init__": 48
+        },
+        {
+            "pandas.compat.chainmap_impl.ChainMap.fromkeys": 90
+        },
+        {
+            "pandas.compat.chainmap_impl.ChainMap.pop": 137
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/compat/__init__.py": [
+        {
+            "pandas.compat.__init__.lrange": 117
+        },
+        {
+            "pandas.compat.__init__.lzip": 120
+        },
+        {
+            "pandas.compat.__init__.lmap": 123
+        },
+        {
+            "pandas.compat.__init__.lfilter": 126
+        },
+        {
+            "pandas.compat.__init__.iteritems": 166
+        },
+        {
+            "pandas.compat.__init__.iterkeys": 169
+        },
+        {
+            "pandas.compat.__init__.itervalues": 172
+        },
+        {
+            "pandas.compat.__init__.iteritems": 177
+        },
+        {
+            "pandas.compat.__init__.iterkeys": 180
+        },
+        {
+            "pandas.compat.__init__.itervalues": 183
+        },
+        {
+            "pandas.compat.__init__.parse_date": 365
+        },
+        {
+            "pandas.compat.__init__.OrderedDefaultdict.__init__": 378
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/compat/numpy/__init__.py": [
+        {
+            "pandas.compat.numpy.__init__.np_datetime64_compat": 39
+        },
+        {
+            "pandas.compat.numpy.__init__.np_array_datetime64_compat": 51
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/util/testing.py": [
+        {
+            "pandas.util.testing.assert_almost_equal": 120
+        },
+        {
+            "pandas.util.testing.check_output": 459
+        },
+        {
+            "pandas.util.testing.wrapper": 682
+        },
+        {
+            "pandas.util.testing.wrapper": 730
+        },
+        {
+            "pandas.util.testing.debug": 743
+        },
+        {
+            "pandas.util.testing.pudebug": 755
+        },
+        {
+            "pandas.util.testing.assert_copy": 1595
+        },
+        {
+            "pandas.util.testing.TestSubDict.__init__": 2065
+        },
+        {
+            "pandas.util.testing.wrapper": 2135
+        },
+        {
+            "pandas.util.testing.wrapper": 2310
+        },
+        {
+            "pandas.util.testing.SimpleMock.__init__": 2365
+        },
+        {
+            "pandas.util.testing.assert_raises_regex": 2402
+        },
+        {
+            "pandas.util.testing.inner": 2672
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/util/hashing.py": [
+        {
+            "pandas.util.hashing.wrapper": 9
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/util/_decorators.py": [
+        {
+            "pandas.util._decorators.wrapper": 12
+        },
+        {
+            "pandas.util._decorators.wrapper": 66
+        },
+        {
+            "pandas.util._decorators.Substitution.__init__": 129
+        },
+        {
+            "pandas.util._decorators.Substitution.update": 139
+        },
+        {
+            "pandas.util._decorators.docstring_wrapper.__call__": 260
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/stats/moments.py": [
+        {
+            "pandas.stats.moments.ensure_compat": 180
+        },
+        {
+            "pandas.stats.moments.rolling_count": 247
+        },
+        {
+            "pandas.stats.moments.rolling_cov": 285
+        },
+        {
+            "pandas.stats.moments.rolling_corr": 306
+        },
+        {
+            "pandas.stats.moments.f": 466
+        },
+        {
+            "pandas.stats.moments.rolling_window": 598
+        },
+        {
+            "pandas.stats.moments.f": 678
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/date_converters.py": [
+        {
+            "pandas.io.date_converters.generic_parser": 32
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/pytables.py": [
+        {
+            "pandas.io.pytables.to_hdf": 255
+        },
+        {
+            "pandas.io.pytables.read_hdf": 273
+        },
+        {
+            "pandas.io.pytables.HDFStore.__init__": 425
+        },
+        {
+            "pandas.io.pytables.HDFStore.open": 545
+        },
+        {
+            "pandas.io.pytables.HDFStore.select": 678
+        },
+        {
+            "pandas.io.pytables.HDFStore.select_as_coordinates": 724
+        },
+        {
+            "pandas.io.pytables.HDFStore.select_column": 740
+        },
+        {
+            "pandas.io.pytables.HDFStore.select_as_multiple": 760
+        },
+        {
+            "pandas.io.pytables.HDFStore.put": 843
+        },
+        {
+            "pandas.io.pytables.HDFStore.append": 923
+        },
+        {
+            "pandas.io.pytables.HDFStore.append_to_multiple": 970
+        },
+        {
+            "pandas.io.pytables.HDFStore.create_table_index": 1052
+        },
+        {
+            "pandas.io.pytables.HDFStore._create_storer": 1177
+        },
+        {
+            "pandas.io.pytables.HDFStore._write_to_group": 1263
+        },
+        {
+            "pandas.io.pytables.HDFStore._read_group": 1318
+        },
+        {
+            "pandas.io.pytables.get_store": 1324
+        },
+        {
+            "pandas.io.pytables.IndexCol.__init__": 1451
+        },
+        {
+            "pandas.io.pytables.IndexCol.maybe_set_size": 1594
+        },
+        {
+            "pandas.io.pytables.IndexCol.validate": 1607
+        },
+        {
+            "pandas.io.pytables.IndexCol.validate_and_set": 1613
+        },
+        {
+            "pandas.io.pytables.DataCol.create_for_block": 1753
+        },
+        {
+            "pandas.io.pytables.DataCol.__init__": 1774
+        },
+        {
+            "pandas.io.pytables.DataCol.set_atom": 1850
+        },
+        {
+            "pandas.io.pytables.Fixed.__init__": 2196
+        },
+        {
+            "pandas.io.pytables.Fixed.read": 2324
+        },
+        {
+            "pandas.io.pytables.Fixed.write": 2328
+        },
+        {
+            "pandas.io.pytables.Fixed.delete": 2332
+        },
+        {
+            "pandas.io.pytables.GenericFixed.write": 2408
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_index": 2445
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_block_index": 2495
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_sparse_intindex": 2505
+        },
+        {
+            "pandas.io.pytables.GenericFixed.read_multi_index": 2532
+        },
+        {
+            "pandas.io.pytables.LegacySeriesFixed.read": 2701
+        },
+        {
+            "pandas.io.pytables.LegacyFrameFixed.read": 2710
+        },
+        {
+            "pandas.io.pytables.SeriesFixed.read": 2729
+        },
+        {
+            "pandas.io.pytables.SeriesFixed.write": 2735
+        },
+        {
+            "pandas.io.pytables.SparseSeriesFixed.read": 2759
+        },
+        {
+            "pandas.io.pytables.SparseSeriesFixed.write": 2769
+        },
+        {
+            "pandas.io.pytables.SparseFrameFixed.read": 2783
+        },
+        {
+            "pandas.io.pytables.SparseFrameFixed.write": 2796
+        },
+        {
+            "pandas.io.pytables.BlockManagerFixed.read": 2847
+        },
+        {
+            "pandas.io.pytables.BlockManagerFixed.write": 2873
+        },
+        {
+            "pandas.io.pytables.PanelFixed.write": 2906
+        },
+        {
+            "pandas.io.pytables.Table.__init__": 2942
+        },
+        {
+            "pandas.io.pytables.Table.read_axes": 3289
+        },
+        {
+            "pandas.io.pytables.Table.create_axes": 3349
+        },
+        {
+            "pandas.io.pytables.Table.read_coordinates": 3645
+        },
+        {
+            "pandas.io.pytables.Table.read_column": 3670
+        },
+        {
+            "pandas.io.pytables.WORMTable.read": 3715
+        },
+        {
+            "pandas.io.pytables.WORMTable.write": 3720
+        },
+        {
+            "pandas.io.pytables.LegacyTable.write": 3744
+        },
+        {
+            "pandas.io.pytables.LegacyTable.read": 3747
+        },
+        {
+            "pandas.io.pytables.LegacyFrameTable.read": 3842
+        },
+        {
+            "pandas.io.pytables.AppendableTable.write": 3859
+        },
+        {
+            "pandas.io.pytables.AppendableTable.delete": 4022
+        },
+        {
+            "pandas.io.pytables.AppendableFrameTable.read": 4101
+        },
+        {
+            "pandas.io.pytables.AppendableSeriesTable.write": 4165
+        },
+        {
+            "pandas.io.pytables.AppendableSeriesTable.read": 4174
+        },
+        {
+            "pandas.io.pytables.AppendableMultiSeriesTable.write": 4198
+        },
+        {
+            "pandas.io.pytables.GenericTable.write": 4253
+        },
+        {
+            "pandas.io.pytables.AppendableMultiFrameTable.write": 4269
+        },
+        {
+            "pandas.io.pytables.AppendableMultiFrameTable.read": 4281
+        },
+        {
+            "pandas.io.pytables.Selection.__init__": 4624
+        },
+        {
+            "pandas.io.pytables.timeit": 4731
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/excel.py": [
+        {
+            "pandas.io.excel.read_excel": 192
+        },
+        {
+            "pandas.io.excel.ExcelFile.__init__": 227
+        },
+        {
+            "pandas.io.excel.ExcelFile.parse": 262
+        },
+        {
+            "pandas.io.excel.ExcelFile._parse_excel": 324
+        },
+        {
+            "pandas.io.excel.ExcelWriter.__new__": 675
+        },
+        {
+            "pandas.io.excel.ExcelWriter.__init__": 734
+        },
+        {
+            "pandas.io.excel._Openpyxl1Writer.__init__": 795
+        },
+        {
+            "pandas.io.excel._XlwtWriter.__init__": 1404
+        },
+        {
+            "pandas.io.excel._XlsxWriter.__init__": 1534
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/stata.py": [
+        {
+            "pandas.io.stata.StataReader.data": 1409
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/gbq.py": [
+        {
+            "pandas.io.gbq.read_gbq": 24
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/packers.py": [
+        {
+            "pandas.io.packers.to_msgpack": 120
+        },
+        {
+            "pandas.io.packers.read_msgpack": 163
+        },
+        {
+            "pandas.io.packers.Iterator.__init__": 751
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/common.py": [
+        {
+            "pandas.io.common.urlopen": 71
+        },
+        {
+            "pandas.io.common.UnicodeReader": 473
+        },
+        {
+            "pandas.io.common.UnicodeWriter": 477
+        },
+        {
+            "pandas.io.common.UnicodeReader.__init__": 490
+        },
+        {
+            "pandas.io.common.UnicodeWriter.__init__": 505
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/sql.py": [
+        {
+            "pandas.io.sql.compile_big_int_sqlite": 79
+        },
+        {
+            "pandas.io.sql.PandasSQL.read_sql": 931
+        },
+        {
+            "pandas.io.sql.PandasSQL.to_sql": 935
+        },
+        {
+            "pandas.io.sql.SQLDatabase.execute": 976
+        },
+        {
+            "pandas.io.sql.SQLiteTable.__init__": 1260
+        },
+        {
+            "pandas.io.sql.SQLiteDatabase.execute": 1395
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/api.py": [
+        {
+            "pandas.io.api.Term": 22
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/html.py": [
+        {
+            "pandas.io.html._BeautifulSoupHtml5LibFrameParser.__init__": 398
+        },
+        {
+            "pandas.io.html._LxmlFrameParser.__init__": 502
+        },
+        {
+            "pandas.io.html._data_to_frame": 626
+        },
+        {
+            "pandas.io.html._parse": 726
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/parsers.py": [
+        {
+            "pandas.io.parsers.read_fwf": 670
+        },
+        {
+            "pandas.io.parsers.TextFileReader.__init__": 697
+        },
+        {
+            "pandas.io.parsers.CParserWrapper.__init__": 1566
+        },
+        {
+            "pandas.io.parsers.TextParser": 1828
+        },
+        {
+            "pandas.io.parsers.PythonParser.__init__": 1892
+        },
+        {
+            "pandas.io.parsers.converter": 2883
+        },
+        {
+            "pandas.io.parsers.FixedWidthFieldParser.__init__": 3282
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/clipboard/clipboard.py": [
+        {
+            "pandas.io.clipboard.clipboard.read_clipboard": 6
+        },
+        {
+            "pandas.io.clipboard.clipboard.to_clipboard": 66
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/clipboard/windows.py": [
+        {
+            "pandas.io.clipboard.windows.CheckedCall.__call__": 16
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/clipboard/clipboards.py": [
+        {
+            "pandas.io.clipboard.clipboards.ClipboardUnavailable.__call__": 126
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/formats/format.py": [
+        {
+            "pandas.io.formats.format.TextAdjustment.adjoin": 292
+        },
+        {
+            "pandas.io.formats.format.DataFrameFormatter.__init__": 365
+        },
+        {
+            "pandas.io.formats.format.DataFrameFormatter._join_multiline": 631
+        },
+        {
+            "pandas.io.formats.format.FloatArrayFormatter.__init__": 1827
+        },
+        {
+            "pandas.io.formats.format.Datetime64Formatter.__init__": 1967
+        },
+        {
+            "pandas.io.formats.format.IntervalArrayFormatter.__init__": 1993
+        },
+        {
+            "pandas.io.formats.format.CategoricalArrayFormatter.__init__": 2019
+        },
+        {
+            "pandas.io.formats.format.Timedelta64Formatter.__init__": 2166
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/formats/style.py": [
+        {
+            "pandas.io.formats.style.Styler.render": 390
+        },
+        {
+            "pandas.io.formats.style.Styler._apply": 503
+        },
+        {
+            "pandas.io.formats.style.Styler.apply": 533
+        },
+        {
+            "pandas.io.formats.style.Styler._applymap": 584
+        },
+        {
+            "pandas.io.formats.style.Styler.applymap": 593
+        },
+        {
+            "pandas.io.formats.style.Styler.set_properties": 842
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/formats/printing.py": [
+        {
+            "pandas.io.formats.printing.adjoin": 12
+        },
+        {
+            "pandas.io.formats.printing._pprint_seq": 97
+        },
+        {
+            "pandas.io.formats.printing._pprint_dict": 129
+        },
+        {
+            "pandas.io.formats.printing.pprint_thing_encoded": 234
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/io/msgpack/__init__.py": [
+        {
+            "pandas.io.msgpack.__init__.pack": 26
+        },
+        {
+            "pandas.io.msgpack.__init__.packb": 36
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexing.py": [
+        {
+            "pandas.core.indexing.maybe_convert_ix": 2001
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/internals.py": [
+        {
+            "pandas.core.internals.Block.make_block": 196
+        },
+        {
+            "pandas.core.internals.Block.make_block_scalar": 208
+        },
+        {
+            "pandas.core.internals.Block.make_block_same_class": 214
+        },
+        {
+            "pandas.core.internals.Block.apply": 352
+        },
+        {
+            "pandas.core.internals.Block.astype": 469
+        },
+        {
+            "pandas.core.internals.Block._astype": 473
+        },
+        {
+            "pandas.core.internals.Block.convert": 540
+        },
+        {
+            "pandas.core.internals.Block.to_native_types": 607
+        },
+        {
+            "pandas.core.internals.Block._replace_single": 668
+        },
+        {
+            "pandas.core.internals.Block.interpolate": 908
+        },
+        {
+            "pandas.core.internals.Block._interpolate": 984
+        },
+        {
+            "pandas.core.internals.Block._nanpercentile1D": 1342
+        },
+        {
+            "pandas.core.internals.Block._nanpercentile": 1354
+        },
+        {
+            "pandas.core.internals.NonConsolidatableMixIn.__init__": 1457
+        },
+        {
+            "pandas.core.internals.FloatBlock.to_native_types": 1595
+        },
+        {
+            "pandas.core.internals.TimeDeltaBlock.fillna": 1711
+        },
+        {
+            "pandas.core.internals.TimeDeltaBlock.to_native_types": 1776
+        },
+        {
+            "pandas.core.internals.ObjectBlock.__init__": 1838
+        },
+        {
+            "pandas.core.internals.ObjectBlock.convert": 1854
+        },
+        {
+            "pandas.core.internals.CategoricalBlock.__init__": 2091
+        },
+        {
+            "pandas.core.internals.CategoricalBlock.convert": 2106
+        },
+        {
+            "pandas.core.internals.CategoricalBlock.interpolate": 2146
+        },
+        {
+            "pandas.core.internals.CategoricalBlock.to_native_types": 2199
+        },
+        {
+            "pandas.core.internals.DatetimeBlock.__init__": 2219
+        },
+        {
+            "pandas.core.internals.DatetimeBlock._astype": 2226
+        },
+        {
+            "pandas.core.internals.DatetimeBlock.to_native_types": 2323
+        },
+        {
+            "pandas.core.internals.DatetimeTZBlock.__init__": 2364
+        },
+        {
+            "pandas.core.internals.SparseBlock._astype": 2566
+        },
+        {
+            "pandas.core.internals.SparseBlock.make_block_same_class": 2586
+        },
+        {
+            "pandas.core.internals.SparseBlock.interpolate": 2620
+        },
+        {
+            "pandas.core.internals.BlockManager.apply": 3013
+        },
+        {
+            "pandas.core.internals.BlockManager.reduction": 3101
+        },
+        {
+            "pandas.core.internals.BlockManager.isnull": 3190
+        },
+        {
+            "pandas.core.internals.BlockManager.where": 3193
+        },
+        {
+            "pandas.core.internals.BlockManager.eval": 3196
+        },
+        {
+            "pandas.core.internals.BlockManager.quantile": 3199
+        },
+        {
+            "pandas.core.internals.BlockManager.setitem": 3202
+        },
+        {
+            "pandas.core.internals.BlockManager.putmask": 3205
+        },
+        {
+            "pandas.core.internals.BlockManager.diff": 3208
+        },
+        {
+            "pandas.core.internals.BlockManager.interpolate": 3211
+        },
+        {
+            "pandas.core.internals.BlockManager.shift": 3214
+        },
+        {
+            "pandas.core.internals.BlockManager.fillna": 3217
+        },
+        {
+            "pandas.core.internals.BlockManager.downcast": 3220
+        },
+        {
+            "pandas.core.internals.BlockManager.astype": 3223
+        },
+        {
+            "pandas.core.internals.BlockManager.convert": 3226
+        },
+        {
+            "pandas.core.internals.BlockManager.replace": 3229
+        },
+        {
+            "pandas.core.internals.BlockManager.reshape_nd": 3292
+        },
+        {
+            "pandas.core.internals.SingleBlockManager.convert": 4189
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/resample.py": [
+        {
+            "pandas.core.resample.Resampler.__init__": 76
+        },
+        {
+            "pandas.core.resample.Resampler.plot": 253
+        },
+        {
+            "pandas.core.resample.Resampler.aggregate": 307
+        },
+        {
+            "pandas.core.resample.Resampler.transform": 322
+        },
+        {
+            "pandas.core.resample.Resampler._groupby_and_aggregate": 374
+        },
+        {
+            "pandas.core.resample.Resampler._get_resampler_for_grouping": 426
+        },
+        {
+            "pandas.core.resample.Resampler.interpolate": 489
+        },
+        {
+            "pandas.core.resample.Resampler.std": 522
+        },
+        {
+            "pandas.core.resample.Resampler.var": 534
+        },
+        {
+            "pandas.core.resample.f": 553
+        },
+        {
+            "pandas.core.resample._GroupByMixin.__init__": 624
+        },
+        {
+            "pandas.core.resample._GroupByMixin._apply": 642
+        },
+        {
+            "pandas.core.resample.DatetimeIndexResampler._downsample": 677
+        },
+        {
+            "pandas.core.resample.PeriodIndexResampler.aggregate": 811
+        },
+        {
+            "pandas.core.resample.PeriodIndexResampler._downsample": 834
+        },
+        {
+            "pandas.core.resample.resample": 960
+        },
+        {
+            "pandas.core.resample.get_resampler_for_grouping": 969
+        },
+        {
+            "pandas.core.resample.TimeGrouper.__init__": 1004
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/series.py": [
+        {
+            "pandas.core.series.Series._update_inplace": 316
+        },
+        {
+            "pandas.core.series.Series.compress": 413
+        },
+        {
+            "pandas.core.series.Series.put": 450
+        },
+        {
+            "pandas.core.series.Series.repeat": 835
+        },
+        {
+            "pandas.core.series.Series.reshape": 850
+        },
+        {
+            "pandas.core.series.Series.idxmin": 1213
+        },
+        {
+            "pandas.core.series.Series.idxmax": 1241
+        },
+        {
+            "pandas.core.series.Series.round": 1273
+        },
+        {
+            "pandas.core.series.Series.aggregate": 2203
+        },
+        {
+            "pandas.core.series.Series.apply": 2230
+        },
+        {
+            "pandas.core.series.Series._reduce": 2364
+        },
+        {
+            "pandas.core.series.Series.rename": 2414
+        },
+        {
+            "pandas.core.series.Series.reindex": 2425
+        },
+        {
+            "pandas.core.series.Series.fillna": 2429
+        },
+        {
+            "pandas.core.series.Series.reindex_axis": 2440
+        },
+        {
+            "pandas.core.series.Series.take": 2475
+        },
+        {
+            "pandas.core.series.Series.dropna": 2705
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/groupby.py": [
+        {
+            "pandas.core.groupby.Grouper.__new__": 234
+        },
+        {
+            "pandas.core.groupby.GroupByPlot.__call__": 345
+        },
+        {
+            "pandas.core.groupby.GroupByPlot.attr": 352
+        },
+        {
+            "pandas.core.groupby._GroupBy.__init__": 363
+        },
+        {
+            "pandas.core.groupby._GroupBy.wrapper": 574
+        },
+        {
+            "pandas.core.groupby._GroupBy.apply": 656
+        },
+        {
+            "pandas.core.groupby._GroupBy.transform": 730
+        },
+        {
+            "pandas.core.groupby._GroupBy._python_agg_general": 840
+        },
+        {
+            "pandas.core.groupby._GroupBy._wrap_applied_output": 870
+        },
+        {
+            "pandas.core.groupby.GroupBy.mean": 1029
+        },
+        {
+            "pandas.core.groupby.GroupBy.median": 1047
+        },
+        {
+            "pandas.core.groupby.GroupBy.std": 1069
+        },
+        {
+            "pandas.core.groupby.GroupBy.var": 1087
+        },
+        {
+            "pandas.core.groupby.GroupBy.f": 1144
+        },
+        {
+            "pandas.core.groupby.GroupBy.describe": 1217
+        },
+        {
+            "pandas.core.groupby.GroupBy.resample": 1226
+        },
+        {
+            "pandas.core.groupby.GroupBy.rolling": 1236
+        },
+        {
+            "pandas.core.groupby.GroupBy.expanding": 1247
+        },
+        {
+            "pandas.core.groupby.GroupBy.cumprod": 1494
+        },
+        {
+            "pandas.core.groupby.GroupBy.cumsum": 1504
+        },
+        {
+            "pandas.core.groupby.GroupBy.cummin": 1514
+        },
+        {
+            "pandas.core.groupby.GroupBy.cummax": 1523
+        },
+        {
+            "pandas.core.groupby.groupby": 1618
+        },
+        {
+            "pandas.core.groupby.BaseGrouper.wrapper": 1921
+        },
+        {
+            "pandas.core.groupby.SeriesGroupBy.aggregate": 2793
+        },
+        {
+            "pandas.core.groupby.SeriesGroupBy._aggregate_named": 2937
+        },
+        {
+            "pandas.core.groupby.SeriesGroupBy.transform": 2951
+        },
+        {
+            "pandas.core.groupby.SeriesGroupBy.filter": 3008
+        },
+        {
+            "pandas.core.groupby.SeriesGroupBy.true_and_notnull": 3044
+        },
+        {
+            "pandas.core.groupby.SeriesGroupBy.describe": 3109
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy.aggregate": 3390
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy._aggregate_generic": 3423
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy._aggregate_item_by_item": 3453
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy._transform_general": 3677
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy.transform": 3729
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy._define_paths": 3775
+        },
+        {
+            "pandas.core.groupby.NDFrameGroupBy.filter": 3826
+        },
+        {
+            "pandas.core.groupby.DataFrameGroupBy.aggregate": 3960
+        },
+        {
+            "pandas.core.groupby.PanelGroupBy.aggregate": 4218
+        },
+        {
+            "pandas.core.groupby.PanelGroupBy.aggregate": 4240
+        },
+        {
+            "pandas.core.groupby.PanelGroupBy._aggregate_item_by_item": 4280
+        },
+        {
+            "pandas.core.groupby.get_splitter": 4415
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/panel.py": [
+        {
+            "pandas.core.panel.Panel._init_data": 150
+        },
+        {
+            "pandas.core.panel.Panel.to_sparse": 401
+        },
+        {
+            "pandas.core.panel.Panel.to_excel": 411
+        },
+        {
+            "pandas.core.panel.Panel.get_value": 469
+        },
+        {
+            "pandas.core.panel.Panel.set_value": 505
+        },
+        {
+            "pandas.core.panel.Panel.round": 632
+        },
+        {
+            "pandas.core.panel.Panel.align": 664
+        },
+        {
+            "pandas.core.panel.Panel.apply": 967
+        },
+        {
+            "pandas.core.panel.Panel._reduce": 1115
+        },
+        {
+            "pandas.core.panel.Panel.reindex": 1177
+        },
+        {
+            "pandas.core.panel.Panel.rename": 1186
+        },
+        {
+            "pandas.core.panel.Panel.transpose": 1203
+        },
+        {
+            "pandas.core.panel.Panel.fillna": 1221
+        },
+        {
+            "pandas.core.panel.Panel._extract_axes": 1369
+        },
+        {
+            "pandas.core.panel.Panel._panel_arith_method": 1502
+        },
+        {
+            "pandas.core.panel.WidePanel.__init__": 1576
+        },
+        {
+            "pandas.core.panel.LongPanel.__init__": 1586
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/common.py": [
+        {
+            "pandas.core.common.wrapper": 34
+        },
+        {
+            "pandas.core.common.wrapper": 59
+        },
+        {
+            "pandas.core.common.array_equivalent": 73
+        },
+        {
+            "pandas.core.common._mut_exclusive": 210
+        },
+        {
+            "pandas.core.common._not_none": 223
+        },
+        {
+            "pandas.core.common._any_none": 227
+        },
+        {
+            "pandas.core.common._all_not_none": 234
+        },
+        {
+            "pandas.core.common._count_not_none": 241
+        },
+        {
+            "pandas.core.common.union": 331
+        },
+        {
+            "pandas.core.common.intersection": 344
+        },
+        {
+            "pandas.core.common._apply_if_callable": 435
+        },
+        {
+            "pandas.core.common._all_none": 445
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/missing.py": [
+        {
+            "pandas.core.missing.clean_interp_method": 97
+        },
+        {
+            "pandas.core.missing.interpolate_1d": 113
+        },
+        {
+            "pandas.core.missing._interpolate_scipy_wrapper": 231
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/base.py": [
+        {
+            "pandas.core.base.PandasDelegate._delegate_property_get": 168
+        },
+        {
+            "pandas.core.base.PandasDelegate._delegate_property_set": 172
+        },
+        {
+            "pandas.core.base.PandasDelegate._delegate_method": 175
+        },
+        {
+            "pandas.core.base.PandasDelegate.f": 210
+        },
+        {
+            "pandas.core.base.SelectionMixin.aggregate": 373
+        },
+        {
+            "pandas.core.base.SelectionMixin._try_aggregate_string_function": 378
+        },
+        {
+            "pandas.core.base.SelectionMixin._aggregate": 398
+        },
+        {
+            "pandas.core.base.SelectionMixin._shallow_copy": 700
+        },
+        {
+            "pandas.core.base.GroupByMixin._dispatch": 729
+        },
+        {
+            "pandas.core.base.GroupByMixin.outer": 732
+        },
+        {
+            "pandas.core.base.IndexOpsMixin.transpose": 781
+        },
+        {
+            "pandas.core.base.IndexOpsMixin._reduce": 891
+        },
+        {
+            "pandas.core.base.IndexOpsMixin._update_inplace": 1223
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/frame.py": [
+        {
+            "pandas.core.frame.DataFrame.transpose": 1854
+        },
+        {
+            "pandas.core.frame.DataFrame.query": 2136
+        },
+        {
+            "pandas.core.frame.DataFrame.eval": 2228
+        },
+        {
+            "pandas.core.frame.DataFrame.assign": 2523
+        },
+        {
+            "pandas.core.frame.DataFrame.reindex": 2829
+        },
+        {
+            "pandas.core.frame.DataFrame.rename": 2842
+        },
+        {
+            "pandas.core.frame.DataFrame.fillna": 2847
+        },
+        {
+            "pandas.core.frame.DataFrame.aggregate": 4241
+        },
+        {
+            "pandas.core.frame.DataFrame.apply": 4257
+        },
+        {
+            "pandas.core.frame.DataFrame._apply_empty_result": 4364
+        },
+        {
+            "pandas.core.frame.DataFrame.round": 4822
+        },
+        {
+            "pandas.core.frame.DataFrame._reduce": 5143
+        },
+        {
+            "pandas.core.frame.boxplot": 5939
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/config.py": [
+        {
+            "pandas.core.config._set_option": 104
+        },
+        {
+            "pandas.core.config.CallableDynamicDoc.__call__": 223
+        },
+        {
+            "pandas.core.config.option_context.__init__": 388
+        },
+        {
+            "pandas.core.config.option_context.__exit__": 405
+        },
+        {
+            "pandas.core.config.inner": 720
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/ops.py": [
+        {
+            "pandas.core.ops._arith_method_SERIES": 648
+        },
+        {
+            "pandas.core.ops._flex_method_SERIES": 1033
+        },
+        {
+            "pandas.core.ops._arith_method_FRAME": 1171
+        },
+        {
+            "pandas.core.ops._arith_method_PANEL": 1319
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/window.py": [
+        {
+            "pandas.core.window._Window.__init__": 65
+        },
+        {
+            "pandas.core.window._Window.aggregate": 331
+        },
+        {
+            "pandas.core.window.Window._prep_window": 528
+        },
+        {
+            "pandas.core.window.Window._apply_window": 565
+        },
+        {
+            "pandas.core.window.Window.f": 600
+        },
+        {
+            "pandas.core.window.Window.aggregate": 657
+        },
+        {
+            "pandas.core.window.Window.sum": 671
+        },
+        {
+            "pandas.core.window.Window.mean": 678
+        },
+        {
+            "pandas.core.window._GroupByMixin.__init__": 686
+        },
+        {
+            "pandas.core.window._GroupByMixin._apply": 700
+        },
+        {
+            "pandas.core.window._GroupByMixin.f": 707
+        },
+        {
+            "pandas.core.window._Rolling._apply": 724
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.sum": 857
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.max": 869
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.min": 883
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.mean": 889
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.median": 901
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.std": 915
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.f": 920
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.var": 937
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.skew": 945
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.kurt": 951
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.quantile": 963
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.f": 967
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.cov": 993
+        },
+        {
+            "pandas.core.window._Rolling_and_Expanding.corr": 1031
+        },
+        {
+            "pandas.core.window.Rolling.aggregate": 1180
+        },
+        {
+            "pandas.core.window.Rolling.sum": 1205
+        },
+        {
+            "pandas.core.window.Rolling.max": 1212
+        },
+        {
+            "pandas.core.window.Rolling.min": 1219
+        },
+        {
+            "pandas.core.window.Rolling.mean": 1226
+        },
+        {
+            "pandas.core.window.Rolling.median": 1233
+        },
+        {
+            "pandas.core.window.Rolling.std": 1239
+        },
+        {
+            "pandas.core.window.Rolling.var": 1246
+        },
+        {
+            "pandas.core.window.Rolling.skew": 1253
+        },
+        {
+            "pandas.core.window.Rolling.kurt": 1259
+        },
+        {
+            "pandas.core.window.Rolling.quantile": 1265
+        },
+        {
+            "pandas.core.window.Rolling.cov": 1271
+        },
+        {
+            "pandas.core.window.Rolling.corr": 1278
+        },
+        {
+            "pandas.core.window.Expanding.__init__": 1367
+        },
+        {
+            "pandas.core.window.Expanding.aggregate": 1427
+        },
+        {
+            "pandas.core.window.Expanding.count": 1435
+        },
+        {
+            "pandas.core.window.Expanding.sum": 1447
+        },
+        {
+            "pandas.core.window.Expanding.max": 1454
+        },
+        {
+            "pandas.core.window.Expanding.min": 1461
+        },
+        {
+            "pandas.core.window.Expanding.mean": 1468
+        },
+        {
+            "pandas.core.window.Expanding.median": 1475
+        },
+        {
+            "pandas.core.window.Expanding.std": 1481
+        },
+        {
+            "pandas.core.window.Expanding.var": 1488
+        },
+        {
+            "pandas.core.window.Expanding.skew": 1495
+        },
+        {
+            "pandas.core.window.Expanding.kurt": 1501
+        },
+        {
+            "pandas.core.window.Expanding.quantile": 1507
+        },
+        {
+            "pandas.core.window.Expanding.cov": 1513
+        },
+        {
+            "pandas.core.window.Expanding.corr": 1520
+        },
+        {
+            "pandas.core.window.EWM.aggregate": 1711
+        },
+        {
+            "pandas.core.window.EWM._apply": 1716
+        },
+        {
+            "pandas.core.window.EWM.mean": 1761
+        },
+        {
+            "pandas.core.window.EWM.std": 1769
+        },
+        {
+            "pandas.core.window.EWM.var": 1779
+        },
+        {
+            "pandas.core.window.EWM.cov": 1793
+        },
+        {
+            "pandas.core.window.EWM.corr": 1815
+        },
+        {
+            "pandas.core.window.rolling": 2036
+        },
+        {
+            "pandas.core.window.expanding": 2050
+        },
+        {
+            "pandas.core.window.ewm": 2061
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/generic.py": [
+        {
+            "pandas.core.generic.NDFrame._construct_axes_dict": 273
+        },
+        {
+            "pandas.core.generic.NDFrame._construct_axes_dict_from": 280
+        },
+        {
+            "pandas.core.generic.NDFrame._construct_axes_dict_for_slice": 286
+        },
+        {
+            "pandas.core.generic.NDFrame._from_axes": 329
+        },
+        {
+            "pandas.core.generic.NDFrame.transpose": 495
+        },
+        {
+            "pandas.core.generic.NDFrame.rename": 683
+        },
+        {
+            "pandas.core.generic.NDFrame.to_hdf": 1235
+        },
+        {
+            "pandas.core.generic.NDFrame.to_msgpack": 1284
+        },
+        {
+            "pandas.core.generic.NDFrame.to_clipboard": 1363
+        },
+        {
+            "pandas.core.generic.NDFrame.take": 1798
+        },
+        {
+            "pandas.core.generic.NDFrame.reindex": 2370
+        },
+        {
+            "pandas.core.generic.NDFrame.pipe": 2844
+        },
+        {
+            "pandas.core.generic.NDFrame.__finalize__": 2939
+        },
+        {
+            "pandas.core.generic.NDFrame.astype": 3244
+        },
+        {
+            "pandas.core.generic.NDFrame.interpolate": 3900
+        },
+        {
+            "pandas.core.generic.NDFrame.clip": 4102
+        },
+        {
+            "pandas.core.generic.NDFrame.groupby": 4214
+        },
+        {
+            "pandas.core.generic.NDFrame.pct_change": 5866
+        },
+        {
+            "pandas.core.generic.NDFrame._agg_by_level": 5882
+        },
+        {
+            "pandas.core.generic.NDFrame.transform": 6074
+        },
+        {
+            "pandas.core.generic.stat_func": 6186
+        },
+        {
+            "pandas.core.generic.stat_func": 6206
+        },
+        {
+            "pandas.core.generic.cum_func": 6228
+        },
+        {
+            "pandas.core.generic.logical_func": 6261
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/strings.py": [
+        {
+            "pandas.core.strings.str_wrap": 1151
+        },
+        {
+            "pandas.core.strings._noarg_wrapper": 1318
+        },
+        {
+            "pandas.core.strings._pat_wrapper": 1332
+        },
+        {
+            "pandas.core.strings.wrapper2": 1337
+        },
+        {
+            "pandas.core.strings.StringMethods.wrap": 1683
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/api.py": [
+        {
+            "pandas.core.api.match": 53
+        },
+        {
+            "pandas.core.api.groupby": 63
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/panelnd.py": [
+        {
+            "pandas.core.panelnd.__init__": 52
+        },
+        {
+            "pandas.core.panelnd.func": 123
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/nanops.py": [
+        {
+            "pandas.core.nanops.disallow.__init__": 44
+        },
+        {
+            "pandas.core.nanops.disallow._f": 54
+        },
+        {
+            "pandas.core.nanops.bottleneck_switch.__init__": 77
+        },
+        {
+            "pandas.core.nanops.bottleneck_switch.f": 90
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/categorical.py": [
+        {
+            "pandas.core.categorical.Categorical.reshape": 378
+        },
+        {
+            "pandas.core.categorical.Categorical.from_array": 410
+        },
+        {
+            "pandas.core.categorical.Categorical.put": 1177
+        },
+        {
+            "pandas.core.categorical.Categorical.argsort": 1266
+        },
+        {
+            "pandas.core.categorical.Categorical.sort": 1440
+        },
+        {
+            "pandas.core.categorical.Categorical._reduce": 1819
+        },
+        {
+            "pandas.core.categorical.Categorical.min": 1828
+        },
+        {
+            "pandas.core.categorical.Categorical.max": 1853
+        },
+        {
+            "pandas.core.categorical.Categorical.repeat": 2005
+        },
+        {
+            "pandas.core.categorical.CategoricalAccessor._delegate_method": 2061
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/tools/datetimes.py": [
+        {
+            "pandas.core.tools.datetimes._guess_datetime_format_for_array": 177
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/computation/pytables.py": [
+        {
+            "pandas.core.computation.pytables.ExprVisitor.__init__": 382
+        },
+        {
+            "pandas.core.computation.pytables.ExprVisitor.visit_UnaryOp": 389
+        },
+        {
+            "pandas.core.computation.pytables.ExprVisitor.visit_Index": 397
+        },
+        {
+            "pandas.core.computation.pytables.ExprVisitor.visit_Assign": 400
+        },
+        {
+            "pandas.core.computation.pytables.ExprVisitor.visit_Subscript": 405
+        },
+        {
+            "pandas.core.computation.pytables.ExprVisitor.visit_Attribute": 421
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/computation/expr.py": [
+        {
+            "pandas.core.computation.expr.f": 202
+        },
+        {
+            "pandas.core.computation.expr.f": 235
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit": 306
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Module": 315
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Expr": 321
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_BinOp": 415
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Div": 420
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_UnaryOp": 424
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Name": 429
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_NameConstant": 432
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Num": 435
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Str": 438
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_List": 442
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Index": 448
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Subscript": 452
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Slice": 468
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Assign": 482
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Attribute": 513
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Call_35": 532
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Call_legacy": 582
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_Compare": 636
+        },
+        {
+            "pandas.core.computation.expr.BaseExprVisitor.visit_BoolOp": 661
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/computation/common.py": [
+        {
+            "pandas.core.computation.common._result_type_many": 13
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/computation/expressions.py": [
+        {
+            "pandas.core.computation.expressions._evaluate_standard": 59
+        },
+        {
+            "pandas.core.computation.expressions._evaluate_numexpr": 92
+        },
+        {
+            "pandas.core.computation.expressions.evaluate": 192
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/computation/ops.py": [
+        {
+            "pandas.core.computation.ops.Term.__call__": 68
+        },
+        {
+            "pandas.core.computation.ops.Term.evaluate": 71
+        },
+        {
+            "pandas.core.computation.ops.Op.__init__": 183
+        },
+        {
+            "pandas.core.computation.ops.BinOp.__init__": 326
+        },
+        {
+            "pandas.core.computation.ops.Div.__init__": 458
+        },
+        {
+            "pandas.core.computation.ops.FuncNode.__call__": 548
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/computation/scope.py": [
+        {
+            "pandas.core.computation.scope._ensure_scope": 21
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/computation/api.py": [
+        {
+            "pandas.core.computation.api.Expr": 7
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/sparse/array.py": [
+        {
+            "pandas.core.sparse.array._arith_method": 45
+        },
+        {
+            "pandas.core.sparse.array.SparseArray.take": 457
+        },
+        {
+            "pandas.core.sparse.array.SparseArray.sum": 607
+        },
+        {
+            "pandas.core.sparse.array.SparseArray.cumsum": 624
+        },
+        {
+            "pandas.core.sparse.array.SparseArray.mean": 653
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/sparse/series.py": [
+        {
+            "pandas.core.sparse.series._arith_method": 44
+        },
+        {
+            "pandas.core.sparse.series.SparseSeries._reduce": 329
+        },
+        {
+            "pandas.core.sparse.series.SparseSeries.reindex": 576
+        },
+        {
+            "pandas.core.sparse.series.SparseSeries.take": 604
+        },
+        {
+            "pandas.core.sparse.series.SparseSeries.cumsum": 619
+        },
+        {
+            "pandas.core.sparse.series.SparseSeries.dropna": 659
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/sparse/frame.py": [
+        {
+            "pandas.core.sparse.frame.SparseDataFrame._sanitize_column": 378
+        },
+        {
+            "pandas.core.sparse.frame.SparseDataFrame.transpose": 747
+        },
+        {
+            "pandas.core.sparse.frame.SparseDataFrame.count": 760
+        },
+        {
+            "pandas.core.sparse.frame.SparseDataFrame.cumsum": 766
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/reshape/util.py": [
+        {
+            "pandas.core.reshape.util.compose": 73
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/reshape/merge.py": [
+        {
+            "pandas.core.reshape.merge._get_join_indexers": 956
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/category.py": [
+        {
+            "pandas.core.indexes.category.CategoricalIndex.__new__": 59
+        },
+        {
+            "pandas.core.indexes.category.CategoricalIndex._simple_new": 147
+        },
+        {
+            "pandas.core.indexes.category.CategoricalIndex._shallow_copy": 161
+        },
+        {
+            "pandas.core.indexes.category.CategoricalIndex.argsort": 310
+        },
+        {
+            "pandas.core.indexes.category.CategoricalIndex.take": 553
+        },
+        {
+            "pandas.core.indexes.category.CategoricalIndex._delegate_method": 675
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/period.py": [
+        {
+            "pandas.core.indexes.period._new_PeriodIndex": 118
+        },
+        {
+            "pandas.core.indexes.period.PeriodIndex.__new__": 202
+        },
+        {
+            "pandas.core.indexes.period.PeriodIndex._simple_new": 298
+        },
+        {
+            "pandas.core.indexes.period.PeriodIndex._from_ordinals": 312
+        },
+        {
+            "pandas.core.indexes.period.PeriodIndex._shallow_copy_with_infer": 329
+        },
+        {
+            "pandas.core.indexes.period.PeriodIndex._shallow_copy": 333
+        },
+        {
+            "pandas.core.indexes.period.PeriodIndex._format_native_types": 958
+        },
+        {
+            "pandas.core.indexes.period._make_field_arrays": 1138
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/numeric.py": [
+        {
+            "pandas.core.indexes.numeric.Float64Index._format_native_types": 304
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/datetimelike.py": [
+        {
+            "pandas.core.indexes.datetimelike.TimelikeOps.round": 113
+        },
+        {
+            "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin._format_with_header": 246
+        },
+        {
+            "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.take": 392
+        },
+        {
+            "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.min": 473
+        },
+        {
+            "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.argmin": 500
+        },
+        {
+            "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.max": 521
+        },
+        {
+            "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.argmax": 548
+        },
+        {
+            "pandas.core.indexes.datetimelike.DatetimeIndexOpsMixin.repeat": 796
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/datetimes.py": [
+        {
+            "pandas.core.indexes.datetimes.DatetimeIndex._join_i8_wrapper": 215
+        },
+        {
+            "pandas.core.indexes.datetimes.DatetimeIndex.__new__": 262
+        },
+        {
+            "pandas.core.indexes.datetimes.DatetimeIndex._simple_new": 569
+        },
+        {
+            "pandas.core.indexes.datetimes.DatetimeIndex._format_native_types": 834
+        },
+        {
+            "pandas.core.indexes.datetimes.date_range": 2002
+        },
+        {
+            "pandas.core.indexes.datetimes.bdate_range": 2045
+        },
+        {
+            "pandas.core.indexes.datetimes.cdate_range": 2089
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/interval.py": [
+        {
+            "pandas.core.indexes.interval.IntervalIndex._shallow_copy": 193
+        },
+        {
+            "pandas.core.indexes.interval.IntervalIndex.take": 882
+        },
+        {
+            "pandas.core.indexes.interval.IntervalIndex._format_with_header": 928
+        },
+        {
+            "pandas.core.indexes.interval.IntervalIndex._format_native_types": 931
+        },
+        {
+            "pandas.core.indexes.interval.IntervalIndex.argsort": 981
+        },
+        {
+            "pandas.core.indexes.interval.interval_range": 1022
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/range.py": [
+        {
+            "pandas.core.indexes.range.RangeIndex.__new__": 45
+        },
+        {
+            "pandas.core.indexes.range.RangeIndex.from_range": 98
+        },
+        {
+            "pandas.core.indexes.range.RangeIndex._simple_new": 126
+        },
+        {
+            "pandas.core.indexes.range.RangeIndex._shallow_copy": 251
+        },
+        {
+            "pandas.core.indexes.range.RangeIndex.copy": 260
+        },
+        {
+            "pandas.core.indexes.range.RangeIndex.argsort": 267
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/base.py": [
+        {
+            "pandas.core.indexes.base.Index.__new__": 152
+        },
+        {
+            "pandas.core.indexes.base.Index._simple_new": 368
+        },
+        {
+            "pandas.core.indexes.base.Index._shallow_copy": 405
+        },
+        {
+            "pandas.core.indexes.base.Index._shallow_copy_with_infer": 412
+        },
+        {
+            "pandas.core.indexes.base.Index._update_inplace": 464
+        },
+        {
+            "pandas.core.indexes.base.Index.repeat": 584
+        },
+        {
+            "pandas.core.indexes.base.Index.copy": 755
+        },
+        {
+            "pandas.core.indexes.base.Index.__copy__": 769
+        },
+        {
+            "pandas.core.indexes.base.Index.to_series": 958
+        },
+        {
+            "pandas.core.indexes.base.Index.reshape": 1142
+        },
+        {
+            "pandas.core.indexes.base.Index.take": 1723
+        },
+        {
+            "pandas.core.indexes.base.Index.format": 1834
+        },
+        {
+            "pandas.core.indexes.base.Index._format_with_header": 1849
+        },
+        {
+            "pandas.core.indexes.base.Index.to_native_types": 1874
+        },
+        {
+            "pandas.core.indexes.base.Index._format_native_types": 1900
+        },
+        {
+            "pandas.core.indexes.base.Index.sort": 1989
+        },
+        {
+            "pandas.core.indexes.base.Index.argsort": 2025
+        },
+        {
+            "pandas.core.indexes.base.Index.get_indexer_for": 2662
+        },
+        {
+            "pandas.core.indexes.base.Index.logical_func": 3910
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/accessors.py": [
+        {
+            "pandas.core.indexes.accessors.Properties._delegate_property_set": 124
+        },
+        {
+            "pandas.core.indexes.accessors.Properties._delegate_method": 129
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/multi.py": [
+        {
+            "pandas.core.indexes.multi.MultiIndex.__new__": 81
+        },
+        {
+            "pandas.core.indexes.multi.MultiIndex.copy": 366
+        },
+        {
+            "pandas.core.indexes.multi.MultiIndex._shallow_copy_with_infer": 417
+        },
+        {
+            "pandas.core.indexes.multi.MultiIndex._shallow_copy": 421
+        },
+        {
+            "pandas.core.indexes.multi.MultiIndex._format_native_types": 538
+        },
+        {
+            "pandas.core.indexes.multi.MultiIndex.take": 1388
+        },
+        {
+            "pandas.core.indexes.multi.MultiIndex.argsort": 1454
+        },
+        {
+            "pandas.core.indexes.multi.MultiIndex.repeat": 1458
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/frozen.py": [
+        {
+            "pandas.core.indexes.frozen.FrozenList._disabled": 67
+        },
+        {
+            "pandas.core.indexes.frozen.FrozenNDArray._disabled": 93
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/core/indexes/timedeltas.py": [
+        {
+            "pandas.core.indexes.timedeltas.TimedeltaIndex._join_i8_wrapper": 122
+        },
+        {
+            "pandas.core.indexes.timedeltas.TimedeltaIndex.__new__": 158
+        },
+        {
+            "pandas.core.indexes.timedeltas.TimedeltaIndex._simple_new": 278
+        },
+        {
+            "pandas.core.indexes.timedeltas.TimedeltaIndex._format_native_types": 368
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/plotting/_core.py": [
+        {
+            "pandas.plotting._core.MPLPlot.__init__": 84
+        },
+        {
+            "pandas.plotting._core.MPLPlot._plot": 551
+        },
+        {
+            "pandas.plotting._core.PlanePlot.__init__": 769
+        },
+        {
+            "pandas.plotting._core.ScatterPlot.__init__": 793
+        },
+        {
+            "pandas.plotting._core.HexBinPlot.__init__": 857
+        },
+        {
+            "pandas.plotting._core.LinePlot.__init__": 891
+        },
+        {
+            "pandas.plotting._core.LinePlot._plot": 946
+        },
+        {
+            "pandas.plotting._core.LinePlot._ts_plot": 958
+        },
+        {
+            "pandas.plotting._core.AreaPlot.__init__": 1047
+        },
+        {
+            "pandas.plotting._core.AreaPlot._plot": 1060
+        },
+        {
+            "pandas.plotting._core.BarPlot.__init__": 1121
+        },
+        {
+            "pandas.plotting._core.BarPlot._plot": 1157
+        },
+        {
+            "pandas.plotting._core.BarhPlot._plot": 1244
+        },
+        {
+            "pandas.plotting._core.HistPlot.__init__": 1259
+        },
+        {
+            "pandas.plotting._core.HistPlot._plot": 1281
+        },
+        {
+            "pandas.plotting._core.KdePlot.__init__": 1341
+        },
+        {
+            "pandas.plotting._core.KdePlot._plot": 1360
+        },
+        {
+            "pandas.plotting._core.PiePlot.__init__": 1393
+        },
+        {
+            "pandas.plotting._core.BoxPlot.__init__": 1463
+        },
+        {
+            "pandas.plotting._core.BoxPlot._plot": 1482
+        },
+        {
+            "pandas.plotting._core._plot": 1628
+        },
+        {
+            "pandas.plotting._core.plot_frame": 1839
+        },
+        {
+            "pandas.plotting._core.plot_series": 1861
+        },
+        {
+            "pandas.plotting._core.boxplot": 1939
+        },
+        {
+            "pandas.plotting._core.scatter_plot": 2019
+        },
+        {
+            "pandas.plotting._core.hist_frame": 2066
+        },
+        {
+            "pandas.plotting._core.hist_series": 2141
+        },
+        {
+            "pandas.plotting._core.grouped_hist": 2215
+        },
+        {
+            "pandas.plotting._core.boxplot_frame_groupby": 2258
+        },
+        {
+            "pandas.plotting._core._grouped_plot": 2335
+        },
+        {
+            "pandas.plotting._core._grouped_plot_by_column": 2367
+        },
+        {
+            "pandas.plotting._core.BasePlotMethods.__call__": 2413
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.__call__": 2431
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.line": 2449
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.bar": 2466
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.barh": 2483
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.box": 2500
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.hist": 2517
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.kde": 2536
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.area": 2555
+        },
+        {
+            "pandas.plotting._core.SeriesPlotMethods.pie": 2572
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.__call__": 2604
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.line": 2623
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.bar": 2642
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.barh": 2661
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.box": 2680
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.hist": 2699
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.kde": 2720
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.area": 2739
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.pie": 2758
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.scatter": 2777
+        },
+        {
+            "pandas.plotting._core.FramePlotMethods.hexbin": 2800
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/plotting/_tools.py": [
+        {
+            "pandas.plotting._tools.table": 28
+        },
+        {
+            "pandas.plotting._tools._subplots": 116
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/plotting/_misc.py": [
+        {
+            "pandas.plotting._misc.scatter_matrix": 17
+        },
+        {
+            "pandas.plotting._misc.radviz": 149
+        },
+        {
+            "pandas.plotting._misc.andrews_curves": 235
+        },
+        {
+            "pandas.plotting._misc.bootstrap_plot": 325
+        },
+        {
+            "pandas.plotting._misc.parallel_coordinates": 388
+        },
+        {
+            "pandas.plotting._misc.lag_plot": 503
+        },
+        {
+            "pandas.plotting._misc.autocorrelation_plot": 533
+        }
+    ],
+    "/home/zhang/Packages/pandas/pandas0.20.1/plotting/_timeseries.py": [
+        {
+            "pandas.plotting._timeseries.tsplot": 23
+        }
+    ]
+}

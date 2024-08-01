@@ -1,0 +1,52 @@
+{
+    "/home/zhang/Packages/jax/jax0.2.12/_src/profiler.py": [
+        {
+            "jax._src.profiler.trace_function": 214,
+            "annotate_function": [
+                218,
+                "[175]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.12/_src/lax/control_flow.py": [
+        {
+            "jax._src.lax.control_flow.cond": 706,
+            "_cond": [
+                715,
+                "[621]"
+            ]
+        },
+        {
+            "jax._src.lax.control_flow.scan_bind": 1856,
+            "_scan_typecheck": [
+                1859,
+                "[1812]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.12/experimental/maps.py": [
+        {
+            "jax.experimental.maps._xmap_translation_rule": 755,
+            "_xmap_translation_rule_spmd": [
+                757,
+                "[875]"
+            ]
+        },
+        {
+            "jax.experimental.maps._xmap_translation_rule": 755,
+            "_xmap_translation_rule_replica": [
+                759,
+                "[762]"
+            ]
+        }
+    ],
+    "/home/zhang/Packages/jax/jax0.2.12/experimental/host_callback.py": [
+        {
+            "jax.experimental.host_callback._outside_call_impl": 760,
+            "_outside_call_run_callback": [
+                764,
+                "[841]"
+            ]
+        }
+    ]
+}
