@@ -42,3 +42,20 @@ The final detection results are saved into a JSON file, which records the file a
     ...
 }
 ```
+
+---
+
+### Publication
+Coding Pitfalls: Demystifying the Potential API Compatibility Risk of Variadic Parameters in Python (ISSRE24-fast abstracts).
+
+```
+@inproceedings{zhang2024coding,
+  title={Coding Pitfalls: Demystifying the Potential API Compatibility Risk of Variadic Parameters in Python},
+  author={Zhang, Shuai and He, Gangqiang and Xiao, Guanping},
+  booktitle={2024 IEEE 35th International Symposium on Software Reliability Engineering Workshops (ISSREW)},
+  pages={105--106},
+  year={2024},
+  organization={IEEE}
+}
+```
+
