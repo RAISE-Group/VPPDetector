@@ -59,3 +59,7 @@ Coding Pitfalls: Demystifying the Potential API Compatibility Risk of Variadic P
 }
 ```
 
+## License
+
+VPPDetector is licensed under the GNU Affero General Public License v3.0. See [LICENSE](./LICENSE) for details.
+
